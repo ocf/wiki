@@ -1,7 +1,35 @@
 [[!meta title="Editing the Wiki"]]
 
-Instructions for how to edit the wiki:
+These instructions are for staffers with root principals. If you don't have a root principal, go to the instructions on the bottom.
 
-1. To
-2. Be
-3. Determined
+## For root staffers
+
+1. *ssh* into blight
+1. Clone the wiki.git repo at /srv/ikiwiki/wiki.git into your home dir. This will create a folder named *local-wiki-repo*.
+    kedo@blight$ git clone /srv/ikiwiki/wiki.git local-wiki-repo
+    Cloning into wiki...
+    done.
+1. *cd* into the folder you just created and make your changes.
+1. Commit your changes and add a short message about what you changed. You can commit once per file, or commit several files in a batch. If you added a file, be sure to *git add new-file-name* first.
+    kedo@blight$ git commit filename-here -m "Commit message here"
+    [master 8d5839d] Added a newline to create list
+    1 files changed, 1 insertions(+), 0 deletions(-)
+1. Push your local changes to the main wiki git repo. You will get an error about not having permission to write to your home dir, but that's just *sudo* complaining about now being able to write to your home dir - not about being unable to write to */srv/ikiwiki/wiki.git*.
+    kedo@blight$ sudo git push
+    kedo/root's password: 
+    Counting objects: 5, done.
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 298 bytes, done.
+    Total 3 (delta 2), reused 0 (delta 0)
+    Unpacking objects: 100% (3/3), done.
+    remote: From /srv/ikiwiki/wiki
+    remote:    f9da685..8d5839d  master     -> origin/master
+    To /srv/ikiwiki/wiki.git
+       f9da685..8d5839d  master -> master
+    fatal: Unable to create '/mnt/u5/home/k/ke/kedo/wiki/.git/refs/remotes/origin/master.lock': Permission denied
+
+Done! If something breaks, you can refresh the ikiwiki pages based on whatever's in */srv/ikiwiki/wiki.git* by running:
+    kedo@blight$ cd /srv/ikiwiki
+    kedo@blight$ sudo ikiwiki --setup wiki.setup
+
+## For non-root staffers
