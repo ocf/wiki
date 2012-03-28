@@ -40,4 +40,20 @@ Done! If something breaks, or if you pushed without *sudo*, you can refresh the 
     kedo@blight$ cd /srv/ikiwiki
     kedo@blight$ sudo ikiwiki --setup wiki.setup
 
+If you want to edit the wiki on your local non-OCF machine:
+
+1. *ssh* into *blight* and make a _bare_ git repo */srv/ikiwiki/wiki.git* in your home dir:
+
+        kedo@blight$ git clone --bare /srv/ikiwiki/wiki.git local-repo-name-here
+
+1. On your local machine, clone the bare repo you just made:
+
+        kedo@local$ git clone kedo@blight.ocf.berkeley.edu:local-repo-name
+
+1. Make your changes and commit on your local machine.
+1. Push your changes to the local repo you made in your home dir.
+1. On *blight*, go into your local-repo folder and *sudo git push*, just like above.
+
 ## For non-root staffers
+
+Follow the same instructions as above to clone */srv/ikiwiki/wiki.git* to a folder in your home directory on *blight*. Then, ask a staffer with a root principal to *git pull* from your git repo.
