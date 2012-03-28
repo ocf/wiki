@@ -1,3 +1,5 @@
+[[!meta title="Editing the Wiki"]]
+
 Instructions for how to edit the wiki:
 
 1. To

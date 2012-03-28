@@ -1,5 +1,6 @@
-# ikiwiki
+[[!meta title="ikiwiki"]]
 
 This wiki is currently running on _blight_, in _/srv/ikiwiki_.
 
-[[ikiwiki/editing-the-wiki]]
+Useful links:
+* [[How to edit the wiki|ikiwiki/editing-the-wiki]]
