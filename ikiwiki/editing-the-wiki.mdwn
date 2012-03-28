@@ -2,6 +2,11 @@
 
 [[ikiwiki]] uses [Markdown syntax](http://daringfireball.net/projects/markdown/syntax).
 
+Please make sure you have properly configured git:
+
+    git config --global user.name "Panda McFluffy"
+    git config --global user.email panpan@ocf.berkeley.edu
+
 These instructions are for staffers with root principals. If you don't have a root principal, go to the instructions on the bottom.
 
 ## For root staffers
