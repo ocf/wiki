@@ -109,7 +109,7 @@ a:hover {
     color: #111;
 }
 .pageheader .actions ul{
-    float: right;
+    float: left;
     border-bottom: 0px;
 }
 .pageheader .actions li{
