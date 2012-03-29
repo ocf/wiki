@@ -15,7 +15,7 @@ blight	        |   128.32.129.236	|
 blizzard        |   128.32.129.217	|
 cataclysm       |   128.32.129.202	|
 conquest        |   128.32.129.248	|
-coupdetat       |	128.32.129.253  |   DeCal server
+coupdetat       |   128.32.129.253  |   DeCal server
 cyclone         |   128.32.129.226	|
 death           |   128.32.129.243	|   web server
 destruction     |   128.32.129.249	|
@@ -49,7 +49,7 @@ pileup          |   128.32.129.232	|
 plague          |   128.32.129.221	|
 pollution       |   128.32.129.198	|
 pox             |   128.32.129.241	|
-printhost     	| 	128.32.129.245	|
+printhost       |   128.32.129.245	|
 hal             |   128.32.129.199  |
 riot            |   128.32.129.195	|
 sandstorm       |   128.32.129.218	|
