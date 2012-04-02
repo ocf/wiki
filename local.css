@@ -41,19 +41,19 @@ a:hover {
     border-top: 1px solid #292d34;
     position: relative;
 }
-.header{
+.pageheader .header{
     background: url(/images/theme/ocf-logo.gif) no-repeat top left;
     height: 120px;
     margin-top: 5px;
     position: relative;
 }
-.header > span{
+.pageheader .header > span{
     padding-top: 91px;
     padding-left: 120px;
     display: block;
     float: left;
 }
-.header .parentlinks{
+.pageheader .header .parentlinks{
     color: rgb(49, 54, 62);
     font-size: 0;
 }
@@ -152,7 +152,7 @@ a:hover {
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6{
     clear: both;
     color: #888;
-    font: 18px "Century Gothic","Trebuchet MS","Trebuchet";
+    font-family: "Century Gothic","Trebuchet MS","Trebuchet";
 }
 
 #content pre{
