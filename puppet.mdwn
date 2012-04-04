@@ -1,6 +1,6 @@
 [[!meta title="Puppet"]]
 
-The puppet master is [[servers/lightning]].
+The puppet master is [[lightning|servers]].
 
 # Puppeting New Machines
 The **production** puppet configuration files are in */etc/puppet*.
