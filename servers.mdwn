@@ -1,4 +1,4 @@
-[[!meta title="Hosts"]]
+[[!meta title="Servers"]]
 
 Incomplete listing of OCF hosts:
 
