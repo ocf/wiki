@@ -170,7 +170,7 @@ a:hover {
     clear: both;
     color: #666666;
     padding-bottom: 40px;
-    margin-top: -12px;
+    margin-top: 0;
 }
 #pageinfo{
     border-top: 0;
