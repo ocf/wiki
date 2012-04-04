@@ -1,0 +1,151 @@
+Indent the relevant pages when you are done porting them. Feel free to combine and reorganize pages.
+
+These came from the [old wiki](http://docs.ocf.berkeley.edu/wiki/Special:AllPages).
+
+# Non-staff wiki pages
+
+* .htaccess
+* A complete description of Apache server setup on OCF
+* Accessing library subscription services
+* Account Services We Provide
+* Account eligibility
+* Account services we provide
+* Activating services
+* Bylaws of the Open Computing Facility
+* CGI
+* Character encoding
+* Chatzilla
+* Chatzilla IRC client
+* Colloquy
+* Constitution of the Open Computing Facility
+* Contact Info
+* Contact info
+* Contacting OCF staff
+* Cron
+* Cyberduck
+* Database support
+* Deactivating my account
+* Directions to the lab
+* Disk quota
+* DokuWiki
+* Dreamweaver
+* Email support
+* FAQ
+* FastCGI
+* File permissions
+* File transfer support
+* Finances
+* Finances2
+* Fixing corrupt mailboxes
+* Frequently Asked Questions
+* Frequently asked questions
+* Fugu
+* GNOME
+* Getting a subdomain of berkeley.edu domain
+* Getting an account
+* Getting information about your account
+* Handlers
+* Help and Support
+* How to be Green at the OCF
+* How to print double sided
+* How to print multiple slides per page
+* How to print through SSH
+* How to restrict access to a page
+* How to set up webspace
+* How to set up zenphoto
+* How to use .htaccess file
+* IRC
+* IWeb
+* KDE
+* LDAP Migration
+* Lost and found
+* Mail forwarding
+* Mail server settings
+* Mailing list
+* Mailing list support
+* Mailing lists
+* Mailman
+* Main Page
+* Major service changes
+* Major service changes/August 2006 web server migration
+* Majordomo
+* Makemysql
+* Manpage
+* MediaWiki
+* ModSecurity
+* Mutt
+* MySQL
+* MySQL support
+* Mysql
+* OCF Mail Server Settings
+* OCF Staff
+* OCF Staff Scrapbook
+* OCF mail server settings
+* OCF policies
+* OCF staff
+* OCF staff profiles
+* OCF staff profiles Fall 2006
+* OCF staff profiles Fall 2009
+* OCF staff profiles Fall 2011
+* OCF staff profiles Spring 2005
+* OCF staff profiles Spring 2008
+* OCF staff profiles Spring 2009
+* OCF staff profiles Spring 2011
+* OCF staff profiles Spring 2012
+* OCF staff profiles Summer 2011
+* OCF staff scrapbook
+* OS X Terminal
+* Official documents of the OCF
+* PHP
+* Password changes or resets
+* Passwords
+* Perl
+* Perl regular expression examples
+* Pine
+* Policies
+* PostgreSQL
+* PostgreSQL support
+* Postgresql
+* Printing support
+* Problems with outgoing mail
+* Procmail
+* PuTTY
+* Quota
+* Regular expressions
+* Relocate 2008
+* Removing offensive content from an OCF user website
+* SFTP
+* SFTP mount in Mac OS X
+* SSH
+* SSH Secure Shell
+* SSH host keys
+* SSH key management
+* SSH login without a password
+* SSL
+* Security advice
+* Services we provide
+* Setting up automatic response
+* Shell account
+* Spam Filtering
+* Spam filtering
+* Staff
+* Subversion
+* Suggested web applications
+* Tips and tricks
+* Unix prompt
+* Using Procmail
+* Using Secure Authenticated SMTP
+* Using secure POP and IMAP
+* Using secure authenticated SMTP
+* Version Control your Home Directory
+* Vi
+* Vim
+* Virtual hosting
+* Web application checklist
+* Web server configuration
+* Web server logs
+* Website spam filtering
+* Website support
+* WinSCP
+* Windows support
+* WordPress
