@@ -34,7 +34,7 @@ headcrash       |   128.32.129.231	|
 heatwave        |   128.32.129.233	|
 hurricane       |   128.32.129.201	|
 jaws            |   128.32.129.238	|
-lightning       |   128.32.129.210	|
+lightning       |   128.32.129.210	|  [[puppet master|puppet]]
 locusts         |   128.32.129.220	|
 madcow          |   128.32.129.239	|
 mailhost        |   128.32.129.244	|
