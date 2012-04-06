@@ -1,68 +1,68 @@
 [[!meta title="Servers"]]
 
-Incomplete listing of OCF hosts:
+Hosts with **?** are unused, or their function is currently undocumented.
 
 [[!table data="""
 Server Name     |   IP Address      |   Services
-anthrax         |   128.32.129.234	|
-armageddon      |   128.32.129.209	|
-asteroid        |   128.32.129.252	|
-avalanche       |   128.32.129.222	|
-bigbang         |   128.32.129.230	|   desktop machine
-biohazard       |   128.32.129.235	|
-blackhole       |   128.32.129.208	|
-blight	        |   128.32.129.236	|
-blizzard        |   128.32.129.217	|
-cataclysm       |   128.32.129.202	|
-conquest        |   128.32.129.248	|
-coupdetat       |   128.32.129.253  |   DeCal server
-cyclone         |   128.32.129.226	|
-death           |   128.32.129.243	|   web server
-destruction     |   128.32.129.249	|
-drought         |   128.32.129.219	|
-earthquake      |   128.32.129.216	|
-emp             |   128.32.129.194	|   mon, zabbix
-epidemic        |   128.32.129.237	|
-eruption        |   128.32.129.197	|
-fallingrocks    |   128.32.129.225	|
-fallout         |   128.32.129.196	|
-famine          |   128.32.129.246	|
-firestorm       |   128.32.129.200	|
-flood           |   128.32.129.212	|
-hailstorm       |   128.32.129.224	|
-headcrash       |   128.32.129.231	|
-heatwave        |   128.32.129.233	|
-hurricane       |   128.32.129.201	|
-jaws            |   128.32.129.238	|
-lightning       |   128.32.129.210	|  [[puppet master|puppet]]
-locusts         |   128.32.129.220	|
-madcow          |   128.32.129.239	|
-mailhost        |   128.32.129.244	|
-meltdown        |   128.32.129.205  |
-monsoon         |   128.32.129.213	|
-mudslide        |   128.32.129.203	|
-netsplit        |   128.32.129.247	|
-outbreak        |   128.32.129.240	|
-pandemic        |   128.32.129.206	|
-pestilence      |   128.32.129.242	|
-pileup          |   128.32.129.232	|
-plague          |   128.32.129.221	|
-pollution       |   128.32.129.198	|
-pox             |   128.32.129.241	|
-printhost       |   128.32.129.245	|
-hal             |   128.32.129.199  |
-riot            |   128.32.129.195	|
-sandstorm       |   128.32.129.218	|
-sinkhole        |   128.32.129.250	|
-supernova       |   128.32.129.204	|
-surge           |   128.32.129.207  |
-tempest         |   128.32.129.228	|
-tornado         |   128.32.129.215	|
-tsunami         |   128.32.129.223	|   public login server
-typhoon         |   128.32.129.214	|
-volcano         |   128.32.129.211	|
-war             |   128.32.129.244	|
-whirlwind       |   128.32.129.227	|
-wildfire        |   128.32.129.251	|
-zombie          |   128.32.129.229	|
+anthrax         |   128.32.129.234	| **?**
+armageddon      |   128.32.129.209	| **?**
+asteroid        |   128.32.129.252	| **?**
+avalanche       |   128.32.129.222	| **?**
+bigbang         |   128.32.129.230	| desktop machine
+biohazard       |   128.32.129.235	| **?**
+blackhole       |   128.32.129.208	| **?**
+blight	        |   128.32.129.236	| **?**
+blizzard        |   128.32.129.217	| **?**
+cataclysm       |   128.32.129.202	| **?**
+conquest        |   128.32.129.248	| **?**
+coupdetat       |   128.32.129.253      | DeCal server
+cyclone         |   128.32.129.226	| **?**
+death           |   128.32.129.243	| web server
+destruction     |   128.32.129.249	| **?**
+drought         |   128.32.129.219	| **?**
+earthquake      |   128.32.129.216	| **?**
+emp             |   128.32.129.194	| mon, zabbix
+epidemic        |   128.32.129.237	| **?**
+eruption        |   128.32.129.197	| **?**
+fallingrocks    |   128.32.129.225	| **?**
+fallout         |   128.32.129.196	| **?**
+famine          |   128.32.129.246	| **?**
+firestorm       |   128.32.129.200	| **?**
+flood           |   128.32.129.212	| **?**
+hailstorm       |   128.32.129.224	| **?**
+headcrash       |   128.32.129.231	| **?**
+heatwave        |   128.32.129.233	| **?**
+hurricane       |   128.32.129.201	| **?**
+jaws            |   128.32.129.238	| old wiki and staffwiki
+lightning       |   128.32.129.210	| [[puppet master|puppet]]
+locusts         |   128.32.129.220	| **?**
+madcow          |   128.32.129.239	| **?**
+mailhost        |   128.32.129.244	| **?**
+meltdown        |   128.32.129.205      | **?**
+monsoon         |   128.32.129.213	| **?**
+mudslide        |   128.32.129.203	| **?**
+netsplit        |   128.32.129.247	| **?**
+outbreak        |   128.32.129.240	| **?**
+pandemic        |   128.32.129.206	| **?**
+pestilence      |   128.32.129.242	| **?**
+pileup          |   128.32.129.232	| kiosk
+plague          |   128.32.129.221	| **?**
+pollution       |   128.32.129.198	| **?**
+pox             |   128.32.129.241	| **?**
+printhost       |   128.32.129.245	| printhost
+hal             |   128.32.129.199      | hypervisor
+riot            |   128.32.129.195	| **?**
+sandstorm       |   128.32.129.218	| mail
+sinkhole        |   128.32.129.250	| **?** 
+supernova       |   128.32.129.204	| staff login
+surge           |   128.32.129.207      | Debian mirror
+tempest         |   128.32.129.228	| **?**
+tornado         |   128.32.129.215	| **?**
+tsunami         |   128.32.129.223	| public login server
+typhoon         |   128.32.129.214	| **?**
+volcano         |   128.32.129.211	| Minecraft
+war             |   128.32.129.244	| **?**
+whirlwind       |   128.32.129.227	| **?**
+wildfire        |   128.32.129.251	| **?**
+zombie          |   128.32.129.229	| **?**
 """]]
