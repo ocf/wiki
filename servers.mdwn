@@ -1,68 +1,70 @@
 [[!meta title="Servers"]]
 
-Hosts with **?** are unused, or their function is currently undocumented.
+Hosts with **?** are currently undocumented.
+Hosts with **unused** are unused.
+Hosts with **%** are unassigned a maintainer.
 
 [[!table data="""
 Server Name     |   IP Address          | Services                     | Maintainer
-anthrax         |   128.32.129.234	| **?**                        |
-armageddon      |   128.32.129.209	| **?**                        |
-asteroid        |   128.32.129.252	| **?**                        |
-avalanche       |   128.32.129.222	| **?**                        |
+anthrax         |   128.32.129.234	| **unused**                   |
+armageddon      |   128.32.129.209	| **unused**                   |
+asteroid        |   128.32.129.252	| **unused**                   |
+avalanche       |   128.32.129.222	| desktop machine              |
 bigbang         |   128.32.129.230	| desktop machine              |
-biohazard       |   128.32.129.235	| **?**                        |
-blackhole       |   128.32.129.208	| **?**                        |
+biohazard       |   128.32.129.235	| Windows Active Directory     |
+blackhole       |   128.32.129.208	| mail storage                 |
 blight	        |   128.32.129.236	| ikiwiki                      |
-blizzard        |   128.32.129.217	| **?**                        |
-cataclysm       |   128.32.129.202	| **?**                        |
-conquest        |   128.32.129.248	| **?**                        |
-coupdetat       |   128.32.129.253      | DeCal server                 | faw, daradib
-cyclone         |   128.32.129.226	| **?**                        |
-death           |   128.32.129.243	| web server                   | 
-destruction     |   128.32.129.249	| **?**                        |
-drought         |   128.32.129.219	| **?**                        |
-earthquake      |   128.32.129.216	| **?**                        |
+blizzard        |   128.32.129.217	| **unused**                   |
+cataclysm       |   128.32.129.202	| **unused**                   |
+conquest        |   128.32.129.248	| **unused**                   |
+coupdetat       |   128.32.129.253      | DeCal server                 | waf, daradib
+cyclone         |   128.32.129.226	| desktop machine              |
+death           |   128.32.129.243	| web server                   | kedo
+destruction     |   128.32.129.249	| desktop machine              |
+drought         |   128.32.129.219	| **unused**                   |
+earthquake      |   128.32.129.216	| **unused**                   |
 emp             |   128.32.129.194	| mon, zabbix                  | amloessb
-epidemic        |   128.32.129.237	| **?**                        |
-eruption        |   128.32.129.197	| **?**                        |
-fallingrocks    |   128.32.129.225	| **?**                        |
-fallout         |   128.32.129.196	| **?**                        |
-famine          |   128.32.129.246	| **?**                        |
-firestorm       |   128.32.129.200	| **?**                        |
-flood           |   128.32.129.212	| **?**                        |
-hailstorm       |   128.32.129.224	| **?**                        |
-headcrash       |   128.32.129.231	| **?**                        |
-heatwave        |   128.32.129.233	| **?**                        |
-hurricane       |   128.32.129.201	| **?**                        |
-jaws            |   128.32.129.238	| old wiki, old staffwiki      | faw
+epidemic        |   128.32.129.237	| NFS server                   | waf, kedo
+eruption        |   128.32.129.197	| desktop machine              |
+fallingrocks    |   128.32.129.225	| desktop machine              |
+fallout         |   128.32.129.196	| DHCP and NAT                 |
+famine          |   128.32.129.246	| ESXI Hypervisor              |
+firestorm       |   128.32.129.200	| **unused**                   |
+flood           |   128.32.129.212	| IRC server                   | amloessb
+hailstorm       |   128.32.129.224	| **unused**                   |
+headcrash       |   128.32.129.231	| **unused**                   |
+heatwave        |   128.32.129.233	| **unused**                   |
+hurricane       |   128.32.129.201	| desktop machine              |
+jaws            |   128.32.129.238	| old wiki, old staffwiki      | waf
 lightning       |   128.32.129.210	| [[puppet master|puppet]]     |
-locusts         |   128.32.129.220	| **?**                        |
-madcow          |   128.32.129.239	| **?**                        |
-mailhost        |   128.32.129.244	| **?**                        |
-meltdown        |   128.32.129.205      | **?**                        |
-monsoon         |   128.32.129.213	| **?**                        |
-mudslide        |   128.32.129.203	| **?**                        |
-netsplit        |   128.32.129.247	| **?**                        |
-outbreak        |   128.32.129.240	| **?**                        |
-pandemic        |   128.32.129.206	| **?**                        |
+locusts         |   128.32.129.220	| **unused**                   |
+madcow          |   128.32.129.239	| **unused**                   |
+mailhost        |   128.32.129.244	| **unused**                   |
+meltdown        |   128.32.129.205      | new web server               |
+monsoon         |   128.32.129.213	| LDAP and Kerberos            |
+mudslide        |   128.32.129.203	| mon, shell, voip, tracker    |
+netsplit        |   128.32.129.247	| Uplink switch to IS&T        |
+outbreak        |   128.32.129.240	| **unused**                   |
+pandemic        |   128.32.129.206	| **unused**                   |
 pestilence      |   128.32.129.242	| DNS                          | kmock
-pileup          |   128.32.129.232	| kiosk                        | morshed
-plague          |   128.32.129.221	| **?**                        |
-pollution       |   128.32.129.198	| **?**                        |
-pox             |   128.32.129.241	| **?**                        |
+pileup          |   128.32.129.232	| kiosk machine                | morshed
+plague          |   128.32.129.221	| **unused**                   |
+pollution       |   128.32.129.198	| backup server                |
+pox             |   128.32.129.241	| ESXI Hypervisor              |
 printhost       |   128.32.129.245	| printhost                    |
-hal             |   128.32.129.199      | hypervisor                   |
-riot            |   128.32.129.195	| **?**                        |
+hal             |   128.32.129.199      | Xen hypervisor               |
+riot            |   128.32.129.195	| NAT IP for fallout           |
 sandstorm       |   128.32.129.218	| mail                         |
-sinkhole        |   128.32.129.250	| **?**                        |
-supernova       |   128.32.129.204	| staff login                  | raphtown
+sinkhole        |   128.32.129.250	| **unused**                   |
+supernova       |   128.32.129.204	| admin staff login            | raphtown
 surge           |   128.32.129.207      | Debian mirror                |
-tempest         |   128.32.129.228	| **?**                        |
-tornado         |   128.32.129.215	| **?**                        |
+tempest         |   128.32.129.228	| LDAP Kerberos backup         |
+tornado         |   128.32.129.215	| Windows server backup        |
 tsunami         |   128.32.129.223	| public login server          | tzhu
-typhoon         |   128.32.129.214	| **?**                        |
-volcano         |   128.32.129.211	| Minecraft                    |
-war             |   128.32.129.244	| **?**                        |
-whirlwind       |   128.32.129.227	| **?**                        |
-wildfire        |   128.32.129.251	| **?**                        |
-zombie          |   128.32.129.229	| **?**                        |
+typhoon         |   128.32.129.214	| Future RT                    | kfang
+volcano         |   128.32.129.211	| Minecraft                    | waf
+war             |   128.32.129.244	| **unused**                   |
+whirlwind       |   128.32.129.227	| **unused**                    |
+wildfire        |   128.32.129.251	| **unused**                   |
+zombie          |   128.32.129.229	| PostgreSQL                   |
 """]]
