@@ -13,7 +13,7 @@ Individuals and student organizations with OCF accounts are allotted **250 pages
 
 As a user of the OCF's printing facilities, you are responsible for taking the following precautions to safeguard your print balance:
 
-* Cancel any unwanted print jobs via the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/).
+* *Cancel any unwanted print jobs* via the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/).
 * Check the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/) monitor to the right of the printers for the status of your job before trying to print again.
 * Check your [print balance](https://secure.ocf.berkeley.edu/cgi-bin/cmds.cgi) regularly.
 * Bring any printing problems to the attention of the front desk staff.
