@@ -38,7 +38,7 @@ By now, the agent has sent an SSL certificate to the master. The master needs to
 
 to list all certificates. The hostnames with a "+" in front of them have already been signed. You will see the hostname of the new puppet agent. If the puppet master has already signed the a certificate for the machine (which might happen if you're re-installing a machine), run the following to delete the old signing:
 
-    kedo@lightning:/$ sudo puppet cert clean fqdn hostname.int.ocf.berkeley.edu
+    kedo@lightning:/$ sudo puppet cert clean hostname.int.ocf.berkeley.edu
 
 If the puppet master hasn't already signed a certificate for the new agent's hostname, you can sign it:
 
