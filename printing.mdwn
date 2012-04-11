@@ -1,3 +1,55 @@
 # OCF Printing Policies
 
-Coming Soon&#8482;
+## General
+
+Individuals and student organizations with OCF accounts are allotted **250 pages** of free printing **per semester**.  Users exhausting their allotment **will not** be granted additional pages.  The summer is not considered a new semester, and balances will carry over from the spring.  Users may print single- or double-sided by selecting the corresponding printer at the print dialog.
+
+## Restrictions and Caveats
+
+* Jobs longer than **30 pages** will not be printed or charged.
+* Jobs take time to process proportional to the job size.  If you submit a large job, please be patient while the print server processes it.
+
+## User Responsibilities
+
+As a user of the OCF's printing facilities, you are responsible for taking the following precautions to safeguard your print balance:
+
+* Check the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/) monitor to the right of the printers for the status of your job before trying to print again.
+* Check your [print balance](https://secure.ocf.berkeley.edu/cgi-bin/cmds.cgi) regularly.
+* Bring any printing problems to the attention of the front desk staff.
+
+## Printing Refunds
+
+### The OCF will refund pages for the following reasons:
+
+* Printer malfunction (lack of ink, paper jam, etc.)
+
+### The OCF will *NOT* refund pages for the following reasons:
+*This list is not exhaustive.*
+
+* Printed too many copies of a document
+* Printed the whole document instead of part of it
+* Printed single-sided but meant to print double (or vice-versa)
+* Printed the document in the wrong orientation or size
+
+
+### Refund Procedure
+
+1. If you feel that your print job qualifies for a refund, bring it to the front desk staff *immediately*.  The OCF will not issue a refund for more than one copy of a mis-printed document.
+1. The front desk staff will take the mis-printed pages, along with your username and the reason you are submitting the pages for refund.
+1. You will receive an e-mail at your OCF account in about a week stating whether or not your pages were refunded.
+
+If the front desk staff seems to not know what to do with your pages, please show them the section below:
+
+### Front Desk Staff Procedures
+
+1. Fill in a row of the OCF Misprint Record (located in the middle drawer on the right side of the desk)
+  * Write the person's OCF username in the *Username* box
+  * Write your name in the *Pubs Staff Name* box
+  * Count the number of pages (front and back, if double-sided) and write that number in the *Pages* box
+  * For the *Record #* box, write the next number in sequence
+  * Write the user's reason for requesting a refund in the *Explanation* box
+1. Clip the user's pages together.  Place a post-it on the front page with the following information:
+  * Username
+  * Date
+  * Record # (write this BIG and circle it)
+1. Place the user's pages, along with the misprint record, back in the drawer.
