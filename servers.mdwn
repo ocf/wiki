@@ -2,69 +2,69 @@
 
 Hosts with **?** are currently undocumented.
 Hosts with **unused** are unused.
-Hosts with **%** are unassigned a maintainer.
+Hosts with **$** are unassigned a maintainer.
 
 [[!table data="""
 Server Name     |   IP Address      | Services                              | Maintainer
-anthrax         |   128.32.129.234	| **unused**                            |
-armageddon      |   128.32.129.209	| **unused**                            |
-asteroid        |   128.32.129.252	| **unused**                            |
-avalanche       |   128.32.129.222	| desktop machine                       |
-bigbang         |   128.32.129.230	| desktop machine                       |
-biohazard       |   128.32.129.235	| Windows Active Directory              |
-blackhole       |   128.32.129.208	| mail storage                          |
-blight	        |   128.32.129.236	| ikiwiki                               |
-blizzard        |   128.32.129.217	| **unused**                            |
-cataclysm       |   128.32.129.202	| **unused**                            |
-conquest        |   128.32.129.248	| **unused**                            |
+anthrax         |   128.32.129.234  | **unused**                            |
+armageddon      |   128.32.129.209  | **unused**                            |
+asteroid        |   128.32.129.252  | **unused**                            |
+avalanche       |   128.32.129.222  | **unused**                            |
+bigbang         |   128.32.129.230  | **unused**                            |
+biohazard       |   128.32.129.235  | Windows Active Directory              | kfang, amloessb
+blackhole       |   128.32.129.208  | mail storage                          | **$**
+blight          |   128.32.129.236  | ikiwiki                               | kedo
+blizzard        |   128.32.129.217  | **unused**                            |
+cataclysm       |   128.32.129.202  | **unused**                            |
+conquest        |   128.32.129.248  | **unused**                            |
 coupdetat       |   128.32.129.253  | DeCal server                          | waf, daradib
-cyclone         |   128.32.129.226	| desktop machine                       |
-death           |   128.32.129.243	| web server                            | kedo
-destruction     |   128.32.129.249	| desktop machine                       |
-drought         |   128.32.129.219	| **unused**                            |
-earthquake      |   128.32.129.216	| **unused**                            |
-emp             |   128.32.129.194	| Zabbix                                | amloessb
-epidemic        |   128.32.129.237	| NFS server                            | waf, kedo
-eruption        |   128.32.129.197	| desktop machine                       |
-fallingrocks    |   128.32.129.225	| desktop machine                       |
-fallout         |   128.32.129.196	| DHCP and NAT                          | waf, kedo
-famine          |   128.32.129.246	| ESXI Hypervisor                       | gone soon
-firestorm       |   128.32.129.200	| **unused**                            |
-flood           |   128.32.129.212	| IRC server                            | amloessb
-hailstorm       |   128.32.129.224	| **unused**                            |
-headcrash       |   128.32.129.231	| **unused**                            |
-heatwave        |   128.32.129.233	| **unused**                            |
-hurricane       |   128.32.129.201	| desktop machine                       |
-jaws            |   128.32.129.238	| old wiki, old staffwiki               | waf
-lightning       |   128.32.129.210	| [[puppet master|puppet]]              | waf, kedo
-locusts         |   128.32.129.220	| **unused**                            |
-madcow          |   128.32.129.239	| **unused**                            |
-mailhost        |   128.32.129.244	| **unused**                            |
+cyclone         |   128.32.129.226  | **unused**                            |
+death           |   128.32.129.243  | web server                            | kedo
+destruction     |   128.32.129.249  | **unused**                            |
+drought         |   128.32.129.219  | **unused**                            |
+earthquake      |   128.32.129.216  | **unused**                            |
+emp             |   128.32.129.194  | Zabbix                                | amloessb
+epidemic        |   128.32.129.237  | NFS server                            | waf, kedo
+eruption        |   128.32.129.197  | **unused**                            |
+fallingrocks    |   128.32.129.225  | **unused**                            |
+fallout         |   128.32.129.196  | DHCP and NAT                          | waf, kedo
+famine          |   128.32.129.246  | ESXI Hypervisor                       | gone soon
+firestorm       |   128.32.129.200  | **unused**                            |
+flood           |   128.32.129.212  | IRC server                            | amloessb
+hailstorm       |   128.32.129.224  | **unused**                            |
+headcrash       |   128.32.129.231  | **unused**                            |
+heatwave        |   128.32.129.233  | **unused**                            |
+hurricane       |   128.32.129.201  | **unused**                            |
+jaws            |   128.32.129.238  | old wiki, old staffwiki               | waf
+lightning       |   128.32.129.210  | [[puppet master|puppet]]              | waf, kedo
+locusts         |   128.32.129.220  | **unused**                            |
+madcow          |   128.32.129.239  | **unused**                            |
+mailhost        |   128.32.129.244  | **unused**                            |
 meltdown        |   128.32.129.205  | new web server                        | kedo
-monsoon         |   128.32.129.213	| LDAP and Kerberos                     | sanjayk
-mudslide        |   128.32.129.203	| mon, shell, voip, tracker             | waf
-netsplit        |   128.32.129.247	| Uplink switch to IS&T                 | none
-outbreak        |   128.32.129.240	| **unused**                            |
-pandemic        |   128.32.129.206	| **unused**                            |
-pestilence      |   128.32.129.242	| DNS                                   | kmock
-pileup          |   128.32.129.232	| kiosk machine                         | morshed
-plague          |   128.32.129.221	| **unused**                            |
-pollution       |   128.32.129.198	| backup server                         | waf, kedo, sanjayk
-pox             |   128.32.129.241	| ESXI Hypervisor                       |
-printhost       |   128.32.129.245	| printhost                             | **%**
+monsoon         |   128.32.129.213  | LDAP and Kerberos                     | sanjayk
+mudslide        |   128.32.129.203  | mon, shell, voip, tracker             | waf
+netsplit        |   128.32.129.247  | Uplink switch to IS&T                 | none
+outbreak        |   128.32.129.240  | **unused**                            |
+pandemic        |   128.32.129.206  | **unused**                            |
+pestilence      |   128.32.129.242  | DNS                                   | kmock
+pileup          |   128.32.129.232  | kiosk machine                         | morshed
+plague          |   128.32.129.221  | **unused**                            |
+pollution       |   128.32.129.198  | backup server                         | waf, kedo, sanjayk
+pox             |   128.32.129.241  | ESXI Hypervisor                       | gone soon
+printhost       |   128.32.129.245  | printhost                             | **$**
 hal             |   128.32.129.199  | Xen hypervisor                        | waf, kedo
-riot            |   128.32.129.195	| NAT IP for fallout                    | none
-sandstorm       |   128.32.129.218	| mail                                  | **%**
-sinkhole        |   128.32.129.250	| **unused**                            |
-supernova       |   128.32.129.204	| admin staff login                     | raphtown
+riot            |   128.32.129.195  | NAT IP for fallout                    | none
+sandstorm       |   128.32.129.218  | mail                                  | **$**
+sinkhole        |   128.32.129.250  | **unused**                            |
+supernova       |   128.32.129.204  | admin staff login                     | raphtown
 surge           |   128.32.129.207  | Debian mirror                         | waf, kedo
-tempest         |   128.32.129.228	| LDAP Kerberos backup                  |
-tornado         |   128.32.129.215	| Windows Active Directory backup       |
-tsunami         |   128.32.129.223	| public login server                   | tzhu
-typhoon         |   128.32.129.214	| Future RT                             | kfang
-volcano         |   128.32.129.211	| Minecraft                             | waf
-war             |   128.32.129.244	| **unused**                            |
-whirlwind       |   128.32.129.227	| **unused**                            |
-wildfire        |   128.32.129.251	| **unused**                            |
-zombie          |   128.32.129.229	| PostgreSQL                            | gone soon
+tempest         |   128.32.129.228  | LDAP Kerberos backup                  | waf
+tornado         |   128.32.129.215  | Windows Active Directory backup       | kfang, amloessb
+tsunami         |   128.32.129.223  | public login server                   | tzhu
+typhoon         |   128.32.129.214  | Future RT                             | kfang
+volcano         |   128.32.129.211  | Minecraft                             | waf
+war             |   128.32.129.244  | **unused**                            |
+whirlwind       |   128.32.129.227  | **unused**                            |
+wildfire        |   128.32.129.251  | **unused**                            |
+zombie          |   128.32.129.229  | PostgreSQL                            | gone soon
 """]]
