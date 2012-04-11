@@ -25,12 +25,12 @@ As a user of the OCF's printing facilities, you are responsible for taking the f
 
 **The OCF will *NOT* refund pages for the following reasons:**
 
-  *This list is not exhaustive.*
-
 * Printed too many copies of a document
 * Printed the whole document instead of part of it
 * Printed single-sided but meant to print double (or vice-versa)
 * Printed the document in the wrong orientation or size
+
+*This list is not exhaustive.*
 
 ### Refund Procedure
 
