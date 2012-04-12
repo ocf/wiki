@@ -1,8 +1,6 @@
 [[!meta title="Servers"]]
 
-Hosts with **?** are currently undocumented.
 Hosts with **unused** are unused.
-Hosts with **$** are unassigned a maintainer.
 
 [[!table data="""
 Server Name     |   IP Address      | Services                           | Maintainer
@@ -12,7 +10,7 @@ asteroid        |   128.32.129.252  | **unused**                         |
 avalanche       |   128.32.129.222  | **unused**                         |
 bigbang         |   128.32.129.230  | **unused**                         |
 biohazard       |   128.32.129.235  | Windows Active Directory           | kfang, amloessb
-blackhole       |   128.32.129.208  | mail storage                       | **$**
+blackhole       |   128.32.129.208  | mail storage                       | waf, kedo
 blight          |   128.32.129.236  | ikiwiki                            | kedo
 blizzard        |   128.32.129.217  | **unused**                         |
 cataclysm       |   128.32.129.202  | **unused**                         |
@@ -51,10 +49,10 @@ pileup          |   128.32.129.232  | kiosk machine                      | morsh
 plague          |   128.32.129.221  | **unused**                         |
 pollution       |   128.32.129.198  | backup server                      | waf, kedo, sanjayk
 pox             |   128.32.129.241  | ESXI Hypervisor                    | gone soon
-printhost       |   128.32.129.245  | printhost                          | **$**
+printhost       |   128.32.129.245  | printhost                          | waf, kedo
 hal             |   128.32.129.199  | Xen hypervisor                     | waf, kedo
 riot            |   128.32.129.195  | NAT IP for fallout                 | none
-sandstorm       |   128.32.129.218  | mail                               | **$**
+sandstorm       |   128.32.129.218  | mail                               | waf, kedo
 sinkhole        |   128.32.129.250  | **unused**                         |
 supernova       |   128.32.129.204  | admin staff login                  | raphtown
 surge           |   128.32.129.207  | Debian mirror                      | waf, kedo
