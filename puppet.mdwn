@@ -42,7 +42,7 @@ to list all certificates. The hostnames with a "+" in front of them have already
 
 If the puppet master hasn't already signed a certificate for the new agent's hostname, you can sign it:
 
-    kedo@lightning:/$ sudo puppet sign hostname.int.ocf.berkeley.edu
+    kedo@lightning:/$ sudo puppet cert sign hostname.int.ocf.berkeley.edu
 
 ### Add Principals and Set Root Password (Again)
 Run *gen-principals.sh* and *gen-rootpw.sh* in */opt/puppet/scripts* on the puppet master to generate the private root password hash and Kerberos host principal for the agent.
