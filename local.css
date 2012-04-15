@@ -77,7 +77,9 @@ a:hover {
 #searchform div{
     display: block;
     height: 27px;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     padding: 3px;
     width: 181px;
     margin-top: -5px;
@@ -143,8 +145,8 @@ a:hover {
 }
 
 #content blockquote{
-    border:1px solid #e6f1f5;
-    background-color:#f8fcfc;
+    border: 1px solid #e6f1f5;
+    background-color: #f8fcfc;
     padding: 0 6px;
     margin: 10px;
 }
@@ -154,11 +156,32 @@ a:hover {
     color: #888;
     font-family: "Century Gothic","Trebuchet MS","Trebuchet";
 }
-
+#content h1{
+    font-size: 24px;
+}
+#content h2{
+    font-size: 19px;
+}
+#content h3{
+    font-size: 17px;
+}
+#content h4{
+    font-size: 15px;
+}
+#content h5{
+    font-size: 13px;
+}
+#content h6{
+    font-size: 11px;
+}
 #content pre{
     line-height: 1.4em;
     font-size: 110%;
     color: #111;
+    border: 1px solid #ddee99;
+    background-color: #fdfefa;
+    margin: 10px;
+    padding: 3px 6px;
 }
 
 #content table{
