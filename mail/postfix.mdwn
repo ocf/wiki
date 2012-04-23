@@ -1,0 +1,15 @@
+[[!meta title="Postfix"]]
+
+The mail server is [[sandstorm|servers]]. This is where postfix runs and determines where to put the incoming mail.
+
+# Enabling Mail for Virtual Hosts
+When a virtual host name wants to enable mail sent to *\*@virtualhost.berkeley.edu*, edit the postfix config on [[sandstorm|servers]] as *root*. Relevant directory is */etc/postfix/ocfconfig*.
+
+1. Add an entry for the new virtual host in *vhost-maps.pcre*.
+1. Run *buildvirtual.sh*.
+1. *service postfix reload* if *buildvirtual.sh* doesn't already do so.
+
+Make sure that the virtual host is an *A record* (and not a *CNAME*) to the [[web server|servers]] and has the following *MX records*:
+
+    5 sandstorm.ocf.berkeley.edu
+    10 pestilence.ocf.berkeley.edu
