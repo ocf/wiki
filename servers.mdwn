@@ -5,6 +5,8 @@
 var boldSorter = function (node) {
   console.log(node.childNodes[0].hasChildNodes() + " " + node.innerHTML);
   console.log(node);
+  if (node.nodeName === "STRONG")
+    return "_";
   return node.innerHTML;
 };
 
