@@ -3,8 +3,7 @@
 <script type="text/javascript" src="http://cachedcommons.org/cache/jquery-table-sorter/2.0.3/javascripts/jquery-table-sorter.js"></script>
 <script type="text/javascript">
 var boldSorter = function (node) {
-  console.log(node.childNodes[0].hasChildNodes() + " " + node.innerHTML);
-  console.log(node.nodeName + " " + node.textContent);
+  node = node.childNodes[0];
   if (node.nodeName === "STRONG")
     return "_";
   return node.textContent;
