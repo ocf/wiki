@@ -6,7 +6,7 @@ Hosts with **unused** are unused.
 Server Name     |   IP Address      | Services                           | Maintainer
 anthrax         |   128.32.129.234  | **unused**                         |
 armageddon      |   128.32.129.209  | **unused**                         |
-asteroid        |   128.32.129.252  | **unused**                         |
+asteroid        |   128.32.129.252  | Blue & Gold NAT                    | daradib
 avalanche       |   128.32.129.222  | **unused**                         |
 bigbang         |   128.32.129.230  | **unused**                         |
 biohazard       |   128.32.129.235  | Windows Active Directory           | kfang, amloessb
