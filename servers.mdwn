@@ -5,10 +5,8 @@
 
 jQuery(function () {
   jQuery("table").tablesorter(
-    {cssHeader: "", 
-     headers: 
-       {3: 
-         {sorter: false}}});
+    {cssHeader: ""});
+
 });
 </script>
 
