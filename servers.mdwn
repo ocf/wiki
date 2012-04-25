@@ -3,7 +3,7 @@
 <script type="text/javascript" src="http://cachedcommons.org/cache/jquery-table-sorter/2.0.3/javascripts/jquery-table-sorter.js"></script>
 <script type="text/javascript">
 jQuery(function () {
-  jQuery("table").tablesorter();
+  jQuery("table").tablesorter({cssHeader: ""});
 });
 </script>
 
