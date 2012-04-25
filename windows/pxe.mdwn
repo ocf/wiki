@@ -1,0 +1,5 @@
+==PXE==
+
+Disable PXE on specific NIC:
+
+wdsutil /set-server /bindpolicy /policy:exclude /add /addresstype:<IP or MAC> /address:<ip or mac address according to previous parameter>
