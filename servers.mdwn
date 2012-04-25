@@ -5,7 +5,7 @@
 var boldSorter = function (node) {
   node = node.childNodes[0];
   if (node.textContent.match(/unused/))
-    return "~";
+    return "~"; // ASCII sorting
   return node.textContent;
 };
 
