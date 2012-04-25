@@ -5,7 +5,7 @@
 var boldSorter = function (node) {
   node = node.childNodes[0];
   if (node.nodeName === "STRONG")
-    return "<";
+    return "~";
   return node.textContent;
 };
 
