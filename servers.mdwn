@@ -7,7 +7,7 @@ return node.innerHTML;
 };
 
 jQuery(function () {
-  jQuery("table").tablesorter({cssHeader: "", textExtraction: boldSorter, headers: {3: {sorter: false}}});
+  jQuery("table").tablesorter({cssHeader: "", headers: {3: {sorter: false}}});
 });
 </script>
 
