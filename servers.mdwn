@@ -2,12 +2,13 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://cachedcommons.org/cache/jquery-table-sorter/2.0.3/javascripts/jquery-table-sorter.js"></script>
 <script type="text/javascript">
-var boldSorter = function (node) {
-return node.innerHTML;
-};
 
 jQuery(function () {
-  jQuery("table").tablesorter({cssHeader: "", headers: {3: {sorter: false}}});
+  jQuery("table").tablesorter(
+    {cssHeader: "", 
+     headers: 
+       {3: 
+         {sorter: false}}});
 });
 </script>
 
