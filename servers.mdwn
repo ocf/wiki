@@ -3,6 +3,7 @@
 <script type="text/javascript" src="http://cachedcommons.org/cache/jquery-table-sorter/2.0.3/javascripts/jquery-table-sorter.js"></script>
 <script type="text/javascript">
 var boldSorter = function (node) {
+  console.log(node);
   node = node.childNodes[0];
   if (node.textContent.match(/unused/))
     return "~"; // ASCII sorting
@@ -12,12 +13,12 @@ var boldSorter = function (node) {
 jQuery(function () {
   jQuery("table").tablesorter({
     cssHeader: "",
-    textExtraction: boldSorter,
-    headers: {
+    textExtraction: boldSorter
+    /* headers: {
       3: {
         sorter: false
       }
-    }
+    } */
   });
 });
 </script>
