@@ -4,7 +4,12 @@
 <script type="text/javascript">
 jQuery(function () {
   jQuery("table").tablesorter({
-    cssHeader: ""
+    cssHeader: "",
+    headers: {
+      3: {
+        sorter: false
+      }
+    }
   });
 });
 </script>
