@@ -84,7 +84,7 @@ tsunami         |   128.32.129.223  | public login server                | tzhu
 typhoon         |   128.32.129.214  | Future RT                          | kfang
 volcano         |   128.32.129.211  | Minecraft                          | waf
 war             |   128.32.129.244  | temporary MongoDB server           | kedo
-whirlwind       |   128.32.129.227  | **unused**                         | 
-wildfire        |   128.32.129.251  | **unused**                         | 
+whirlwind       |   128.32.129.227  | **unused**                         |  
+wildfire        |   128.32.129.251  | **unused**                         |  
 zombie          |   128.32.129.229  | PostgreSQL                         | gone soon
 """]]
