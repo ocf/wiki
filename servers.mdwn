@@ -10,7 +10,7 @@ var boldSorter = function (node) {
 jQuery(function () {
   jQuery("table").tablesorter({
     cssHeader: "",
-    textExtraction: "simple",
+    textExtraction: boldSorter,
     headers: {
       3: {
         sorter: false
