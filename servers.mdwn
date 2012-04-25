@@ -4,6 +4,7 @@
 <script type="text/javascript">
 var boldSorter = function (node) {
   console.log(node.childNodes[0] + " " + node.innerHTML);
+  console.log(node);
   return node.innerHTML;
 };
 
