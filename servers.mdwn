@@ -23,6 +23,7 @@ jQuery(function () {
 });
 </script>
 
+This table is sortable.
 Hosts with **unused** are unused.
 
 [[!table data="""
