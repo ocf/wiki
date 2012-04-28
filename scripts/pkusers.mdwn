@@ -1,0 +1,14 @@
+# pkusers
+
+## Introduction
+
+## Usage Scenarios
+
+### Add/subtract pages to/from an account
+
+    ~$ pkusers -b <adjustment> <username>
+e.g.:
+
+    ~$ pkusers -b +8 amloessb
+
+will add 8 pages to amloessb's quota.
