@@ -1,0 +1,6 @@
+# YAML
+ip-address: 128.32.129.203
+maintainers: [waf]
+name: mudslide
+services: [mon, shell, voip, tracker]
+# ENDYAML

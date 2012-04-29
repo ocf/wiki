@@ -1,0 +1,6 @@
+# YAML
+ip-address: 128.32.129.211
+maintainers: [waf]
+name: volcano
+services: [Minecraft]
+# ENDYAML

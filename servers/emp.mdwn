@@ -1,0 +1,6 @@
+# YAML
+ip-address: 128.32.129.194
+maintainers: [amloessb]
+name: emp
+services: [Zabbix]
+# ENDYAML

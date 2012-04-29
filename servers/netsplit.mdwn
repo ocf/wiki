@@ -1,0 +1,6 @@
+# YAML
+ip-address: 128.32.129.247
+maintainers: []
+name: netsplit
+services: [Uplink switch to IS&T]
+# ENDYAML
