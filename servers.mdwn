@@ -49,7 +49,7 @@ earthquake      |   128.32.129.216  | **unused**                         | *none
 emp             |   128.32.129.194  | Zabbix                             | amloessb
 epidemic        |   128.32.129.237  | NFS server                         | waf, kedo
 eruption        |   128.32.129.197  | **unused**                         | *none*
-fallingrocks    |   128.32.129.225  | **unused**                         | *none*
+fallingrocks    |   128.32.129.225  | waf                                | waf
 fallout         |   128.32.129.196  | DHCP and NAT                       | waf, kedo
 famine          |   128.32.129.246  | ESXI Hypervisor                    | gone soon
 firestorm       |   128.32.129.200  | **unused**                         | *none*
@@ -75,7 +75,7 @@ pollution       |   128.32.129.198  | backup server                      | waf, 
 pox             |   128.32.129.241  | ESXI Hypervisor                    | gone soon
 printhost       |   128.32.129.245  | printhost                          | waf, kedo
 hal             |   128.32.129.199  | Xen hypervisor                     | waf, kedo
-riot            |   128.32.129.195  | NAT IP for fallout                 | *none*
+riot            |   128.32.129.195  | NAT IP for fallout                 | waf, kedo
 sandstorm       |   128.32.129.218  | mail                               | waf, kedo
 sinkhole        |   128.32.129.250  | **unused**                         | *none*
 supernova       |   128.32.129.204  | admin staff login                  | raphtown
