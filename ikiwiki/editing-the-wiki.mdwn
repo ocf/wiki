@@ -9,7 +9,7 @@ Please make sure you have properly configured git:
 
 These instructions are for staffers with root principals. If you don't have a root principal, go to the instructions on the bottom.
 
-## For root staffers
+# For root staffers
 
 1. *ssh* into blight
 1. Clone the wiki.git repo at /srv/ikiwiki/wiki.git into your home dir. This will create a folder named *local-wiki-repo*.
@@ -40,25 +40,13 @@ These instructions are for staffers with root principals. If you don't have a ro
            f9da685..8d5839d  master -> master
         fatal: Unable to create '/mnt/u5/home/k/ke/kedo/wiki/.git/refs/remotes/origin/master.lock': Permission denied
 
-Done! If something breaks, or if you pushed without *sudo*, you can refresh the ikiwiki pages based on whatever's in */srv/ikiwiki/wiki.git* by running:
+Done!
+## If Something Breaks
+If something breaks, or if you pushed without *sudo*, you can refresh the ikiwiki pages based on whatever's in */srv/ikiwiki/wiki.git* by running:
 
     kedo@blight$ cd /srv/ikiwiki
     kedo@blight$ sudo ikiwiki --setup wiki.setup
 
-If you want to edit the wiki on your local non-OCF machine:
-
-1. *ssh* into *blight* and make a _bare_ git repo */srv/ikiwiki/wiki.git* in your home dir:
-
-        kedo@blight$ git clone --bare /srv/ikiwiki/wiki.git local-repo-name-here
-
-1. On your local machine, clone the bare repo you just made:
-
-        kedo@local$ git clone kedo@blight.ocf.berkeley.edu:local-repo-name
-
-1. Make your changes and commit on your local machine.
-1. Push your changes to the local repo you made in your home dir.
-1. On *blight*, go into your local-repo folder and *sudo git push*, just like above.
-
-## For non-root staffers
+# For non-root staffers
 
 Follow the same instructions as above to clone */srv/ikiwiki/wiki.git* to a folder in your home directory on *blight*. Then, ask a staffer with a root principal to *git pull* from your git repo.
