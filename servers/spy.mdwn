@@ -16,8 +16,8 @@ Cleaned up spy crontabs and because of espeak incompatibility now pipe
 time announcements to mplayer.
 
 # YAML
-name = spy
-ip-address = internal
-services = [jukebox]
-maintaners = [waf,kedo]
+name: spy
+ip-address: internal
+services: [jukebox]
+maintaners: [waf,kedo]
 # ENDYAML
