@@ -19,5 +19,5 @@ time announcements to mplayer.
 name: spy
 ip-address: internal
 services: [jukebox]
-maintaners: [waf,kedo]
+maintainers: [waf,kedo]
 # ENDYAML
