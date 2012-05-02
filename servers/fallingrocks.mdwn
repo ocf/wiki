@@ -2,5 +2,5 @@
 ip-address: 128.32.129.225
 maintainers: [waf]
 name: fallingrocks
-services: []
+services: [waf]
 # ENDYAML
