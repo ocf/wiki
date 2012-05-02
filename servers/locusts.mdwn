@@ -1,6 +1,6 @@
 # YAML
 ip-address: 128.32.129.220
-maintainers: []
+maintainers: [tzhu]
 name: locusts
-services: []
+services: [tzhu]
 # ENDYAML
