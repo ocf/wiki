@@ -4,28 +4,31 @@ See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/C
 
 ## Generate Secured Private Key
    * Generate the private key for the server you are creating a CSR/cert for.
-      * Type =openssl genrsa -des3 -out {shortservername}.key 2048=
+      * Type *openssl genrsa -des3 -out {shortservername}.key 2048*
       * You will be asked for a password.  You will need to remember this password for about 3 minutes.
       * The key is generated.
 
 ## Generate Unsecured Private Key
    * The unsecured private key will be used to generate a PKCS #12 file after we get the certificate back.
-      * Type =openssl rsa -in {shortservername}.key -out unsecured.{shortservername}.key=
+      * Type *openssl rsa -in {shortservername}.key -out unsecured.{shortservername}.key*
       *  You will be asked for a password.  You should have remembered it.
       * The unsecured key is generated.
 
 ## Generate CSR
    * This is the fun part.   We get to generate the CSR
-      * Type =openssl req -new -key {shortservername}.key -out {shortservername}.csr -config %conf%=
+      * Type *openssl req -new -key {shortservername}.key -out {shortservername}.csr*
       *  You will be asked for a password.  You still should have remembered it.
       * You will next be asked a series of questions.  Answers are below.  Do not shorten names, things will not work.
       * Country Name:  US
       * State or Province:  California
       * Locality:   Berkeley
       * Organization Name:  University of California, Berkeley
-      * Organizational Unit Name:  RSSP-IT or SA-IT
+      * Organizational Unit Name:  OCF or Open Computing Facility
       * Common Name:  The FQDN of the server
-      * Email Address:  The helpdesk email address  (rssp-helpdesk@berkeley.edu)
+      * Email Address:  staff@ocf.berkeley.edu
       * Challenge Password:  blank
       * Optional Company Name:   blank
-   * Send the {shortservername}.csr file to the UNIX team in a ticket, or to the Certificate Requests queue for Comodo certs.
+   * Send the {shortservername}.csr file to calnet-pki for Comodo certs.
+
+-----
+###### Courtesy of ResComp WinSys page
