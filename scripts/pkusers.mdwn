@@ -2,13 +2,35 @@
 
 ## Introduction
 
+Manages PyKota users or users groups.
+
 ## Usage Scenarios
 
-### Add/subtract pages to/from an account
+### Add/subtract/set pages to/from/for an account
 
     ~$ pkusers -b <adjustment> <username>
-e.g.:
+Add 8 pages:
 
-    ~$ pkusers -b +8 amloessb
+    ~$ pkusers -b +8 username
+Subtract 8 pages:
 
-will add 8 pages to amloessb's quota.
+    ~$ pkusers -b -8 username
+Set number of remaining pages to 8:
+
+    ~$ pkusers -b 8 username
+
+### List detailed information about a user
+
+    ~$ pkusers -L username
+
+or
+
+    ~$ pkusers --list username
+
+### Create a new user
+
+    ~$ pkusers -a username
+
+### Delete a user
+
+    ~$ pkusers -d username
