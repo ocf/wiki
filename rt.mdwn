@@ -1,0 +1,8 @@
+Request Tracker 3.8
+
+Configuration:
++ name: typhoon.ocf.berkeley.edu
++ manage RT_SiteConfig.pam: yes
++ SQL password: ....
+
+Notes: the standard installation will install sqlite3
