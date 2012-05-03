@@ -33,4 +33,4 @@ See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/C
    * Send the {shortservername}.csr file to calnet-pki for Comodo certs.
 
 -----
-###### Courtesy of ResComp WinSys page
+###### Courtesy of ResComp WinSys Twiki documentation
