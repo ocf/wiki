@@ -1,6 +1,6 @@
 # pkusers
 
-[[!toc ]]
+[[!toc levels=3 startlevel=2]]
 
 ## Introduction
 
