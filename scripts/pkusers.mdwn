@@ -1,5 +1,7 @@
 # pkusers
 
+[[!toc ]]
+
 ## Introduction
 
 Manages PyKota users or users groups.
