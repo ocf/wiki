@@ -1,6 +1,8 @@
 [[!meta title="SSL Certificates"]]
-See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/CalNet+InCommon-Comodo+Certificate+Service) for information on how to submit a certificate request.
 
+# SSL Certificate Generation Procedures
+
+See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/CalNet+InCommon-Comodo+Certificate+Service) for information on how to submit a certificate request.
 
 ## Generate Secured Private Key
    * Generate the private key for the server you are creating a CSR/cert for.
