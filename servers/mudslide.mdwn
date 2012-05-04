@@ -2,5 +2,5 @@
 ip-address: 128.32.129.203
 maintainers: [waf]
 name: mudslide
-services: [mon, shell, voip, tracker]
+services: [mon, shell in a box, mumble, tracker]
 # ENDYAML
