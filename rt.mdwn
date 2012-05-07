@@ -1,5 +1,8 @@
 Request Tracker 4.0
 
+==Installation==
+I basically followed this guide: http://requesttracker.wikia.com/wiki/DebianSqueezeInstallGuide
+
 1. aptitude install mysql-server rt4-db-mysql
 2. service mysql [status|start|stop|restart]
 3. aptitude install rt4-apache2
