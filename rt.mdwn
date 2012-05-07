@@ -1,8 +1,16 @@
 Request Tracker 3.8
 
-Configuration:
-+ name: typhoon.ocf.berkeley.edu
-+ manage RT_SiteConfig.pam: yes
-+ SQL password: ....
-
-Notes: the standard installation will install sqlite3
+1. aptitude install mysql-server rt4-db-mysql
+2. service mysql [status|start|stop|restart]
+3. aptitude install rt4-apache2
+4. aptitude install request-tracker4
+* Configuration:
+     - name: typhoon.ocf.berkeley.edu
+     - manage RT_SiteConfig.pam: yes
+     - SQL password: ....
+5. Go to /etc/request-tracker4 and pick a configuration (ours uses perl)
+6. copy the configuration to /etc/apache2/sites-available
+7. Add the following lines to /etc/apache2/sites-available/default before the ennding VirtualHost tag.
+> Include /etc/request-tracker4/apache2-modperl2.conf <br />
+> RedirectMatch ^/$ /rt <br />
+8. Restart Apache
