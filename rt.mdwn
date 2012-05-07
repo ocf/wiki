@@ -1,4 +1,4 @@
-Request Tracker 3.8
+Request Tracker 4.0
 
 1. aptitude install mysql-server rt4-db-mysql
 2. service mysql [status|start|stop|restart]
