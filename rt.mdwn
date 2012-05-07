@@ -17,3 +17,12 @@ I basically followed this guide: http://requesttracker.wikia.com/wiki/DebianSque
 > Include /etc/request-tracker4/apache2-modperl2.conf <br />
 > RedirectMatch ^/$ /rt <br />
 8. Restart Apache
+
+==TODO==
+Link it into OCF mail so that rt receives staff@o.b.e
+
+Look into WebExternalAuth
+> http://requesttracker.wikia.com/wiki/WebExternalAuth
+
+Figure out how configs work
+
