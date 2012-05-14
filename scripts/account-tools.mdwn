@@ -2,8 +2,16 @@
 
 # Account Tools
 
-Account tools is a django project for online password resets. It is currently on the FreeBSD death ("olddeath") in _/usr/local/www/django\_projects_.
+Account tools is a django project for online password resets. It is currently on the FreeBSD death ("olddeath").
+
+It is installed as a python site-package in _/usr/local/lib/python2.6/site-packages/account\_tools_.
+
+Note its owners should be _www:www_ and that since the settings file contains sensitive information, you should _chmod go-rwx_
 
 ## Deploying Account Tools
 
-The current deploy script is _/root/deploy-account-tools.sh_, which depends on the git repo _/opt/src/users/kedo/account-tools_ and the django settings file _/root/account\_tools\_settings.py.secret_.
+1. Clone the git repo _supernova:/opt/src/users/kedo/account-tools_
+2. Make sure the settings file exists at _/root/account\_tools\_settings.py.secret_
+3. Run the setup script:
+
+        $ python setup.py install
