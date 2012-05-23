@@ -1,6 +1,7 @@
     Hello,
 
     I am kedo. (´･ω･`)
+    This is for testing.
 
     Much love,
     kedo
