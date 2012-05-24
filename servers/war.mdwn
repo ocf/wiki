@@ -2,5 +2,5 @@
 ip-address: 128.32.129.244
 maintainers: [kedo]
 name: war
-services: [temporary MongoDB server]
+services: [web server Puppet testing]
 # ENDYAML
