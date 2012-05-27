@@ -1,6 +1,6 @@
 # YAML
 ip-address: 128.32.129.248
-maintainers: []
+maintainers: daradib
 name: conquest
-services: []
+services: [Squid testing]
 # ENDYAML
