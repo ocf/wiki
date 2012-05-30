@@ -1,10 +1,14 @@
+**Online Alternative**
+
+The preferred way of changing passwords is to do it online via <https://secure.ocf.berkeley.edu/account_tools/calnet/login?next=/account_tools/change_password>.  This does not require a staffer to be present to change the user's password.  Only use the command line chpass described below if this is not suitable.
+
 # chpass
 
 [[!toc levels=3 startlevel=2]]
 
 ## Introduction
 
-Changes a user's kerberos principal password along with his windows (AKA active directory or lab) password.
+Changes a user's kerberos principal password along with his windows (AKA active directory or lab) password. 
 
 ## Usage
 
