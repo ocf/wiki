@@ -53,7 +53,7 @@ Follow the same instructions as above to clone */srv/ikiwiki/wiki.git* to a fold
 
 # Editing the wiki through the web interface
 
-Create an account through <http://wiki.ocf.berkeley.edu/ikiwiki.cgi>.
+Create an account through <hwiki.ocf.berkeley.edu/ikiwiki.cgi?do=register>.
 
 Account creation password can be located via running the following on blight.
 
