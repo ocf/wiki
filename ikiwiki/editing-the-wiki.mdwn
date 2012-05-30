@@ -50,3 +50,15 @@ If something breaks, or if you pushed without *sudo*, you can refresh the ikiwik
 # For non-root staffers
 
 Follow the same instructions as above to clone */srv/ikiwiki/wiki.git* to a folder in your home directory on *blight*. Then, ask a staffer with a root principal to *git pull* from your git repo.
+
+# Editing the wiki through the web interface
+
+Create an account through <http://wiki.ocf.berkeley.edu/ikiwiki.cgi>.
+
+Account creation password can be located via running the following on blight.
+
+    ~$ cat /srv/ikiwiki/wiki.setup | grep account_creation_password
+
+If your changes aren't appearing, run the following on blight.
+
+    ~$ sudo ikiwiki --setup /srv/ikiwiki/wiki.setup
