@@ -1,0 +1,9 @@
+# Future Notes
+JPL is fun.
+
+# Joining Staff
+Find out what we're all [about](http://www.ocf.berkeley.edu/OCF/staff), and come [join us](http://www.ocf.berkeley.edu/OCF/staff/how-to-join.shtml)!
+
+# Staff List
+
+[[!map pages="staff/* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/*" show="title"]]
