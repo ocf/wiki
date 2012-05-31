@@ -1,1 +1,1 @@
-Raphtown does cool stuff like edit wiki pages.  He also makes test edits. And futzes around with git.  But not really.
+Raphtown does cool stuff like edit wiki pages.  He also makes test edits.
