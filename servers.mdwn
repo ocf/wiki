@@ -1,6 +1,6 @@
 [[!meta title="Servers"]]
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://cachedcommons.org/cache/jquery-table-sorter/2.0.3/javascripts/jquery-table-sorter.js"></script>
+<script type="text/javascript" src="/media/javascript/jquery.min.js"></script>
+<script type="text/javascript" src="/media/javascript/jquery-table-sorter.js"></script>
 <script type="text/javascript">
 var boldSorter = function (node) {
   console.log(node);
@@ -27,7 +27,7 @@ jQuery(function () {
 
 The table below has more information, and all the servers.
 
-[[!inline pages="images/server-diagram.svg" show="1" raw="yes"]]
+[[!inline pages="/media/images/server-diagram.svg" show="1" raw="yes"]]
 
 This table is sortable.
 
