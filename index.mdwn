@@ -1,3 +1,3 @@
 #Welcome to the OCF Wiki!
 
-[[!map pages="* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/* and !media/*"  show="title"]]
+[[!map pages="* and !ikiwiki/* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/* and !media/*"  show="title"]]
