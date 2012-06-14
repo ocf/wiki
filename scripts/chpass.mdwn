@@ -1,6 +1,6 @@
 **Online Alternative**
 
-The preferred way of changing passwords is to do it online via <https://secure.ocf.berkeley.edu/account_tools/calnet/login?next=/account_tools/change_password>.  This does not require a staffer to be present to change the user's password.  Only use the command line chpass described below if this is not suitable.
+The preferred way of changing passwords is to do it online via <https://secure.ocf.berkeley.edu/account_tools/change_password>.  This does not require a staffer to be present to change the user's password.  Only use the command line chpass described below if this is not suitable.
 
 # chpass
 
