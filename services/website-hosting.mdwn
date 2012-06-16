@@ -1,0 +1,33 @@
+[[!meta title="Website Hosting"]]
+# Website Hosting
+
+All accounts include hosting with a web address at [[http://www.ocf.berkeley.edu/~username]].
+
+Group accounts may also request a [[virtual host|services/virtual-hosting]], which will allow them to use a sub-domain of the Berkeley.EDU domain (ex: groupname.berkeley.edu).
+
+# Setting Up Your Web Space
+
+You can activate your web space using the OCF's web interface or SSH. Most users find that the web interface is the easiest method to use.
+
+## Method A: Via the Web Interface
+
+1.   Open the [[web commands interface|https://secure.ocf.berkeley.edu/cgi-bin/cmds.cgi]] in your web browser.
+1.   Select the "makehttp" option. Enter your OCF username and password, and choose "Run command". You should see something like this in the output, assuming you entered your username and password correctly:
+
+    public_html folder has been created successfully.
+
+## Method B: Via SSH
+
+1.   Login to your account via SSH.
+1.   After you go past all system messages, you will see a *prompt*:
+
+    tsunami$
+
+    In this case, *tsunami* is the current logon server; you may see another name displayed. At this prompt, type "makehttp" without the quotation marks. This command will create your web directory. Here's a sample screen output:
+
+    tsunami$ makehttp
+    public_html folder has been created successfully.
+
+# Uploading Files
+
+Upload files to your web space the same way you [[upload any files to your OCF account|http://docs.ocf.berkeley.edu/wiki/File_transfer_support]]. The only difference is that files for your web space are placed in your *public_html* directory.
