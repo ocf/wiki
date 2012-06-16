@@ -1,0 +1,13 @@
+[[!meta title="Shell Account"]]
+# Shell Account
+
+A shell account refers to a text-mode interface where commands can be run interactively, like a command-prompt. All OCF accounts are eligible for shell account access. You can access your shell account by logging into the Windows or Linux systems in the OCF laboratory or remotely via SSH.
+
+We support the following commonly used shell account tools (to name a few):
+
+*   SSH: allows your to access your shell account via an encrypted connection
+*   Subversion, Git, and Mercurial: version control software
+*   Cron: allows you to automatically execute commands on a regular and scheduled basis 
+*   vim and emacs: powerful and extensible text editors
+
+Notice any software you want to use, but isn't currently available on our SSH login server? Feel free to request it by e-mailing us at [staff@ocf.berkeley.edu](mailto:staff@ocf.berkeley.edu)!
