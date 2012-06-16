@@ -21,12 +21,12 @@ You can activate your web space using the OCF's web interface or SSH. Most users
 1.   Login to your account via SSH.
 1.   After you go past all system messages, you will see a *prompt*:
 
-    tsunami$
+        tsunami$
 
     In this case, *tsunami* is the current logon server; you may see another name displayed. At this prompt, type "makehttp" without the quotation marks. This command will create your web directory. Here's a sample screen output:
 
-    tsunami$ makehttp
-    public_html folder has been created successfully.
+        tsunami$ makehttp
+        public_html folder has been created successfully.
 
 # Uploading Files
 
