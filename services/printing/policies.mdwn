@@ -44,7 +44,7 @@ If the front desk staff seems to not know what to do with your pages, please sho
 
 ### Front Desk Staff Procedures
 
-1. Fill in a row of the OCF Misprint Record (located in the middle drawer on the right side of the desk)
+1. Fill in a row of the OCF Misprint Record (located in the middle drawer on the left side of the desk)
   * Write today's date in the *Date* box
   * Write the person's OCF username in the *Username* box
   * Write your name in the *Pubs Staff Name* box
