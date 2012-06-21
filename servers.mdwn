@@ -26,6 +26,7 @@ jQuery(function () {
 **Diagram of meaningful servers**
 
 The table below has more information, and all the servers.
+Blue is public facing, red is critical.
 
 [[!inline pages="media/images/server-diagram.svg" show="1" raw="yes"]]
 
