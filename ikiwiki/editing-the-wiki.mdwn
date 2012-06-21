@@ -7,6 +7,13 @@ Please make sure you have properly configured git:
     git config --global user.name "Panda McFluffy"
     git config --global user.email panpan@ocf.berkeley.edu
 
+Because blight doesn't mount homedirs, git may complain about not being able to lock the .gitconfig. In that case, just make a temporary homedir.
+
+    mkdir /tmp/`whoami`
+    export HOME=/tmp/`whoami`
+
+Then, run *git config* as above.
+
 These instructions are for staffers with root principals. If you don't have a root principal, go to the instructions on the bottom.
 
 # For root staffers
