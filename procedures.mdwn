@@ -1,0 +1,8 @@
+[[!meta title="Procedures"]]
+# OCF Scripts Documentation
+
+Create subpages under this category to document procedures that are commonly used in the OCF.
+
+## Procedures Index
+
+[[!map pages="procedures/* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/*" show="title"]]
