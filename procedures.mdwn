@@ -1,7 +1,7 @@
 [[!meta title="Procedures"]]
-# OCF Scripts Documentation
+# OCF Procedures Documentation
 
-Create subpages under this category to document procedures that are commonly used in the OCF.
+Create subpages under this category to document procedures that are commonly used in the OCF.  They will automatically be added to the index below.
 
 ## Procedures Index
 
