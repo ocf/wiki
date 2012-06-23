@@ -1,0 +1,80 @@
+[[!meta title="Account Creation"]]
+# Creating Accounts
+
+Account creation is a process that requires root-level privileges. Accounts are generally created a week or two after they have been requested, depending on the schedule established by the current Site Manager.
+
+# Instructions
+
+It is recommended that you either start a *tmux* session or open multiple terminals, since it is common for problematic accounts (bad account name, duplicate account request, etc.) to appear and requre investigation during the process.
+
+Account requests are queued and managed on *supernova*.
+
+1. Lock account requests by running (so that no one enqueues an account while you're processing the list):
+
+
+    $ /opt/mlocal/bin/approve -s
+
+
+1. Navigate to the */root/create/bin* directory on *supernova*
+1. Ensure that the problem e-mail queues are empty by confirming that the directory */root/create/bin/email_problems/queues* is empty
+1. Run:
+
+        $ ./checkusernames.sh
+
+1. Run:
+
+        $ ./filter_accounts.py
+
+    - Be very careful during this stage. Accidentally approving or rejecting an account at this stage will be very annoying.
+    - If you encounter a problem:
+        - *grep* the logs at */opt/adm/approved.log* and */opt/adm/approved.users* to investigate
+        - When a problem is confirmed, enqueue an e-mail to the user by running:
+            
+                 $ /root/create/bin/email_problems/enqueue_email.py
+
+1. *filter_accounts.py* will generate the necessary files to inside the *tmp* directory
+1. Run:
+
+        $ kinit -p USERNAME/admin
+
+1. Run (make sure you have *kinit*'ed by now):
+
+        $ ldapadd < tmp/addusers.ldif
+
+1. Create home directories:
+
+        $ ./homedir_add
+
+1. Create *.forward* files. Beware that home directories *must* have been created before this step.
+
+        $ ./forward_add
+
+1. Add kerberos principals:
+
+        $ ./kerberos_add
+
+1. Create the Windows user accounts
+
+    - Copy *tmp/addusers.bat* to */var/tmp*
+    - Change the owner of */var/tmp/addusers.bat* to your individual account
+    - Remote desktop into *biohazard*
+    - Open *powershell* as **administrator**
+    - *scp* the file from *supernova* to your personal directory
+    - Run the file (as **administrator**)
+    - Delete *addusers.bat* from both *supernova:/var/tmp* and wherever you put it on *biohazard*
+
+1. Send "account created" e-mails:
+
+        $ ./sendemails.sh
+
+1. Send "account request had a problem" e-mails:
+
+        $ /root/create/bin/email_problems/send_problem_emails.py
+
+1. Rotate the approved log files:
+
+        $ ./finishaccountcreation.sh
+
+1. Unlock account requests:
+
+        $ /opt/mlocal/bin/approve -d
