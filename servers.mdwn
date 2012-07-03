@@ -1,4 +1,9 @@
 [[!meta title="Servers"]]
+<style type="text/css">
+.dumb-table-header-class {
+  cursor: pointer;
+}
+</style>
 <script type="text/javascript" src="/media/javascript/jquery.min.js"></script>
 <script type="text/javascript" src="/media/javascript/jquery-table-sorter.js"></script>
 <script type="text/javascript">
@@ -12,7 +17,7 @@ var boldSorter = function (node) {
 
 jQuery(function () {
   jQuery("table").tablesorter({
-    cssHeader: "",
+    cssHeader: "dumb-table-header-class",
     textExtraction: boldSorter
     /* headers: {
       3: {
@@ -30,7 +35,7 @@ Blue is public facing, red is critical.
 
 [[!inline pages="media/images/server-diagram.svg" show="1" raw="yes"]]
 
-This table is sortable.
+This table is sortable, click the headers.
 
 Hosts with **unused** are unused.
 [[!serverlist pages="servers/*"]]
