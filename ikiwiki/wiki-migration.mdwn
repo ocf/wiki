@@ -31,7 +31,7 @@ These came from the [old wiki](http://docs.ocf.berkeley.edu/wiki/Special:AllPage
 * Dreamweaver
 * Email support
 * FAQ
-* FastCGI
+* <del>FastCGI</del> Meaningless stub article
 * File permissions
 * File transfer support
 * Finances
