@@ -14,6 +14,7 @@ If you would like an OCF account, [[request an individual account online|https:/
 Your current registration status will be verified electronically. More formally, at least one of the following:
 
 * Current Cal ID
+
 * Current registration card and photo ID
 
 If you are a currently registered student but do not have a form of ID mentioned above, feel free to inquire at [staff@ocf.berkeley.edu](mailto:staff@ocf.berkeley.edu).
@@ -123,7 +124,9 @@ At least one of the following:
 * Copy of a completed Office of Student Life (OSL) form for student groups
 
 * Letter from your department on departmental letterhead stating:
+
   * Departmental recognition of the group
+
   * Departmental support for obtaining the group account
 
 * Documentation establishing that the Chancellor has recognized the group as a support organization and that the person requesting the account is authorized to make the request
