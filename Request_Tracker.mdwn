@@ -13,7 +13,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
      - SQL password: ....
 7. Add the following lines to /etc/apache2/sites-available/default before the ending VirtualHost tag.
 
-    Include /etc/request-tracker4/apache2-modperl2.conf
+        Include /etc/request-tracker4/apache2-modperl2.conf
 
 8. Restart Apache.
 
