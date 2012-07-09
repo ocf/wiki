@@ -1,24 +1,23 @@
-Request Tracker 4.0
+# Request Tracker 4.0
 
-==Installation==
-I basically followed this guide: http://requesttracker.wikia.com/wiki/DebianSqueezeInstallGuide
+## Installation
+Install guide here: http://requesttracker.wikia.com/wiki/DebianSqueezeInstallGuide
 
-1. aptitude install mysql-server rt4-db-mysql
-2. service mysql [status|start|stop|restart]
-3. aptitude install rt4-apache2
-4. aptitude install request-tracker4
+1. Install everything.
+
+        aptitude install mysql-server rt4-db-mysql rt4-apache2 request-tracker4
+
 * Configuration:
-     - name: typhoon.ocf.berkeley.edu
-     - manage RT_SiteConfig.pam: yes
+     - Name: typhoon.ocf.berkeley.edu
+     - Handle RT_SiteConfig.pam: yes
      - SQL password: ....
-5. Go to /etc/request-tracker4 and pick a configuration (ours uses perl)
-6. copy the configuration to /etc/apache2/sites-available
-7. Add the following lines to /etc/apache2/sites-available/default before the ennding VirtualHost tag.
-> Include /etc/request-tracker4/apache2-modperl2.conf <br />
-> RedirectMatch ^/$ /rt <br />
-8. Restart Apache
+7. Add the following lines to /etc/apache2/sites-available/default before the ending VirtualHost tag.
 
-==TODO==
+    Include /etc/request-tracker4/apache2-modperl2.conf
+
+8. Restart Apache.
+
+## Todo
 Link it into OCF mail so that rt receives staff@o.b.e
 
 Look into WebExternalAuth
