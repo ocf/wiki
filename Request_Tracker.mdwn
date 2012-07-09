@@ -37,3 +37,4 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 ## Todo
 * Actually install rt4-clients on sandstorm
 * Find out how to make RT conform to our desired workflow
+* Remove rt from aliases file
