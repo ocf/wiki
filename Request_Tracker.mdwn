@@ -18,9 +18,9 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
         sudo cpan RT::Extension::CommandByMail
 
-  When prompted, the RT lib folder is located at /usr/share/request-tracker4/lib.
+  When prompted, the RT lib folder is located at `/usr/share/request-tracker4/lib`.
 
-  Copy site-specific configuration into /etc/request-tracker4/RT_SiteConfig.d/99-ocf: (this should be puppeted)
+  Copy site-specific configuration into `/etc/request-tracker4/RT_SiteConfig.d/99-ocf`: (this should be puppeted)
 
         Set($WebDomain, 'rt.ocf.berkeley.edu');
         Set($WebBaseURL , "http://rt.ocf.berkeley.edu:80");
@@ -37,11 +37,11 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
   Remove excess newlines courtesy of ikiwiki.
 
-  Regenerate the resultant RT_SiteConfig.pm file:
+  Regenerate the resultant `RT_SiteConfig.pm` file:
 
         sudo update-rt-siteconfig
 
-7. Copy rt.conf into sites-available:
+7. Copy `rt.conf` into `sites-available`:
 
         Alias /rt /usr/share/request-tracker4/html
 
@@ -82,18 +82,18 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
             Plack::Handler::Apache2->preload("/usr/share/request-tracker4/libexec/rt-server");
         </Perl>
 
-  Please ignore the terrible formatting created by ikiwiki, and add this snippet into sites-available/default:
+  Please ignore the terrible formatting created by ikiwiki, and add this snippet into `sites-available/default`:
 
         Include sites-available/rt.conf
         RedirectMatch ^/$ /rt
 
-8. Obtain a keytab for the principal rt/**$RTSERVER**@OCF.BERKELEY.EDU and place it into sites-available/rt.keytab. Make sure it's readable by www-data.
+8. Obtain a keytab for the principal rt/**$RTSERVER**@OCF.BERKELEY.EDU and place it into `sites-available/rt.keytab`. Make sure it's readable by www-data.
 
 8. mod_auth_kerb uses Basic authorization which has no concept of login/logout. Emulate logout behavior by changing the Logout page to send a 401 (works for Chrome), run proprietary IE code (works for IE), and make an Ajax call to a non-existing page with bad credentials (works for Firefox).
 
   This should be fixed so that RT's installation files aren't being directly modified.
 
-  Edit /usr/share/request-tracker4/html/NoAuth/Logout.html:
+  Edit `/usr/share/request-tracker4/html/NoAuth/Logout.html`:
 
   Change 
     
@@ -158,7 +158,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
 10. Set up rt@ to feed mail into rt-mailgate.
 
-  Add or edit the following lines into /var/mail/aliases/aliases:
+  Add or edit the following lines into `/var/mail/aliases/aliases`:
 
         rt: "|/usr/bin/rt-mailgate --queue General --action correspond --url http://typhoon.int.ocf.berkeley.edu/rt"
         rt-comment: "|/usr/bin/rt-mailgate --queue General --action comment --url http://typhoon.int.ocf.berkeley.edu/rt"
@@ -168,7 +168,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 1. The RT root user can't log in while Kerberos password authentication is enabled because of the way mod_auth_kerb works. So, you must first log in with Kerberos credentials to create a user from Kerberos and grant superuser rights on it.
 
   Log in to RT. You will be auto-created and redirected to Self-Service.
-  Disable Kerberos password authentication by commenting out the following lines in sites-available/rt.conf (Apache configuration):
+  Disable Kerberos password authentication by commenting out the following lines in `sites-available/rt.conf` (Apache configuration):
 
         # AuthType Kerberos
         # Require valid-user
@@ -226,7 +226,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
   Change RT root's info so he can be a front for staff@. (Tools > Configuration > Users > Select, click root, change email to staff@ocf.berkeley.edu and Real Name to OCF Staff).
 
-  Make the General queue sound better: Tools > Configuration > Queues > Select, click General, change Description to "OCF Staff". (I think changing the Queue Name would be nice too. If you do that, remember to change the parameters to rt-mailgate in /var/mail/aliases/aliases and re-run newaliases on sandstorm.)
+  Make the General queue sound better: Tools > Configuration > Queues > Select, click General, change Description to "OCF Staff". (I think changing the Queue Name would be nice too. If you do that, remember to change the parameters to rt-mailgate in `/var/mail/aliases/aliases` and re-run newaliases on sandstorm.)
 
   Add root as a watcher for General so staff@ gets automatically Cc'ed to new tickets. Click Watchers in the upper right corner and add root.
 
