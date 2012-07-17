@@ -20,7 +20,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
   When prompted, the RT lib folder is located at `/usr/share/request-tracker4/lib`.
 
-  Copy site-specific configuration into `/etc/request-tracker4/RT_SiteConfig.d/99-ocf`: (this should be puppeted)
+1. Copy site-specific RT configuration into `/etc/request-tracker4/RT_SiteConfig.d/99-ocf`: (this should be puppeted)
 
         Set($WebDomain, 'rt.ocf.berkeley.edu');
         Set($WebBaseURL , "http://rt.ocf.berkeley.edu:80");
@@ -41,7 +41,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
         sudo update-rt-siteconfig
 
-7. Copy `rt.conf` into `sites-available`:
+7. Copy site-specific Apache configuration `rt.conf` into `sites-available`:
 
         Alias /rt /usr/share/request-tracker4/html
 
