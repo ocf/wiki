@@ -232,7 +232,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
 4. Send more mail. 
 
-  By default RT only an autoreply to the requestor on ticket creation. Create a new scrip (RT callback) so that Cc (staff@) gets notified on ticket creation as well.
+  By default RT only sends an autoreply to the requestor on ticket creation. Create a new scrip (RT callback) so that Cc (staff@) gets notified on ticket creation as well.
 
   Create that which is to be mailed: go to Tools > Configuration > Global > Templates > Create.
 
@@ -257,7 +257,7 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
     - Stage: TranscationCreate
   Save changes.
 
-  RT default is set so that AdminCc (Administrative Cc) gets sent mail on private comments (mail sent to rt-comment@). In this configuration, staff are all Ccs, so comment mail won't get sent. Change the existing scrip sending this mail to send it to Ccs on  comment instead.
+  By default RT sends AdminCc (Administrative Cc) gets mail on private comments (mail sent to rt-comment@). In this configuration, staff are all Ccs, so comment mail won't get sent. Change the existing scrip sending this mail to send it to Ccs on  comment instead.
 
   Go to Tools > Configuration > Global > Scrips > Select. Click "8 On Comment Notify AdminCcs as Comment". 
   
