@@ -276,7 +276,10 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
         --action RT::Action::SetStatus --action-arg resolved
 
   References: [1](http://lists.bestpractical.com/pipermail/rt-users/2005-February/028837.html) [2](http://requesttracker.wikia.com/wiki/UntouchedInHours) [3](http://requesttracker.wikia.com/wiki/TimedNotifications)
+## Notes
+* Created users will have incorrect/embarrassing Real Names (for some reason, it grabs the gecos on occasion, so that should be fixed upon first login.
 
 ## Todo
 * Fix Chrome double login, if possible.
+* Implement LDAP authorization. Currently all users can log in. (This doesn't matter very much at all, because users have to be manually privileged and added to staff anyway)
 * Set up ticket autoclose using [[http://requesttracker.wikia.com/wiki/UntouchedInHours]] or [[http://requesttracker.wikia.com/wiki/TimedNotifications]]
