@@ -267,4 +267,4 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
 ## Todo
 * Fix Chrome double login, if possible.
-* Set up ticket autoclose using [[http://requesttracker.wikia.com/wiki/UntouchedInHours]]
+* Set up ticket autoclose using [[http://requesttracker.wikia.com/wiki/UntouchedInHours]] or [[http://requesttracker.wikia.com/wiki/TimedNotifications]]
