@@ -34,4 +34,4 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
 ## Todo
 * Fix (?) Chrome double login. 
-* Make sure email workflow is as we want --> make sure CommandByMail works.
+* Make sure email workflow is as we want --> put in scrip to notify on ticket creation
