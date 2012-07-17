@@ -7,15 +7,15 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
 1. Install everything.
 
-        sudo aptitude install mysql-server rt4-db-mysql rt4-apache2 request-tracker4
+        sudo aptitude install mysql-server rt4-db-mysql rt4-apache2 request-tracker4 libapache-mod-auth-kerb
 
 * Configuration:
      - Name: **$RTSERVER**.ocf.berkeley.edu
-     - Handle RT_SiteConfig.pam permissions: yes
+     - Handle RT_SiteConfig.pm permissions: yes
      - SQL password: ....
-7. Add the following lines to /etc/apache2/sites-available/default before the ending VirtualHost tag.
+7. Copy this into /etc/apache2/sites-available/default
 
-        Include /etc/request-tracker4/apache2-modperl2.conf
+        Coming soon...
 
 8. Restart Apache.
 
@@ -27,12 +27,11 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
 10. Set up rt@ to feed mail into rt-mailgate.
 
-  This implies that the setup desired is that there is an actual OCF user named rt, who has a real home directory, mail account, *etc.* **Edit $RTSERVER below!**
+  For now this is directly written into /var/mail/aliases/aliases. Add this:
 
-        sudo -u rt sh -c \
-        'echo "\"|/usr/bin/rt-mailgate --SOME-MISSING-ARGUMENTS? \
-        --url https://$RTSERVER.ocf.berkeley.edu\"" > ~/.forward'
+        rt: "|/usr/bin/rt-mailgate --queue General --action correspond --url http://typhoon.int.ocf.berkeley.edu/rt"
 
 
 ## Todo
-* Make WebExternalAuth and mod_auth_kerb work
+* Fix (?) Chrome double login. 
+* Make sure email workflow is as we want --> make sure CommandByMail works.
