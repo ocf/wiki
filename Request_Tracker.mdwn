@@ -265,6 +265,18 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
   Save changes.
 
+5. Automatically close tickets.
+
+  This needs to be chained or something to send a template saying that the ticket is closed because it hasn't been modified in 30 days. I don't know what this entails, but the below is a start.
+
+  Put the following into a crontab; you may want to create a rt system user to run this. 
+
+        0 3 * * * /usr/bin/rt-crontool --search RT::Search::FromSQL \
+        --search-arg "LastUpdated < '30 days ago' AND Status = 'open'" \
+        --action RT::Action::SetStatus --action-arg resolved
+
+  References: [1](http://lists.bestpractical.com/pipermail/rt-users/2005-February/028837.html) [2](http://requesttracker.wikia.com/wiki/UntouchedInHours) [3](http://requesttracker.wikia.com/wiki/TimedNotifications)
+
 ## Todo
 * Fix Chrome double login, if possible.
 * Set up ticket autoclose using [[http://requesttracker.wikia.com/wiki/UntouchedInHours]] or [[http://requesttracker.wikia.com/wiki/TimedNotifications]]
