@@ -1,6 +1,6 @@
 # YAML
 ip-address: 128.32.129.214
-maintainers: [kfang]
+maintainers: [tzhu]
 name: typhoon
-services: [Future RT]
+services: [RT]
 # ENDYAML
