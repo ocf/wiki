@@ -71,4 +71,4 @@ The necessary scripts for you to create Django projects are installed on our log
 
         kedo@tsunami$ chmod a+x run.fcgi
 
-1. Double check that your *settings.py* file is *not* readable by any other users, and try not to leave DEBUG set to True in your settings.py.
+1. Double check that your *settings.py* file is *not* readable by any other users, and try not to leave DEBUG set to True in your settings.py. Also note that paths are very finicky for Django (and Python) projects, and incorrect paths will likely be the source of any problems.
