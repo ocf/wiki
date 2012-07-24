@@ -1,16 +1,31 @@
 # Request Tracker 4.0
 
 ## Installation
-Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallGuide]]
 
-*tl;dr:* squeeze-backports required
+Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
-1. Install everything.
+1. Install required packages:
 
-        sudo aptitude install mysql-server rt4-db-mysql rt4-apache2 request-tracker4 libapache-mod-auth-kerb
+        sudo aptitude install mysql-server
+        sudo aptitude install -t squeeze-backports request-tracker4 rt4-db-mysql
 
-* Configuration:
-     - Name: **$RTSERVER**.ocf.berkeley.edu
+  **For Apache 2:** Install
+
+        sudo install libapache-mod-auth-kerb
+        sudo install -t squeeze-backports rt4-apache
+
+  **For Nginx:** Install
+
+        sudo install -t squeeze-backports nginx rt4-fcgi
+
+  and enable the RT FastCGI daemon: in `/etc/default/rt4-fcgi`, edit:
+
+        enabled=1
+
+  Debian packages an obscenely old version of Nginx in stable, so please don't install that. People will laugh at you.
+
+  Configuration by debconf:
+     - Name: rt.ocf.berkeley.edu
      - Handle RT_SiteConfig.pm permissions: yes
      - SQL password: ....
 
@@ -44,55 +59,143 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
 
         sudo update-rt-siteconfig
 
-7. Copy site-specific Apache configuration `rt.conf` into `sites-available`: (Slightly out of date)
+6. Ensure that SSL certificates for `rt.ocf.berkeley.edu` exist at the following locations:
+* Certificate: `/etc/ssl/private/rt_ocf_berkeley_edu.crt`
+* Certificate chain/bundle: `/etc/ssl/private/incommon.crt`
+* Private key: `/etc/ssl/private/rt_ocf_berkeley_edu.key`
 
-        Alias /rt /usr/share/request-tracker4/html
+  **Nginx only:** Create a "chained" certificate file:
 
-        <Location /rt>
-            SetHandler modperl
-            PerlResponseHandler Plack::Handler::Apache2
-            PerlSetVar psgi_app /usr/share/request-tracker4/libexec/rt-server
+        cat rt_ocf_berkeley_edu.crt incommon.crt > rt_ocf_berkeley_edu.chained.crt
 
-            # Comment this to enable root
-            AuthType Kerberos
-            Require valid-user
+7. **For Apache 2:** Copy the following RT configuration file `rt` into `/etc/apache2/sites-available` and link to it from `/etc/apache2/sites-enabled`:
 
-            KrbAuthRealms OCF.BERKELEY.EDU
-            KrbMethodK5Passwd On
-            KrbServiceName rt/rt.ocf.berkeley.edu
-            Krb5KeyTab /etc/apache2/sites-available/rt.keytab
-            # KrbSaveCredentials Off
-            KrbLocalUserMapping On
-        </Location>
+        # Apache configuration file for RT
 
-        # Limit mail gateway access to localhost by default
-        <Location /rt/REST/1.0/NoAuth>
-            # No Kerberos
-            Satisfy Any
-            Order Allow,Deny
-            Allow from 192.168.99.218
-        </Location>
+        <VirtualHost *:80>
+                ServerName rt.ocf.berkeley.edu
+                ServerAlias rt.int.ocf.berkeley.edu
+                RewriteEngine On
+                RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+        </VirtualHost>
 
-        <Location /rt/NoAuth>
-            # No Kerberos
-            Satisfy Any
-            Order Allow,Deny
-            Allow from All
-        </Location>
+        <VirtualHost *:443>
+                ServerName rt.ocf.berkeley.edu
+                ServerAlias rt.int.ocf.berkeley.edu
 
-        <Perl>
-            use Plack::Handler::Apache2;
-            Plack::Handler::Apache2->preload("/usr/share/request-tracker4/libexec/rt-server");
-        </Perl>
+                SSLEngine on
+                SSLCertificateFile /etc/ssl/private/rt_ocf_berkeley_edu.crt
+                SSLCertificateChainFile /etc/ssl/private/incommon.crt
+                SSLCertificateKeyFile /etc/ssl/private/rt_ocf_berkeley_edu.key
 
-  Please ignore the terrible formatting created by ikiwiki, and add this snippet into `sites-available/default`:
+                Alias /rt /usr/share/request-tracker4/html
+                RedirectMatch ^/$ /rt
 
-        Include sites-available/rt.conf
-        RedirectMatch ^/$ /rt
+                <Location /rt>
+                        SetHandler modperl
+                        PerlResponseHandler Plack::Handler::Apache2
+                        PerlSetVar psgi_app /usr/share/request-tracker4/libexec/rt-server
 
-8. Obtain a keytab for the principal rt/**$RTSERVER**@OCF.BERKELEY.EDU and place it into `sites-available/rt.keytab`. Make sure it's readable by www-data.
+                        # Comment this to enable RT-local root
+                        AuthType Kerberos
+                        Require valid-user
 
-8. mod_auth_kerb uses Basic authorization which has no concept of login/logout. Emulate logout behavior by changing the Logout page to send a 401 (works for Chrome), run proprietary IE code (works for IE), and make an Ajax call to a non-existing page with bad credentials (works for Firefox).
+                        KrbServiceName rt/rt.ocf.berkeley.edu
+                        Krb5KeyTab /etc/apache2/sites-available/rt.keytab
+                        KrbLocalUserMapping On
+                </Location>
+
+                <Location /rt/REST/1.0/NoAuth>
+                        # No Kerberos - for rt-mailgate
+                        Satisfy Any
+                        Order Allow,Deny
+                        Allow from 192.168.99.218 # sandstorm.int.ocf.berkeley.edu
+                </Location>
+
+                <Location /rt/NoAuth>
+                        # No Kerberos - login/logout pages
+                        Satisfy Any
+                        Order Allow,Deny
+                        Allow from All
+                </Location>
+
+                <Perl>
+                        use Plack::Handler::Apache2;
+                        Plack::Handler::Apache2->preload("/usr/share/request-tracker4/libexec/rt-server");
+                </Perl>
+
+        </VirtualHost>
+
+  I would like to sincerely apologize for the terrible job ikiwiki has done of mangling this and promise it will look better soon.
+
+  **For Nginx:** Copy the following RT configuration file `rt` into `/etc/nginx/sites-available` and link to it from `/etc/nginx/sites-enabled`:
+
+        # Configuration for RT on Nginx
+        # rt.ocf.berkeley.edu
+
+        server {
+                listen 80;
+                server_name rt.ocf.berkeley.edu rt.int.ocf.berkeley.edu;
+                rewrite ^ https://$server_name$request_uri? permanent;
+        }
+
+
+        server {
+                listen 443;
+                server_name rt.ocf.berkeley.edu rt.int.ocf.berkeley.edu;
+                rewrite ^/$ /rt;
+
+                root /usr/share/request-tracker4;
+
+                location /rt {
+                        # See /usr/share/doc/rt4-fcgi/examples/request-tracker4.conf
+                        expires epoch;
+
+                        # Require the default authentication on typhoon (pam_krb5)
+                        auth_pam "RT";
+                        auth_pam_service_name "common-password";
+
+                        # Proxy over to rt4.
+                        fastcgi_pass unix:/var/run/rt4-fcgi.sock;
+                        include /etc/nginx/fastcgi_params;
+                        fastcgi_param REMOTE_USER $remote_user;
+                        fastcgi_param SCRIPT_NAME "/rt";
+                }
+
+                # Bypass FastCGI for images
+                location /rt/NoAuth/images {
+                        alias           /usr/share/request-tracker4/html/NoAuth/images/;
+                }
+
+                location /rt/REST/1.0/NoAuth {
+                        allow           192.168.99.218; # sandstorm.int.ocf.berkeley.edu
+                        deny            all;
+
+                        fastcgi_pass unix:/var/run/rt4-fcgi.sock;
+                        include /etc/nginx/fastcgi_params;
+                        fastcgi_param REMOTE_USER $remote_user;
+                        fastcgi_param SCRIPT_NAME "/rt";
+                }
+
+                ssl on;
+
+                # Same as apache
+                ssl_certificate /etc/ssl/private/rt_ocf_berkeley_edu.chained.crt;
+                ssl_certificate_key /etc/ssl/private/rt_ocf_berkeley_edu.key;
+
+                ssl_session_timeout 5m;
+                ssl_session_cache shared:SSL:10m;
+
+                ssl_protocols SSLv3 TLSv1;
+                ssl_ciphers ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv3:+EXP;
+                ssl_prefer_server_ciphers on;
+        }
+
+  Remove extraneous newlines inserted by ikiwiki.
+
+8. **Apache 2 only:** Obtain a keytab for the principal rt/rt.ocf.berkeley,edu@OCF.BERKELEY.EDU and place it into `/etc/apache2/sites-available/rt.keytab`. Make sure it's readable by www-data.
+
+8. mod_auth_kerb/ngx_http_auth_pam uses HTTP Basic authorization which has no concept of login/logout. Emulate logout behavior by changing the Logout page to send a 401 (works for Chrome), run proprietary IE code (works for IE), and make an Ajax call to a non-existing page with bad credentials (works for Firefox).
 
   This should be fixed so that RT's installation files aren't being directly modified.
 
@@ -150,33 +253,52 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
         # "Force" logout due to using mod_auth_kerb -- Chrome
         $HTML::Mason::Commands::r->status(401);
 
+  Clear the RT Mason cache.
 
-8. Restart Apache.
+        sudo rm -rf /var/cache/request-tracker4/*
 
-9. Supposing the server RT is installed on isn't also the mail server, install the RT [mailgate program](http://requesttracker.wikia.com/wiki/EmailInterface#RT.27s_mail_gate) on the mail server.
+
+8. **For Apache 2:** Restart Apache.
+
+  **For Nginx:** Restart the RT FastCGI daemon.
+
+        sudo service rt4-fcgi restart
+
+9. Install the RT [mailgate program](http://requesttracker.wikia.com/wiki/EmailInterface#RT.27s_mail_gate) on the mail server.
 
   squeeze-backports is required here too.
 
         sudo aptitude install rt4-clients 
 
-10. Set up rt@ to feed mail into rt-mailgate.
+10. Set up rt@ocf.berkeley.edu to feed mail into rt-mailgate.
 
   Add or edit the following lines into `/var/mail/aliases/aliases`:
 
-        rt: "|/usr/bin/rt-mailgate --queue General --action correspond --url http://typhoon.int.ocf.berkeley.edu/rt"
-        rt-comment: "|/usr/bin/rt-mailgate --queue General --action comment --url http://typhoon.int.ocf.berkeley.edu/rt"
+        rt: "|/usr/bin/rt-mailgate --queue General --action correspond --url https://rt.int.ocf.berkeley.edu/rt"
+        rt-comment: "|/usr/bin/rt-mailgate --queue General --action comment --url https://rt.int.ocf.berkeley.edu/rt"
 
 ## Configuration
 
-1. The RT root user can't log in while Kerberos password authentication is enabled because of the way mod_auth_kerb works. So, you must first log in with Kerberos credentials to create a user from Kerberos and grant superuser rights on it.
+1. The RT root user can't log in while Kerberos password authentication is enabled because of the way `mod_auth_kerb/ngx_http_auth_pam` works. So, you must first log in with Kerberos credentials to create a user from Kerberos and grant superuser rights on it.
 
   Log in to RT. You will be auto-created and redirected to Self-Service.
-  Disable Kerberos password authentication by commenting out the following lines in `sites-available/rt.conf` (Apache configuration):
+  Disable Kerberos password authentication:
+
+  **Apache 2:** Comment out the following lines in `/etc/apache2/sites-available/rt`:
 
         # AuthType Kerberos
         # Require valid-user
 
-  Force-reload apache configuration (service apache2 force-reload) and visit RT again. Log in as RT root.
+  and force-reload Apache configuration (`service apache2 force-reload`).
+
+  **Nginx:** Comment out the following lines in `/etc/nginx/sites-available/rt`:
+
+        # auth_pam "RT";
+        # auth_pam_service_name "common-password";
+
+  and restart Nginx (`service nginx restart`).
+
+1. Visit RT again and log in as RT root.
 
   Go to Tools > Configuration > Users > Select, and type in your username in "Go to user". Enable **Let this user be granted rights (Privileged)**.
 
@@ -290,10 +412,14 @@ Install guide here: [[http://requesttracker.wikia.com/wiki/DebianSqueezeInstallG
         --action RT::Action::SetStatus --action-arg resolved
 
   References: [1](http://lists.bestpractical.com/pipermail/rt-users/2005-February/028837.html) [2](http://requesttracker.wikia.com/wiki/UntouchedInHours) [3](http://requesttracker.wikia.com/wiki/TimedNotifications)
+
 ## Notes
-* Created users will have incorrect/embarrassing Real Names (for some reason, it grabs the gecos on occasion, so that should be fixed upon first login.
+* First-time autocreated users will have incorrect/embarrassing Real Names (for some reason, it grabs the gecos on occasion), so that should be fixed upon first login. Users can also update this information when they feel like it.
 
 ## Todo
 * Fix Chrome double login, if possible.
-* Implement LDAP authorization. Currently all users can log in. (This doesn't matter very much at all, because users have to be manually privileged and added to staff anyway)
+** Doesn't occur when running Nginx, only Apache 2.
 * Set up ticket autoclose using [[http://requesttracker.wikia.com/wiki/UntouchedInHours]] or [[http://requesttracker.wikia.com/wiki/TimedNotifications]]
+
+## References
+* [[http://requesttracker.wikia.com/wiki/HomePage]]
