@@ -59,9 +59,9 @@
 
    Acceptable forms of verification for group signatories include:
 
-  *  as a group signatory
+  * [[Public listing|http://students.berkeley.edu/osl/studentgroups/public/index.asp]] as a group signatory
 
-  * Logging in at the 
+  * Logging in at the [[Student Signatory Login Screen|https://students.berkeley.edu/osl/studentgroups/signatories/index.asp?todo=groupstatus]]
 
   Also, present the appropriate documents for verification of eligibility. Then the staff member will ask you to input a temporary account password.
 
