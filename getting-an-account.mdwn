@@ -3,7 +3,7 @@
 
 ## Before You Begin
 
-* Check the [[account eligibility|services/shell-account/account-eligibility]] page to make sure you are eligible for an OCF account. In general, all currently enrolled students and OSL-registered groups are eligible.
+* Check the [[account eligibility|getting-an-account/account-eligibility]] page to make sure you are eligible for an OCF account. In general, all currently enrolled students and OSL-registered groups are eligible.
 
 * OCF accounts do not expire, so make sure you have not made an account in the past. If you have forgotten your account name or password, please do not request a new account. Instead, reset your [[password|services/shell-account/passwords/]].
 
@@ -11,13 +11,13 @@
 
 ## Individual Accounts
 
-* Individual accounts are associated with a single person and may not be shared. Individual account sharing is a violation of [[OCF policy|http://docs.ocf.berkeley.edu/wiki/Policies:General]] and will result in account deactivation.
+* Individual accounts are associated with a single person and may not be shared. Individual account sharing is a violation of  and will result in account deactivation.
 
 * Individual accounts are not eligible for [[virtual hosting|services/virtual-hosting]].
 
 ###To Get an Individual Account
 
-1. **[[Request an account online|https://secure.ocf.berkeley.edu/account_tools/calnet/login?next=/account_tools/request_account]].**
+1. **.**
 
   Request an account at the link above. You will be prompted to log in with CalNet. Then follow the instructions to make your request. Your account name must be based on your real name.
 
@@ -43,25 +43,25 @@
 
 1. **Prepare appropriate documents and identification.**
 
-  See the [[account eligibility|services/shell-account/account-eligibility]] page for information on the documents and identification you will be asked to present for verification at the time you submit your account form.
+  See the [[account eligibility|getting-an-account/account-eligibility]] page for information on the documents and identification you will be asked to present for verification at the time you submit your account form.
 
 1. **Complete an account form.**
 
-  Print out the [[Group Account Application Form|http://www.ocf.berkeley.edu/services/gaf.pdf]] or pick up a copy at the OCF lab, and fill it out.
+  Print out the  or pick up a copy at the OCF lab, and fill it out.
 
   By completing this form, you agree to the terms on the sheet. (So please read it.)
 
 1. **Submit your account form.**
 
-  Give your account form [[to a staff member|http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi]]. The person requesting the account must be willing to take responsibility for the group account and present University-issued ID, for example, Cal ID.
+  Give your account form . The person requesting the account must be willing to take responsibility for the group account and present University-issued ID, for example, Cal ID.
 
   For OSL-registered groups, the person requesting the account must be a group signatory or bring a signed letter from a group signatory authorizing the person to request the account.
 
    Acceptable forms of verification for group signatories include:
 
-  * [[Public listing|http://students.berkeley.edu/osl/studentgroups/public/index.asp]] as a group signatory
+  *  as a group signatory
 
-  * Logging in at the [[Student Signatory Login Screen|https://students.berkeley.edu/osl/studentgroups/signatories/index.asp?todo=groupstatus]]
+  * Logging in at the 
 
   Also, present the appropriate documents for verification of eligibility. Then the staff member will ask you to input a temporary account password.
 
