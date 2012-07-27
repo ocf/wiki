@@ -53,7 +53,7 @@
 
 1. **Submit your account form.**
 
-  Give your account form . The person requesting the account must be willing to take responsibility for the group account and present University-issued ID, for example, Cal ID.
+  Give your account form [[to a staff member|http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi]]. The person requesting the account must be willing to take responsibility for the group account and present University-issued ID, for example, Cal ID.
 
   For OSL-registered groups, the person requesting the account must be a group signatory or bring a signed letter from a group signatory authorizing the person to request the account.
 
