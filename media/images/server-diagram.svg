@@ -154,7 +154,7 @@
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,93)" stroke-linecap="butt">
             <text x="7.3896" xml:space="preserve" y="177.9238" stroke="none">pileup</text>
-            <text x="-3.1069" xml:space="preserve" y="195.0752" stroke="none">2nd login</text>
+            <text x="-15.1689" xml:space="preserve" y="195.0752" stroke="none">second login</text>
           </g>
         </g>
         <g fill="rgb(51,102,255)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,93)" stroke-linecap="butt" stroke="rgb(51,102,255)">
@@ -202,7 +202,7 @@
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,93)" stroke-linecap="butt">
             <text x="102.6001" xml:space="preserve" y="177.9238" stroke="none">supernova</text>
-            <text x="90.1621" xml:space="preserve" y="195.0752" stroke="none">account mgmt</text>
+            <text x="104.5586" xml:space="preserve" y="195.0752" stroke="none">staff login</text>
           </g>
         </g>
         <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,93)" stroke-miterlimit="1.45">
@@ -250,7 +250,7 @@
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,93)" stroke-linecap="butt">
             <text x="217.6587" xml:space="preserve" y="177.9238" stroke="none">firestorm</text>
-            <text x="237.1069" xml:space="preserve" y="195.0752" stroke="none">krb</text>
+            <text x="215.7036" xml:space="preserve" y="195.0752" stroke="none">krerberos</text>
           </g>
         </g>
         <g fill="red" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,93)" stroke-linecap="butt" stroke="red">
@@ -361,7 +361,7 @@
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,93)" stroke-linecap="butt">
             <text x="844.8242" xml:space="preserve" y="77.9238" stroke="none">jaws</text>
-            <text x="836.2759" xml:space="preserve" y="95.0752" stroke="none">oldwiki</text>
+            <text x="834.3311" xml:space="preserve" y="95.0752" stroke="none">old wiki</text>
           </g>
         </g>
         <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,93)" stroke-miterlimit="1.45">
