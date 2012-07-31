@@ -2,5 +2,5 @@
 ip-address: 128.32.129.237
 maintainers: []
 name: epidemic
-services: [internal NFS server]
+services: [old NFS]
 # ENDYAML

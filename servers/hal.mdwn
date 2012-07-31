@@ -2,5 +2,5 @@
 ip-address: 128.32.129.199
 maintainers: [waf, kedo]
 name: hal
-services: [Xen hypervisor]
+services: [kvm hypervisor]
 # ENDYAML

@@ -30,18 +30,18 @@ These came from the [old wiki](http://docs.ocf.berkeley.edu/wiki/Special:AllPage
 * DokuWiki
 * Dreamweaver
 * Email support
-* FAQ
-* FastCGI
+* <del>FAQ</del> redirect to "Frequently asked questions"
+* <del>FastCGI</del> Meaningless stub article
 * File permissions
 * File transfer support
 * Finances
 * Finances2
 * Fixing corrupt mailboxes
-* Frequently Asked Questions
+* <del>Frequently Asked Questions</del> redirect to "Frequently asked questions"
 * Frequently asked questions
 * Fugu
 * GNOME
-* Getting a subdomain of berkeley.edu domain
+* <del>Getting a subdomain of berkeley.edu domain</del> redirect to "Virtual hosting"
 * Getting an account
 * Getting information about your account
 * Handlers

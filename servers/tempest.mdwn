@@ -2,5 +2,5 @@
 ip-address: 128.32.129.228
 maintainers: [waf]
 name: tempest
-services: [LDAP Kerberos backup]
+services: [Former LDAP/Kerberos backup]
 # ENDYAML

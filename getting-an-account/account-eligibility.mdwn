@@ -1,0 +1,132 @@
+[[!meta title="Account Eligibility"]]
+# Account Eligibility
+
+The following sets of people are eligible for OCF accounts:
+
+[[!toc levels=2]]
+
+The Open Computing Facility provides accounts and services to people who meet at least one of the following eligibility criteria as verified by presentation of the specified documentation:
+
+## UC Berkeley Students
+
+If you would like an OCF account, [[request an individual account online|https://secure.ocf.berkeley.edu/account_tools/calnet/login?next=/account_tools/request_account]] to find out if you are eligible for one. 
+
+Your current registration status will be verified electronically. More formally, at least one of the following:
+
+* Current Cal ID
+
+* Current registration card and photo ID
+
+If you are a currently registered student but do not have a form of ID mentioned above, feel free to inquire at [staff@ocf.berkeley.edu](mailto:staff@ocf.berkeley.edu).
+
+## UC Berkeley Faculty and Staff
+
+* Current UC Berkeley Faculty or Staff ID card
+
+## Postdoctoral, Visiting Scholars, Research Assistants, etc.
+
+* Letter from your department on departmental letterhead stating:
+
+  * Your name
+
+  * Length of appointment
+
+  * Departmental support for obtaining the computer account
+
+  * Signature from your department (other than your own)
+
+  * Signer's contact information for verification purposes
+
+## Lawrence Berkeley National Laboratory (LBNL) Staff
+
+* Current LBNL ID card
+
+## Mathematical Sciences Research Institute (MSRI)
+(postdoc researchers and research professors)
+
+* Letter from your department on departmental letterhead stating:
+
+  * Your name
+
+  * That you hold a valid appointment with the University
+
+  * Departmental support for obtaining the computer account
+
+  * Signature from your department (other than your own)
+
+  * Signer's contact information for verification purposes
+
+## Graduate Theological Union (GTU) Students
+
+* Current student ID card
+
+## ASUC Employees
+
+* Current employee ID card
+
+## UC Berkeley Extension Students
+(students enrolled in certificate programs or concurrently enrolled in a course offered by UC Berkeley)
+
+At least one of the following:
+
+* enrollment in a credit course for classes numbered 1 through 499
+  * via copy of enrollment confirmation
+
+* enrollment in a certificate program
+  * via document and/or receipt for the certificate program
+
+* concurrent enrollment in a UC Berkeley course
+  * via copy of a paid and signed concurrent enrollment form
+
+## UC Berkeley Extension Faculty
+
+* Letter of appointment marked as independent contractor by agreement for a term
+
+## Employees of Other University-affiliated organizations
+(employees who work on UC Berkeley campus (e.g. California Alumni Association, International House, Howard Hughes Medical Institute) or closely associated with the campus (e.g. Richmond Field Station))
+
+* Letter from your organization or unit stating:
+
+  * Your name
+
+  * That you are a current employee of the organization
+
+  * Organizational support for obtaining the computer account
+
+  * Signature from your department (other than your own)
+
+  * Signer's contact information for verification purposes
+
+## Volunteers, Contractors, and Other Individuals
+(people who work on UC Berkeley campus supporting the University)
+
+* Letter from your department on departmental letterhead stating:
+
+  * Your name
+
+  * That you are affiliated with the department
+
+  * Departmental support for obtaining the computer account
+
+  * Signature from your department (other than your own)
+
+  * Signer's contact information for verification purposes
+
+## Student Groups, Staff Groups, or Campus Support Organizations
+See [[Group Account Policy|http://docs.ocf.berkeley.edu/wiki/Policies:General#2_Policies_governing_group_accounts]] for additional restrictions.
+
+At least one of the following:
+
+* [[Public listing |http://students.berkeley.edu/osl/studentgroups/public/index.asp]] as a student group and the person requesting the account as a signatory
+
+* Successful login at the OCF lab into the [[Student Signatory Login Screen|https://students.berkeley.edu/osl/studentgroups/signatories/index.asp?todo=groupstatus]]
+
+* Copy of a completed Office of Student Life (OSL) form for student groups
+
+* Letter from your department on departmental letterhead stating:
+
+  * Departmental recognition of the group
+
+  * Departmental support for obtaining the group account
+
+* Documentation establishing that the Chancellor has recognized the group as a support organization and that the person requesting the account is authorized to make the request
