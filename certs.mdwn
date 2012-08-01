@@ -24,7 +24,7 @@ See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/C
       * Country Name:  US
       * State or Province:  California
       * Locality:   Berkeley
-      * Organization Name:  University of California, Berkeley
+      * Organization Name:  University of California at Berkeley
       * Organizational Unit Name:  OCF or Open Computing Facility
       * Common Name:  The FQDN of the server
       * Email Address:  staff@ocf.berkeley.edu
