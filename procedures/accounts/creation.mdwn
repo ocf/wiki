@@ -12,7 +12,7 @@ Account requests are queued and managed on *supernova*.
 1. Lock account requests by running (so that no one enqueues an account while you're processing the list):
 
 
-    $ /opt/mlocal/bin/approve -s
+        $ /opt/mlocal/bin/approve -s
 
 
 1. Navigate to the */root/create/bin* directory on *supernova*
