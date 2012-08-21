@@ -4,3 +4,4 @@
   * Add yourself to the [[staff list|staff]]
 * Get permission to push to the [OCF GitHub repository](https://github.com/OCF)
 * Be added to the kerberos admin group
+* Be mentored on using puppet
