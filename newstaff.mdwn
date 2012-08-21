@@ -1,0 +1,6 @@
+# Things to Do When You Join Staff
+
+* [[Set up a wiki account|ikiwiki/editing-the-wiki]]
+  * Add yourself to the [[staff list|staff]]
+* Get permission to push to the [OCF GitHub repository](https://github.com/OCF)
+* Be added to the kerberos admin group
