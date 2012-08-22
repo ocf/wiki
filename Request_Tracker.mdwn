@@ -374,15 +374,7 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
   Save changes.
 
-  Create the scrip which uses this template: go to Tools > Configuration > Global > Scrips > Create. 
-
-  Create a scrip with the following parameters:
-    - Name: On Create Notify Ccs
-    - Condition: On Create
-    - Action: Notify Ccs
-    - Template: Global Template: Correspondence Creation
-    - Stage: TranscationCreate
-  Save changes.
+  Modify the scrip "On Create Notify AdminCcs" to use the template "Global Template: Correspondence Creation".
 
   By default RT sends AdminCc (Administrative Cc) gets mail on private comments (mail sent to rt-comment@). In this configuration, staff are all Ccs, so comment mail won't get sent. Change the existing scrip sending this mail to send it to Ccs on  comment instead.
 
