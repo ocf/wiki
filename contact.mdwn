@@ -12,7 +12,7 @@ Please note: OCF staff members will *not* ask for your password or student ID.
 
 We have several different mailing lists, each of which may be read by a different set of volunteers, depending on interest and knowledge. *In all cases, please remember not to send us your password over email, or we will disable your account.*
 
-[staff@ocf.berkeley.edu](mailto:staff@ocf.berkeley.edu)
+[help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
 
 * The most general address -- any questions about OCF accounts, services, or anything else not covered below should be sent here. Your mail will be seen by all of staff, so will usually be answered much faster than if you mail any one staff member. (And you may get a better answer, since all our staff members have different areas of expertise, and you may not pick the best one for your question.)
 
