@@ -376,14 +376,6 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
   Modify the scrip "On Create Notify AdminCcs" to use the template "Global Template: Correspondence Creation".
 
-  By default RT sends AdminCc (Administrative Cc) gets mail on private comments (mail sent to rt-comment@). In this configuration, staff are all Ccs, so comment mail won't get sent. Change the existing scrip sending this mail to send it to Ccs on  comment instead.
-
-  Go to Tools > Configuration > Global > Scrips > Select. Click "8 On Comment Notify AdminCcs as Comment". 
-  
-  Change the Description to "On Comment Notify Ccs as Comment" and the Action to "Notify Ccs as Comment".
-
-  Save changes.
-
 4. Send spoofed mail.
 
   Mail in the past has come from actual people, not endless drones of "via RT". Let's fake that for people who are uncomfortable with change. At the top of Correspondence, Admin Correspondence, Admin Comment, and Correspondence Creation templates, append the following below the last mail header that appears, if any exist:
