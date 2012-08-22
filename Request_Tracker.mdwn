@@ -394,7 +394,7 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
 4. Send spoofed mail.
 
-  Mail in the past has come from actual people, not endless drones of "via RT". Let's fake that for people who are uncomfortable with change. At the top of Correspondence, Admin Comment, and Correspondence Creation templates, append the following below the last mail header that appears, if any exist:
+  Mail in the past has come from actual people, not endless drones of "via RT". Let's fake that for people who are uncomfortable with change. At the top of Correspondence, Admin Correspondence, Admin Comment, and Correspondence Creation templates, append the following below the last mail header that appears, if any exist:
 
         From: {
           my $u = $Transaction->CreatorObj;
