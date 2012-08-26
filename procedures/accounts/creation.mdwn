@@ -53,16 +53,6 @@ Account requests are queued and managed on *supernova*.
 
         $ ./kerberos_add
 
-1. Create the Windows user accounts
-
-    - Copy *tmp/addusers.bat* to */var/tmp*
-    - Change the owner of */var/tmp/addusers.bat* to your individual account
-    - Remote desktop into *biohazard*
-    - Open *powershell* as **administrator**
-    - *scp* the file from *supernova* to your personal directory
-    - Run the file (as **administrator**)
-    - Delete *addusers.bat* from both *supernova:/var/tmp* and wherever you put it on *biohazard*
-
 1. Send "account created" e-mails:
 
         $ ./sendemails.sh
