@@ -109,7 +109,7 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
                         # No Kerberos - for rt-mailgate
                         Satisfy Any
                         Order Allow,Deny
-                        Allow from 192.168.99.218 # sandstorm.int.ocf.berkeley.edu
+                        Allow from 128.32.129.218 # sandstorm.ocf.berkeley.edu
                 </Location>
 
                 <Location /rt/NoAuth>
@@ -168,7 +168,7 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
                 }
 
                 location /rt/REST/1.0/NoAuth {
-                        allow           192.168.99.218; # sandstorm.int.ocf.berkeley.edu
+                        allow           128.32.129.218; # sandstorm.ocf.berkeley.edu
                         deny            all;
 
                         fastcgi_pass unix:/var/run/rt4-fcgi.sock;
