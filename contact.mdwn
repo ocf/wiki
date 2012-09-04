@@ -8,7 +8,7 @@ Please note: OCF staff members will *not* ask for your password or student ID.
 
 [[!toc levels=2]]
 
-# Email
+## Email
 
 We have several different mailing lists, each of which may be read by a different set of volunteers, depending on interest and knowledge. *In all cases, please remember not to send us your password over email, or we will disable your account.*
 
@@ -32,15 +32,15 @@ We have several different mailing lists, each of which may be read by a differen
 
 * The OCF Printer & Inventory Management Personnel(s) are available to answer questions about print quotas, paper usage, requests for page accounting reviews and for general OCF Inventory availability. Currently jointly managed by the OCF General Manager and Site Managers.
 
-# In person
+## In person
 
-## When
+### When
 
 Our *staff members* will be in the computing lab during the listed [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
 The *OCF lab* is officially open weekdays from 9 AM to 6 PM, Saturdays from 11 AM to 6 PM, and Sundays from 12 PM to 5 PM. (OCF Staff may not be present during all of these hours.)
 
-## Where
+### Where
 
 We are located in the basement of Hearst Gym (west entrance), Room 6A. You will need to show your student ID when you enter the OCF.
 
