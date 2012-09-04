@@ -42,7 +42,7 @@ The *OCF lab* is officially open weekdays from 9 AM to 6 PM, Saturdays from 11 A
 
 ## Where
 
-We are located on the ground floor of [Eshleman Hall](http://www.berkeley.edu/map/maps/DE34.html). You will need to show your student ID when you enter the OCF.
+We are located in the basement of Hearst Gym (west entrance), Room 6A. You will need to show your student ID when you enter the OCF.
 
 ## Telephone
 Phoning us is not the best way to reach OCF staff.  We check our email more often and are able to solve most problems that way.  If you must call us, please make sure to leave your name, OCF username (if you already have one), a phone number we can reach you at, and (preferably) an email address we can reach you at.
@@ -54,7 +54,5 @@ To leave a message at our voicemail box, call *81-OCFSTAFF (816-237-8233)*. Plea
 Our mailing address is:
 
 > ASUC/Open Computing Facility<br />
-> 400 Eshleman Hall PLC 4500<br />
-> Berkeley CA  94720-4500<br />
-
-Note: This is the mailing address, not the location of the lab. The lab is located on floor G, one floor below surface street level.
+> 6A Hearst Gym MC 4520<br />
+> Berkeley CA  94720-4520<br />
