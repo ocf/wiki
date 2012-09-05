@@ -4,7 +4,7 @@ There are several ways to contact us. Email is our preferred method of contact.
 
 Please reference your OCF account name when contacting staff. If you are experiencing a particular issue, it may be helpful to also reference the software you are using and any error messages encountered. 
 
-Please note: OCF staff members will *not* ask for your password or student ID.
+Please note: OCF staff members will *NEVER* ask for your password.
 
 [[!toc levels=2]]
 
