@@ -8,6 +8,18 @@ Please note: OCF staff members will *NEVER* ask for your password.
 
 [[!toc levels=2]]
 
+## Before contacting us (mini-FAQ)
+
+Please make sure your question isn't already answered below.
+
+1. It's been a week since I registered for an account, but I don't even know my password!
+
+  Account creation consists of "approve" and "create. "Approve" is when we verify your eligibility for an account, which is done through CalNet now. "Create", on the other hand, is done manually in batches by a Site Manager, usually every 1-2 weeks. You will receive an email when your account is created.
+
+2. How do I get <yourgroup>.berkeley.edu?
+
+  First, your group needs to have an account. When it gets one, email [sm+vhost@ocf.berkeley.edu](mailto:sm+vhost@ocf.berkeley.edu) to request that address. (It's not automatic because we have to ask IST in turn for the address.)
+
 ## Email
 
 We have several different mailing lists, each of which may be read by a different set of volunteers, depending on interest and knowledge. *In all cases, please remember not to send us your password over email, or we will disable your account.*
