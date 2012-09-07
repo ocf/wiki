@@ -14,10 +14,12 @@ orthogonal to each other and some require each other.
   * This originates from PAM configuration and /etc/sudoers.
 
 > /etc/pam.d/sudo:
-> # OCF Config
+>
+> \# OCF Config
 > auth required /lib/security/pam_krb5.so alt_auth_map=%s/root only_alt_auth use_first_pass debug minimum_uid=1000
-
+>
 > /etc/sudoers:
+>
 > %admin ALL=(ALL) ALL
 
 * /admin Principal.
@@ -25,7 +27,8 @@ orthogonal to each other and some require each other.
   * These are in fact two separate things, but are typically granted at the same time.
   * The ability to write to LDAP originates in OpenLDAP configuration (ldap:/etc/ldap/slapd.conf):
 
-> # Allow read over ssl or kerberos, and write by only admins
+> \# Allow read over ssl or kerberos, and write by only admins
+> 
 > access to * by sasl_ssf=56 dn.regex="^uid=[^,/]+/admin,cn=GSSAPI,cn=auth$$" write
 
   * The ability to write to Kerberos originates in the Kerberos ACL (kerberos:/etc/heimdal-kdc/kadmimd.acl):
