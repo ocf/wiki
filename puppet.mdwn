@@ -9,8 +9,8 @@ When puppeting new machines, you should do so in your own puppet environment. Pu
 ## Creating Your Puppet Environment
 To create your own puppet environment, do:
 
-    kedo@lightning:/opt/puppet/env$ sudo git clone /etc/puppet kedo
-    kedo@lightning:/opt/puppet/env$ sudo chown -R kedo:ocfstaff kedo
+    $USER@lightning:/opt/puppet/env$ sudo git clone /etc/puppet $USER
+    $USER@lightning:/opt/puppet/env$ sudo chown -R $USER:ocfstaff $USER
 
 You can commit changes to your environment as you work. When you're done, ask an SM to pull from your environment into the production */etc/puppet* repo.
 
