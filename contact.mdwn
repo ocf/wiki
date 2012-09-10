@@ -8,11 +8,18 @@ Please reference your OCF account name (if known) when contacting OCF staff. If 
 
 ## Before contacting us (mini-FAQ)
 
-Please make sure your question isn't already answered below.
+Please make sure your question isn't already answered below. Please conserve our valuable volunteer manpower. Interested in [joining staff](http://www.ocf.berkeley.edu/OCF/staff/)?
 
 * How do I get an OCF account?
 
   For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/virtual-hosting/]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+
+  [Account eligibility](http://docs.ocf.berkeley.edu/wiki/Account_eligibility)<br />
+  [More information](http://docs.ocf.berkeley.edu/wiki/Getting_an_account)
+
+* I have an old account. Will it still work?
+
+  It should still work. If it's been inactive for several years, you may have to see a Manager during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi) to get it re-enabled.
 
 * I forgot my username or password. 
 
@@ -20,7 +27,7 @@ Please make sure your question isn't already answered below.
 
   For group account password resets, make sure that the person coming in to reset the password brings sufficient documentation to demonstrate that he or she is authorized to reset the account password. The person requesting the password reset must be a group signatory or have a signed letter from a signatory authorizing them to reset the account password. For groups registered with the Office of Student Life, either public listing as a signatory or logging into your Student Affairs registration status is an acceptable form of verification.
 
-  For more information (including password resets by snail mail), see [Passwords](http://docs.ocf.berkeley.edu/wiki/Passwords).
+  [More information](http://docs.ocf.berkeley.edu/wiki/Passwords) (including password resets by snail mail)
 
 * It's been a week since I registered for an account, what happened!
 
@@ -28,7 +35,7 @@ Please make sure your question isn't already answered below.
 
 * How do I get group.berkeley.edu ([[virtual hosting|services/virtual-hosting/]])?
 
-  First, your group needs to have an account and a working website. Then, see ([[virtual hosting|services/virtual-hosting/]].
+  First, your group needs to have an account and a working website. Then, request [[virtual hosting|services/virtual-hosting/]].
 
 ## In person
 
@@ -44,7 +51,7 @@ We are located in the basement of Hearst Gym (west entrance), Room 6A. You will 
 
 ## Email
 
-*In all cases, please remember **not** to send us your password over email, or your account will be disabled.*
+In all cases, please remember **not** to send us your password over email, or your account will be disabled.
 
 * [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
 
@@ -56,19 +63,19 @@ We are located in the basement of Hearst Gym (west entrance), Room 6A. You will 
 
 * [general-manager@ocf.berkeley.edu](mailto:general-manager@ocf.berkeley.edu)
 
-  The OCF General Manager is in charge of managing the OCF organization, and serves as chair of the OCF Board of Directors. Any administrative matters not related to the operation of OCF computing services can be sent here. The General Manager can also hear appeals to overturn any decision of the OCF Site Manager. 
+  The OCF General Manager is in charge of managing the OCF organization, and serves as chair of the OCF Board of Directors. Any administrative matters not related to the operation of OCF computing services can be sent here. The General Manager can also hear appeals to overturn any decision of the OCF Site Manager.
 
 ## Telephone
 
-Phoning us is not the best way to reach OCF staff. During lab hours, the phone forwards to the ASUC Publications Center (non-OCF front desk lab staff).
+Phoning us is not the best way to reach OCF staff. During lab hours, the phone forwards to the ASUC Publications Center (ASUC Auxiliary front desk staff).
 
-If you must call us, please make sure to leave your name, OCF username (if you already have one), a phone number we can reach you at, and (preferably) an email address we can reach you at.
+If you must call us, please make sure to leave your name, OCF username (if known), a phone number we can reach you at, and (preferably) an email address we can reach you at.
 
-* *81-OCFSTAFF (816-237-8233)*.
+* *81-OCFSTAFF (816-237-8233)*
 
   While we make every effort to check our voicemail regularly, it may take several days to respond to phone queries.
 
-## Postal mail
+## Snail mail
 
 Our mailing address is:
 
