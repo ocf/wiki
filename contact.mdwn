@@ -1,10 +1,8 @@
 [[!meta title="Contact Us"]]
 
-There are several ways to contact us. Email is our preferred method of contact.
+There are several ways to contact us, student volunteers, aka OCF staff. In person is generally preferable, otherwise email is preferable to phone and snail mail.
 
-Please reference your OCF account name when contacting staff. If you are experiencing a particular issue, it may be helpful to also reference the software you are using and any error messages encountered. 
-
-Please note: OCF staff members will *NEVER* ask for your password.
+Please reference your OCF account name (if known) when contacting OCF staff. If you are experiencing a particular issue, it may be helpful to also reference the software you are using and any error messages encountered. 
 
 [[!toc levels=2]]
 
@@ -12,54 +10,63 @@ Please note: OCF staff members will *NEVER* ask for your password.
 
 Please make sure your question isn't already answered below.
 
-1. It's been a week since I registered for an account, but I don't even know my password!
+* How do I get an OCF account?
 
-  Account creation consists of "approve" and "create. "Approve" is when we verify your eligibility for an account, which is done through CalNet now. "Create", on the other hand, is done manually in batches by a Site Manager, usually every 1-2 weeks. You will receive an email when your account is created.
+  For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/virtual-hosting/]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
-2. How do I get <yourgroup>.berkeley.edu?
+* I forgot my username or password. 
 
-  First, your group needs to have an account. When it gets one, email [sm+vhost@ocf.berkeley.edu](mailto:sm+vhost@ocf.berkeley.edu) to request that address. (It's not automatic because we have to ask IST in turn for the address.)
+  Ordinarily individual accounts can be [reset online](https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access), but because of technical issues both individual and group accounts password resets will need to be done by an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
-## Email
+  For group account password resets, make sure that the person coming in to reset the password brings sufficient documentation to demonstrate that he or she is authorized to reset the account password. The person requesting the password reset must be a group signatory or have a signed letter from a signatory authorizing them to reset the account password. For groups registered with the Office of Student Life, either public listing as a signatory or logging into your Student Affairs registration status is an acceptable form of verification.
 
-We have several different mailing lists, each of which may be read by a different set of volunteers, depending on interest and knowledge. *In all cases, please remember not to send us your password over email, or we will disable your account.*
+  For more information (including password resets by snail mail), see [Passwords](http://docs.ocf.berkeley.edu/wiki/Passwords).
 
-[help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
+* It's been a week since I registered for an account, what happened!
 
-* The most general address -- any questions about OCF accounts, services, or anything else not covered below should be sent here. Your mail will be seen by all of staff, so will usually be answered much faster than if you mail any one staff member. (And you may get a better answer, since all our staff members have different areas of expertise, and you may not pick the best one for your question.)
+  Account creation consists of "approve" and "create. "Approve" is when we record your request for an account, which uses CalNet for individual accounts. "Create", on the other hand, is done manually in batches by a Site Manager, usually every 1-2 weeks. You will receive an email when your account is created.
 
-[site-manager@ocf.berkeley.edu](mailto:site-manager@ocf.berkeley.edu)
+* How do I get group.berkeley.edu ([[virtual hosting|services/virtual-hosting/]])?
 
-* The OCF Site Manager(s) are responsible for running OCF machines and supervising OCF Staff. This is the place to mail if you would like to join OCF Staff, or if you have any comments/complaints about the actions of OCF Staff. Any staff decision, such as suspending an account for misuse, may be appealed to the Site Manager(s). 
-
-[general-manager@ocf.berkeley.edu](mailto:general-manager@ocf.berkeley.edu)
-
-* The OCF General Manager is in charge of managing the OCF organization, and serves as chair of the OCF Board of Directors. Any administrative matters not related to the operation of OCF computing services should be sent here. The General Manager is also the person who can hear appeals to overturn any decision of the OCF Site Manager. 
-
-[BoD@ocf.berkeley.edu](mailto:bod@ocf.berkeley.edu)
-
-* The OCF Board of Directors sets the policies for the OCF, and makes most major decisions. They can also overturn any decision made by the OCF General Manager or Site Managers, or OCF Staff. The Board generally meets weekly during the semester.
-
-[paper@ocf.berkeley.edu](mailto:paper@ocf.berkeley.edu)
-
-* The OCF Printer & Inventory Management Personnel(s) are available to answer questions about print quotas, paper usage, requests for page accounting reviews and for general OCF Inventory availability. Currently jointly managed by the OCF General Manager and Site Managers.
+  First, your group needs to have an account and a working website. Then, see ([[virtual hosting|services/virtual-hosting/]].
 
 ## In person
 
 ### When
 
-Our *staff members* will be in the computing lab during the listed [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+The lab is officially open weekdays from 9 AM to 6 PM, Saturdays from 11 AM to 6 PM, and Sundays from 12 PM to 5 PM. (OCF staff members are not present during all of these hours.)
 
-The *OCF lab* is officially open weekdays from 9 AM to 6 PM, Saturdays from 11 AM to 6 PM, and Sundays from 12 PM to 5 PM. (OCF Staff may not be present during all of these hours.)
+OCF staff members will be in the lab during the listed [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi), and intermittently at other times.
 
 ### Where
 
 We are located in the basement of Hearst Gym (west entrance), Room 6A. You will need to show your student ID when you enter the OCF.
 
-## Telephone
-Phoning us is not the best way to reach OCF staff.  We check our email more often and are able to solve most problems that way.  If you must call us, please make sure to leave your name, OCF username (if you already have one), a phone number we can reach you at, and (preferably) an email address we can reach you at.
+## Email
 
-To leave a message at our voicemail box, call *81-OCFSTAFF (816-237-8233)*. Please note that this is a voicemail box only: you will not be able to speak to a human being by calling this number. While we make every effort to check our voicemail regularly, it may take several days to respond to phone queries.
+*In all cases, please remember **not** to send us your password over email, or your account will be disabled.*
+
+* [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
+
+  The most general address -- any questions about OCF accounts, services, and joining staff can be sent here. Your mail will be seen by all OCF staff.
+
+* [site-manager@ocf.berkeley.edu](mailto:site-manager@ocf.berkeley.edu)
+
+  The OCF Site Manager(s) are responsible for running OCF machines and supervising OCF Staff. This is the place to mail if you have any comments/complaints about the actions of OCF Staff. Any staff decision may be appealed to the Site Manager(s).
+
+* [general-manager@ocf.berkeley.edu](mailto:general-manager@ocf.berkeley.edu)
+
+  The OCF General Manager is in charge of managing the OCF organization, and serves as chair of the OCF Board of Directors. Any administrative matters not related to the operation of OCF computing services can be sent here. The General Manager can also hear appeals to overturn any decision of the OCF Site Manager. 
+
+## Telephone
+
+Phoning us is not the best way to reach OCF staff. During lab hours, the phone forwards to the ASUC Publications Center (non-OCF front desk lab staff).
+
+If you must call us, please make sure to leave your name, OCF username (if you already have one), a phone number we can reach you at, and (preferably) an email address we can reach you at.
+
+* *81-OCFSTAFF (816-237-8233)*.
+
+  While we make every effort to check our voicemail regularly, it may take several days to respond to phone queries.
 
 ## Postal mail
 
