@@ -1,3 +1,4 @@
+[[!meta title="Administrative Powers"]]
 There are several administrative powers granted to staff. Some of these are
 orthogonal to each other and some require each other.
 
