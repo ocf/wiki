@@ -1,3 +1,4 @@
+[[!meta title="New Staff Checklist"]]
 # Things to Do When You Join Staff
 
 * [[Set up a wiki account|ikiwiki/editing-the-wiki]]
