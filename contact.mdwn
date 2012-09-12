@@ -41,7 +41,7 @@ Please make sure your question isn't already answered below. Please conserve our
 
 ### When
 
-The lab is officially open weekdays from 9 AM to 6 PM, Saturdays from 11 AM to 6 PM, and Sundays from 12 PM to 5 PM. (OCF staff members are not present during all of these hours.)
+The lab is officially open weekdays from **9 AM to 6 PM**, Saturdays from **11 AM to 6 PM**, and Sundays from **12 PM to 5 PM**. (OCF staff members are not present during all of these hours.)
 
 OCF staff members will be in the lab during the listed [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi), and intermittently at other times.
 
