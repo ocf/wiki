@@ -82,3 +82,7 @@ Our mailing address is:
 > ASUC/Open Computing Facility<br />
 > 6A Hearst Gym MC 4520<br />
 > Berkeley CA  94720-4520<br />
+
+## Legal
+
+Use of OCF resources in violation of applicable [campus policies](https://security.berkeley.edu/node/60), regulations, and laws, including copyright, is not allowed, and repeat infringement is not tolerated. DMCA takedown notices must comply with 17 U.S.C. § 512(c)(3) and be sent to the [designated agent at UC Berkeley](http://www.copyright.gov/onlinesp/agents/u/univ_ca_berkeley.pdf). We also recommend sending a copy of the notice to the OCF directly for faster response.
