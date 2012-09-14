@@ -10,12 +10,16 @@ Please reference your OCF account name (if known) when contacting OCF staff. If 
 
 Please make sure your question isn't already answered below. Please conserve our valuable volunteer manpower. Interested in [joining staff](http://www.ocf.berkeley.edu/OCF/staff/)?
 
+* What are lab hours?
+
+  See in person contact information [below](#index1h3).
+
 * How do I get an OCF account?
 
   For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/virtual-hosting/]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
-  [Account eligibility](http://docs.ocf.berkeley.edu/wiki/Account_eligibility)<br />
-  [More information](http://docs.ocf.berkeley.edu/wiki/Getting_an_account)
+  [[Account eligibility|getting-an-account/account-eligibility]]<br/>
+  [[More information|getting-an-account]]
 
 * I have an old account. Will it still work?
 
@@ -41,7 +45,7 @@ Please make sure your question isn't already answered below. Please conserve our
 
 ### When
 
-The lab is officially open weekdays from **9 AM to 6 PM**, Saturdays from **11 AM to 6 PM**, and Sundays from **12 PM to 5 PM**. (OCF staff members are not present during all of these hours.)
+The lab is officially open during the ASUC Publications Center hours, currently weekdays from **9 AM to 6 PM**, Saturdays from **11 AM to 6 PM**, and Sundays from **12 PM to 5 PM**. (OCF staff members are not present during all of these hours.)
 
 OCF staff members will be in the lab during the listed [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi), and intermittently at other times.
 
@@ -67,7 +71,7 @@ In all cases, please remember **not** to send us your password over email, or yo
 
 ## Telephone
 
-Phoning us is not the best way to reach OCF staff. During lab hours, the phone forwards to the ASUC Publications Center (ASUC Auxiliary front desk staff).
+Phoning us is not the best way to reach OCF staff. During lab hours, the phone forwards to the ASUC Publications Center.
 
 If you must call us, please make sure to leave your name, OCF username (if known), a phone number we can reach you at, and (preferably) an email address we can reach you at.
 
