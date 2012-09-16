@@ -27,9 +27,9 @@ Please make sure your question isn't already answered below. Please conserve our
 
 * I forgot my username or password. 
 
-  Ordinarily individual accounts can be [reset online](https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access), but because of technical issues both individual and group accounts password resets will need to be done by an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+  For individual accounts, you can [find your username or reset your password online](https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access).
 
-  For group account password resets, make sure that the person coming in to reset the password brings sufficient documentation to demonstrate that he or she is authorized to reset the account password. The person requesting the password reset must be a group signatory or have a signed letter from a signatory authorizing them to reset the account password. For groups registered with the Office of Student Life, either public listing as a signatory or logging into your Student Affairs registration status is an acceptable form of verification.
+  For group account password resets, you will need to see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi). Make sure that the person coming in to reset the password brings sufficient documentation to demonstrate that he or she is authorized to reset the account password. The person requesting the password reset must be a group signatory or have a signed letter from a signatory authorizing them to reset the account password. For groups registered with the Office of Student Life, either public listing as a signatory or logging into your Student Affairs registration status is an acceptable form of verification.
 
   [More information](http://docs.ocf.berkeley.edu/wiki/Passwords) (including password resets by snail mail)
 
