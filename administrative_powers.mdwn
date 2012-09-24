@@ -1,7 +1,7 @@
 [[!meta title="Administrative Powers"]]
 **There are several administrative powers granted to staff. Some of these are orthogonal to each other and some require each other.**
 
-# `/root` Principal 
+# <a id="rootprincipal"></a>`/root` Principal 
 This principal grants the user the ability to change passwords.
 
 This is because chpass calls cpw, which requires the `change-password` privilege.
@@ -9,7 +9,7 @@ The permission to do this originates in the Kerberos administrative ACL (`kerber
 
     username/root@OCF.BERKELEY.EDU             change-password                         *@OCF.BERKELEY.EDU
     
-# `admin` Group
+# <a id="admingroup"></a>`admin` Group
 
 This group grants the user the ability to sudo (become root) on most OCF servers.
 The ability to become root also requires the existence of a /root principal.
@@ -25,7 +25,7 @@ This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
 
     %admin ALL=(ALL) ALL
 
-# `/admin` Principal
+# <a id="adminprincipal"></a>`/admin` Principal
 
 This principal grants the user the ability to write to LDAP and the ability to write to Kerberos.
 These are in fact two separate things, but are typically granted at the same time.
@@ -42,4 +42,3 @@ The ability to write to Kerberos originates in the Kerberos administrative ACL (
 # Local root passwords
 
 This file holds local root access to OCF machines.
-
