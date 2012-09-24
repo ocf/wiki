@@ -15,7 +15,7 @@
 
 ## Root Staff
 
-* Be added to [[group admin|administrative_powers#groupadmin]]
+* Be added to [[group admin|administrative_powers#admingroup]]
 
 ## Site Manager
 
