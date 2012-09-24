@@ -1,9 +1,22 @@
 [[!meta title="New Staff Checklist"]]
-# Things to Do When You Join Staff
+# Things to do when you become...
+
+## New Staff
 
 * [[Set up a wiki account|ikiwiki/editing-the-wiki]]
-  * Add yourself to the [[staff list|staff]]
+* Add yourself to the [[staff list|staff]]
 * Get permission to push to the [OCF GitHub repository](https://github.com/OCF)
-* Be added to the kerberos admin group and given root principal
 * Be added to staff group on the [bug tracker](https://rt.ocf.berkeley.edu/)
 * Be mentored on using puppet
+
+## Semi-Root Staff
+
+* Be granted a kerberos root principal
+
+## Root Staff
+
+* Be added to group admin
+
+## Site Manager
+
+* Be granted a kerberos admin principal
