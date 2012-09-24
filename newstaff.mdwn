@@ -11,12 +11,12 @@
 
 ## Semi-Root Staff
 
-* Be granted a kerberos root principal
+* Be granted a [[kerberos root principal|administrative_powers#rootprincipal]]
 
 ## Root Staff
 
-* Be added to group admin
+* Be added to [[group admin|administrative_powers#groupadmin]]
 
 ## Site Manager
 
-* Be granted a kerberos admin principal
+* Be granted a [[kerberos admin principal|administrative_powers#adminprincipal]]
