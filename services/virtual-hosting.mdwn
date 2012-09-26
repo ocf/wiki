@@ -1,7 +1,7 @@
 [[!meta title="Virtual Hosting"]]
 # Virtual Hosting
 
-Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox or elsewhere.
+Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox or elsewhere, if explicitly requested.
 
 OCF provides virtual hosting for **group accounts only**.
 
