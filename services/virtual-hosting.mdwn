@@ -1,7 +1,7 @@
 [[!meta title="Virtual Hosting"]]
 # Virtual Hosting
 
-Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox or elsewhere, if explicitly requested.
+Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox.
 
 OCF provides virtual hosting for **group accounts only**.
 
@@ -9,7 +9,7 @@ OCF provides virtual hosting for **group accounts only**.
 
 *   Virtual hosting is not enabled by default.
 *   After the virtual host is set up, the files in the `public_html` directory of your group account (ordinarily accessible at `http://www.ocf.berkeley.edu/~accountname`) will appear at the root directory of the virtual-hosted site (`yourgroup.berkeley.edu`).
-*   You can also request that all mail sent to your virtual host be redirected to your group account. You can forward the mail sent to different addresses in your virtual host by using `.forward+` files (note the leading dot). For example, if you have a file named `.forward+secretary` in your group account's home directory, all mail sent to `secretary@yourgroup.berkeley.edu` will be processed using the directions in this file. All other mail will be delivered to the group account mailbox.
+*   You can also request that all mail sent to your virtual host be redirected to your group account. You can forward the mail sent to different addresses in your virtual host by using `.forward+` files (note the leading dot). For example, if you have a file named `.forward+secretary` in your group account's home directory, all mail sent to `secretary@yourgroup.berkeley.edu` will be processed using the directions in this file. All other mail will be delivered to the group account mailbox. Mail virtual hosting may significantly increase the amount of spam received by the group account, and is not set up by default.
 
 ## Instructions
 
