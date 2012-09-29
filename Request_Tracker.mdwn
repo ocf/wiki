@@ -68,20 +68,18 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
         cat rt_ocf_berkeley_edu.crt incommon.crt > rt_ocf_berkeley_edu.chained.crt
 
-7. **For Apache 2:** Copy the following RT configuration file `rt` into `/etc/apache2/sites-available` and link to it from `/etc/apache2/sites-enabled`:
+7. **For Apache 2:** Copy the following RT configuration file `rt` into `/etc/apache2/sites-available` and link to it from `/etc/apache2/sites-enabled` (replace typhoon.ocf.berkeley.edu with the FQDN reported by `hostname -f`):
 
         # Apache configuration file for RT
 
         <VirtualHost *:80>
                 ServerName rt.ocf.berkeley.edu
-                ServerAlias rt.int.ocf.berkeley.edu
                 RewriteEngine On
                 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
         </VirtualHost>
 
         <VirtualHost *:443>
                 ServerName rt.ocf.berkeley.edu
-                ServerAlias rt.int.ocf.berkeley.edu
 
                 SSLEngine on
                 SSLCertificateFile /etc/ssl/private/rt_ocf_berkeley_edu.crt
@@ -99,10 +97,11 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
                         # Comment this to enable RT-local root
                         AuthType Kerberos
                         Require valid-user
-
-                        KrbServiceName rt/rt.ocf.berkeley.edu
-                        Krb5KeyTab /etc/apache2/sites-available/rt.keytab
+                        KrbMethodNegotiate On
+                        KrbMethodK5Passwd On
                         KrbLocalUserMapping On
+                        KrbServiceName HTTP/typhoon.ocf.berkeley.edu
+                        Krb5KeyTab /etc/apache2/sites-available/rt.keytab
                 </Location>
 
                 <Location /rt/REST/1.0/NoAuth>
@@ -135,14 +134,14 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
         server {
                 listen 80;
-                server_name rt.ocf.berkeley.edu rt.int.ocf.berkeley.edu;
+                server_name rt.ocf.berkeley.edu;
                 rewrite ^ https://$server_name$request_uri? permanent;
         }
 
 
         server {
                 listen 443;
-                server_name rt.ocf.berkeley.edu rt.int.ocf.berkeley.edu;
+                server_name rt.ocf.berkeley.edu;
                 rewrite ^/$ /rt;
 
                 root /usr/share/request-tracker4;
@@ -193,7 +192,7 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
   Remove extraneous newlines inserted by ikiwiki.
 
-8. **Apache 2 only:** Obtain a keytab for the principal rt/rt.ocf.berkeley.edu@OCF.BERKELEY.EDU and place it into `/etc/apache2/sites-available/rt.keytab`. Make sure it's readable by www-data.
+8. **Apache 2 only:** Obtain a keytab for the principal HTTP/typhoon.ocf.berkeley.edu@OCF.BERKELEY.EDU (replace typhoon.ocf.berkeley.edu with the FQDN reported by `hostname -f`) and place it into `/etc/apache2/sites-available/rt.keytab`. Make sure it's only readable by www-data.
 
 8. mod_auth_kerb/ngx_http_auth_pam uses HTTP Basic authorization which has no concept of login/logout. Emulate logout behavior by changing the Logout page to send a 401 (works for Chrome), run proprietary IE code (works for IE), and make an Ajax call to a non-existing page with bad credentials (works for Firefox).
 
@@ -276,8 +275,8 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
   Add or edit the following lines into `/var/mail/aliases/aliases`:
 
-        rt: "|/usr/bin/rt-mailgate --queue General --action correspond --url https://rt.int.ocf.berkeley.edu/rt"
-        rt-comment: "|/usr/bin/rt-mailgate --queue General --action comment --url https://rt.int.ocf.berkeley.edu/rt"
+        rt: "|/usr/bin/rt-mailgate --queue General --action correspond --url https://rt.ocf.berkeley.edu/rt"
+        rt-comment: "|/usr/bin/rt-mailgate --queue General --action comment --url https://rt.ocf.berkeley.edu/rt"
 
 ## Configuration
 
