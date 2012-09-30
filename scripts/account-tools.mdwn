@@ -1,11 +1,11 @@
-[[!meta title="Account Tools (online account management)"]]
+[[!meta title="account-tools (online account management)"]]
 
-# Account Tools (online account management)
+# account-tools (online account management)
 
-Account Tools is a django project for online password resets, account approvals, and command execution. 
+account-tools is a django project for online password resets, account approvals, and command execution. 
 
 ## Technical warning
-Account Tools is installed on the webserver in _/var/www/account-tools, note the special permissions. Account Tool requires privilege to change passwords, and as a result we need to be careful about ownership.
+account-tools is installed on the webserver in _/var/www/account-tools, note the special permissions. account-tools requires privilege to change passwords, and as a result we need to be careful about ownership.
 
 ## Deploying Account Tools
 
