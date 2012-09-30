@@ -1,0 +1,28 @@
+#checkaccount (search full names)
+
+##Introduction
+If a user does not know their username you can use this to find it out. Before approving a group account always check to see if the group already has an account
+
+##Usage/Example
+<pre>
+sanjayk[OCF]/opt/ocf/bin/checkaccount sanj
+Login: dallas         			Name: Sanjay Pal
+Login: srawal         			Name: Sanjay Rawal
+Login: skshah         			Name: Sanjay K. Shah
+Login: svravat        			Name: Sanjay Ravat
+Login: sanjay         			Name: Sanjay Srivastava
+Login: skrishna       			Name: Sanjay Krishnaswamy
+Login: sanjayj        			Name: Sanjay Jeyakumar
+Login: sanjayd        			Name: Sanjay Dastoor
+Login: sby            			Name: Sanji Bandara Yapa
+Login: sanjeet        			Name: Sanjeet Singh Bains
+Login: sanman         			Name: Sanjay K Gupta
+Login: sanjayk        			Name: Sanjay Krishnan
+Login: sbijlani       			Name: Sanjana BIJLANI
+Login: sanjala        			Name: Sanjala Shekhar CHITNIS
+Login: msathe         			Name: Mihika Sanjeev SATHE
+Login: sdatta         			Name: Sanjit Datta
+Login: snarkar        			Name: SANJANA NARKAR
+Login: aartika        			Name: AARTIKA SANJAYA MANIKTALA
+</pre>
+
