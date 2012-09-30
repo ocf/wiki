@@ -1,4 +1,4 @@
-[[!meta title="chpass.pl (script to reset a user's password)"]]
+[[!meta title="chpass (Reset a user's password)"]]
 
 # chpass (Reset a user's password)
 
