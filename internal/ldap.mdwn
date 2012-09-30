@@ -7,22 +7,22 @@ Our current implementation uses a program called OpenLDAP.
 
 ##Definition of an OCF user
 To use ldap we need to first understand all of the attributes that define an OCF user:
-* dn- distinguished name this is the primary key for the entry
-* cn- common name, the user's full name
-* uid- user identification, the user's user name
-* uidNumber- user identification number, the user's POSIX uid
-* gidNumber- the primary group membership of the OCF user
-* homeDirectory- the location of the user's home directory in our filesystem
-* gecos- the name as it appears in getent passwd
-* calNetuid- the user's cal net uid number 
-* loginShell- the user's login shell
+*  dn: distinguished name this is the primary key for the entry
+*  cn: common name, the user's full name
+*  uid: user identification, the user's user name
+*  uidNumber user identification number, the user's POSIX uid
+*  gidNumber the primary group membership of the OCF user
+*  homeDirectory the location of the user's home directory in our filesystem
+*  gecos the name as it appears in getent passwd
+*  calNetuid the user's cal net uid number 
+*  loginShell the user's login shell
 
 ##Definition of an OCF POSIX group
 OCF POSIX groups are also defined in ldap, here are the attributes that define a group:
-* dn- distinguished name this is the primary key for the entry
-* cn- common name, the group's name
-* gidNumber- the group id number
-* memberUid- a member of the group
+*  dn distinguished name this is the primary key for the entry
+*  cn common name, the group's name
+*  gidNumber the group id number
+*  memberUid a member of the group
 
 ##Utilities
 ###ldapsearch
