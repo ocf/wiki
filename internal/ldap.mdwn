@@ -1,0 +1,88 @@
+#LDAP
+
+##Introduction
+The Lightweight Directory Access Protocol is a protocol for accessing a directory service over a network. We use this to store all the relevant information about a user.
+
+Our current implementation uses a program called OpenLDAP.
+
+##Definition of an OCF user
+To use ldap we need to first understand all of the attributes that define an OCF user:
+* dn- distinguished name this is the primary key for the entry
+* cn- common name, the user's full name
+* uid- user identification, the user's user name
+* uidNumber- user identification number, the user's POSIX uid
+* gidNumber- the primary group membership of the OCF user
+* homeDirectory- the location of the user's home directory in our filesystem
+* gecos- the name as it appears in getent passwd
+* calNetuid- the user's cal net uid number 
+* loginShell- the user's login shell
+
+##Definition of an OCF POSIX group
+OCF POSIX groups are also defined in ldap, here are the attributes that define a group:
+* dn- distinguished name this is the primary key for the entry
+* cn- common name, the group's name
+* gidNumber- the group id number
+* memberUid- a member of the group
+
+##Utilities
+###ldapsearch
+For most staff, their primary interface to ldap will be ldapsearch. ldapsearch is a powerful program that allows queries of the ldap database. For most usage, you want to type in -x, which means to skip the authentication phase. After that you provide a search filter (in this case uid).
+
+Searching for a user
+<pre>
+sanjayk[OCF]ldapsearch -x uid=sanjayk
+# extended LDIF
+#
+# LDAPv3
+# base <dc=OCF,dc=Berkeley,dc=EDU> (default) with scope subtree
+# filter: uid=sanjayk
+# requesting: ALL
+#
+
+# sanjayk, People, OCF.Berkeley.EDU
+dn: uid=sanjayk,ou=People,dc=OCF,dc=Berkeley,dc=EDU
+objectClass: ocfAccount
+objectClass: account
+objectClass: posixAccount
+cn: Sanjay Krishnan
+uid: sanjayk
+uidNumber: 18298
+gidNumber: 20
+homeDirectory: /home/s/sa/sanjayk
+gecos: Sanjay Krishnan
+calNetuid: 646431
+loginShell: /bin/tcsh
+</pre>
+
+Searching for a user in a group:
+<pre>
+ sanjayk[OCF]ldapsearch -x memberUid=sanjayk | grep cn:
+cn: approve
+cn: ocfstaff
+cn: admin
+</pre>
+
+### ldapadd
+ldapadd is a utility to add entries to the ldap directory. To add a user, first create a file in the following format:
+<pre>
+dn: uid=asdf,ou=People,dc=OCF,dc=Berkeley,dc=EDU
+objectClass: ocfAccount
+objectClass: account
+objectClass: posixAccount
+cn: asdf
+uid: asdf
+uidNumber: 25444
+gidNumber: 20
+homeDirectory: /home/a/as/asdf
+loginShell: /bin/bash
+gecos: asdf
+calNetuid: 758472
+</pre>
+
+Then authenticate with kerberos:
+    $kinit sanjayk/admin
+
+Finally run ldapadd:
+    $ldapadd < user_file
+
+This also works on lists of users.
