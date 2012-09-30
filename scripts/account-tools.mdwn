@@ -1,12 +1,11 @@
-[[!meta title="Account Tools"]]
+[[!meta title="Account Tools (online account management)"]]
 
 # Account Tools
 
-Account tools is a django project for online password resets. It is currently on the Debian death.
+Account Tools is a django project for online password resets, account approvals, and command execution. 
 
-It is installed as a python dist-package in _/usr/local/lib/python2.6/dist-packages/account\_tools_.
-
-Note that the permissions of the account_tools package and the required LDAP and Kerberos files are finicky.
+## Technical warning
+Account Tools is installed on the webserver in _/var/www/account-tools, note the special permissions. Account Tool requires privilege to change passwords, and as a result we need to be careful about ownership.
 
 ## Deploying Account Tools
 
