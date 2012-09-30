@@ -1,3 +1,4 @@
+[[!meta title="checkaccount (search full names)"]]
 #checkaccount (search full names)
 
 ##Introduction
