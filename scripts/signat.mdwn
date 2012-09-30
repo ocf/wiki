@@ -2,10 +2,10 @@
 
 ## Introduction
 
-This script checks a OSL student group's public signatory list. For all administrative tasks: account approval, password resets, and account enabling; we require that a signatory is either present or authorizes the transaction. 
+This script checks a OSL student group's public signatory list. For all administrative tasks: account approval, password resets, and account enabling; we require that a signatory is either present or authorizes the transaction.
 
 ## Technical notes
-The script is stored in _/opt/ocf/bin/signat, so it can be run from any machine that mounts /opt/ocf/
+The script is stored in `/opt/ocf/bin/signat`, so it can be run from any machine that mounts `/opt/ocf/`
 
 ## Usage
     sanjayk[OCF]signat ocf
