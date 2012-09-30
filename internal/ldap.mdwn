@@ -84,9 +84,9 @@ calNetuid: 758472
 </pre>
 
 Then authenticate with kerberos:
-    $kinit sanjayk/admin
+<pre>$kinit sanjayk/admin</pre>
 
 Finally run ldapadd:
-    $ldapadd < user_file
+<pre>$ldapadd < user_file</ore>
 
 This also works on lists of users.
