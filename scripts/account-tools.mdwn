@@ -1,6 +1,6 @@
 [[!meta title="Account Tools (online account management)"]]
 
-# Account Tools
+# Account Tools (online account management)
 
 Account Tools is a django project for online password resets, account approvals, and command execution. 
 
