@@ -1,4 +1,6 @@
-#signat
+[[!meta title="signat (check signatory status)"]]
+
+#signat (check signatory status)
 
 ## Introduction
 
