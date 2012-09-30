@@ -1,14 +1,14 @@
-**Online Alternative**
-
-The preferred way of changing passwords is to do it online via <https://secure.ocf.berkeley.edu/account_tools/change_password>.  This does not require a staffer to be present to change the user's password.  Only use the command line chpass described below if this is not suitable.
-
-# chpass
+# chpass (Reset a user's password)
 
 [[!toc levels=3 startlevel=2]]
 
 ## Introduction
 
-Changes a user's kerberos principal password along with his windows (AKA active directory or lab) password. 
+The preferred way of changing passwords is to do it online via <https://secure.ocf.berkeley.edu/account_tools/change_password>.  This does not require a staffer to be present to change the user's password.  Only use the command line chpass if this is not suitable. An example is, for group accounts or users that send notarized letters to the OCF.
+
+## Technical Description
+
+Perl script that changes a user's kerberos principal password using a specified staff/root principal. 
 
 ## Usage
 
