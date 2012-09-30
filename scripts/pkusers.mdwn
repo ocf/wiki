@@ -1,10 +1,12 @@
-# pkusers
+[[!meta title="pkusers (modify a user's printing account)"]]
+
+# pkusers (modify a user's printing account)
 
 [[!toc levels=3 startlevel=2]]
 
 ## Introduction
 
-Manages PyKota users or users groups.
+pkusers is a program supplied by the PyKota package that manages PyKota users. When a user prints for the first time a PyKota user is created for them. This keeps track of their quota, and how much to charge each user for a print job.
 
 ## Usage Scenarios
 
