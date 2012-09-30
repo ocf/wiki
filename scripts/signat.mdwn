@@ -8,14 +8,15 @@ This script checks a OSL student group's public signatory list. For all administ
 The script is stored in _/opt/ocf/bin/signat, so it can be run from any machine that mounts /opt/ocf/
 
 ## Usage
-   sanjayk[OCF]signat ocf
-   Searching for 'ocf'...
+<pre>
+sanjayk[OCF]signat ocf
+Searching for 'ocf'...
 
-   Open Computing Facility (OCF):
-   Public Signatories:
-   Mr. Dara Adib (daradib@ocf.berkeley.edu)
-   Title:  General manager
-   Mr. Kenneth H Do (kedo@rescomp.berkeley.edu)
-   Sanjay Krishnan (SANJAYKRISHN@GMAIL.COM)
-
+Open Computing Facility (OCF):
+Public Signatories:
+Mr. Dara Adib (daradib@ocf.berkeley.edu)
+Title:  General manager
+Mr. Kenneth H Do (kedo@rescomp.berkeley.edu)
+Sanjay Krishnan (SANJAYKRISHN@GMAIL.COM)
+</pre>
 
