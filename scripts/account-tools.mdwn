@@ -13,4 +13,4 @@ account-tools is installed on the webserver in _/var/www/account-tools, note the
 2. Make sure the settings file exists at _/root/account\_tools\_settings.py.secret_
 3. Run the setup script:
 
-        $ python setup.py install
+        $ python setup.py install --prefix=/var/www/account_tools
