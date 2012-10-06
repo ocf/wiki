@@ -21,12 +21,17 @@ On Unix-like (e.g., GNU/Linux and Mac OS X) systems, enter in the terminal:
 On Windows systems, use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (you'll want to [download](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) putty.exe):
 
 * Host Name: <tt>ssh.ocf.berkeley.edu</tt>
-* Port: 22
+* Port: 22 (default)
 
 ## SFTP
 
 You can transfer files to your account using [SFTP](http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol). SFTP is accessed over SSH, but you'll probably need to use another program, like [FireFTP](https://addons.mozilla.org/en-US/firefox/addon/fireftp/) (Firefox addon), [WinSCP](http://winscp.net/) (Windows), [Cyberduck](http://cyberduck.ch/) (Mac OS X, Windows), or Nautilus (GNU/Linux).
 
+If using Firefox and FireFTP is installed, simply access the following URL:
+[sftp://ssh.ocf.berkeley.edu](sftp://ssh.ocf.berkeley.edu)
+
+Otherwise, use the following information in your SFTP client.
+
 * Protocol: SFTP (or SSH)
 * Host Name: <tt>ssh.ocf.berkeley.edu</tt>
-* Port: 22
+* Port: 22 (default)
