@@ -20,7 +20,7 @@ Please conserve our valuable volunteer manpower by making sure your question isn
 
   See contacting us [in person](#index1h3) below.
 
-* Why might I want an OCF account? What do I get?
+* Why might I want an OCF account? What do I get? How do I use OCF services (including web hosting, shell account, email, and computer lab access)?
 
   Access to computing by the students for the students! More specifically, we have a [[list of services|services]] (see also the [older but more comprehensive list](http://docs.ocf.berkeley.edu/wiki/Account_services_we_provide)).
 
