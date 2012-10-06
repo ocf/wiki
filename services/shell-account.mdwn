@@ -1,7 +1,7 @@
 [[!meta title="Shell Account"]]
 # Shell Account
 
-A shell account refers to a text-mode interface where commands can be run interactively, like a command-prompt. All OCF accounts are eligible for shell account access. You can access your shell account by logging into the Windows or Linux systems in the OCF laboratory or remotely via SSH.
+A shell account refers to a text-mode interface where commands can be run interactively, like a command-prompt. All OCF accounts are eligible for shell account access. You can access your shell account by logging into the Linux or Windows systems in the OCF computer laboratory or remotely via SSH/SFTP.
 
 We support the following commonly used shell account tools (to name a few):
 
@@ -10,4 +10,23 @@ We support the following commonly used shell account tools (to name a few):
 *   Cron: allows you to automatically execute commands on a regular and scheduled basis 
 *   vim and emacs: powerful and extensible text editors
 
-Notice any software you want to use, but isn't currently available on our SSH login server? Feel free to request it by e-mailing us at [staff@ocf.berkeley.edu](mailto:staff@ocf.berkeley.edu)!
+## SSH
+
+Your shell account can be controlled remotely using [SSH](http://en.wikipedia.org/wiki/Secure_Shell). The server name is <tt>ssh.ocf.berkeley.edu</tt> (<tt>tsunami</tt>).
+
+On Unix-like (e.g., GNU/Linux and Mac OS X) systems, enter in the terminal:
+
+    ssh username@ssh.ocf.berkeley.edu
+
+On Windows systems, use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (you'll want to [download](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) putty.exe):
+
+* Host Name: <tt>ssh.ocf.berkeley.edu</tt>
+* Port: 22
+
+## SFTP
+
+You can transfer files to your account using [SFTP](http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol). SFTP is accessed over SSH, but you'll probably need to use another program, like [FireFTP](https://addons.mozilla.org/en-US/firefox/addon/fireftp/) (Firefox addon), [WinSCP](http://winscp.net/) (Windows), [Cyberduck](http://cyberduck.ch/) (Mac OS X, Windows), or Nautilus (GNU/Linux).
+
+* Protocol: SFTP (or SSH)
+* Host Name: <tt>ssh.ocf.berkeley.edu</tt>
+* Port: 22
