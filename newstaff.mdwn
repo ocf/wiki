@@ -3,14 +3,15 @@
 
 ## New Staff
 
+* Be added to staff group on [Request Tracker](https://rt.ocf.berkeley.edu/)
+* Be mentored on using [[OCF scripts|scripts]]
+* Be added to group approve
+* Optional: add yourself to the [[staff list|staff]]
+
+## Privileged Staff
+
 * [[Set up a wiki account|ikiwiki/editing-the-wiki]]
-* Add yourself to the [[staff list|staff]]
-* Get permission to push to the [OCF GitHub repository](https://github.com/OCF)
-* Be added to staff group on the [bug tracker](https://rt.ocf.berkeley.edu/)
 * Be mentored on using puppet
-
-## Semi-Root Staff
-
 * Be granted a [[kerberos root principal|administrative_powers#rootprincipal]]
 
 ## Root Staff
