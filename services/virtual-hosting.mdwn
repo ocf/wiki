@@ -1,9 +1,7 @@
 [[!meta title="Virtual Hosting"]]
 # Virtual Hosting
 
-Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox.
-
-OCF provides virtual hosting for **group accounts only**.
+Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (typically from within the `berkeley.edu` namespace, e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox if requested.
 
 ## Details
 
@@ -11,14 +9,14 @@ OCF provides virtual hosting for **group accounts only**.
 *   After the virtual host is set up, the files in the `public_html` directory of your group account (ordinarily accessible at `http://www.ocf.berkeley.edu/~accountname`) will appear at the root directory of the virtual-hosted site (`yourgroup.berkeley.edu`).
 *   You can also request that all mail sent to your virtual host be redirected to your group account. You can forward the mail sent to different addresses in your virtual host by using `.forward+` files (note the leading dot). For example, if you have a file named `.forward+secretary` in your group account's home directory, all mail sent to `secretary@yourgroup.berkeley.edu` will be processed using the directions in this file. All other mail will be delivered to the group account mailbox. Mail virtual hosting may significantly increase the amount of spam received by the group account, and is not set up by default.
 
-## Instructions
+### Instructions
 
 1.   Sign up for an OCF group account (if you haven't already done so). 
 2.   Set up your webspace and upload your website (if you haven't already done so).
 3.   Place a [[Hosted by OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on your page that links to the OCF front page. If none of these images are appropriate for your site, you may design one of your own and [[submit it|contact]] for approval.
-4.   Send a message to [[hostmaster@ocf.berkeley.edu|mailto:hostmaster@ocf.berkeley.edu]] with a request to set up a virtual host for your group's account. It should take 1-2 weeks to set up a new virtual host. Specify in the email what virtual host name your group wants. 
+4.   Send a message to [[hostmaster@ocf.berkeley.edu|mailto:hostmaster@ocf.berkeley.edu]] with a request to set up a virtual host for your group's account. It should take 1-2 weeks to set up a new virtual host. Specify in the email what virtual host name your group wants. OCF will then contact the University DNS hostmaster to obtain permission for your desired hostname (assuming it is available).
 
-## Including the OCF banner
+### Including the OCF banner
 
 To place any of the [[Hosted by OCF banners|http://www.ocf.berkeley.edu/images/hosted-logos/]] on your page. For example, you can use HTML code such as the following:
 
@@ -26,15 +24,31 @@ To place any of the [[Hosted by OCF banners|http://www.ocf.berkeley.edu/images/h
     <img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" width="98" height="39" style="border:0" />
     </a>
 
-Remember, you can also create your own OCF banner with approval from the OCF (see the above instructions).
+Remember, you can also create your own OCF banner with approval from the OCF (see instructions above).
 
-## Virtual Hosting policies
+### Policies
 
-*   **Groups Only**: The OCF performs virtual hosting only for OCF group accounts. If your group would like a virtual host within the Berkeley.EDU domain, you should follow the instructions in the next section titled "Instructions." The OCF will then contact the University DNS hostmaster to obtain permission for your desired hostname (assuming it is available).
-*   **One virtual host per group**: Each group account may have one virtual host. Requests for more must be approved by the OCF Board of Directors.
-*   **Non Berkeley.edu domains**: The OCF may also host non-Berkeley.EDU domains (.com domains are not allowed, however). The process is more complicated in this case. Permission will be granted only for group accounts that can demonstrate a unique need for having a web site outside of the Berkeley.EDU domain. For such domains, the group account must:
-    1.   Apply to the OCF Board of Directors for a permission to host this domain.
-    2.   Pay any and all fees and/or obtain permissions relating to obtaining and maintaining a domain name.
-*   **Comply with University policies**: Virtual web sites, just like other OCF user accounts, must comply with the relevant [[UC Berkeley computer use policies|https://security.berkeley.edu/node/60]].
-*   **No off-site hosting**: Circumventions around off-site hosting, including proxies, redirects, and substantial inline frames (iframes) of non-Berkeley.EDU domains are not allowed. Off-site hosting requests can be [submitted to UC Berekely](https://offsitehosting.berkeley.edu/) (we recommend CCing us or otherwise keeping us informed).
-*   **Include a hosting badge**: All virtual hosts on the OCF must include an [[OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on the front page that links to the [[OCF home page|http://www.ocf.berkeley.edu/]]. The banner need not be displayed extremely prominently, but it must be noticeable without undue effort. If the banner is removed or misplaced, the OCF reserves the right to terminate the virtual hosting service. The hosting badge not only attributes the OCF but also distinguishes it from sites hosted by University departments.
+#### Groups only
+
+The OCF only performs virtual hosting for OCF group accounts.
+
+Each group account may have one virtual host. Requests for an exception to this rule must be approved by the OCF Board of Directors.
+
+#### Limitations on non-berkeley.edu
+
+The OCF may also host non-berkeley.edu domains (.com domains are not allowed by University policy, however). The process is more complicated in this case. Permission will be granted only for group accounts that can demonstrate a unique need for having a web site outside of the berkeley.edu domain. For such domains, the group account must:
+
+ 1.   Apply to the OCF Board of Directors for a permission to host this domain.
+ 2.   Pay any and all fees and/or obtain permissions relating to obtaining and maintaining a domain name.
+
+#### University policies
+
+Virtual web sites, just like other OCF user accounts, must comply with the relevant [[UC Berkeley computer use policies|https://security.berkeley.edu/node/60]].
+
+In particular,
+
+*   **No off-site (third-party) hosting**: Circumventions around off-site hosting, including proxies, redirects, and substantial inline frames (iframes) of non-berkeley.edu domains are not allowed. Off-site hosting requests can be [submitted separately to the University](https://offsitehosting.berkeley.edu/) (we suggest keeping us informed if you have an existing OCF group account).
+
+#### Hosting badge
+
+All virtual hosts on the OCF must include an [[OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on the front page that links to the [[OCF home page|http://www.ocf.berkeley.edu/]]. The banner need not be displayed extremely prominently, but it must be noticeable without undue effort. If the banner is removed or misplaced, the OCF reserves the right to terminate the virtual hosting service. The hosting badge not only attributes the OCF but also distinguishes it from sites hosted by other University departments.
