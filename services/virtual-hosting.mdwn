@@ -18,7 +18,7 @@ Virtual hosting lets your group's website be hosted on the OCF's web server, but
 
 ### Including the OCF banner
 
-To place any of the [[Hosted by OCF banners|http://www.ocf.berkeley.edu/images/hosted-logos/]] on your page. For example, you can use HTML code such as the following:
+To place any of the [[Hosted by OCF banners|http://www.ocf.berkeley.edu/images/hosted-logos/]] on your page, you can use HTML code such as the following:
 
     <a href="http://www.ocf.berkeley.edu/">
     <img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" width="98" height="39" style="border:0" />
