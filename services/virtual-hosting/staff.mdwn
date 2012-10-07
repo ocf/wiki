@@ -2,7 +2,7 @@
 
 ### Web
 
-CNAME record (or A record, if mail virtual host is also requested) pointing to death must be requested from the University hostmaster.
+CNAME record (A record, if mail virtual host is also requested) pointing to death must be requested from the University hostmaster.
 
 * Add vhost: edit `~staff/vhost.conf` on supernova (using `sudo`).
 * Update vhost configuration: Run `sudo ~staff/buildvirtual.pl` on death.
