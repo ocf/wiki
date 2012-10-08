@@ -11,7 +11,7 @@ Virtual hosting lets your group's website be hosted on the OCF's web server, but
 
 ### Instructions
 
-1.   Sign up for an OCF group account (if you haven't already done so). 
+1.   [[Sign up for an OCF group account|getting-an-account/]] (if you haven't already done so). 
 2.   Set up your webspace and upload your website (if you haven't already done so).
 3.   Place a [[Hosted by OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on your page that links to the OCF front page. If none of these images are appropriate for your site, you may design one of your own and [[submit it|contact]] for approval.
 4.   Send a message to [[hostmaster@ocf.berkeley.edu|mailto:hostmaster@ocf.berkeley.edu]] with a request to set up a virtual host for your group's account. It should take 1-2 weeks to set up a new virtual host. Specify in the email what virtual host name your group wants. OCF will then contact the University DNS hostmaster to obtain permission for your desired hostname (assuming it is available).
