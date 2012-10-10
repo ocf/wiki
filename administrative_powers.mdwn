@@ -31,7 +31,7 @@ Staff members who demonstrate long-term commitment and proficiency are given add
 * can login to (nearly) all servers
 * have sudo access (root privileges) on the print server
 * can edit shared staff files such as `User_Info` and `motd` (message of the day)
-* can edit [[wiki|ikiwiki/editing-the-wiki]] and are expected to help maintain it
+* can edit the [[wiki|ikiwiki/editing-the-wiki]] and are expected to help maintain it
 * must hold staff hours
 
 ### `/root` principal
