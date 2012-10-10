@@ -2,15 +2,15 @@
 
 ### Web
 
-CNAME record (A record, if mail virtual host is also requested) pointing to death must be requested from the University hostmaster.
+CNAME record (A record, if mail virtual host is also requested) pointing to the web server, death, must be requested from the University hostmaster.
 
-* Add vhost: edit `~staff/vhost.conf` on supernova (using `sudo`).
-* Update vhost configuration: Run `sudo ~staff/buildvirtual.pl` on death.
-* Reload vhost configuration: Run `sudo service apache2 reload` on death.
+* Add vhost: edit `~staff/vhost.conf`.
+* Update vhost configuration: run `sudo ~staff/buildvirtual.pl` on death.
+* Reload vhost configuration: run `sudo service apache2 reload` on death.
 
 ### Mail (if requested)
 
-MX record pointing to sandstorm must be requested from the University hostmaster.
+MX record pointing to the mail server, sandstorm, must be requested from the University hostmaster.
 
 * Add vhost: edit `/etc/postfix/ocfconfig/vhost-maps.pcre` on sandstorm (using `sudo`).
 * Update and reload vhost configuration: Run `sudo /etc/postfix/ocfconfig.buildvirtual.sh` on sandstorm.
