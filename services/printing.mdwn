@@ -1,6 +1,13 @@
 [[!meta title="Printing"]]
 # Printing
 
-The OCF offers a certain number of free pages to individual accounts each semester. You don't have to request a new account each semester - the quota is refreshed at the start of each semester.
+The OCF offers a certain amount of printing (currently 250 pages) to individual accounts each semester. You don't have to request a new account each semester - the quota is refreshed at the start of each semester.
 
-Please review our [[Printing Policies|Printing/Policies]] before contacting staff.
+Please review our [[printing policies|printing/policies]] before contacting staff.
+
+## Technical details
+
+We currently have two HP LaserJet P4515x printers: deforestation and logjam.
+
+ * [How much toner is left in each printer](http://www.ocf.berkeley.edu/~tzhu/printer_oracle/) (expressed as pages remaining over time)?
+ * [How many pages has each printer printed](http://www.ocf.berkeley.edu/~tzhu/printer_historacle/) (expressed as total pages printed over time)?
