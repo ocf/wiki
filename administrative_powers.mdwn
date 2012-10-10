@@ -4,6 +4,8 @@
 
 OCF staff are members of the OCF who contribute their time as volunteers, and are given responsibilities and privileges to maintain and improve the OCF's infrastructure. There are many powers granted to staff, which for simplification have been consolidated into a tiered structure.
 
+Each tier includes the privileges of the preceding tiers.
+
 Staff privileges are distinct from the Board of Directors, General Manager, and Site Manager(s), which hold executive/legislative/judicial powers, although in practice most staff members are Directors and vice versa.
 
 [[!toc levels=2]]
