@@ -13,24 +13,25 @@ Staff privileges are distinct from the Board of Directors, General Manager, and 
 ## Staff
 *group approve*
 
-Newly-interested staff members are given basic training and added to group approve.
+Newly-interested staff members are given basic training on [[OCF scripts|scripts]] and added to group approve.
 
 * receive `staff@ocf` mail (including staff discussions and announcements)
 * can process group account requests
-* can access and process Request Tracker tickets
+* can access and process [Request Tracker](https://rt.ocf.berkeley.edu/) tickets
 * can login to the print server
 * can post staff hours, although not required to do so (but ideally hold staff hours alongside a more privileged staff member, this is called shadowing)
 
 ## Privileged staff
 *group ocfstaff*
 
-Staff members who demonstrate long-term commitment and proficiency are given elevated privileges and responsibilities. Most staff members are expected to eventually fall into this category.
+Staff members who demonstrate long-term commitment and proficiency are given additional training (including use of Puppet), elevated privileges, and responsibilities. Most staff members are expected to eventually fall into this category.
 
 * receive `wheel@ocf` mail (including cron mail and discussions that include mundane technical jargon)
 * can reset account passwords and change print quotas
 * can login to (nearly) all servers
 * have sudo access (root privileges) on the print server
 * can edit shared staff files such as `User_Info` and `motd` (message of the day)
+* can edit [[wiki|ikiwiki/editing-the-wiki]] and are expected to help maintain it
 * must hold staff hours
 
 ### `/root` principal
