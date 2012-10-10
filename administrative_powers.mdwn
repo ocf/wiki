@@ -1,44 +1,79 @@
-[[!meta title="Administrative Powers"]]
-**There are several administrative powers granted to staff. Some of these are orthogonal to each other and some require each other.**
+[[!meta title="Staff privileges"]]
 
-# <a id="rootprincipal"></a>`/root` Principal 
-This principal grants the user the ability to change passwords.
+# Staff privileges
 
-This is because chpass calls cpw, which requires the `change-password` privilege.
-The permission to do this originates in the Kerberos administrative ACL (`kerberos:/etc/heimdal-kdc/kadmind.acl`):
+OCF staff are members of the OCF who contribute their time as volunteers, and are given responsibilities and privileges to maintain and improve the OCF's infrastructure. There are many powers granted to staff, which for simplification have been consolidated into a tiered structure.
 
-    username/root@OCF.BERKELEY.EDU             change-password                         *@OCF.BERKELEY.EDU
+Staff privileges are distinct from the Board of Directors, General Manager, and Site Manager(s), which hold executive/legislative/judicial powers, although in practice most staff members are Directors and vice versa.
+
+[[!toc levels=2]]
+
+## Staff
+*group approve*
+
+Newly-interested staff members are given basic training and added to group approve.
+
+* receive `staff@ocf` mail (including staff discussions and announcements)
+* can process group account requests
+* can access and process Request Tracker tickets
+* can login to the print server
+* can post staff hours, although not required to do so (but ideally hold staff hours alongside a more privileged staff member, this is called shadowing)
+
+## Privileged staff
+*group ocfstaff*
+
+Staff members who demonstrate long-term commitment and proficiency are given elevated privileges and responsibilities. Most staff members are expected to eventually fall into this category.
+
+* receive `wheel@ocf` mail (including cron mail and discussions that include mundane technical jargon)
+* can reset account passwords and change print quotas
+* can login to (nearly) all servers
+* have sudo access (root privileges) on the print server
+* can edit shared staff files such as `User_Info` and `motd` (message of the day)
+* must hold staff hours
+
+### `/root` principal
+
+This principal grants the user the ability to change passwords. This is because chpass requires the Kerberos `change-password` privilege. The permission to do this originates in the Kerberos administrative ACL (`kerberos:/etc/heimdal-kdc/kadmind.acl`):
+
+    username/root@OCF.BERKELEY.EDU change-password *@OCF.BERKELEY.EDU
     
-# <a id="admingroup"></a>`admin` Group
+## Root staff
+*group admin*
 
-This group grants the user the ability to sudo (become root) on most OCF servers.
-The ability to become root also requires the existence of a /root principal.
+The most technical and "on-call" staff members are given sudo access (root privileges) on (nearly) all servers.
+
+### sudo
+
+The ability to use sudo also requires the existence of a `/root` principal.
     
 This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
 
 `/etc/pam.d/sudo`:
 
-    # OCF Config
-    auth required /lib/security/pam_krb5.so alt_auth_map=%s/root only_alt_auth use_first_pass debug minimum_uid=1000
+    auth required pam_krb5.so minimum_uid=1000 alt_auth_map=%s/root only_alt_auth
         
 `/etc/sudoers`:
 
     %admin ALL=(ALL) ALL
 
-# <a id="adminprincipal"></a>`/admin` Principal
+## Technical managers
+*SM, DM, and sometimes GM*
 
-This principal grants the user the ability to write to LDAP and the ability to write to Kerberos.
-These are in fact two separate things, but are typically granted at the same time.
+Site manager(s) and deputy manager(s) are given nominal privileges above group admin, primarily for the purposes of account creation (modification of LDAP and Kerberos) and emergency workarounds (direct login to root through an encrypted password list or SSH key). Site manager(s) are also expected to act as the chief technical officers. Sometimes the general manager may also act as a deputy manager.
+
+### /admin principal
+
+This principal grants the user the ability to modify LDAP and Kerberos. These are in fact two separate things, but are granted at the same time.
+
+#### ldapmodify
     
 The ability to write to LDAP originates in OpenLDAP configuration (`ldap:/etc/ldap/slapd.conf`):
 
-    # Allow read over ssl or kerberos, and write by only admins
+    # Allow read over SSL or Kerberos, and write by only admins
     access to * by sasl_ssf=56 dn.regex="^uid=[^,/]+/admin,cn=GSSAPI,cn=auth$$" write
-    
+
+#### kadmin
+
 The ability to write to Kerberos originates in the Kerberos administrative ACL (`kerberos:/etc/heimdal-kdc/kadmimd.acl`):
 
-    username/admin@OCF.BERKELEY.EDU             all
-
-# Local root passwords
-
-This file holds local root access to OCF machines.
+    username/admin@OCF.BERKELEY.EDU all
