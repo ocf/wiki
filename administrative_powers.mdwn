@@ -39,7 +39,7 @@ This principal grants the user the ability to change passwords. This is because 
 
     username/root@OCF.BERKELEY.EDU change-password *@OCF.BERKELEY.EDU
     
-## Root staff
+## Sudo staff
 *group admin*
 
 The most technical and "on-call" staff members are given sudo access (root privileges) on (nearly) all servers.
