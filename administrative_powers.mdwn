@@ -11,9 +11,8 @@ Staff privileges are distinct from the Board of Directors, General Manager, and 
 [[!toc startlevel=2]]
 
 ## Staff
-*group approve*
 
-Newly-interested staff members are given basic training on [[OCF scripts|scripts]] and added to group approve.
+Newly-interested staff members are given basic training on [[OCF scripts|scripts]] and added to group `approve`.
 
 * receive `staff@ocf` mail (including staff discussions and announcements)
 * can process group account requests
@@ -22,32 +21,31 @@ Newly-interested staff members are given basic training on [[OCF scripts|scripts
 * can post staff hours, although not required to do so (but ideally hold staff hours alongside a more privileged staff member, this is called shadowing)
 
 ## Privileged staff
-*group ocfstaff*
 
-Staff members who demonstrate long-term commitment and proficiency are given additional training (including use of Puppet), elevated privileges, and responsibilities. Most staff members are expected to eventually fall into this category.
+Staff members who demonstrate long-term commitment and proficiency are given additional training, elevated privileges, and responsibilities. Most staff members are expected to eventually fall into this category. Staff in this category are added to group `ocfstaff`.
 
 * receive `wheel@ocf` mail (including cron mail and discussions that include mundane technical jargon)
-* can reset account passwords and change print quotas
+* can change print quotas
 * can login to (nearly) all servers
 * have sudo access (root privileges) on the print server
 * can edit shared staff files such as `User_Info` and `motd` (message of the day)
 * can edit the [[wiki|ikiwiki/editing-the-wiki]] and are expected to help maintain it
 * must hold staff hours
+* can reset account passwords (see below)
 
 ### `/root` principal
 
-This principal grants the user the ability to change passwords. This is because chpass requires the Kerberos `change-password` privilege. The permission to do this originates in the Kerberos administrative ACL (`kerberos:/etc/heimdal-kdc/kadmind.acl`):
+In order to reset user passwords, staff must also possess a `/root` principal. This principal grants the staffer the user the ability to change passwords. This is because chpass requires the Kerberos `change-password` privilege. The permission to do this originates in the Kerberos administrative ACL (`kerberos:/etc/heimdal-kdc/kadmind.acl`):
 
     username/root@OCF.BERKELEY.EDU change-password *@OCF.BERKELEY.EDU
     
-## Sudo staff
-*group admin*
+## Root-privileged staff
 
 The most technical and "on-call" staff members are given sudo access (root privileges) on (nearly) all servers.
 
-### sudo
+### Group `admin`
 
-The ability to use sudo also requires the existence of a `/root` principal.
+The ability to become root via sudo first requires the existence of a `/root` principal (see above).
     
 This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
 
@@ -60,11 +58,10 @@ This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
     %admin ALL=(ALL) ALL
 
 ## Technical managers
-*SM, DM, and sometimes GM*
 
 Site manager(s) and deputy manager(s) are given nominal privileges above group admin, primarily for the purposes of account creation (modification of LDAP and Kerberos) and emergency workarounds (direct login to root through an encrypted password list or SSH key). Site manager(s) are also expected to act as the chief technical officers. Sometimes the general manager may also act as a deputy manager.
 
-### /admin principal
+### `/admin` principal
 
 This principal grants the user the ability to modify LDAP and Kerberos. These are in fact two separate things, but are granted at the same time.
 
