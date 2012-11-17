@@ -42,6 +42,7 @@ In order to reset user passwords, staff must also possess a `/root` principal. T
     username/root@OCF.BERKELEY.EDU change-password *@OCF.BERKELEY.EDU
     
 ## Root-privileged staff
+*group admin*
 
 The most technical and "on-call" staff members are given sudo access (root privileges) on (nearly) all servers.
 
