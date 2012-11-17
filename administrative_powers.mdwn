@@ -11,6 +11,7 @@ Staff privileges are distinct from the Board of Directors, General Manager, and 
 [[!toc startlevel=2]]
 
 ## Staff
+*group approve*
 
 Newly-interested staff members are given basic training on [[OCF scripts|scripts]] and added to group `approve`.
 
@@ -21,6 +22,7 @@ Newly-interested staff members are given basic training on [[OCF scripts|scripts
 * can post staff hours, although not required to do so (but ideally hold staff hours alongside a more privileged staff member, this is called shadowing)
 
 ## Privileged staff
+*group ocfstaff*
 
 Staff members who demonstrate long-term commitment and proficiency are given additional training, elevated privileges, and responsibilities. Most staff members are expected to eventually fall into this category. Staff in this category are added to group `ocfstaff`.
 
@@ -43,7 +45,7 @@ In order to reset user passwords, staff must also possess a `/root` principal. T
 
 The most technical and "on-call" staff members are given sudo access (root privileges) on (nearly) all servers.
 
-### Group `admin`
+### `admin` group
 
 The ability to become root via sudo first requires the existence of a `/root` principal (see above).
     
@@ -58,6 +60,7 @@ This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
     %admin ALL=(ALL) ALL
 
 ## Technical managers
+*SM, DM, and sometimes GM*
 
 Site manager(s) and deputy manager(s) are given nominal privileges above group admin, primarily for the purposes of account creation (modification of LDAP and Kerberos) and emergency workarounds (direct login to root through an encrypted password list or SSH key). Site manager(s) are also expected to act as the chief technical officers. Sometimes the general manager may also act as a deputy manager.
 
