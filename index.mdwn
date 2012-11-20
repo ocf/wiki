@@ -1,6 +1,8 @@
 # Welcome to the new OCF wiki
 
-Our hard-working student volunteers (hereafter OCF staff) try to keep documentation plentiful and up-to-date, but it's always lagging behind. We recommend starting off by reading the **[[FAQ]]**.
+Our hard-working student volunteers (hereafter OCF staff) try to keep documentation plentiful and up-to-date, but it's always lagging behind.
+
+We recommend starting off by reading the **[[FAQ]]**.
 
 <!-- Remove ikiwiki internal files, custom internal files, and certain pages from page map -->
 [[!map pages="* and
@@ -12,3 +14,10 @@ Our hard-working student volunteers (hereafter OCF staff) try to keep documentat
 !index and !servers/* and !staff/*" 
 
 show="title"]]
+
+If you're feeling adventurous, you may want to look at our **[[technical documentation|staff]]** meant for staff.
+
+You may also want to take a look at our older wiki, which is more thorough but **increasingly outdated**:
+
+ * [user documentation](http://docs.ocf.berkeley.edu/wiki/Help_and_Support)
+ * [staff documentation](http://docs.ocf.berkeley.edu/staffwiki/Main_Menu)
