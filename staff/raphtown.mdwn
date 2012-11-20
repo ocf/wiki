@@ -1,1 +1,0 @@
-Raphtown does cool stuff like edit wiki pages. And learn about file permissions.  And git!
