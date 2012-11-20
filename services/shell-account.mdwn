@@ -1,13 +1,12 @@
 [[!meta title="Shell Account"]]
 # Shell Account
 
-A shell account refers to a text-mode interface where commands can be run interactively, like a command-prompt. All OCF accounts are eligible for shell account access. You can access your shell account by logging into the Linux or Windows systems in the OCF computer laboratory or remotely via SSH/SFTP.
+A shell account refers to a text-mode interface where commands can be run interactively. All OCF accounts include shell account access. You can access your shell account over an encrypted connection in the OCF lab or remotely via SSH/SFTP.
 
 We support the following commonly used shell account tools (to name a few):
 
-*   SSH: allows your to access your shell account via an encrypted connection
-*   Subversion, Git, and Mercurial: version control software
-*   Cron: allows you to automatically execute commands on a regular and scheduled basis 
+*   Subversion, Git, and Mercurial: version control
+*   cron and at: execute commands on a periodic or scheduled basis 
 *   vim and emacs: powerful and extensible text editors
 
 ## SSH
@@ -22,6 +21,8 @@ On Windows systems, use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putt
 
 * Host Name: <tt>ssh.ocf.berkeley.edu</tt>
 * Port: 22 (default)
+
+Alternatively, use [FireSSH](https://addons.mozilla.org/en-US/firefox/addon/firessh/) (Firefox addon). Once installed, simply access the following URL: [ssh://ssh.ocf.berkeley.edu](ssh://ssh.ocf.berkeley.edu)
 
 ## SFTP
 
