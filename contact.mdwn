@@ -18,7 +18,7 @@ Please conserve our valuable volunteer manpower by **making sure your question i
 
 ## In person
 
-[[!inline pages="faq/lab" raw=yes]]
+[[!inline pages="fragments/lab" raw=yes]]
 
 ## Email
 
