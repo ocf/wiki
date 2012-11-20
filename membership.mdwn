@@ -1,21 +1,21 @@
-[[!meta title="Getting an Account"]]
-# Getting an Account
+[[!meta title="Becoming an OCF member"]]
+# Joining the OCF
 
-## Before You Begin
+## Before you begin
 
-* Check the [[account eligibility|getting-an-account/account-eligibility]] page to make sure you are eligible for an OCF account. In general, all currently enrolled students and OSL-registered groups are eligible.
+* Check the [[eligibility|membership/eligibility]] page to make sure you are eligible for an OCF account. In general, all currently enrolled students and OSL-registered groups are eligible.
 
 * OCF accounts do not expire, so make sure you have not made an account in the past. If you have forgotten your account name or password, please do not request a new account. Instead, reset your [[password|services/shell-account/passwords/]].
 
 * Choose an OCF account name that is based on your real name (for individual accounts) or your group's name (for group accounts). Please note that it is highly unlikely you will be able to change your account name after your request has been processed.
 
-## Individual Accounts
+## Individual accounts
 
 * Individual accounts are associated with a single person and may not be shared. Individual account sharing is a violation of  and will result in account deactivation.
 
 * Individual accounts are not eligible for [[virtual hosting|services/virtual-hosting]].
 
-###To Get an Individual Account
+### Process
 
 1. **[[Request an account online|https://secure.ocf.berkeley.edu/account_tools/calnet/login?next=/account_tools/request_account]].**
 
@@ -33,13 +33,13 @@
 
   Note: Sometimes it may take one to two weeks for your account to be created. This occurs when there are a lot of accounts to create. If there are issues when processing your account, you will be contacted by email.
 
-## Group Accounts
+## Group accounts
 
 * Group accounts are associated with a group may be shared by members of the group.
 
 * Group accounts are eligible for [[virtual hosting|services/virtual-hosting]].
 
-### To Get a Group Account
+### Process
 
 1. **Prepare appropriate documents and identification.**
 

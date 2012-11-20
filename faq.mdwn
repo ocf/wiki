@@ -13,9 +13,9 @@ Access to computing by the students for the students! More specifically, we have
 
 For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/virtual-hosting/]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
-Make sure you are [[eligible|getting-an-account/account-eligibility]]. If you are a currently registered student (individual) or a registered student organization (group), you are eligible.
+Make sure you are [[eligible|membership/eligibility]]. If you are a currently registered student (individual) or a registered student organization (group), you are eligible.
 
-[[More information|getting-an-account]]
+[[More information|membership]]
 
 ### I have an account. Does it expire? Will it still work?
 

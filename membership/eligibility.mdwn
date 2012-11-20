@@ -1,5 +1,5 @@
-[[!meta title="Account Eligibility"]]
-# Account Eligibility
+[[!meta title="Eligibility"]]
+# Membership eligibility
 
 The following sets of people are eligible for OCF accounts:
 
@@ -7,7 +7,7 @@ The following sets of people are eligible for OCF accounts:
 
 The Open Computing Facility provides accounts and services to people who meet at least one of the following eligibility criteria as verified by presentation of the specified documentation:
 
-## UC Berkeley Students
+## UC Berkeley students
 
 If you would like an OCF account, [[request an individual account online|https://secure.ocf.berkeley.edu/account_tools/calnet/login?next=/account_tools/request_account]] to find out if you are eligible for one. 
 
@@ -19,11 +19,11 @@ Your current registration status will be verified electronically. More formally,
 
 If you are a currently registered student but do not have a form of ID mentioned above, feel free to inquire at [staff@ocf.berkeley.edu](mailto:staff@ocf.berkeley.edu).
 
-## UC Berkeley Faculty and Staff
+## UC Berkeley faculty and staff
 
 * Current UC Berkeley Faculty or Staff ID card
 
-## Postdoctoral, Visiting Scholars, Research Assistants, etc.
+## Postdoctoral, visiting scholars, research assistants, etc.
 
 * Letter from your department on departmental letterhead stating:
 
@@ -37,7 +37,7 @@ If you are a currently registered student but do not have a form of ID mentioned
 
   * Signer's contact information for verification purposes
 
-## Lawrence Berkeley National Laboratory (LBNL) Staff
+## Lawrence Berkeley National Laboratory (LBNL) staff
 
 * Current LBNL ID card
 
@@ -56,15 +56,15 @@ If you are a currently registered student but do not have a form of ID mentioned
 
   * Signer's contact information for verification purposes
 
-## Graduate Theological Union (GTU) Students
+## Graduate Theological Union (GTU) students
 
 * Current student ID card
 
-## ASUC Employees
+## ASUC employees
 
 * Current employee ID card
 
-## UC Berkeley Extension Students
+## UC Berkeley Extension students
 (students enrolled in certificate programs or concurrently enrolled in a course offered by UC Berkeley)
 
 At least one of the following:
@@ -78,11 +78,11 @@ At least one of the following:
 * concurrent enrollment in a UC Berkeley course
   * via copy of a paid and signed concurrent enrollment form
 
-## UC Berkeley Extension Faculty
+## UC Berkeley Extension faculty
 
 * Letter of appointment marked as independent contractor by agreement for a term
 
-## Employees of Other University-affiliated organizations
+## Employees of other University-affiliated organizations
 (employees who work on UC Berkeley campus (e.g. California Alumni Association, International House, Howard Hughes Medical Institute) or closely associated with the campus (e.g. Richmond Field Station))
 
 * Letter from your organization or unit stating:
@@ -97,7 +97,7 @@ At least one of the following:
 
   * Signer's contact information for verification purposes
 
-## Volunteers, Contractors, and Other Individuals
+## Volunteers, contractors, and other individuals
 (people who work on UC Berkeley campus supporting the University)
 
 * Letter from your department on departmental letterhead stating:
@@ -112,7 +112,7 @@ At least one of the following:
 
   * Signer's contact information for verification purposes
 
-## Student Groups, Staff Groups, or Campus Support Organizations
+## Student groups, staff groups, or campus support organizations
 See [[Group Account Policy|http://docs.ocf.berkeley.edu/wiki/Policies:General#2_Policies_governing_group_accounts]] for additional restrictions.
 
 At least one of the following:
