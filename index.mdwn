@@ -1,5 +1,14 @@
-#Welcome to the OCF Wiki!
+# Welcome to the new OCF wiki
 
-Some of the pages below are aimed at staff, while others are aimed at general users. If you read a page and it makes no sense, it's probably meant for staff.
+Our hard-working student volunteers (hereafter OCF staff) try to keep documentation plentiful and up-to-date, but it's always lagging behind. We recommend starting off by reading the **[[FAQ]]**.
 
-[[!map pages="* and !ikiwiki and !ikiwiki/* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/* and !media/* and !staff/*"  show="title"]]
+<!-- Remove ikiwiki internal files, custom internal files, and certain pages from page map -->
+[[!map pages="* and
+
+!ikiwiki and !ikiwiki/* and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !smileys/* and !style.css and !templates and !templates/* and !wikiicons/* and
+
+!favicon.ico and !media/* and
+
+!index and !servers/* and !staff/*" 
+
+show="title"]]
