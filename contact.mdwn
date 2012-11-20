@@ -14,19 +14,11 @@ When contacting OCF staff (in person or remotely), please reference
 
 ## Before contacting us
 
-Please conserve our valuable volunteer manpower by **making sure your question isn't already answered in our [[Frequently asked questions|faq]]**. Interested in [joining staff](http://www.ocf.berkeley.edu/OCF/staff/)?
+Please conserve our valuable volunteer manpower by **making sure your question isn't already answered in our [[Frequently asked questions|faq]]**. *Interested in [joining staff](http://www.ocf.berkeley.edu/OCF/staff/)*?
 
 ## In person
 
-### When
-
-The lab is officially open during the ASUC Publications Center hours, currently weekdays from **9 AM to 6 PM**, Saturdays from **11 AM to 6 PM**, and Sundays from **12 PM to 5 PM**. (OCF staff members are not present during all of these hours.)
-
-OCF staff members will be in the lab during the listed [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi), and intermittently at other times.
-
-### Where
-
-We are located in the basement of Hearst Gym (west entrance), Room 6A. You will need to show your student ID when you enter the OCF.
+[[!inline pages="faq/lab" raw=yes]]
 
 ## Email
 
@@ -56,7 +48,9 @@ If you must call us, please make sure to leave your name, OCF username (if known
 
 Our mailing address is:
 
-> ASUC/Open Computing Facility<br />
+> Open Computing Facility<br />
+> c/o ASUC<br />
+> University of California, Berkeley<br />
 > 6A Hearst Gym MC 4520<br />
 > Berkeley CA  94720-4520<br />
 
