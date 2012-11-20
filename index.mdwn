@@ -11,7 +11,7 @@ We recommend starting off by reading the **[[FAQ]]**.
 
 !favicon.ico and !media/* and
 
-!index and !servers/* and !staff/*" 
+!fragments/* and !index and !servers/* and !staff/*" 
 
 show="title"]]
 
