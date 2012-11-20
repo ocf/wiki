@@ -25,11 +25,11 @@ It should still work. If it's been inactive for several years, it may be disable
 
 ### My account is disabled.
 
-See a Manager (gm, sm, or dm after the staff member's name) during [staff hours] http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi) to get it re-enabled.
+See a Manager (gm, sm, or dm after the staff member's name) during [staff hours] (http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi) to get it re-enabled.
 
 ### I forgot my username or password.
 
-For individual accounts, you can [find your username or reset your password online] https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access).
+For individual accounts, you can [find your username or reset your password online] (https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access).
 
 For group account password resets, you will need to see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi). Make sure that the person coming in to reset the password brings sufficient documentation to demonstrate that he or she is authorized to reset the account password. The person requesting the password reset must be a group signatory or have a signed letter from a signatory authorizing them to reset the account password. For groups registered with the Office of Student Life, either public listing as a signatory or logging into your Student Affairs registration status is an acceptable form of verification.
 
