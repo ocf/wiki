@@ -15,9 +15,17 @@ We recommend starting off by reading the **[[FAQ]]**.
 
 show="title"]]
 
+## Staff documentation
+
 If you're feeling adventurous, you may want to look at our **[[technical documentation|staff]]** meant for staff.
+
+## Old wiki
 
 You may also want to take a look at our older wiki, which is more thorough but **increasingly outdated**:
 
  * [user documentation](http://docs.ocf.berkeley.edu/wiki/Help_and_Support)
  * [staff documentation](http://docs.ocf.berkeley.edu/staffwiki/Main_Menu)
+
+## Blog
+
+OCF server down? When all else fails, check **[the blog](http://ocfblog.blogspot.com/)** for status reports and updates even when our network experiences a hangover.
