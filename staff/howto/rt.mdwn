@@ -1,4 +1,5 @@
-# Request Tracker 4.0
+[[!meta title="Request Tracker"]]
+# Request Tracker
 
 ## Installation
 
