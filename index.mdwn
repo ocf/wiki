@@ -5,7 +5,7 @@ Our hard-working student volunteers (hereafter OCF staff) try to keep documentat
 We recommend starting off by reading the **[[FAQ]]**.
 
 <!-- Remove ikiwiki internal files, custom internal files, and certain pages from page map -->
-[[!map pages="* and
+[[!map pages="* and !*/*/* and
 
 !ikiwiki and !ikiwiki/* and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !smileys/* and !style.css and !templates and !templates/* and !wikiicons/* and
 
@@ -13,7 +13,7 @@ We recommend starting off by reading the **[[FAQ]]**.
 
 !fragments/* and !index and !servers/* and !staff/*" 
 
-show="title"]]
+show="title" levels="2"]]
 
 ## Staff documentation
 
