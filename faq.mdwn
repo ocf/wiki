@@ -41,10 +41,10 @@ For group account password resets, you will need to see an OCF staff member duri
 
 Account creation consists of "approve" and "create. "Approve" is when we record your request for an account, which uses CalNet for individual accounts. "Create", on the other hand, is done manually in batches by a Site Manager, usually every 1-2 weeks. You will receive an email when your account is created.
 
-### [[Web hosting|services/website-hosting]]: How do I get group.berkeley.edu ([[virtual hosting|services/virtual-hosting/]])?
+### [[Web hosting|services/web]]: How do I get group.berkeley.edu ([[virtual hosting|services/virtual-hosting/]])?
 
 First, you need to have a group account and a [[working website|services/website-hosting]]. Then, request [[virtual hosting|services/virtual-hosting/]].
 
-### [[Printing|services/printing]]: I have a printing question/problem.
+### [[Printing|services/lab/printing]]: I have a printing question/problem.
 
 See our [[printing policy|services/printing/policies]].
