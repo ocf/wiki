@@ -1,0 +1,10 @@
+[[!meta title="Lab"]]
+# Computer lab
+
+## Location and hours
+
+[[!inline pages="fragments/lab" raw=yes]]
+
+## Services
+
+* [[Printing]]
