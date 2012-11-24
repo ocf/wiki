@@ -15,7 +15,7 @@ More specifically, we have a [[list of services|services]] (see also the [older 
 
 ### How do I join the OCF and get an OCF account?
 
-For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/virtual-hosting/]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/vhost]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
 Make sure you are [[eligible|membership/eligibility]]. If you are a currently registered student (individual) or a registered student organization (group), you are eligible.
 
@@ -48,3 +48,9 @@ First, you need to have a group account and a working [[website|services/web]]. 
 ### [[Printing|services/lab/printing]]: I have a printing question/problem.
 
 See our [[printing policy|services/lab/printing/policies]].
+
+### I want to disable or delete my account.
+
+If you want to disable your OCF account, please [[contact us|contact]] and provide your OCF username. If your account appears to still be active, we may ask for some evidence that you are the account owner. Currently, disabled accounts are stored or archived and can be *re-enabled* by request at a later date.
+
+To permanently delete the contents of your account, you will need to have access to your account. Refer to our documentation about [[account passwords|services/shell-account/passwords]].
