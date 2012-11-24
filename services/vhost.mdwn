@@ -47,7 +47,7 @@ Virtual web sites, just like other OCF user accounts, must comply with the relev
 
 In particular,
 
-*   **No off-site (third-party) hosting**: Circumventions around off-site hosting, including proxies, redirects, and substantial inline frames (iframes) of non-berkeley.edu domains are not allowed. Off-site hosting requests can be [submitted separately to the University](https://offsitehosting.berkeley.edu/) (we suggest keeping us informed if you have an existing OCF group account).
+*   **No off-site (third-party) hosting**: Circumventions around off-site hosting, including (but not limited to) proxies, redirects, and substantial inline frames (iframes) of non-berkeley.edu domains are not allowed. OCF does not process or advise off-site hosting requests, which can be [submitted directly to the university](https://offsitehosting.berkeley.edu/) (however, feel free to keep us informed if you have an existing OCF account).
 
 #### Hosting badge
 
