@@ -34,7 +34,7 @@ In all cases, please remember **not** to send us your password over email, or yo
 
 * [hostmaster@ocf.berkeley.edu](mailto:hostmaster@ocf.berkeley.edu)
 
-  DNS changes including [[virtual hosting|services/virtual-hosting/]] requests should be sent here.
+  DNS changes including [[virtual hosting|services/vhost]] requests should be sent here.
 
 ## Telephone
 
@@ -56,6 +56,6 @@ Our mailing address is:
 
 ## Legal
 
-Use of OCF resources in violation of applicable [campus policies](https://security.berkeley.edu/node/60), regulations, and laws, including copyright, is not allowed, and repeat infringement is not tolerated.
+Use of OCF resources in violation of applicable [university policies](https://security.berkeley.edu/policy/usepolicy.html), regulations, and laws, including copyright, spam, and fraud is not allowed, and repeat infringement is not tolerated.
 
 DMCA takedown notices must comply with 17 U.S.C. § 512(c)(3) and be sent to the [designated agent at UC Berkeley](http://www.copyright.gov/onlinesp/agents/u/univ_ca_berkeley.pdf). We recommend sending a copy of the notice to the OCF directly ([security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)) for faster response.
