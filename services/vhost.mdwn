@@ -43,7 +43,7 @@ The OCF may also host non-berkeley.edu domains (.com domains are not allowed by 
 
 #### University policies
 
-Virtual web sites, just like other OCF user accounts, must comply with the relevant [[UC Berkeley computer use policies|https://security.berkeley.edu/node/60]].
+Virtual web sites, just like other OCF user accounts, must comply with the relevant UC Berkeley [computer use policy](https://security.berkeley.edu/policy/usepolicy.html) and [DNS policy](https://security.berkeley.edu/policy/dns).
 
 In particular,
 
