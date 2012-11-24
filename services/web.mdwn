@@ -18,7 +18,7 @@ You can activate your web space using the OCF's web interface or SSH. Most users
 
 ## Method B: Via SSH
 
-1.   Login to your account via SSH.
+1.   Login to your account via [[SSH|shell-account]].
 1.   After you go past all system messages, you will see a *prompt*:
 
         tsunami$
