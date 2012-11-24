@@ -3,7 +3,7 @@
 
 All accounts include hosting with a web address at [[http://www.ocf.berkeley.edu/~username]].
 
-Group accounts may also request a [[virtual host|services/virtual-hosting]], which will allow them to use a sub-domain of the Berkeley.EDU domain (ex: groupname.berkeley.edu).
+Group accounts may also request a [[virtual host|services/vhost]], which will allow them to use a sub-domain of the Berkeley.EDU domain (ex: groupname.berkeley.edu).
 
 # Setting Up Your Web Space
 
