@@ -5,9 +5,9 @@
 
 ### Where is the lab? What are the hours?
 
-[[!inline pages="fragments/lab" raw=yes]]
+See [[services/lab]].
 
-### Why might I want an OCF account? What do I get? How do I use OCF services (including web hosting, shell account, email, and computer lab access)?
+### Why might I want an OCF account? What do I get? How do I use OCF services?
 
 Access to computing by the students for the students!
 
@@ -15,11 +15,7 @@ More specifically, we have a [[list of services|services]] (see also the [older 
 
 ### How do I join the OCF and get an OCF account?
 
-For individual accounts, [request an account online](https://secure.ocf.berkeley.edu/account_tools/request_account). For group accounts ([[virtual hosting|services/vhost]], no printing), see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
-
-Make sure you are [[eligible|membership/eligibility]]. If you are a currently registered student (individual) or a registered student organization (group), you are eligible.
-
-[[More information|membership]]
+See [[membership]].
 
 ### I have an account. Does it expire? Will it still work?
 
@@ -27,15 +23,11 @@ It should still work. If it's been inactive for several years, it may be disable
 
 ### My account is disabled.
 
-See a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi) to get it re-enabled.
+To re-enable your account, you will need to see a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
 ### I forgot my username or password.
 
-For individual accounts, you can [find your username or reset your password online](https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access).
-
-For group account password resets, you will need to see an OCF staff member during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi). Make sure that the person coming in to reset the password brings sufficient documentation to demonstrate that he or she is authorized to reset the account password. The person requesting the password reset must be a group signatory or have a signed letter from a signatory authorizing them to reset the account password. For groups registered with the Office of Student Life, either public listing as a signatory or logging into your Student Affairs registration status is an acceptable form of verification.
-
-[[More information|services/shell-account/passwords]] (including password resets by snail mail)
+See [[services/shell-account/passwords]].
 
 ### It's been a week since I registered for an account, what happened!
 
@@ -43,11 +35,11 @@ Account creation consists of "approve" and "create. "Approve" is when we record 
 
 ### [[Web hosting|services/web]]: How do I get group.berkeley.edu ([[virtual hosting|services/vhost]])?
 
-First, you need to have a group account and a working [[website|services/web]]. Then, request [[virtual hosting|services/vhost]].
+First, you need to have a group [[account|membership]] and a working [[website|services/web]]. Then, request [[virtual hosting|services/vhost]].
 
 ### [[Printing|services/lab/printing]]: I have a printing question/problem.
 
-See our [[printing policy|services/lab/printing/policies]].
+See [[printing|services/lab/printing]].
 
 ### I want to disable or delete my account.
 
