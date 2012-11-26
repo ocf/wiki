@@ -1,8 +1,8 @@
 [[!meta title="Procedures"]]
 # OCF Procedures Documentation
 
-Create subpages under this category to document procedures that are commonly used in the OCF.  They will automatically be added to the index below.
+Create pages under this directory to document common procedures.  They will automatically be added to the map below.
 
-## Procedures Index
+## Procedures map
 
-[[!map pages="procedures/* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/*" show="title"]]
+[[!map pages="staff/procedures/*" and show="title"]]
