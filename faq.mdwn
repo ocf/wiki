@@ -3,17 +3,21 @@
 
 [[!toc startlevel=3]]
 
-### Where is the lab? What are the hours?
-
-See [[services/lab]].
-
 ### Why might I want an OCF account? What do I get? How do I use OCF services?
 
 Access to computing by the students for the students!
 
 More specifically, we have a [[list of services|services]] (see also the [older but more comprehensive list](http://docs.ocf.berkeley.edu/wiki/Account_services_we_provide)).
 
+### Where is the lab? What are the hours?
+
+See [[services/lab]].
+
 ### How do I join the OCF and get an OCF account?
+
+See [[membership]].
+
+### It's been a week since I registered for an account, what happened!
 
 See [[membership]].
 
@@ -28,10 +32,6 @@ To re-enable your account, you will need to see a Manager (gm, sm, or dm after t
 ### I forgot my username or password.
 
 See [[services/shell-account/passwords]].
-
-### It's been a week since I registered for an account, what happened!
-
-Account creation consists of "approve" and "create. "Approve" is when we record your request for an account, which uses CalNet for individual accounts. "Create", on the other hand, is done manually in batches by a Site Manager, usually every 1-2 weeks. You will receive an email when your account is created.
 
 ### [[Web hosting|services/web]]: How do I get group.berkeley.edu ([[virtual hosting|services/vhost]])?
 
