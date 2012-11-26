@@ -3,7 +3,7 @@
 ### Web
 
 * Add vhost: edit `~staff/vhost.conf`.
-* Update vhost configuration: run `sudo ~staff/buildvirtual.pl` on death.
+* Update vhost configuration: run `sudo ~staff/buildvirtual.pl` and `sudo ~staff/buildvirtual-wrappers.sh` on death.
 * Reload vhost configuration: run `sudo service apache2 reload` on death.
 
 Request the following DNS record from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/) (unless mail is also requested, in that case, skip to the next section):
