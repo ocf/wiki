@@ -12,8 +12,8 @@
 ## Individual accounts
 
 * Individual accounts are associated with a single person and may not be shared.
-
-* Individual accounts are not eligible for [[virtual hosting|services/vhost]].
+* Individual accounts are **not** eligible for [[virtual hosting|services/vhost]].
+* Individual accounts are eligible for [[printing|services/lab/printing]].
 
 ### Process
 
@@ -28,8 +28,8 @@
 ## Group accounts
 
 * Group accounts are associated with a group may be shared by members of the group.
-
 * Group accounts are eligible for [[virtual hosting|services/vhost]].
+* Group accounts are **not** eligible for [[printing|services/lab/printing]].
 
 ### Process
 
