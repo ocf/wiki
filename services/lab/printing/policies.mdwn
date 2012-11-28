@@ -3,7 +3,7 @@
 
 ## General
 
-Individuals with OCF accounts are allotted **250 pages** of printing **per semester**.  Members exhausting their allotment **will not** be granted additional pages.  The summer is not considered a new semester, and balances will carry over from the spring.  Members may print single- or double-sided by selecting the corresponding printer at the print dialog.
+Individual accounts are allotted **250 pages** of printing **per semester**.  Members exhausting their allotment **will not** be granted additional pages.  The summer is not considered a new semester, and balances will carry over from the spring.  Members may print single- or double-sided by selecting the corresponding printer at the print dialog.
 
 ## Restrictions and caveats
 
