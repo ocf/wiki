@@ -1,6 +1,6 @@
 # YAML
 ip-address: 128.32.129.245
-maintainers: [waf, kedo]
+maintainers: []
 name: printhost
-services: [printhost]
+services: [CUPS]
 # ENDYAML

@@ -1,6 +1,6 @@
 # YAML
 ip-address: 128.32.129.243
-maintainers: [kedo]
+maintainers: []
 name: death
-services: [web server]
+services: [Apache]
 # ENDYAML

@@ -2,5 +2,5 @@
 ip-address: 128.32.129.229
 maintainers: []
 name: zombie
-services: [MySQL server]
+services: [MySQL]
 # ENDYAML

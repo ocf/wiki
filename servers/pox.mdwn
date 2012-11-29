@@ -1,6 +1,6 @@
 # YAML
 ip-address: 128.32.129.241
-maintainers: [gone soon]
+maintainers: []
 name: pox
-services: [ESXI Hypervisor]
+services: [ESXi hypervisor]
 # ENDYAML

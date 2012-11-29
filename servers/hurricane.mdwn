@@ -2,5 +2,5 @@
 ip-address: 128.32.129.201
 maintainers: []
 name: hurricane
-services: []
+services: [old tsunami]
 # ENDYAML
