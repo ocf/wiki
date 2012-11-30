@@ -5,4 +5,4 @@ Create subpages under this category to document scripts/programs that are common
 
 ## Scripts Index
 
-[[!map pages="scripts/* and !smileys/* and !wikiicons/* and !images/* and !favicon.ico and !local.css and !RecentChanges and !sandbox and !shortcuts and !smileys and !style.css and !templates/* and !templates and !index and !*.js and !servers/*" show="title"]]
+[[!map pages="staff/scripts/*" show="title"]]
