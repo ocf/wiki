@@ -1,12 +1,12 @@
-[[!meta title="checkaccount (search full names)"]]
-#checkaccount (search full names)
+[[!meta title="checkacct(search full names)"]]
+#checkacct (search full names)
 
 ##Introduction
 If a user does not know their username you can use this to find it out. Before approving a group account always check to see if the group already has an account
 
 ##Usage/Example
 <pre>
-sanjayk[OCF]/opt/ocf/bin/checkaccount sanj
+sanjayk[OCF]/opt/ocf/bin/checkacct sanj
 Login: dallas         			Name: Sanjay Pal
 Login: srawal         			Name: Sanjay Rawal
 Login: skshah         			Name: Sanjay K. Shah
