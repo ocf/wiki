@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This Python script returns the OSL-registered student groups for which an OCF username or CalNet UID is a signatory.
+Obtains information on OSL-registered student groups for which an OCF username or CalNet UID is a signatory.
 
 For signatories without OCF accounts, you can lookup CalNet UIDs in the [CalNet directory](https://calnet.berkeley.edu/directory/). However, we strongly recommend that signatories [[request an individual account online|membership]], where you will be able to see their CalNet UID.
 
@@ -11,7 +11,7 @@ We require that a signatory be present (or authorize) any administrative tasks (
 
 ## Technical notes
 
-The [OSL web service API](https://studentservices.berkeley.edu/WebServices/StudentGroupService/Service.asmx) provides an XML document for a given CalNet UID, which is parsed and output as a readable YAML document.
+This Python script queries the [OSL web service API](https://studentservices.berkeley.edu/WebServices/StudentGroupService/Service.asmx) with a CalNet UID and parses the returned XML as a Python dictionary which is in turn output as a YAML document. For OCF usernames, the CalNet UID is obtained from [[internal/LDAP]].
 
 The signatory does not need to be publically listed on the [OSL website](http://campuslife.berkeley.edu/orgs/).
 
