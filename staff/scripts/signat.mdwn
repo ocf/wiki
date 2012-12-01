@@ -1,17 +1,57 @@
-[[!meta title="signat (check signatory status)"]]
-
-#signat (check signatory status)
+[[!meta title="signat: check signatory status"]]
+# signat
 
 ## Introduction
 
-This script checks a OSL student group's public signatory list. For all administrative tasks: account approval, password resets, and account enabling; we require that a signatory is either present or authorizes the transaction.
+This Python script returns the OSL-registered student groups for which an OCF username or CalNet UID is a signatory.
+
+For signatories without OCF accounts, you can lookup CalNet UIDs in the [CalNet directory](https://calnet.berkeley.edu/directory/). However, we strongly recommend that signatories [[request an individual account online|membership]], where you will be able to see their CalNet UID.
+
+We require that a signatory be present (or authorize) any administrative tasks (account approval, password resets, and account enabling) for OSL-registered groups.
 
 ## Technical notes
-The script is stored in `/opt/ocf/bin/signat`, so it can be run from any machine that mounts `/opt/ocf/`
+
+The [OSL web service API](https://studentservices.berkeley.edu/WebServices/StudentGroupService/Service.asmx) provides an XML document for a given CalNet UID, which is parsed and output as a readable YAML document.
+
+The signatory does not need to be publically listed on the [OSL website](http://campuslife.berkeley.edu/orgs/).
 
 ## Usage
-    sanjayk[OCF]signat ocf
-    Searching for 'ocf'...
+    $ signat
+    Returns student group information for an OSL signatory.
+    OCF username or CalNet UID is the first and only argument.
+
+    $ signat daradib
+    Open Computing Facility:
+      groupAcronym: OCF
+      groupId: '12272'
+      groupType: Registered
+      status: Active
+    Zoroastrian Student Organization:
+      groupAcronym: ''
+      groupId: '15975'
+      groupType: Registered
+      status: Active
+
+    $ signat 872544
+    Open Computing Facility:
+      groupAcronym: OCF
+      groupId: '12272'
+      groupType: Registered
+      status: Active
+    Zoroastrian Student Organization:
+      groupAcronym: ''
+      groupId: '15975'
+      groupType: Registered
+      status: Active
+
+## `signat.pl`
+
+This older Perl script will list public signatories for student group names that match the argument string. It simply scrapes the [OSL website](http://campuslife.berkeley.edu/orgs) instead of querying an API.
+
+### Usage
+
+    $ signat.pl open computing
+    Searching for 'open computing'...
 
     Open Computing Facility (OCF):
     Public Signatories:
@@ -19,5 +59,3 @@ The script is stored in `/opt/ocf/bin/signat`, so it can be run from any machine
     Title:  General manager
     Mr. Kenneth H Do (kedo@rescomp.berkeley.edu)
     Sanjay Krishnan (SANJAYKRISHN@GMAIL.COM)
-
-
