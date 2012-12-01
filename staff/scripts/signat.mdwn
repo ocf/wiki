@@ -27,7 +27,6 @@ The signatory does not need to be publically listed on the [OSL website](http://
       groupType: Registered
       status: Active
     Zoroastrian Student Organization:
-      groupAcronym: ''
       groupId: '15975'
       groupType: Registered
       status: Active
@@ -39,7 +38,6 @@ The signatory does not need to be publically listed on the [OSL website](http://
       groupType: Registered
       status: Active
     Zoroastrian Student Organization:
-      groupAcronym: ''
       groupId: '15975'
       groupType: Registered
       status: Active
@@ -58,4 +56,4 @@ This older Perl script will list public signatories for student group names that
     Mr. Dara Adib (daradib@ocf.berkeley.edu)
     Title:  General manager
     Mr. Kenneth H Do (kedo@rescomp.berkeley.edu)
-    Sanjay Krishnan (SANJAYKRISHN@GMAIL.COM)
+    Sanjay Krishnan (SANJAYKRISHN@GMAIL.COM
