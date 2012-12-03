@@ -7,7 +7,7 @@
 
 Access to computing by the students for the students!
 
-More specifically, we have a [[list of services|services]] (see also the [older but more comprehensive list](http://docs.ocf.berkeley.edu/wiki/Account_services_we_provide)).
+More specifically, we have a [[list of services|services]].
 
 ### Where is the lab? What are the hours?
 
