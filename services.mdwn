@@ -3,6 +3,8 @@
 
 The OCF offers many services, free of charge, to the campus community.
 
+In addition to the services listed below, there is an [older but more comprehensive list](http://docs.ocf.berkeley.edu/wiki/Account_services_we_provide) on our older wiki.
+
 Have an idea for something else the OCF can provide? Feel free to send your suggestion by [[contacting us|contact]]!
 
 [[!map pages="services/*" show="title"]]
