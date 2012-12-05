@@ -1,4 +1,5 @@
-#LDAP
+[[!meta title="LDAP"]]
+# LDAP
 
 ##Introduction
 The Lightweight Directory Access Protocol is a protocol for accessing a directory service over a network. We use this to store all the relevant information about a user.
