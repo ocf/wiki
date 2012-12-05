@@ -1,71 +1,43 @@
-[[!meta title="Editing the Wiki"]]
+[[!meta title="ikiwiki"]]
+# ikiwiki
 
 [[ikiwiki]] uses [Markdown syntax](http://daringfireball.net/projects/markdown/syntax).
 
-Please make sure you have properly configured git:
+## Technical details
 
-    git config --global user.name "Panda McFluffy"
-    git config --global user.email panpan@ocf.berkeley.edu
+Data is stored in `/srv/ikiwiki` on blight, which contains:
 
-Because blight doesn't mount homedirs, git may complain about not being able to lock the .gitconfig. In that case, just make a temporary homedir.
+ * `public_html/`: output (HTML)
+ * `wiki/`: input (Markdown)
+ * `wiki.git/`: bare repository (git)
+ * `wiki.setup`: ikiwiki configuration file
 
-    mkdir /tmp/`whoami`
-    export HOME=/tmp/`whoami`
+## Editing the wiki
 
-Then, run *git config* as above.
+### Using the web interface
 
-These instructions are for staffers with root principals. If you don't have a root principal, go to the instructions on the bottom.
+Create an account through <http://wiki.ocf.berkeley.edu/ikiwiki.cgi?do=register>.  **This is not stored or transferred securely, do not use a password you use for other logins!**
 
-# For root staffers
+The account creation password is stored on blight.
 
-1. *ssh* into blight
-1. Clone the wiki.git repo at /srv/ikiwiki/wiki.git into your home dir. This will create a folder named *local-wiki-repo*.
+    $ grep account_creation_password /srv/ikiwiki/wiki.setup
 
-        kedo@blight$ git clone /srv/ikiwiki/wiki.git local-wiki-repo
-        Cloning into wiki...
-        done.
+### Using git directly
+
+1. Clone the git repository from `/srv/ikiwiki/wiki.git` on blight. Replace `local-wiki-repo` below with the location of your new repository, like `/tmp/username` for something temporary or `/opt/ikiwiki/username` for something more permanent.
+
+        blight$ git clone /srv/ikiwiki/wiki.git local-wiki-repo
         
-1. *cd* into the folder you just created and make your changes.
-1. Commit your changes and add a short message about what you changed. You can commit once per file, or commit several files in a batch. If you added a file, be sure to *git add new-file-name* first.
+1. `cd` into the directory you just created and make your changes.
 
-        kedo@blight$ git commit filename-here -m "Commit message here"
-        [master 8d5839d] Added a newline to create list
-        1 files changed, 1 insertions(+), 0 deletions(-)
-        
-1. *sudo* push your local changes to the main wiki git repo on *blight*. You will get an error about not having permission to write to your home dir, but that's just *sudo* complaining about now being able to write to your home dir - not about being unable to write to */srv/ikiwiki/wiki.git*.
+1. Commit your changes with brief but clear messages about what you changed.
 
-        kedo@blight$ sudo git push
-        kedo/root's password: 
-        Counting objects: 5, done.
-        Compressing objects: 100% (3/3), done.
-        Writing objects: 100% (3/3), 298 bytes, done.
-        Total 3 (delta 2), reused 0 (delta 0)
-        Unpacking objects: 100% (3/3), done.
-        remote: From /srv/ikiwiki/wiki
-        remote:    f9da685..8d5839d  master     -> origin/master
-        To /srv/ikiwiki/wiki.git
-           f9da685..8d5839d  master -> master
-        fatal: Unable to create '/mnt/u5/home/k/ke/kedo/wiki/.git/refs/remotes/origin/master.lock': Permission denied
+1. `sudo` push your local changes to the git repository. If you do not have root privileges, you will need to ask a root staff member to pull your changes.
 
-Done!
-## If Something Breaks
-If something breaks, or if you pushed without *sudo*, you can refresh the ikiwiki pages based on whatever's in */srv/ikiwiki/wiki.git* by running:
+        blight:local-wiki-repo$ sudo git push
 
-    kedo@blight$ cd /srv/ikiwiki
-    kedo@blight$ sudo ikiwiki --setup wiki.setup
+## Troubleshooting
 
-# For non-root staffers
+If your edits aren't appearing, try rebuilding the entire wiki from the git repository.
 
-Follow the same instructions as above to clone */srv/ikiwiki/wiki.git* to a folder in your home directory on *blight*. Then, ask a staffer with a root principal to *git pull* from your git repo.
-
-# Editing the wiki through the web interface
-
-Create an account through <http://wiki.ocf.berkeley.edu/ikiwiki.cgi?do=register>.  **This is not stored securely, do not use a password you use for other logins!**
-
-Account creation password can be located via running the following on blight.
-
-    ~$ cat /srv/ikiwiki/wiki.setup | grep account_creation_password
-
-If your changes aren't appearing, run the following on blight.
-
-    ~$ sudo ikiwiki --setup /srv/ikiwiki/wiki.setup
+    $ sudo ikiwiki --setup /srv/ikiwiki/wiki.setup
