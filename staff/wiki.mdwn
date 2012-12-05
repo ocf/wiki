@@ -1,7 +1,7 @@
 [[!meta title="ikiwiki"]]
 # ikiwiki
 
-[[ikiwiki]] uses [Markdown syntax](http://daringfireball.net/projects/markdown/syntax).
+[ikiwiki](http://ikiwiki.info/) uses [Markdown syntax](http://daringfireball.net/projects/markdown/syntax).
 
 ## Technical details
 
