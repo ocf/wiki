@@ -53,10 +53,9 @@ If you need to restore your database from a backup (dump file) you made previous
 
 where backup is the name of the file that contains the dumped data. As usual, this command will prompt you for your MySQL password.
 
-## Using .my.cnf for passwordless access to MySQL
+## Using <pre>.my.cnf</pre> for passwordless access to MySQL
 
-If you are using MySQL in a script or in another program, you will probably want to set it up so that the <pre>mysql</pre> call does not prompt for your password. While passing the <pre>-p</pre> option is the obvious way to achieve this, it is also ''very insecure'' because anyone on OCF can see the password while the <pre>mysql</pre> command is running. A better approach is to create a <pre>.my.cnf</pre> file with proper permissions that contains your MySQL password. To do this, enter the following commands: make sure you replace <pre>dbpasswd</pre> with the MySQL password given to you when you ran <pre>makemysql</pre>. 
-
+If you are using MySQL in a script or in another program, you will probably want to set it up so that the <pre>mysql</pre> call does not prompt for your password. While passing the -p option is the obvious way to achieve this, it is also ''very insecure'' because anyone on OCF can see the password while the mysql command is running. A better approach is to create a </pre>~/.my.cnf</pre> file with proper permissions that contains your MySQL password. To do this, enter the following commands: make sure you replace dbpasswd with the MySQL password given to you when you ran makemysql. 
 <pre>
 touch ~/.my.cnf
 cat >> ~/.my.cnf << EOF
@@ -65,21 +64,14 @@ password = dbpasswd
 EOF
 chmod 600 ~/.my.cnf
 </pre>
-
-And make sure that your <pre>.my.cnf</pre> has correct permissions by running
-
+And make sure that your .my.cnf has correct permissions by running
 <pre>
-ls -l ~/.my.cnf
-</pre>
-
-The output should look something like
-
-<pre>
+$ls -l ~/.my.cnf
 -rw-------  1 staff ocf 64 2005-11-15 16:16 /home/s/st/staff/.my.cnf
 </pre>
-where the important part is <pre>-rw-------</pre>. After this, the <pre>mysql</pre> command will automatically log you in, so you won't have to memorize or write down your MySQL password.
+Now the mysql command will automatically log you in, so you won't have to memorize or write down your MySQL password.
 
-If you want to find out what other things you can do with <pre>.my.cnf</pre>, take a look at the <pre>.cnf</pre> files in <pre>/opt/local/packages/mysql/share/mysql/</pre>.
+If you want to find out what other things you can do with .my.cnf, take a look at the .cnf files in <pre>/opt/local/packages/mysql/share/mysql/</pre>.
  
 
 
