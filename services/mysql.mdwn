@@ -36,8 +36,48 @@ To connect to the OCF's MySQL server using the MySQL client on an OCF machine, s
 
 This command will prompt you for your MySQL database password.
 
+## Backing up a MySQL database
 
+To backup your database (which you should probably do regularly), the basic command to use is
 
+  mysqldump [username] > backup
+
+where ''[username]'' denotes your OCF username and <tt>backup</tt> is the name of the file you want to dump the contents of your database into. This command will prompt you for your MySQL password.
+
+To see more options, try running
+
+  mysqldump --help
+
+## Restoring a MySQL database from backup
+
+If you need to restore your database from a backup (dump file) you made previously, you simply need to connect to the database and run the SQL commands in the dump file. To do this from the command line, use
+
+  mysql -D [username] < backup
+
+where ''backup'' is the name of the file that contains the dumped data. As usual, this command will prompt you for your MySQL password.
+
+## Using <tt>.my.cnf</tt> for passwordless access to MySQL
+
+If you are using MySQL in a script or in another program, you will probably want to set it up so that the <tt>mysql</tt> call does not prompt for your password. While passing the <tt>-p</tt> option is the obvious way to achieve this, it is also ''very insecure'' because anyone on OCF can see the password while the <tt>mysql</tt> command is running. A better approach is to create a <tt>.my.cnf</tt> file with proper permissions that contains your MySQL password. To do this, enter the following commands: make sure you replace <tt>dbpasswd</tt> with the MySQL password given to you when you ran <tt>makemysql</tt>. 
+<pre>
+touch ~/.my.cnf
+cat >> ~/.my.cnf << EOF
+[client]
+password = dbpasswd
+EOF
+chmod 600 ~/.my.cnf
+</pre>
+And make sure that your <tt>.my.cnf</tt> has correct permissions by running
+<pre>
+ls -l ~/.my.cnf
+</pre>
+The output should look something like
+<pre>
+-rw-------  1 staff ocf 64 2005-11-15 16:16 /home/s/st/staff/.my.cnf
+</pre>
+where the important part is <tt>-rw-------</tt>. After this, the <tt>mysql</tt> command will automatically log you in, so you won't have to memorize or write down your MySQL password.
+
+If you want to find out what other things you can do with <tt>.my.cnf</tt>, take a look at the <tt>.cnf</tt> files in <tt>/opt/local/packages/mysql/share/mysql/</tt>.
  
 
 
