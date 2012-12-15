@@ -1,6 +1,6 @@
 [[!meta title="MySQL"]]
 # Introduction
-The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package mysql-server-5.1. See the following sections for information about performing common MySQL tasks, and our rules and policies regarding MySQL.
+The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package <tt>mysql-server-5.1</tt>. See the following sections for information about performing common MySQL tasks, and our rules and policies regarding MySQL.
 ## Policies
 We limit users to 1 database, and this database has the same name as your username.
 
@@ -9,7 +9,7 @@ As a user of shared database server we ask you to respect the community and refr
 ## Creating a MySQL database
 We have two options to create a database using the terminal or our web management tool.
 ### Web-based tool
-Go to the website https://secure.ocf.berkeley.edu/account_tools/commands, and type in your username and password. Select the option: makemysql — reset your MySQL database password, or create a new MySQL database (copy down the password somewhere SECURE), and run the command. Note your password in a safe place.
+Go to the website <tt>https://secure.ocf.berkeley.edu/account_tools/commands</tt>, and type in your username and password. Select the option: <tt>makemysql — reset your MySQL database password, or create a new MySQL database (copy down the password somewhere SECURE)</tt>, and run the command. Note your password in a safe place.
 ### SSH Terminal
 Log into the OCF via [[SSH]], at the terminal prompt enter the command makemysql. Hit yes to confirm the operation. Note your password in a safe place.
 
@@ -19,20 +19,17 @@ To reset a MySQL password simply follow the directions above for creating a MySQ
 ## Accessing MySQL
 Assuming your database is set up, in order to access it (or allow a web application to access it), you will need 4 pieces of information:
 
-*Database Host: '''<tt>mysql</tt>'''
-*Database Name: '''<tt><your OCF username></tt>'''
-*Database User: '''<tt><your OCF username></tt>'''
-*Database password: '''<tt><your database password></tt>'''
+* Database Host: mysql
+* Database Name: <your OCF username>
+* Database User: <your OCF username>
+* Database password: <your database password>
 
-'''Note:''' Your database password is not the same as your OCF account password. It is a randomly generated password that was created when your database was created. If you don't know what your database password is but know your database is set up, please follow [[#Changing or resetting your database password|these instructions]] to reset your password.
-
+Note: Your database password is not the same as your OCF account password. It is a randomly generated password that was created when your database was created. If you don't know what your database password is but know your database is set up, please follow [[#Changing or resetting your database password|these instructions]] to reset your password.
 
 To use your OCF MySQL database with a web application, enter the above information during the application's installation process.
 
-
-To connect to the OCF's MySQL server using the MySQL client on an OCF machine, simply run the command
-
-  mysql
+To connect to the OCF's MySQL server using the MySQL client on an OCF machine, simply run the command:
+<tt>mysql</tt>
 
 This command will prompt you for your MySQL database password.
 
@@ -40,21 +37,21 @@ This command will prompt you for your MySQL database password.
 
 To backup your database (which you should probably do regularly), the basic command to use is
 
-  mysqldump [username] > backup
+<tt>mysqldump [username] > backup</tt>
 
-where ''[username]'' denotes your OCF username and <tt>backup</tt> is the name of the file you want to dump the contents of your database into. This command will prompt you for your MySQL password.
+where username denotes your OCF username and <tt>backup</tt> is the name of the file you want to dump the contents of your database into. This command will prompt you for your MySQL password.
 
 To see more options, try running
 
-  mysqldump --help
+<tt>mysqldump --help</tt>
 
 ## Restoring a MySQL database from backup
 
 If you need to restore your database from a backup (dump file) you made previously, you simply need to connect to the database and run the SQL commands in the dump file. To do this from the command line, use
 
-  mysql -D [username] < backup
+<tt>mysql -D [username] < backup</tt>
 
-where ''backup'' is the name of the file that contains the dumped data. As usual, this command will prompt you for your MySQL password.
+where backup is the name of the file that contains the dumped data. As usual, this command will prompt you for your MySQL password.
 
 ## Using <tt>.my.cnf</tt> for passwordless access to MySQL
 
