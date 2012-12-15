@@ -1,6 +1,6 @@
 [[!meta title="MySQL"]]
 # Introduction
-The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package <tt>mysql-server-5.1</tt>. See the following sections for information about performing common MySQL tasks, and our rules and policies regarding MySQL.
+The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package <code>mysql-server-5.1</code>. See the following sections for information about performing common MySQL tasks, and our rules and policies regarding MySQL.
 ## Policies
 We limit users to 1 database, and this database has the same name as your username.
 
