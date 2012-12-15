@@ -1,54 +1,49 @@
-[[!meta title="approve (approve an OCF account)"]]
-#approve (approve an OCF account)
+[[!meta title="approve: approve an OCF account"]]
+# approve
 
-##Introduction
-This script approves an account for later creation. Right now the preferred way is to direct users to approve their accounts online (ultimately this hooks into the same script). For some classes of users, online approve may not work (groups, visiting students, etc.). Use judgment when approving an account.
+This script records an account ("approve") for later creation. Right now you should direct users where possible to request their accounts online (ultimately this uses the same program). For some classes of users, like groups, online approve does not (currently) work.
 
-##Usage/example
-<pre>
-sanjayk[OCF]/opt/ocf/bin/approve
-Linux supernova 2.6.32-5-amd64 #1 SMP Sun May 6 04:00:17 UTC 2012 x86_64
+Note that:
 
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
+* University ID# is CalNet UID for individuals and OSL groupID for student groups (see [[signat]] for more info).
+* Approved users must be [[eligible for membership|membership/eligibility]].
+* We recommend individuals responsible for a group account also request an individual account for themselves if they are eligible.
 
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Sun Sep 30 11:05:29 2012 from death.ocf.berkeley.edu
-OCF Account Approval Program
---------------------------
-Creating Lock file nobody else can use approve until you are complete
-approve is getting the runtime data of the program...Locked and Loaded
---------------------------
-Is this an (i)ndividual or (g)roup account? i
-Real name: Testing Test
-University ID#: 12345
-Requested account name: testerw
-Enter your email address: test@ocf.berkeley.edu
-  Enter again to confirm: test@ocf.berkeley.edu
-Your OCF account includes an @OCF.Berkeley.EDU email address; would you like
-mail sent there to be forwarded to your personal email address? (y/n): y
-Choose a password (nothing will appear as you type): 
-Enter again to verify: 
-Your account has been approved!
-Removing lock file, people can use approve again
-Connection to supernova.ocf.berkeley.edu closed.
-</pre>
+## Example usage
 
+    OCF Account Approval Program
+    --------------------------
+    Is this an (i)ndividual or (g)roup account? g
+    Group name: Open Computing Facility 
+    Requested account name: ocf
+    Responsible student: Oski Bear
+    University ID#: 15975
+    Enter your email address: staff@ocf.berkeley.edu
+      Enter again to confirm: staff@ocf.berkeley.edu
+    Your OCF account includes an @OCF.Berkeley.EDU email address; would you like
+    mail sent there to be forwarded to your personal email address? (y/n): y
+    Choose a password (nothing will appear as you type): 
+    Enter again to verify: 
+    The account has been approved successfully
+    Connection to supernova.ocf.berkeley.edu closed.
 
-##Work-flow for OSL student group approvals
-The vast majority of approvals will be for <em>OSL</em> student groups here is the work-flow for those approvals. Note staff need to use judgment for non-OSL groups.
+## OSL student groups
+
+The vast majority of approvals will be for student groups registered with the University.
 
 ### Prerequisites
-* Person requesting the approval is a signatory of the group (confirm with signat, or ask them to log in to the website: http://campuslife.berkeley.edu/orgs)
-* Group has filled out an account form
-* Group does not have an existing account (check with checkaccount)
+
+* Group has filled out an account form.
+* Person requesting the approval is a signatory of the group (confirm with [[signat]]).
+* Group does not have an existing account (check with [[checkacct]]).
 
 ### Approval
-- Type in the group's FULL name in Group Name
-- Type in the desired account name (explain that this is not necessarily mean they will get xyz.berkeley.edu)
-- Type in the name of the student approving the account, their ID, and email address
+
+* Type in the group's full name in Group Name.
+* Type in the group's OSL groupID (find this using [[signat]])
+* Type in the desired account name (explain that this is not necessarily mean they will, or need to, get the same `.berkeley.edu` [[services/vhost]]).
+* Type in the name of the student approving the account and email address.
 
 ### Post approval
+
 Explain that that account will take 1-2 weeks to create and they will need to apply for virtual hosting after their site is ready. Point them to relevant wiki articles.
