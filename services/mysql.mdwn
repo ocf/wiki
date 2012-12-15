@@ -1,0 +1,4 @@
+The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package: mysql-server-5.1
+
+See the following sections for information about performing common MySQL tasks. Note that the command line instructions assume that you have logged into an OCF machine via SSH. The MySQL commands on the OCF are configured to work with the OCF's MySQL server by default, which is why many of the command lines are so short. If you are connecting using a MySQL client from a non-OCF machine, you may need to add extra options to the command line that specify, for example, the username and server hostname. 
+
