@@ -9,7 +9,7 @@ We have two options to create a database using the terminal or our web managemen
 ### Web-based tool
 Go to the website <pre>https://secure.ocf.berkeley.edu/account_tools/commands</pre>, and type in your username and password. Select the option: <pre>makemysql — reset your MySQL database password, or create a new MySQL database (copy down the password somewhere SECURE)</pre>, and run the command. Note your password in a safe place.
 ### SSH Terminal
-Log into the OCF via [[SSH | shell-account]], at the terminal prompt enter the command makemysql. Hit yes to confirm the operation. Note your password in a safe place.
+Log into the OCF via [[SSH|shell-account]], at the terminal prompt enter the command makemysql. Hit yes to confirm the operation. Note your password in a safe place.
 
 ## Reset Password
 To reset a MySQL password simply follow the directions above for creating a MySQL database. This program WILL NOT DELETE an existing database.
