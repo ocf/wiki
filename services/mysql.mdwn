@@ -1,4 +1,22 @@
-The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package: mysql-server-5.1
+[[!meta title="MySQL"]]
+# Introduction
+The OCF provides each user with a MySQL database. We currently use the most recent version of the Debian package mysql-server-5.1. See the following sections for information about performing common MySQL tasks, and our rules and policies regarding MySQL.
+## Policies
+We limit users to 1 database, and this database has the same name as your username.
 
-See the following sections for information about performing common MySQL tasks. Note that the command line instructions assume that you have logged into an OCF machine via SSH. The MySQL commands on the OCF are configured to work with the OCF's MySQL server by default, which is why many of the command lines are so short. If you are connecting using a MySQL client from a non-OCF machine, you may need to add extra options to the command line that specify, for example, the username and server hostname. 
+As a user of shared database server we ask you to respect the community and refrain from any activities that will hurt the quality of service for other users. We understand this policy is vague, so our suggested maximum size for databases is 1GB, and for individual tables 256 MB. Storing large amounts of data is not a problem unless the server has to perform complex queries on this data.
+
+## Creating a MySQL database
+We have two options to create a database using the terminal or our web management tool.
+### Web-based tool
+Go to the website https://secure.ocf.berkeley.edu/account_tools/commands, and type in your username and password. Select the option: makemysql — reset your MySQL database password, or create a new MySQL database (copy down the password somewhere SECURE), and run the command. Note your password in a safe place.
+### SSH Terminal
+Log into the OCF via [[SSH]], at the terminal prompt enter the command makemysql. Hit yes to confirm the operation. Note your password in a safe place.
+
+## Reset Password
+To reset a MySQL password simply follow the directions above for creating a MySQL database. This program WILL NOT DELETE an existing database.
+
+
+ 
+
 
