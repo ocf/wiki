@@ -18,9 +18,9 @@ To reset a MySQL password simply follow the directions above for creating a MySQ
 Assuming your database is set up, in order to access it (or allow a web application to access it), you will need 4 pieces of information:
 
 * Database Host: mysql
-* Database Name: <your OCF username>
-* Database User: <your OCF username>
-* Database password: <your database password>
+* Database Name: {your OCF username}
+* Database User: {your OCF username}
+* Database password: {your database password}
 
 Note: Your database password is not the same as your OCF account password. It is a randomly generated password that was created when your database was created. To use your OCF MySQL database with a web application, enter the above information during the application's installation process.
 
