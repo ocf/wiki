@@ -408,7 +408,7 @@ sorried users / kvm hypervisor</y:NodeLabel>
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="200.0" y="127.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="65.455078125" x="15.2724609375" y="15.8486328125">mudslide
 mumble<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
