@@ -109,16 +109,16 @@
     <g id="y.node.6">
       <a target="_blank" xlink:type="simple" xlink:href="supernova/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
-          <rect x="200" width="96" height="70" y="302" stroke="none"/>
+          <rect x="310" width="96" height="70" y="302" stroke="none"/>
         </g>
         <g>
           <g font-size="14" stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" fill="rgb(153,153,153)" font-family="sans-serif" stroke="rgb(153,153,153)" stroke-miterlimit="1.45">
-            <text x="215.3105" xml:space="preserve" y="333.9238" stroke="none">supernova</text>
-            <text x="218.0381" xml:space="preserve" y="351.0752" stroke="none">staff login</text>
+            <text x="325.3105" xml:space="preserve" y="333.9238" stroke="none">supernova</text>
+            <text x="328.0381" xml:space="preserve" y="351.0752" stroke="none">staff login</text>
           </g>
         </g>
         <g fill="rgb(153,153,153)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(153,153,153)">
-          <rect fill="none" x="200" width="96" height="70" y="302"/>
+          <rect fill="none" x="310" width="96" height="70" y="302"/>
         </g>
       </a>
     </g>
@@ -396,15 +396,31 @@
     <g id="y.node.28">
       <a target="_blank" xlink:type="simple" xlink:href="supernova/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
+          <rect x="200" width="96" height="70" y="302" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
+            <text x="235.938" xml:space="preserve" y="333.9238" stroke="none">spy</text>
+            <text x="228.5518" xml:space="preserve" y="351.0752" stroke="none">CUPS</text>
+          </g>
+        </g>
+        <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
+          <rect fill="none" x="200" width="96" height="70" y="302"/>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.29">
+      <a target="_blank" xlink:type="simple" xlink:href="supernova/" xlink:show="new">
+        <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="90" width="96" height="70" y="302" stroke="none"/>
         </g>
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
-            <text x="125.938" xml:space="preserve" y="333.9238" stroke="none">spy</text>
-            <text x="96.7622" xml:space="preserve" y="351.0752" stroke="none">CUPS, kiosk</text>
+            <text x="108.8345" xml:space="preserve" y="333.9238" stroke="none">diplomat</text>
+            <text x="120.1001" xml:space="preserve" y="351.0752" stroke="none">kiosk</text>
           </g>
         </g>
-        <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
+        <g fill="rgb(51,102,255)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(51,102,255)">
           <rect fill="none" x="90" width="96" height="70" y="302"/>
         </g>
       </a>
