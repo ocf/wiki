@@ -156,22 +156,6 @@
       </g>
     </g>
     <g id="y.node.10">
-      <a target="_blank" xlink:type="simple" xlink:href="jaws/" xlink:show="new">
-        <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
-          <rect x="200" width="96" height="70" y="208" stroke="none"/>
-        </g>
-        <g>
-          <g font-size="14" stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" fill="rgb(153,153,153)" font-family="sans-serif" stroke="rgb(153,153,153)" stroke-miterlimit="1.45">
-            <text x="233.9966" xml:space="preserve" y="239.9238" stroke="none">jaws</text>
-            <text x="225.0483" xml:space="preserve" y="257.0752" stroke="none">old wiki</text>
-          </g>
-        </g>
-        <g fill="rgb(153,153,153)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(153,153,153)">
-          <rect fill="none" x="200" width="96" height="70" y="208"/>
-        </g>
-      </a>
-    </g>
-    <g id="y.node.11">
       <a target="_blank" xlink:type="simple" xlink:href="sandstorm/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="90" width="96" height="70" y="46" stroke="none"/>
@@ -187,7 +171,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.12">
+    <g id="y.node.11">
       <a target="_blank" xlink:type="simple" xlink:href="pox/" xlink:show="new">
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
@@ -200,7 +184,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.13">
+    <g id="y.node.12">
       <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
         <rect x="436" width="96" height="70" y="-23.8096" stroke="none"/>
       </g>
@@ -209,7 +193,7 @@
         <rect fill="none" x="436" width="96" height="70" y="-23.8096"/>
       </g>
     </g>
-    <g id="y.node.14">
+    <g id="y.node.13">
       <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
         <rect x="444" width="96" height="70" y="-15.8096" stroke="none"/>
       </g>
@@ -218,7 +202,7 @@
         <rect fill="none" x="444" width="96" height="70" y="-15.8096"/>
       </g>
     </g>
-    <g id="y.node.15">
+    <g id="y.node.14">
       <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
         <rect x="452" width="96" height="70" y="-4.8096" stroke="none"/>
       </g>
@@ -232,7 +216,7 @@
         <rect fill="none" x="452" width="96" height="70" y="-4.8096"/>
       </g>
     </g>
-    <g id="y.node.16">
+    <g id="y.node.15">
       <a target="_blank" xlink:type="simple" xlink:href="pandemic/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="562" width="96" height="70" y="-4.8096" stroke="none"/>
@@ -247,7 +231,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.17">
+    <g id="y.node.16">
       <a target="_blank" xlink:type="simple" xlink:href="typhoon/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="310" width="96" height="70" y="-35" stroke="none"/>
@@ -263,14 +247,14 @@
         </g>
       </a>
     </g>
-    <g id="y.node.18">
+    <g id="y.node.17">
       <g>
         <g stroke-miterlimit="1.45" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
           <text x="540.2004" xml:space="preserve" y="-84.0887" stroke="none">Last updated: 12/19/2012</text>
         </g>
       </g>
     </g>
-    <g id="y.node.19">
+    <g id="y.node.18">
       <a target="_blank" xlink:type="simple" xlink:href="blight/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="90" width="96" height="70" y="127" stroke="none"/>
@@ -286,7 +270,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.20">
+    <g id="y.node.19">
       <a target="_blank" xlink:type="simple" xlink:href="pox/" xlink:show="new">
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
@@ -299,7 +283,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.21">
+    <g id="y.node.20">
       <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
         <rect x="442" width="96" height="70" y="130.3808" stroke="none"/>
       </g>
@@ -308,7 +292,7 @@
         <rect fill="none" x="442" width="96" height="70" y="130.3808"/>
       </g>
     </g>
-    <g id="y.node.22">
+    <g id="y.node.21">
       <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
         <rect x="450" width="96" height="70" y="138.3808" stroke="none"/>
       </g>
@@ -317,7 +301,7 @@
         <rect fill="none" x="450" width="96" height="70" y="138.3808"/>
       </g>
     </g>
-    <g id="y.node.23">
+    <g id="y.node.22">
       <a target="_blank" xlink:type="simple" xlink:href="mudslide/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="200" width="96" height="70" y="127" stroke="none"/>
@@ -333,7 +317,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.24">
+    <g id="y.node.23">
       <a target="_blank" xlink:type="simple" xlink:href="printhost/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="310" width="96" height="70" y="127" stroke="none"/>
@@ -349,7 +333,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.25">
+    <g id="y.node.24">
       <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
         <rect x="458" width="96" height="70" y="149.3808" stroke="none"/>
       </g>
@@ -363,7 +347,7 @@
         <rect fill="none" x="458" width="96" height="70" y="149.3808"/>
       </g>
     </g>
-    <g id="y.node.26">
+    <g id="y.node.25">
       <a target="_blank" xlink:type="simple" xlink:href="pestilence/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="568" width="96" height="70" y="149.3808" stroke="none"/>
@@ -379,7 +363,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.27">
+    <g id="y.node.26">
       <a target="_blank" xlink:type="simple" xlink:href="spy/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="200" width="96" height="70" y="302" stroke="none"/>
@@ -390,12 +374,12 @@
             <text x="228.5518" xml:space="preserve" y="351.0752" stroke="none">CUPS</text>
           </g>
         </g>
-        <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
+        <g fill="rgb(51,102,255)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(51,102,255)">
           <rect fill="none" x="200" width="96" height="70" y="302"/>
         </g>
       </a>
     </g>
-    <g id="y.node.28">
+    <g id="y.node.27">
       <a target="_blank" xlink:type="simple" xlink:href="diplomat/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="90" width="96" height="70" y="302" stroke="none"/>
@@ -411,7 +395,7 @@
         </g>
       </a>
     </g>
-    <g id="y.node.29">
+    <g id="y.node.28">
       <a target="_blank" xlink:type="simple" xlink:href="flood/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
           <rect x="568" width="96" height="70" y="230.3808" stroke="none"/>
