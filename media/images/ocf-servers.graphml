@@ -18,7 +18,7 @@
       <data key="d4"><![CDATA[hal/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="370.0" width="463.0" x="-48.0" y="-78.0"/>
+          <y:Geometry height="286.38075575575573" width="463.0" x="-48.0" y="-78.0"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="internal" modelPosition="tl" textColor="#000000" visible="true" width="107.49609375" x="4.0" y="4.0">hal
@@ -107,7 +107,7 @@ puppeteer<y:LabelModel>
       <data key="d4"><![CDATA[supernova/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="302.0"/>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="218.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#999999" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="69.37890625" x="13.310546875" y="15.8486328125">supernova
@@ -126,7 +126,7 @@ staff login<y:LabelModel>
       <data key="d4"><![CDATA[firestorm/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="90.0" y="208.0"/>
+          <y:Geometry height="70.0" width="96.0" x="-20.0" y="127.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#FF0000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="64.6826171875" x="15.65869140625" y="15.8486328125">firestorm
@@ -481,7 +481,7 @@ dns<y:LabelModel>
       <data key="d4"><![CDATA[spy/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="200.0" y="302.0"/>
+          <y:Geometry height="70.0" width="96.0" x="200.0" y="218.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="42.896484375" x="26.5517578125" y="15.8486328125">spy
@@ -500,7 +500,7 @@ CUPS<y:LabelModel>
       <data key="d4"><![CDATA[diplomat/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="90.0" y="302.0"/>
+          <y:Geometry height="70.0" width="96.0" x="90.0" y="218.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="62.3310546875" x="16.83447265625" y="15.8486328125">diplomat
