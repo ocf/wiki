@@ -2,5 +2,5 @@
 ip-address: 128.32.129.220
 maintainers: []
 name: locusts
-services: [tzhu testing]
+services: [tzhu/waf testing]
 # ENDYAML
