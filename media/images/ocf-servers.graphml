@@ -18,7 +18,7 @@
       <data key="d4"><![CDATA[hal/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="295.0" width="463.0" x="-48.0" y="-78.0"/>
+          <y:Geometry height="370.0" width="463.0" x="-48.0" y="-78.0"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="internal" modelPosition="tl" textColor="#000000" visible="true" width="107.49609375" x="4.0" y="4.0">hal
@@ -31,7 +31,7 @@ kvm hypervisor</y:NodeLabel>
       <data key="d4"><![CDATA[flood/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="565.0" y="143.76151151151146"/>
+          <y:Geometry height="70.0" width="96.0" x="568.0" y="230.38075575575573"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="38.20703125" x="28.896484375" y="15.8486328125">flood
@@ -50,7 +50,7 @@ irc<y:LabelModel>
       <data key="d4"><![CDATA[death/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="200.0" y="-43.0"/>
+          <y:Geometry height="70.0" width="96.0" x="200.0" y="-35.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="41.337890625" x="27.3310546875" y="15.8486328125">death
@@ -68,7 +68,7 @@ httpd<y:LabelModel>
     <node id="n3">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="90.0" y="-43.0"/>
+          <y:Geometry height="70.0" width="96.0" x="90.0" y="-35.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="74.806640625" x="10.5966796875" y="15.8486328125">maelstrom
@@ -87,7 +87,7 @@ mysql<y:LabelModel>
       <data key="d4"><![CDATA[pollution/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="200.0" y="46.0"/>
+          <y:Geometry height="70.0" width="96.0" x="200.0" y="127.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="63.08984375" x="16.455078125" y="15.8486328125">pollution
@@ -103,23 +103,10 @@ backup<y:LabelModel>
       </data>
     </node>
     <node id="n5">
-      <data key="d4"><![CDATA[pox/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="158.0" width="257.5" x="424.0" y="325.0"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="internal" modelPosition="tl" textColor="#000000" visible="true" width="111.37890625" x="4.0" y="4.0">pox
-ESXi hypervisor</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n6">
       <data key="d4"><![CDATA[tsunami/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="452.0" y="388.35935935935936"/>
+          <y:Geometry height="70.0" width="96.0" x="200.0" y="46.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="57.67578125" x="19.162109375" y="15.8486328125">tsunami
@@ -134,26 +121,7 @@ login<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n7">
-      <data key="d4"><![CDATA[pileup/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="391.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#999999" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="82.61328125" x="6.693359375" y="15.8486328125">pileup
-second login<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n8">
+    <node id="n6">
       <data key="d4"><![CDATA[lightning/]]></data>
       <data key="d6">
         <y:ShapeNode>
@@ -172,30 +140,11 @@ puppeteer<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n9">
-      <data key="d4"><![CDATA[pestilence/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="450.00000000000006" y="230.38075575575573"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="72.4755859375" x="11.76220703125" y="15.8486328125">pestilence
-dns<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n10">
+    <node id="n7">
       <data key="d4"><![CDATA[supernova/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="-20.0" y="233.0"/>
+          <y:Geometry height="70.0" width="96.0" x="90.0" y="302.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="74.7998046875" x="10.60009765625" y="15.8486328125">supernova
@@ -210,30 +159,11 @@ staff login<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n11">
-      <data key="d4"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="89.99999999999999" y="235.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#999999" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="60.02734375" x="17.986328125" y="15.8486328125">epidemic
-old nfs<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n12">
+    <node id="n8">
       <data key="d4"><![CDATA[emp/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="-20.0" y="311.0"/>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="302.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="47.5654296875" x="24.21728515625" y="15.8486328125">emp
@@ -248,11 +178,11 @@ zabbix<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n13">
+    <node id="n9">
       <data key="d4"><![CDATA[firestorm/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="200.0" y="135.0"/>
+          <y:Geometry height="70.0" width="96.0" x="200.0" y="208.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#FF0000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="64.6826171875" x="15.65869140625" y="15.8486328125">firestorm
@@ -267,26 +197,7 @@ ldap/krb<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n14">
-      <data key="d4"><![CDATA[tempest/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="200.0" y="311.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#999999" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="79.5029296875" x="8.24853515625" y="15.8486328125">tempest
-ldap backup<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n15">
+    <node id="n10">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="-36.0" y="27.0"/>
@@ -304,7 +215,7 @@ ldap backup<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n16">
+    <node id="n11">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="-28.0" y="35.0"/>
@@ -322,7 +233,7 @@ ldap backup<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n17">
+    <node id="n12">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="-20.0" y="46.0"/>
@@ -339,49 +250,11 @@ ldap backup<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n18">
-      <data key="d4"><![CDATA[biohazard/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="233.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#999999" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="65.4892578125" x="15.25537109375" y="15.8486328125">biohazard
-AD<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n19">
-      <data key="d4"><![CDATA[tornado/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="311.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#999999" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="72.482421875" x="11.7587890625" y="15.8486328125">tornado
-AD backup<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n20">
+    <node id="n13">
       <data key="d4"><![CDATA[jaws/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="562.0" y="388.35935935935936"/>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="208.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#999999" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="49.9033203125" x="23.04833984375" y="15.8486328125">jaws
@@ -396,7 +269,7 @@ old wiki<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n21">
+    <node id="n14">
       <data key="d4"><![CDATA[sandstorm/]]></data>
       <data key="d6">
         <y:ShapeNode>
@@ -415,11 +288,11 @@ mail<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n22">
+    <node id="n15">
       <data key="d4"><![CDATA[blackhole/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="-20.0" y="391.0"/>
+          <y:Geometry height="70.0" width="96.0" x="200.0" y="302.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="86.4755859375" x="4.76220703125" y="15.8486328125">blackhole
@@ -434,7 +307,7 @@ mail storage<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n23">
+    <node id="n16">
       <data key="d4"><![CDATA[pox/]]></data>
       <data key="d6">
         <y:ShapeNode>
@@ -447,7 +320,7 @@ disk array / kvm hypervisor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n24">
+    <node id="n17">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="436.0" y="-23.809622122122136"/>
@@ -465,7 +338,7 @@ disk array / kvm hypervisor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n25">
+    <node id="n18">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="444.0" y="-15.809622122122136"/>
@@ -483,7 +356,7 @@ disk array / kvm hypervisor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n26">
+    <node id="n19">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="452.0" y="-4.809622122122136"/>
@@ -501,7 +374,7 @@ capacity)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n27">
+    <node id="n20">
       <data key="d4"><![CDATA[pandemic/]]></data>
       <data key="d6">
         <y:ShapeNode>
@@ -519,11 +392,11 @@ capacity)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n21">
       <data key="d4"><![CDATA[typhoon/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="-43.0"/>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="-35.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="59.20703125" x="18.396484375" y="15.8486328125">typhoon
@@ -538,26 +411,7 @@ rt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n29">
-      <data key="d4"><![CDATA[monsoon/]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="200.0" y="233.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#999999" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#999999" visible="true" width="61.5927734375" x="17.20361328125" y="15.8486328125">monsoon
-ldap/krb<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n30">
+    <node id="n22">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="21.60504201680672" width="146.4800420168068" x="535.0199579831932" y="-99.60504201680672"/>
@@ -574,15 +428,15 @@ ldap/krb<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n31">
+    <node id="n23">
       <data key="d4"><![CDATA[blight/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="90.0" y="135.0"/>
+          <y:Geometry height="70.0" width="96.0" x="90.0" y="127.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="42.0966796875" x="26.95166015625" y="15.8486328125">blight
-wiki<y:LabelModel>
+ wiki<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -593,7 +447,7 @@ wiki<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n32">
+    <node id="n24">
       <data key="d4"><![CDATA[pox/]]></data>
       <data key="d6">
         <y:ShapeNode>
@@ -606,7 +460,7 @@ sorried users / kvm hypervisor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n33">
+    <node id="n25">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="442.0" y="130.38075575575573"/>
@@ -624,7 +478,7 @@ sorried users / kvm hypervisor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n34">
+    <node id="n26">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="450.0" y="138.38075575575573"/>
@@ -642,7 +496,45 @@ sorried users / kvm hypervisor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n35">
+    <node id="n27">
+      <data key="d4"><![CDATA[blight/]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="127.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="65.455078125" x="15.2724609375" y="15.8486328125">mudslide
+mumble<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d4"><![CDATA[blight/]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="70.0" width="96.0" x="90.0" y="208.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="64.6552734375" x="15.67236328125" y="15.8486328125">printhost
+CUPS<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n29">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="458.0" y="149.38075575575573"/>
@@ -660,7 +552,45 @@ capacity)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <edge id="e0" source="n15" target="n0">
+    <node id="n30">
+      <data key="d4"><![CDATA[pestilence/]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="70.0" width="96.0" x="568.0" y="149.38075575575573"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="72.4755859375" x="11.76220703125" y="15.8486328125">pestilence
+dns<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d4"><![CDATA[supernova/]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="70.0" width="96.0" x="-20.0" y="302.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="86.4755859375" x="4.76220703125" y="15.8486328125">spy
+CUPS, kiosk<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n10" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
