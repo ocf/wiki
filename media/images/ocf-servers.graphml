@@ -88,7 +88,7 @@ login<y:LabelModel>
       <data key="d4"><![CDATA[lightning/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="46.0"/>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="127.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="71.67578125" x="12.162109375" y="15.8486328125">lightning
@@ -338,9 +338,9 @@ rt<y:LabelModel>
       <data key="d4"><![CDATA[blight/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="90.0" y="127.0"/>
+          <y:Geometry height="70.0" width="96.0" x="310.0" y="46.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="42.0966796875" x="26.95166015625" y="15.8486328125">blight
  wiki<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -425,9 +425,9 @@ mumble<y:LabelModel>
       <data key="d4"><![CDATA[printhost/]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="70.0" width="96.0" x="310.0" y="127.0"/>
+          <y:Geometry height="70.0" width="96.0" x="90.0" y="127.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="64.6552734375" x="15.67236328125" y="15.8486328125">printhost
 CUPS<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -521,7 +521,7 @@ kiosk<y:LabelModel>
         <y:ShapeNode>
           <y:Geometry height="70.0" width="96.0" x="568.0" y="230.38075575575573"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:BorderStyle color="#3366FF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="SansSerif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="38.20703125" x="28.896484375" y="15.8486328125">flood
 irc<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>

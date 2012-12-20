@@ -79,16 +79,16 @@
     <g id="y.node.4">
       <a target="_blank" xlink:type="simple" xlink:href="lightning/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
-          <rect x="310" width="96" height="70" y="46" stroke="none"/>
+          <rect x="310" width="96" height="70" y="127" stroke="none"/>
         </g>
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
-            <text x="328.4551" xml:space="preserve" y="77.9238" stroke="none">lightning</text>
-            <text x="324.1621" xml:space="preserve" y="95.0752" stroke="none">puppeteer</text>
+            <text x="328.4551" xml:space="preserve" y="158.9238" stroke="none">lightning</text>
+            <text x="324.1621" xml:space="preserve" y="176.0752" stroke="none">puppeteer</text>
           </g>
         </g>
         <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
-          <rect fill="none" x="310" width="96" height="70" y="46"/>
+          <rect fill="none" x="310" width="96" height="70" y="127"/>
         </g>
       </a>
     </g>
@@ -257,16 +257,16 @@
     <g id="y.node.18">
       <a target="_blank" xlink:type="simple" xlink:href="blight/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
-          <rect x="90" width="96" height="70" y="127" stroke="none"/>
+          <rect x="310" width="96" height="70" y="46" stroke="none"/>
         </g>
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
-            <text x="118.9517" xml:space="preserve" y="158.9238" stroke="none">blight</text>
-            <text x="122.8276" xml:space="preserve" y="176.0752" stroke="none"> wiki</text>
+            <text x="338.9517" xml:space="preserve" y="77.9238" stroke="none">blight</text>
+            <text x="342.8276" xml:space="preserve" y="95.0752" stroke="none"> wiki</text>
           </g>
         </g>
-        <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
-          <rect fill="none" x="90" width="96" height="70" y="127"/>
+        <g fill="rgb(51,102,255)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(51,102,255)">
+          <rect fill="none" x="310" width="96" height="70" y="46"/>
         </g>
       </a>
     </g>
@@ -320,16 +320,16 @@
     <g id="y.node.23">
       <a target="_blank" xlink:type="simple" xlink:href="printhost/" xlink:show="new">
         <g fill="white" transform="matrix(1,0,0,1,63,115)" stroke="white">
-          <rect x="310" width="96" height="70" y="127" stroke="none"/>
+          <rect x="90" width="96" height="70" y="127" stroke="none"/>
         </g>
         <g>
           <g font-size="14" stroke-miterlimit="1.45" font-weight="bold" font-family="sans-serif" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt">
-            <text x="327.6724" xml:space="preserve" y="158.9238" stroke="none">printhost</text>
-            <text x="338.5518" xml:space="preserve" y="176.0752" stroke="none">CUPS</text>
+            <text x="107.6724" xml:space="preserve" y="158.9238" stroke="none">printhost</text>
+            <text x="118.5518" xml:space="preserve" y="176.0752" stroke="none">CUPS</text>
           </g>
         </g>
-        <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
-          <rect fill="none" x="310" width="96" height="70" y="127"/>
+        <g fill="rgb(51,102,255)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(51,102,255)">
+          <rect fill="none" x="90" width="96" height="70" y="127"/>
         </g>
       </a>
     </g>
@@ -406,7 +406,7 @@
             <text x="607.438" xml:space="preserve" y="279.456" stroke="none">irc</text>
           </g>
         </g>
-        <g stroke-linecap="butt" transform="matrix(1,0,0,1,63,115)" stroke-miterlimit="1.45">
+        <g fill="rgb(51,102,255)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,63,115)" stroke-linecap="butt" stroke="rgb(51,102,255)">
           <rect fill="none" x="568" width="96" height="70" y="230.3808"/>
         </g>
       </a>
