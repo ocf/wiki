@@ -5,11 +5,11 @@
 account-tools is a django project for online password resets, account approvals, and command execution. 
 
 ## Technical warning
-account-tools is installed on the webserver in _/var/www/account-tools, note the special permissions. account-tools requires privilege to change passwords, and as a result we need to be careful about ownership.
+account-tools is installed on the webserver in _/var/www/account\_tools_, note the special permissions. account-tools requires privilege to change passwords, and as a result we need to be careful about ownership.
 
 ## Deploying Account Tools
 
-1. Clone the git repo _supernova:/opt/src/users/kedo/account-tools_
+1. Clone the git repo _https://github.com/ocf/account-tools.git_
 2. Make sure the settings file exists at _/root/account\_tools\_settings.py.secret_
 3. Run the setup script:
 
