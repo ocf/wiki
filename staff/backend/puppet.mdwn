@@ -9,10 +9,10 @@ When puppeting new machines, you should do so in your own puppet environment. Pu
 ## Creating Your Puppet Environment
 To create your own puppet environment, do:
 
-    $USER@lightning:/opt/puppet/env$ sudo git clone /etc/puppet $USER
-    $USER@lightning:/opt/puppet/env$ sudo chown -R $USER:ocfstaff $USER
+    $USER@lightning:/opt/puppet/env$ sudo git clone /opt/puppet $USER
+    $USER@lightning:/opt/puppet/env$ sudo chown -R $USER:ocf $USER
 
-You can commit changes to your environment as you work. When you're done, ask an SM to pull from your environment into the production */etc/puppet* repo.
+You can commit changes to your environment as you work. When you're done, ask an SM to pull from your environment into the /opt/puppet repository. A post-receive hook is set up from there to update the production environment and the github repository.
 
 ## Puppeting Preseeded Debian Install
 
