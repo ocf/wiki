@@ -3,7 +3,7 @@
 The puppet master is [[lightning|servers]].
 
 # Puppeting New Machines
-The **production** puppet configuration files are in */etc/puppet*.
+The **production** puppet configuration files are in */opt/puppet*.
 When puppeting new machines, you should do so in your own puppet environment. Puppet environments are in */opt/puppet/env* on the puppet master.
 
 ## Creating Your Puppet Environment
