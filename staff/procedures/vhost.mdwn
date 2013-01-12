@@ -13,7 +13,7 @@ Request the following DNS record from the [University hostmaster](http://www.net
 ### Mail (if requested)
 
 * Add vhost: edit `/etc/postfix/ocfconfig/vhost-maps.pcre` on sandstorm (using `sudo`).
-* Update and reload vhost configuration: Run `sudo /etc/postfix/ocfconfig.buildvirtual.sh` on sandstorm.
+* Update and reload vhost configuration: Run `sudo /etc/postfix/ocfconfig/buildvirtual.sh` on sandstorm.
 
 Request the following DNS records from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/):
 
