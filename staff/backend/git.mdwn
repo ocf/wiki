@@ -14,7 +14,7 @@ Recommended reading:
 
 Although we use Git, a great tool for large-scale distributed development, for us a Subversion-like workflow with a "central repository" and linear history often makes more sense.
 
-**Only commit your own, original work**.  You may commit another staff member's work if you have permission and change the author appropriately (e.g., `--author="Guest User <guser@ocf.berkeley.edu>"`). When committing, `git config user.name` should be your name and `git config user.email` should be your OCF email address -- this should be taken care of by [[LDAP]] and `/etc/mailname` OCF machines.
+**Only commit your own, original work**.  You may commit another staff member's work if you have permission and change the author appropriately (e.g., `--author="Guest User <guser@ocf.berkeley.edu>"`). When committing, `git config user.name` should be your name and `git config user.email` should be your OCF email address -- this should be taken care of by [[LDAP]] and `/etc/mailname` on OCF machines.
 
 #### To "update" your local branch to the latest changes from the central repository
 
