@@ -1,7 +1,7 @@
 [[!meta title="Procedures"]]
-# OCF Procedures Documentation
+# Common staff procedures
 
-Create pages under this directory to document common procedures.  They will automatically be added to the map below.
+Create pages under this directory to document how to perform common procedures.
 
 ## Procedures map
 
