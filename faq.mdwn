@@ -31,7 +31,7 @@ To re-enable your account, you will need to see a Manager (gm, sm, or dm after t
 
 ### I forgot my username or password.
 
-See [[services/shell-account/passwords]].
+See [[services/account]].
 
 ### [[Web hosting|services/web]]: How do I get group.berkeley.edu ([[virtual hosting|services/vhost]])?
 
@@ -45,4 +45,4 @@ See [[printing|services/lab/printing]].
 
 If you want to disable your OCF account, please [[contact us|contact]] and provide your OCF username. If your account appears to still be active, we may ask for some evidence that you are the account owner. Currently, disabled accounts are stored or archived and can be *re-enabled* by request at a later date.
 
-To permanently delete the contents of your account, you will need to have access to your account. Refer to our documentation about [[account passwords|services/shell-account/passwords]].
+To permanently delete the contents of your account, you will need to have access to your account. Refer to our documentation about [[account passwords|services/account]].

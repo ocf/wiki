@@ -1,21 +1,24 @@
-[[!meta title="Passwords"]]
-# Account passwords
+[[!meta title="Account"]]
+
+## OCF account
+
+## Account password
 
 Your account password protects your access to most OCF [[services]]. Access to your [[MySQL database|services/mysql]], if you have one, is protected by a separate password.
 
 OCF staff members do not need to know and will not ask for your password.
 
-## Changing your password
+### Changing your password
 
-### Using CalNet
+#### Using CalNet
 
 For individual accounts, you can [find your username or reset your password online](https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access).
 
-### Over SSH
+#### Over SSH
 
 You can change your password over SSH if you know your current password.
 
-Use [[SSH|services/shell-account]] to run the command `passwd` and follow the prompts as shown below. No text will appear when you are entering in a password, just press enter when done after each prompt.
+Use [[SSH|shell]] to run the command `passwd` and follow the prompts as shown below. No text will appear when you are entering in a password, just press enter when done after each prompt.
 
     $ kpasswd 
     myusername@OCF.BERKELEY.EDU's Password: <my current password>
@@ -23,13 +26,13 @@ Use [[SSH|services/shell-account]] to run the command `passwd` and follow the pr
     Verifying - New password: <my new password>
     Success : Password changed
 
-### In person
+#### In person
 
 If you are not able to use CalNet or SSH (for example, if you are a group and forgot your current password), you can meet a staff member in person during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
 
 Please bring sufficient documentation as listed on the [[membership eligibility|membership/eligibility]] page to demonstrate that you are authorized to reset the account password.
 
-### By postal mail
+#### By postal mail
 
 If you have forgotten your individual account password and are unable to use CalNet or meet a staff member in person, you may reset your password through postal mail. For security purposes, please include the following with your request:
 
@@ -53,7 +56,7 @@ Mail your request to our [[mailing address|contact/#index6h2]].
 
 Once your password is reset, we strongly encourage you to change it over SSH (see above), so that you can be sure that no one else knows your password.
 
-## Compromised passwords
+### Compromised passwords
 
 If OCF staff believe that an account password has been compromised or that someone unauthorized has accessed the account, the account may be disabled.
 
