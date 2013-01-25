@@ -393,8 +393,8 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
   Put the following into a crontab; you may want to create a rt system user to run this. 
 
-        0 3 * * * /usr/bin/rt-crontool --search RT::Search::FromSQL \
-        --search-arg "LastUpdated < '30 days ago' AND Status = 'open'" \
+        0 * * * * /usr/bin/rt-crontool --search RT::Search::FromSQL \
+        --search-arg "LastUpdated < '5 days ago' AND Status = 'stalled'" \
         --action RT::Action::SetStatus --action-arg resolved
 
   References: [1](http://lists.bestpractical.com/pipermail/rt-users/2005-February/028837.html) [2](http://requesttracker.wikia.com/wiki/UntouchedInHours) [3](http://requesttracker.wikia.com/wiki/TimedNotifications)
