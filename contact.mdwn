@@ -56,6 +56,6 @@ Our mailing address is:
 
 ## Legal
 
-Use of OCF resources in violation of applicable [university policies](https://security.berkeley.edu/policy/usepolicy.html), regulations, and laws, including copyright, spam, and fraud is not allowed, and repeat infringement is not tolerated.
+Use of OCF resources in violation of applicable [university policies](https://security.berkeley.edu/policy/usepolicy.html) and laws, including copyright, spam, and fraud, is not allowed. Accounts of repeat infringer will be disabled in accordance with university policies.
 
 DMCA takedown notices must comply with [17 U.S.C. § 512(c)(3)](http://www.copyright.gov/title17/92chap5.html#512) and be sent to the [designated agent at UC Berkeley](http://www.copyright.gov/onlinesp/agents/u/univ_ca_berkeley.pdf). We recommend sending a copy of the notice to the OCF directly ([security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)) for faster response.
