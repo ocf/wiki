@@ -27,7 +27,7 @@ It should still work. If it's been inactive for several years, it may be disable
 
 ### My account is disabled.
 
-To re-enable your account, you will need to see a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+To re-enable your account, you will need to see a manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/staff_hours).
 
 ### I forgot my username or password.
 
