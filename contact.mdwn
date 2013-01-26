@@ -16,6 +16,8 @@ When contacting OCF staff (in person or remotely), please reference
 
 Please conserve our valuable volunteer manpower by **making sure your question isn't already answered in our [[Frequently asked questions|faq]]**. *Interested in [joining staff](http://www.ocf.berkeley.edu/OCF/staff/)*?
 
+<img src="http://www.ocf.berkeley.edu/backtowork.gif" alt="too much work" width="200px" height="187px">
+
 ## In person
 
 [[!inline pages="fragments/lab" raw=yes]]
@@ -56,6 +58,6 @@ Our mailing address is:
 
 ## Legal
 
-Use of OCF resources in violation of applicable [university policies](https://security.berkeley.edu/policy/usepolicy.html) and laws, including copyright, spam, and fraud, is not allowed. Accounts of repeat infringer will be disabled in accordance with university policies.
+Use of OCF resources in violation of applicable [university policies](https://security.berkeley.edu/policy/usepolicy.html) and laws, including copyright, spam, and fraud, is not allowed. Accounts of repeat infringers will be disabled in accordance with university policies.
 
 DMCA takedown notices must comply with [17 U.S.C. § 512(c)(3)](http://www.copyright.gov/title17/92chap5.html#512) and be sent to the [designated agent at UC Berkeley](http://www.copyright.gov/onlinesp/agents/u/univ_ca_berkeley.pdf). We recommend sending a copy of the notice to the OCF directly ([security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)) for faster response.
