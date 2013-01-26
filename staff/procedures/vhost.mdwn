@@ -19,4 +19,3 @@ Request the following DNS records from the [University hostmaster](http://www.ne
 
     vhost.berkeley.edu IN A 128.32.129.243
     vhost.berkeley.edu IN MX 5 sandstorm.ocf.berkeley.edu
-    vhost.berkeley.edu IN MX 10 pestilence.ocf.berkeley.edu
