@@ -1,0 +1,9 @@
+# spy
+
+## Jukebox
+
+spy uses PulseAudio (package installed from wheezy to fix a latency timing bug). PulseAudio configuration changed to run in system mode (users need to be added to pulse-access group), allow users to load modules, and some changes may have been made in PolicyKit to allow device access.
+
+When PulseAudio starts, the playback sink will need to be unmuted. To receive sound over the network using RTP multicast, module-rtp-send will need to be loaded. These are handled by a shell script.
+
+A cronjob announces the time each hour using espeak piped to mplayer.
