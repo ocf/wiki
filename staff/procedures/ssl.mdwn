@@ -1,8 +1,7 @@
-[[!meta title="SSL Certificates"]]
+[[!meta title="SSL certificates"]]
+# Creating SSL certificates
 
-# SSL Certificate Generation Procedures
-
-See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/CalNet+InCommon-Comodo+Certificate+Service) for information on how to submit a certificate request.
+These instructions are based off ResComp internal documentation. See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/CalNet+InCommon-Comodo+Certificate+Service) for information on how to submit a certificate request.
 
 ## Generate Secured Private Key
    * Generate the private key for the server you are creating a CSR/cert for.
@@ -31,6 +30,3 @@ See the [Berkeley CalNet PKI page](https://wikihub.berkeley.edu/display/calnet/C
       * Challenge Password:  blank
       * Optional Company Name:   blank
    * Send the {shortservername}.csr file to calnet-pki for Comodo certs.
-
------
-###### Courtesy of ResComp WinSys Twiki documentation
