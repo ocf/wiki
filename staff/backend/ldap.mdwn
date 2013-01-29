@@ -1,93 +1,117 @@
 [[!meta title="LDAP"]]
-# LDAP
+# Lightweight Directory Access Protocol
 
-##Introduction
-The Lightweight Directory Access Protocol is a protocol for accessing a directory service over a network. We use this to store all the relevant information about a user.
+## Introduction
+The Lightweight Directory Access Protocol accesses a directory service over a network. We currently use OpenLDAP to store information about accounts (except password hashes which are in [[Kerberos]]).
 
-Our current implementation uses a program called OpenLDAP.
+## Definition of an OCF account
 
-##Definition of an OCF user
-To use ldap we need to first understand all of the attributes that define an OCF user:
-<pre>
-*  dn: distinguished name this is the primary key for the entry
-*  cn: common name, the user's full name
-*  uid: user identification, the user's user name
-*  uidNumber user identification number, the user's POSIX uid
-*  gidNumber the primary group membership of the OCF user
-*  homeDirectory the location of the user's home directory in our filesystem
-*  gecos the name as it appears in getent passwd
-*  calNetuid the user's cal net uid number 
-*  loginShell the user's login shell
-</pre>
+Attributes that define an OCF account:
 
-##Definition of an OCF POSIX group
-<pre>
-OCF POSIX groups are also defined in ldap, here are the attributes that define a group:
-*  dn distinguished name this is the primary key for the entry
-*  cn common name, the group's name
-*  gidNumber the group id number
-*  memberUid a member of the group
-</pre>
+> * dn: distinguished name; primary key for the entry
+> * cn: common name; full name
+> * uid: account name
+> * uidNumber: POSIX user ID number
+> * gidNumber: primary POSIX group ID number
+> * homeDirectory: location of home directory
+> * loginShell: shell
+> * calNetuid: CalNet number (for individuals)
+> * oslgid: OSL group ID number (for student groups)
 
-##Utilities
-###ldapsearch
-For most staff, their primary interface to ldap will be ldapsearch. ldapsearch is a powerful program that allows queries of the ldap database. For most usage, you want to type in -x, which means to skip the authentication phase. After that you provide a search filter (in this case uid).
+## Definition of a POSIX group
 
-Searching for a user
-<pre>
-sanjayk[OCF]ldapsearch -x uid=sanjayk
-# extended LDIF
-#
-# LDAPv3
-# base <dc=OCF,dc=Berkeley,dc=EDU> (default) with scope subtree
-# filter: uid=sanjayk
-# requesting: ALL
-#
+Attributes that define a POSIX group:
 
-# sanjayk, People, OCF.Berkeley.EDU
-dn: uid=sanjayk,ou=People,dc=OCF,dc=Berkeley,dc=EDU
-objectClass: ocfAccount
-objectClass: account
-objectClass: posixAccount
-cn: Sanjay Krishnan
-uid: sanjayk
-uidNumber: 18298
-gidNumber: 20
-homeDirectory: /home/s/sa/sanjayk
-gecos: Sanjay Krishnan
-calNetuid: 646431
-loginShell: /bin/tcsh
-</pre>
+> * dn: distinguished name; primary key for the entry
+> * cn common name; full name
+> * gidNumber: POSIX group ID number
+> * memberUid: a member of the group
 
-Searching for a user in a group:
-<pre>
- sanjayk[OCF]ldapsearch -x memberUid=sanjayk | grep cn:
-cn: approve
-cn: ocfstaff
-cn: admin
-</pre>
+## Utilities
 
-### ldapadd
-ldapadd is a utility to add entries to the ldap directory. To add a user, first create a file in the following format:
-<pre>
-dn: uid=asdf,ou=People,dc=OCF,dc=Berkeley,dc=EDU
-objectClass: ocfAccount
-objectClass: account
-objectClass: posixAccount
-cn: asdf
-uid: asdf
-uidNumber: 25444
-gidNumber: 20
-homeDirectory: /home/a/as/asdf
-loginShell: /bin/bash
-gecos: asdf
-calNetuid: 758472
-</pre>
+### `ldapsearch`
 
-Then authenticate with kerberos:
-<pre>$kinit sanjayk/admin</pre>
+For most staff, their primary interface to LDAP will be `ldapsearch`. `ldapsearch` is a powerful program that allows queries of the LDAP database. For most usage, you want to type in `-x`, which skips authentication. After that you provide a search filter (in this case UID).
 
-Finally run ldapadd:
-<pre>$ldapadd < user_file</pre>
+Searching for an account:
+
+    $ ldapsearch -x uid=sanjayk
+    dn: uid=sanjayk,ou=People,dc=OCF,dc=Berkeley,dc=EDU
+    objectClass: ocfAccount
+    objectClass: account
+    objectClass: posixAccount
+    cn: Sanjay Krishnan
+    uid: sanjayk
+    uidNumber: 18298
+    gidNumber: 20
+    homeDirectory: /home/s/sa/sanjayk
+    gecos: Sanjay Krishnan
+    loginShell: /bin/tcsh
+    calNetuid: 646431
+
+Searching for an account in a group:
+
+    $ ldapsearch -x memberUid=sanjayk | grep cn:
+    cn: approve
+    cn: ocfstaff
+    cn: admin
+
+### `ldapvi`
+
+`ldapvi` is a "text editor" for LDAP which can generate LDIF change records to pass to `ldapadd` (or modify directly if you have the proper [[permissions|powers]].
+
+    $ ldapvi uid=daradib
+    0 uid=daradib,ou=People,dc=OCF,dc=Berkeley,dc=EDU
+    objectClass: ocfAccount
+    objectClass: account
+    objectClass: posixAccount
+    cn: Dara Adib
+    uid: daradib
+    uidNumber: 19892
+    gidNumber: 20
+    homeDirectory: /home/d/da/daradib
+    loginShell: /bin/bash
+    calNetuid: 872544
+
+Now if you make changes to some attributes (say, change the shell to tcsh) and try to save the temporary file which has been opened in a text editor:
+
+          1 entry read
+    add: 0, rename: 0, modify: 1, delete: 0
+    Action? [yYqQvVebB*rsf+?] 
+
+You can press "v" to view the LDIF change record (or "?" for help).
+
+    dn: uid=daradib,ou=People,dc=OCF,dc=Berkeley,dc=EDU
+    changetype: modify
+    replace: loginShell
+    loginShell: /bin/tcsh
+
+You can also press "q" to save the LDIF change record as a file in your current directory or "Q" to discard it.
+
+### `ldapadd`
+
+`ldapadd` is a utility to add entries to the LDAP directory if you have the proper [[permissions|powers]].
+
+To add an account, first create a file (we call it user_file):
+
+    dn: uid=asdf,ou=People,dc=OCF,dc=Berkeley,dc=EDU
+    objectClass: ocfAccount
+    objectClass: account
+    objectClass: posixAccount
+    cn: asdf
+    uid: asdf
+    uidNumber: 25444
+    gidNumber: 20
+    homeDirectory: /home/a/as/asdf
+    loginShell: /bin/bash
+    calNetuid: 758472
+
+Then authenticate with [[Kerberos]]:
+
+    $kinit myusername/admin
+
+Finally run `ldapadd`:
+
+    $ldapadd < user_file
 
 This also works on lists of users.
