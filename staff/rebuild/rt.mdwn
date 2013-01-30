@@ -76,9 +76,6 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
         # Use plain text instead of HTML email
         Set($MessageBoxRichText, undef);
         Set($PreferRichText, undef);
-        
-        # OCF logo
-        Set($LogoLinkURL, 'https://secure.ocf.berkeley.edu/ocflogo.png');
 
   Remove excess newlines courtesy of ikiwiki.
 
