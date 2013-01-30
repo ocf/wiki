@@ -40,19 +40,45 @@ Both Apache 2 and Nginx installation are listed below. Pick your poison...
 
 1. Copy site-specific RT configuration into `/etc/request-tracker4/RT_SiteConfig.d/99-ocf`: (this should be puppeted)
 
+        # Debug - commented out for now
+        #Set($LogToSTDERR, "debug");
+        #Set($LogToSyslog, "debug");
+        
         Set($WebDomain, 'rt.ocf.berkeley.edu');
-        Set($WebBaseURL , "https://rt.ocf.berkeley.edu:443");
+        Set($WebBaseURL , "https://rt.ocf.berkeley.edu");
+        Set($WebPort, 443);
         
         # Use external authentication provided by mod_auth_kerb
-        Set($WebExternalAuth, 1); 
-        # We don't actually ever fallback but this option enables the logout button.
+        Set($WebExternalAuth , 1);
         Set($WebFallbackToInternalAuth, 1);
         # tells RT to create users automatically if no user matching REMOTE_USER is found
         Set($WebExternalAuto, 1);
+        Set($WebExternalGecos, undef);
         
-        # Mail plugin
+        # Plugins
         Set(@MailPlugins, qw(Auth::MailFrom Filter::TakeAction));
         Set(@Plugins,(qw(RT::Extension::CommandByMail RT::Extension::MergeUsers)));
+        
+        # Make links clicky
+        Set(@Active_MakeClicky, qw(httpurl_overwrite));
+        
+        # Non-fail To addresses
+        Set($UseFriendlyToLine, 1);
+        
+        # Enable fulltext
+        Set( %FullTextSearch,
+            Enable     => 1,
+            Indexed    => 1,
+            Table      => 'AttachmentsIndex',
+            MaxMatches => '10000',
+        );
+        
+        # Use plain text instead of HTML email
+        Set($MessageBoxRichText, undef);
+        Set($PreferRichText, undef);
+        
+        # OCF logo
+        Set($LogoLinkURL, 'https://secure.ocf.berkeley.edu/ocflogo.png');
 
   Remove excess newlines courtesy of ikiwiki.
 
