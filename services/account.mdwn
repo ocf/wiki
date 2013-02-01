@@ -1,12 +1,19 @@
 [[!meta title="Account"]]
+# OCF account
 
-## OCF account
+[[!toc levels=3 startlevel=2]]
 
-## Account password
+## Introduction
 
-Your account password protects your access to most OCF [[services]]. Access to your [[MySQL database|services/mysql]], if you have one, is protected by a separate password.
+Your OCF account is both proof of your [[membership]] and the means by which you authenticate to the variety of [[services]] operated by OCF [[staff]]. Your OCF account is independent from CalNet. (Technical info: public account information and salted password hashes are stored in [[staff/backend/LDAP]] and [[staff/backend/Kerberos]] databases, respectively.)
 
-OCF staff members do not need to know and will not ask for your password.
+Accounts are not normally deactivated after your membership [[membership/eligibility]] expires (e.g., graduation). In fact, we have accounts dating back to at least 1995. However, this policy may change in the future: as a student organization, it wouldn't be fair on our successors to make a long-term commitment.
+
+## Passwords
+
+OCF staff members **do not need to know your password**. In fact, we can't "look it up" either since we don't store your password directly but rather a salted [cryptographic hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
+
+Email is generally insecure, so please **do not send passwords over email** (especially not to OCF staff).
 
 ### Changing your password
 
@@ -20,7 +27,7 @@ You can change your password over SSH if you know your current password.
 
 Use [[SSH|shell]] to run the command `passwd` and follow the prompts as shown below. No text will appear when you are entering in a password, just press enter when done after each prompt.
 
-    $ kpasswd 
+    $ passwd 
     myusername@OCF.BERKELEY.EDU's Password: <my current password>
     New password: <my new password>
     Verifying - New password: <my new password>
@@ -56,8 +63,18 @@ Mail your request to our [[mailing address|contact/#index6h2]].
 
 Once your password is reset, we strongly encourage you to change it over SSH (see above), so that you can be sure that no one else knows your password.
 
-### Compromised passwords
+### MySQL
 
-If OCF staff believe that an account password has been compromised or that someone unauthorized has accessed the account, the account may be disabled.
+Access to your [[MySQL database|services/mysql]], if you have one, is protected by a separate password.
+
+## Disabled accounts
+
+Some common reasons accounts are disabled:
+
+ * by request
+ * security (e.g., account hijacked)
+ * misuse (e.g., excessive use of resources, violation of University policies) 
+
+Accounts may also be disabled if OCF staff need to contact you but cannot do so. Please check your OCF [[services/email]] regularly, or keep the email address in your <tt>.forward</tt> file up-to-date if you forward email.
 
 To re-enable your account, you will need to see a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
