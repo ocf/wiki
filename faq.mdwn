@@ -9,6 +9,10 @@ Access to computing by the students for the students!
 
 More specifically, we have a [[list of services|services]].
 
+### Who are you?
+
+The largest(\*) student organization on campus (\*by membership count). OCF is completely administered and operated by student volunteers ("staff"). Interested in joining [[staff]]?
+
 ### Where is the lab? What are the hours?
 
 See [[services/lab]].
@@ -17,17 +21,17 @@ See [[services/lab]].
 
 See [[membership]].
 
-### It's been a week since I registered for an account, what happened!
+### It's been a week since I requested an account, what happened!
 
-See [[membership]].
+Please be patient. Accounts are processed every 1-2 weeks during semesters. See [[membership]].
 
 ### I have an account. Does it expire? Will it still work?
 
-It should still work. If it's been inactive for several years, it may be disabled (see below). Our current policy is to leave accounts alone after graduation.
+It should still work. Our current policy is to leave accounts alone after graduation. See [[services/account]].
 
 ### My account is disabled.
 
-To re-enable your account, you will need to see a manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/staff_hours).
+See [[services/account]].
 
 ### I forgot my username or password.
 
@@ -37,12 +41,16 @@ See [[services/account]].
 
 First, you need to have a group [[account|membership]] and a working [[website|services/web]]. Then, request [[virtual hosting|services/vhost]].
 
-### [[Printing|services/lab/printing]]: I have a printing question/problem.
+### [[services/lab/Printing]]: I have a printing question/problem.
 
-See [[printing|services/lab/printing]].
+See [[services/lab/printing]].
 
 ### I want to disable or delete my account.
 
 If you want to disable your OCF account, please [[contact us|contact]] and provide your OCF username. If your account appears to still be active, we may ask for some evidence that you are the account owner. Currently, disabled accounts are stored or archived and can be *re-enabled* by request at a later date.
 
-To permanently delete the contents of your account, you will need to have access to your account. Refer to our documentation about [[account passwords|services/account]].
+To permanently delete the contents of your account, you will need to have access to your account. See [[services/account]].
+
+### I need to talk to a human.
+
+See [[contact]].
