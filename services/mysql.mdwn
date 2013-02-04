@@ -4,10 +4,13 @@ The OCF provides each user with a MySQL database. Read the following sections fo
 ## Policies
 We limit users to 1 database, and this database has the same name as your username. As a user of shared database server we ask you to respect the community and refrain from any activities that will hurt the quality of service for other users. We understand this policy is vague, so our suggested maximum size for databases is 1GB, and for individual tables 256 MB. Storing large amounts of data is not a problem unless the server has to perform complex queries on this data.
 
+## Web-based interface for editing
+If you are looking for a familiar phpMyAdmin interface, visit <http://webmail.ocf.berkeley.edu/pma>.
+
 ## Creating a MySQL database
 We have two options to create a database using the terminal or our web management tool.
 ### Web-based tool
-Go to the website <pre>https://secure.ocf.berkeley.edu/account_tools/commands</pre> and type in your username and password. Select the option: <pre>makemysql — reset your MySQL database password, or create a new MySQL database</pre> and run the command. Note your password in a safe place.
+Go to the website <https://secure.ocf.berkeley.edu/account_tools/commands> and type in your username and password. Select the option: <pre>makemysql — reset your MySQL database password, or create a new MySQL database</pre> and run the command. Note your password in a safe place.
 ### SSH Terminal
 Log into the OCF via [[SSH|shell]], at the terminal prompt enter the command <pre>makemysql</pre>. Hit yes to confirm the operation. Note your password in a safe place.
 
@@ -69,5 +72,4 @@ Now the mysql command will automatically log you in, so you won't have to memori
 
 If you want to find out what other things you can do with .my.cnf, take a look at the .cnf files in <pre>/opt/local/packages/mysql/share/mysql/</pre>
  
-
 
