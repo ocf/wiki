@@ -1,49 +1,50 @@
-[[!meta title="approve: approve an OCF account"]]
+[[!meta title="approve: record an OCF account request"]]
 # approve
 
-This script records an account ("approve") for later creation. Right now you should direct users where possible to request their accounts online (ultimately this uses the same program). For some classes of users, like groups, online approve does not (currently) work.
+This script records an account ("approve") for later creation. Right now you should direct users to request their accounts online where possible (online approve does not work for groups).
 
 Note that:
 
-* University ID# is CalNet UID for individuals and OSL groupID for student groups (see [[signat]] for more info).
+* OSL group ID is the number assigned by the university for registered student groups (see [[signat]] for more info), or 0 if not a student group.
 * Approved users must be [[eligible for membership|membership/eligibility]].
 * We recommend individuals responsible for a group account also request an individual account for themselves if they are eligible.
 
 ## Example usage
 
-    OCF Account Approval Program
-    --------------------------
-    Is this an (i)ndividual or (g)roup account? g
-    Group name: Open Computing Facility 
-    Requested account name: ocf
-    Responsible student: Oski Bear
-    University ID#: 15975
-    Enter your email address: staff@ocf.berkeley.edu
-      Enter again to confirm: staff@ocf.berkeley.edu
-    Your OCF account includes an @OCF.Berkeley.EDU email address; would you like
-    mail sent there to be forwarded to your personal email address? (y/n): y
-    Choose a password (nothing will appear as you type): 
-    Enter again to verify: 
-    The account has been approved successfully
-    Connection to supernova.ocf.berkeley.edu closed.
+    $ approve
+    account_name: ocf
+    email: staff@ocf.berkeley.edu
+    forward: true
+    group_name: Open Computing Facility
+    osl_gid: 12272
+    responsible: Dara Adib
+    
+    # Please ensure that:
+    #  * Person requesting account is signatory of group (see signat)
+    #  * Group does not have existing account (see checkacct)
+    #  * Requested account name is based on group name
+    #  * Paper form is signed
+    #
+    # OSL group ID:
+    #    To get the OSL group ID, you can use signat or look up online at:
+    #    http://students.berkeley.edu/osl/studentgroups/public/index.asp
+    #    (the SGID field in group name links is the OSL group ID)
+    
+    Enter password: 
+    Enter password again: 
+    Account request recorded
 
 ## OSL student groups
 
-The vast majority of approvals will be for student groups registered with the University.
+The vast majority of requests will be for student groups registered with the University.
 
 ### Prerequisites
 
-* Group has filled out an account form.
-* Person requesting the approval is a signatory of the group (confirm with [[signat]]).
 * Group does not have an existing account (check with [[checkacct]]).
-
-### Approval
-
-* Type in the group's full name in Group Name.
-* Type in the group's OSL groupID (find this using [[signat]])
-* Type in the desired account name (explain that this is not necessarily mean they will, or need to, get the same `.berkeley.edu` [[services/vhost]]).
-* Type in the name of the student approving the account and email address.
+* Paper form is filled out and signed.
+* Person requesting the account is a signatory of the group (confirm with [[signat]] using their CalNet UID which can be looked up in the [CalNet directory](https://calnet.berkeley.edu/directory/)).
+* Account name is based on group name.
 
 ### Post approval
 
-Explain that that account will take 1-2 weeks to create and they will need to apply for virtual hosting after their site is ready. Point them to relevant wiki articles.
+Explain that the account will be created in approximately one week and that they will need to apply for [[virtual hosting|services/vhost]] (if desirable) after they have set up their site. Point them to relevant wiki articles.
