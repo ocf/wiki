@@ -21,24 +21,32 @@ The signatory does not need to be publically listed on the [OSL website](http://
     OCF username or CalNet UID is the first and only argument.
 
     $ signat daradib
-    Open Computing Facility:
+    12272:
       groupAcronym: OCF
-      groupId: '12272'
+      groupName: Open Computing Facility
       groupType: Registered
       status: Active
-    Zoroastrian Student Organization:
-      groupId: '15975'
+    13252:
+      groupName: W6BB Amateur Radio Club
+      groupType: Registered
+      status: Inactive
+    15975:
+      groupName: Zoroastrian Student Organization
       groupType: Registered
       status: Active
 
     $ signat 872544
-    Open Computing Facility:
+    12272:
       groupAcronym: OCF
-      groupId: '12272'
+      groupName: Open Computing Facility
       groupType: Registered
       status: Active
-    Zoroastrian Student Organization:
-      groupId: '15975'
+    13252:
+      groupName: W6BB Amateur Radio Club
+      groupType: Registered
+      status: Inactive
+    15975:
+      groupName: Zoroastrian Student Organization
       groupType: Registered
       status: Active
 
