@@ -1,10 +1,10 @@
-DEPRECATED
+#DEPRECATED
 
-#Windows Server 2008 R2
+##Windows Server 2008 R2
 
-##~~PXE Booting~~
+###~~PXE Booting~~
 
-##====Install Vanilla Windows===
+###====Install Vanilla Windows===
 * Prerequisites:
 	- properly configured DHCP
 	- Windows Deployment Services with a working copy of Windows
