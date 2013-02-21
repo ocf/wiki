@@ -1,7 +1,7 @@
 [[!meta title="Printing"]]
 # Printing
 
-The OCF offers a certain amount of printing (currently 250 pages) to individual accounts each semester. You don't have to request a new account each semester - the quota is refreshed at the start of each semester.
+The OCF offers a certain amount of printing (currently 250 pages per semester, limited at 30 pages per day) to individual members. You don't have to request a new account each semester - the quota is refreshed at the start of each semester.
 
 Please review our [[printing policies|printing/policies]] before contacting staff.
 
