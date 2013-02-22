@@ -9,5 +9,5 @@ Please review our [[printing policies|printing/policies]] before contacting staf
 
 We currently have two HP LaserJet P4515x printers: deforestation and logjam.
 
- * [How much toner is left in each printer](http://www.ocf.berkeley.edu/~tzhu/printer_oracle/)? (expressed as approximate pages remaining over time)
- * [How many pages has each printer printed](http://www.ocf.berkeley.edu/~tzhu/printer_historacle/)? (expressed as total pages printed over time)
+ * [How much toner is left in each printer](http://www.ocf.berkeley.edu/~tzhu/printing/oracle/)? (expressed as approximate pages remaining over time)
+ * [How many pages has each printer printed](http://www.ocf.berkeley.edu/~tzhu/printing/history/)? (expressed as total pages printed over time)
