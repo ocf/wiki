@@ -157,7 +157,7 @@ to deny or disparage other rights retained by individuals.
 
 ### 8 Amendments and Bylaws
 #### 8.1 Amendments
-##### <div id="amended_514_1991">8.1.1 Process</div>
+##### <a id="amended_514_1991">8.1.1 Process</a>
 A proposed amendment to the Constitution must be presented at a Board of Directors meeting at least one week before the General Meeting at which it is to be discussed.  A list of proposed amendments must be made accessible to the general public of the OCF as soon as they have been presented to the Board of Directors.  At the general meeting, a discussion period on the amendment may be held until it is moved to a vote.  A 2/3 majority of all Active Members is required for approval. 
 
 [This section was changed by amendment on May 14, 1991.]
