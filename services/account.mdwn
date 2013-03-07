@@ -77,4 +77,6 @@ Some common reasons accounts are disabled:
 
 Accounts may also be disabled if OCF staff need to contact you but cannot do so. Please check your OCF [[services/email]] regularly, or keep the email address in your <tt>.forward</tt> file up-to-date if you forward email.
 
-To re-enable your account, you will need to see a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+Disabled accounts may eventually be scheduled for deletion.
+
+To re-enable your account, you will need to see a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/staff_hours).
