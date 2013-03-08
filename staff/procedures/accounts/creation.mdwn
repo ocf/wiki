@@ -9,62 +9,15 @@ It is recommended that you either start a *tmux* session or open multiple termin
 
 Account requests are queued and managed on *supernova*.
 
-1. Lock account requests by running (so that no one enqueues an account while you're processing the list):
+1. Run the create script:
 
+        $ /opt/ocf/packages/create/create.py
 
-        $ /opt/mlocal/bin/approve -s
+1. Enter your kerberos credentials.
+1. You should see an email to staff@ocf.berkeley.edu listing the accounts passed all the checks and are ready to be created.
+1. Run the same script again to create the accounts (And filter any new requests that have been made since the last run)
+1. If any requests need manual approval by a staff member, run the same script with the -i flag:
 
+        $ /opt/ocf/packages/create/create.py -i
 
-1. Navigate to the */root/create/bin* directory on *supernova*
-1. Ensure that the problem e-mail queues are empty by confirming that the directory */root/create/bin/email_problems/queues* is empty
-1. Run:
-
-        $ ./checkusernames.sh
-
-1. Run:
-
-        $ ./filter_accounts.py
-
-    - Be very careful during this stage. Accidentally approving or rejecting an account at this stage will be very annoying.
-    - If you encounter a problem:
-        - *grep* the logs at */opt/adm/approved.log* and */opt/adm/approved.users* to investigate
-        - When a problem is confirmed, enqueue an e-mail to the user by running:
-            
-                 $ /root/create/bin/email_problems/enqueue_email.py
-
-1. *filter_accounts.py* will generate the necessary files to inside the *tmp* directory
-1. Run:
-
-        $ kinit -p USERNAME/admin
-
-1. Run (make sure you have *kinit*'ed by now):
-
-        $ ldapadd < tmp/addusers.ldif
-
-1. Create home directories:
-
-        $ ./homedir_add
-
-1. Create *.forward* files. Beware that home directories *must* have been created before this step.
-
-        $ ./forward_add
-
-1. Add kerberos principals:
-
-        $ ./kerberos_add
-
-1. Send "account created" e-mails:
-
-        $ ./sendemails.sh
-
-1. Send "account request had a problem" e-mails:
-
-        $ /root/create/bin/email_problems/send_problem_emails.py
-
-1. Rotate the approved log files:
-
-        $ ./finishaccountcreation.sh
-
-1. Unlock account requests:
-
-        $ /opt/mlocal/bin/approve -d
+1. Keep a second shell open to search through approved.users and approved.log for duplicate account requests.
