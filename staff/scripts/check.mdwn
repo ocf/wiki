@@ -7,35 +7,19 @@ Check allows a staffer to get all the usage details of a user. Some information 
 
 ## Usage/Example
 <pre>
-sanjayk[OCF]/opt/ocf/bin/check waf
-waf:*:19270:20:Felix Andy Wong:/home/w/wa/waf:/bin/zsh
+sanjayk[OCF]/opt/ocf/bin/check sanjayk
+sanjayk:*:18298:20:Sanjay Krishnan:/home/s/sa/sanjayk:/bin/tcsh
 Member of group(s): ocf approve ocfstaff admin
-CalNet UID number: 758566
-CalNet affilations: AFFILIATE-STATUS-EXPIRED EMPLOYEE-TYPE-STAFF STUDENT-TYPE-REGISTERED
-
-Pages remaining: 2539
-
-Currently running processes on local machine:
--------------------------------------------------------------------------------
-16406 ?        Ss     1:19 SCREEN -d -m -S irssi -t main
-16412 pts/1    Ss     0:00  \_ /bin/zsh
-16678 pts/1    S+     3:32  |   \_ irssi --config=/home/w/wa/waf/.irssi/mainconfig
-16413 pts/2    Ss     0:00  \_ /bin/zsh
-16664 pts/2    S+     6:06  |   \_ irssi --config=/home/w/wa/waf/.irssi/minecraftconfig
-16416 pts/3    Ss     0:00  \_ /bin/zsh
-16670 pts/3    S+     0:08  |   \_ /usr/bin/ssh irc.housing.berkeley.edu
- 1791 pts/4    Ss     0:00  \_ /bin/zsh
- 2249 pts/4    S+     0:00      \_ /usr/bin/ssh hal.rescomp.berkeley.edu
-21518 ?        Ss     0:01 SCREEN
-21519 pts/9    Ss     0:00  \_ /bin/zsh
--------------------------------------------------------------------------------
+Mail forwarded to "|procmail #sanjayk"
+CalNet UID number: 646431
+CalNet affilations: AFFILIATE-TYPE-ADVCON-ALUMNUS AFFILIATE-TYPE-ADVCON-STUDENT EMPLOYEE-TYPE-ACADEMIC STUDENT-TYPE-REGISTERED
 
 Recent login history on local machine:
 -------------------------------------------------------------------------------
-pts/20 Sun Sep 30 02:35 - 02:37 (00:01) pan-lal-99-249.reshall.berkeley.edu
-pts/19 Sun Sep 30 01:43 - 01:43 (00:00) pan-lal-99-249.reshall.berkeley.edu
-pts/21 Sun Sep 30 01:37 - 01:37 (00:00) pan-lal-99-249.reshall.berkeley.edu
-pts/21 Sun Sep 30 01:37 - 01:37 (00:00) pan-lal-99-249.reshall.berkeley.edu
-pts/19 Sun Sep 30 01:00 - 01:38 (00:38) pan-lal-99-249.reshall.berkeley.edu
+pts/5 Fri Mar 8 10:42 - 10:58 (00:16) avalanche.ocf.berkeley.edu
+pts/17 Fri Mar 8 10:16 - 10:28 (00:11) avalanche.ocf.berkeley.edu
+pts/5 Wed Mar 6 18:14 - 19:54 (01:39) reccev-wism-wlan-189-130.airbears.berkeley.edu
+pts/5 Wed Mar 6 18:05 - 18:05 (00:00) reccev-wism-wlan-189-130.airbears.berkeley.edu
+pts/5 Mon Mar 4 19:04 - 19:05 (00:01) destruction.ocf.berkeley.edu
 -------------------------------------------------------------------------------
 </pre>
