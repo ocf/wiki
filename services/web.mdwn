@@ -11,7 +11,7 @@ You can activate your web space using the OCF's web interface or SSH. Most users
 
 ## Method A: Via the Web Interface
 
-1.   Open the [[web commands interface|https://secure.ocf.berkeley.edu/cgi-bin/cmds.cgi]] in your web browser.
+1.   Open the [[web commands interface|https://secure.ocf.berkeley.edu/account_tools/commands]] in your web browser.
 1.   Select the "makehttp" option. Enter your OCF username and password, and choose "Run command". You should see something like this in the output, assuming you entered your username and password correctly:
 
     public_html folder has been created successfully.
