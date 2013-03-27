@@ -7,7 +7,7 @@
 
 Your OCF account is both proof of your [[membership]] and the means by which you authenticate to the variety of [[services]] operated by OCF [[staff]]. Your OCF account is independent from CalNet. (Technical info: public account information and salted password hashes are stored in [[staff/backend/LDAP]] and [[staff/backend/Kerberos]] databases, respectively.)
 
-Accounts are not normally deactivated after your membership [[membership/eligibility]] expires (e.g., graduation). In fact, we have accounts dating back to at least 1995. However, this policy may change in the future: as a student organization, it wouldn't be fair on our successors to make a long-term commitment.
+Accounts are not normally deactivated after your membership [[membership/eligibility]] expires (e.g., graduation). In fact, we have active accounts dating back to at least 1995. However, this policy may change in the future: as a student organization, it wouldn't be fair on our successors to make a long-term commitment.
 
 ## Passwords
 
