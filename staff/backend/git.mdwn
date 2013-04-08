@@ -1,69 +1,72 @@
 [[!meta title="Git"]]
 # Git
 
-Git is a common distributed revision control system used by the OCF. Other common version control systems include Mercurial (also distributed) and Subversion (not distributed).
+[[!toc levels=3 startlevel=2]]
 
-## Using Git
+Git is a distributed revision control system used by the OCF. Other version control systems include Mercurial (also distributed) and Subversion (not distributed).
 
-Recommended reading:
+## Workflow
 
-* [A Visual Git Reference](http://marklodato.github.com/visual-git-guide/)
-* [The Case for Git Rebase](http://darwinweb.net/articles/the-case-for-git-rebase)
-
-### Workflow
-
-Although we use Git, a great tool for large-scale distributed development, for us a Subversion-like workflow with a "central repository" and linear history often makes more sense.
+Although Git is a great tool for large-scale distributed development, for us a Subversion-like workflow with a "central repository" (where you clone/fetch from and push to) and linear history makes more sense. The instructions below assume that development is happening in a single branch.
 
 **Only commit your own, original work**.  You may commit another staff member's work if you have permission and change the author appropriately (e.g., `--author="Guest User <guser@ocf.berkeley.edu>"`). When committing, `git config user.name` should be your name and `git config user.email` should be your OCF email address -- this should be taken care of by [[LDAP]] and `/etc/mailname` on OCF machines.
 
-#### To "update" your local branch to the latest changes from the central repository
+### To "update"
+
+Get the latest commits from the central repository and update your working tree.
 
     git pull --rebase
 
-This will essentially (assuming the defaults, remote is `origin` and branch is `master`):
+This will `git fetch` (update your local copy of the remote repository) and `git rebase` (rewrite current branch in terms of tracked branch). The rebase prevents unnecessary merge commits by moving your local commits on top of the latest remote commit (`FETCH_HEAD`). This is a good thing if you have any local commits which have not yet been pushed to the remote repository.
 
-* update your local copy of the remote repository (`git fetch origin`)
-* rewrite current branch in terms of tracked branch and rebased commits (`git rebase origin/master`)
+If you have "dirty" uncommitted changes, you'll need to commit them or stash them before rebasing (`git stash`).
 
-The rebase prevents unnecessary merge commits by moving your local commits on top of the latest remote commit (`FETCH_HEAD`). This is a good thing if you have any local commits which have not yet been pushed to the remote repository. If you have "dirty" uncommitted changes, you'll need to commit them or stash them before rebasing (`git stash`).
+### To "upload"
 
-The downside of a rebase is that it changes your current branch's history, which can be a problem if you've shared your branch and development has diverged. Avoid rebasing branches that have been published, such as the master branch in the central repository. Don't let this discourage you, however, from rebasing your local repository for a more usable history.
+Make commits and push them to the central repository.
 
-#### To "upload" your local changes to the central repository
+    git add FILES # add current state of FILES in working tree to index
+    git commit    # store index as a commit in current branch
+    # repeat git add and git commit for more commits
+    git rebase -i # clean up the history (reword or squash commits)
+    git push      # push current branch to tracked branch in remote repository
 
-    git add FILE # add current state of FILE in working tree to index
-    git commit   # store index as a commit in current branch
-    git push     # push current branch to tracked branch in remote repository
+Use `git add -p` to inspect individual changes before adding each one to the index, and `git commit -v` to show a diff of your commit when you are prompted for a commit message.
 
-Use `git add -p` to inspect individual changes before adding each one to the index, and `git commit -v` to show a diff of your commit when it prompts you for a commit message.
+If commits have been made on the remote repository in the meantime, you'll need to "update" first (see above).
 
-If commits have been made on the remote repository in the meantime, you'll need to get those changes first before pushing (see above).
+### To "import"
 
-#### To "import" remote changes into the central repository
-
-You would "import" remote changes when a staff member asks you to "pull" changes from a branch in his/her repository.
+Pull someone else's changes into the central repository, for example from a branch in a staff member's repository (`REMOTE`).
 
     git fetch REMOTE                             # update local copy of remote
-    git status
     git log --graph --decorate FETCH_HEAD ^HEAD^ # list remote commits on top of current branch
     git diff FETCH_HEAD                          # compare current branch with remote branch
-    git merge --ff-only FETCH_HEAD               # merge in remote branch if can linearly fast-forward
+    git merge --ff-only FETCH_HEAD               # merge in if can linearly fast-forward
 
-If you can't fast-forward merge, rebase the remote branch first to bring it up-to-date (see above).  Note that this will rewrite the remote branch's history. You can `git merge --no-ff` if you're certain you want a merge commit.
+If you can't fast-forward merge, "update" the remote repository first (see above).
 
-#### Other useful commands
+If you want a merge commit, you can `git merge --no-ff` instead.
+
+## Other useful commands
+
+Current state of working tree:
+
+    git status
 
 Throw away uncommitted changes:
 
-    git checkout -- FILE
+    git checkout -- FILES  # in particular files
+    git reset --hard HEAD # in the entire working tree
 
 Revise the last commit:
 
     git commit --amend
 
-Undo the last commit (use the `--hard` option if you do not want to recommit your changes):
+Undo the last commit:
 
-    git reset
+    git reset HEAD^        # leaves changes in the working tree so they can be committed again
+    git reset --hard HEAD^ # throws away changes
 
 File operations:
 
@@ -72,12 +75,11 @@ File operations:
 
 Advanced:
 
-    git rebase -i     # rewrite history interactively
     git filter-branch # rewrite history according to a filter
     git blame         # show the commit which last modified each line of a file
     git reflog        # useful for undoing git mistakes
 
-### Terminology
+## Terminology
 
 * branch
   * line of changes in a repository, default branch is `master`
@@ -98,3 +100,8 @@ Advanced:
 * working tree (aka workspace or working directory)
   * directory that checked out files reside
   * this includes the current branch and any "dirty" uncommitted changes (staged or not)
+
+## Recommended reading
+
+* [A Visual Git Reference](http://marklodato.github.com/visual-git-guide/)
+* [The Case for Git Rebase](http://darwinweb.net/articles/the-case-for-git-rebase)
