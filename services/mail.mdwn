@@ -1,0 +1,34 @@
+# Email
+
+## Sending and receiving
+
+### Receiving
+
+We recommend forwarding email with a `.forward` file in your [[home directory|shell]] containing the email address to forward to. However, if you do not forward email, it is stored in `/var/mail` (10 MB quota) and can be accessed using:
+
+ * IMAP: `imap.ocf.berkeley.edu` (SSL/TLS required)
+ * POP: `pop.ocf.berkeley.edu` (SSL/TLS required)
+ * [webmail](https://webmail.ocf.berkeley.edu/)
+ * mutt or alpine over [[SSH|shell]]
+
+Email can be moved or archived in folders/mailboxes which are stored in your home directory (2 GB quota).
+
+## Sending
+
+To send email, use:
+
+ * SMTP: `smtp.ocf.berkeley.edu` (SSL/TLS required)
+ * [webmail](https://webmail.ocf.berkeley.edu/)
+ * mutt or alpine over [[SSH|shell]]
+ * PHP or CGI on the [[web server|web]]
+
+## Spam filtering
+
+We centrally reject most spam during at the SMTP stage. In the unlikely event that a message is misclassified as spam (false positive), the sender will receive a "bounce message" from their email provider.
+
+For spam filtering, we use:
+
+ * access restriction lists ([Postfix](http://www.postfix.org/SMTPD_ACCESS_README.html))
+ * greylisting ([Postgrey](http://postgrey.schweikert.ch/)) if the sending server is not whitelisted ([dnswl](http://www.dnswl.org/)) 
+ * blocklist and forgery scoring ([policyd-weight](http://www.policyd-weight.org/))
+ * message scanning ([ClamAV](http://www.clamav.net/), [Message Sniffer](http://www.armresearch.com/products/sniffer.jsp), [SpamAssassin](http://spamassassin.apache.org/))
