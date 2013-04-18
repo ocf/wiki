@@ -1,10 +1,11 @@
+[[!meta title="Email"]]
 # Email
 
 ## Sending and receiving
 
 ### Receiving
 
-We recommend forwarding email with a `.forward` file in your [[home directory|shell]] containing the email address to forward to. However, if you do not forward email, it is stored in `/var/mail` (10 MB quota) and can be accessed using:
+It is most convenient to forward email with a `.forward` file in your [[home directory|shell]] containing the email address to forward to. However, if you do not forward email, it is stored in `/var/mail` (10 MB quota) and can be accessed using:
 
  * IMAP: `imap.ocf.berkeley.edu` (SSL/TLS required)
  * POP: `pop.ocf.berkeley.edu` (SSL/TLS required)
@@ -13,7 +14,7 @@ We recommend forwarding email with a `.forward` file in your [[home directory|sh
 
 Email can be moved or archived in folders/mailboxes which are stored in your home directory (2 GB quota).
 
-## Sending
+### Sending
 
 To send email, use:
 
@@ -24,11 +25,11 @@ To send email, use:
 
 ## Spam filtering
 
-We centrally reject most spam during at the SMTP stage. In the unlikely event that a message is misclassified as spam (false positive), the sender will receive a "bounce message" from their email provider.
+Most spam is centrally rejected before receipt (at the SMTP stage), not in a spam folder. In the unlikely event that a message is misclassified as spam (false positive), the sender will receive a "bounce message" from their email provider. Please contact staff with the date/time and sender/recipient email addresses so that logs can be inspected.
 
-For spam filtering, we use:
+Anti-spam techniques used by the OCF include:
 
  * access restriction lists ([Postfix](http://www.postfix.org/SMTPD_ACCESS_README.html))
- * greylisting ([Postgrey](http://postgrey.schweikert.ch/)) if the sending server is not whitelisted ([dnswl](http://www.dnswl.org/)) 
+ * greylisting ([Postgrey](http://postgrey.schweikert.ch/)) if the sending server is not whitelisted ([dnswl.org](http://www.dnswl.org/)) 
  * blocklist and forgery scoring ([policyd-weight](http://www.policyd-weight.org/))
  * message scanning ([ClamAV](http://www.clamav.net/), [Message Sniffer](http://www.armresearch.com/products/sniffer.jsp), [SpamAssassin](http://spamassassin.apache.org/))
