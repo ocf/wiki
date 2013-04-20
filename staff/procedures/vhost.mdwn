@@ -8,7 +8,7 @@
 
 Request the following DNS record from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/) (unless mail is also requested, in that case, skip to the next section):
 
-    vhost.berkeley.edu IN CNAME death.ocf.berkeley.edu
+    vhost.berkeley.edu. IN CNAME death.ocf.berkeley.edu.
 
 ### Mail (if requested)
 
@@ -17,5 +17,5 @@ Request the following DNS record from the [University hostmaster](http://www.net
 
 Request the following DNS records from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/):
 
-    vhost.berkeley.edu IN A 169.229.172.67
-    vhost.berkeley.edu IN MX 5 sandstorm.ocf.berkeley.edu
+    vhost.berkeley.edu. IN A 169.229.172.67
+    vhost.berkeley.edu. IN MX 5 sandstorm.ocf.berkeley.edu.
