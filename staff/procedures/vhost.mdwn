@@ -2,8 +2,8 @@
 
 ### Web
 
-* Add vhost: edit `~staff/vhost.conf`.
-* Update vhost configuration: run `sudo ~staff/buildvirtual.pl` and `sudo ~staff/buildvirtual-wrappers.sh` on death.
+* Add vhost: edit `~staff/vhost/vhost.conf`.
+* Update vhost configuration: run `sudo ~staff/vhost/buildvirtual.pl` and `sudo ~staff/vhost/buildvirtual-wrappers.sh` on death.
 * Reload vhost configuration: run `sudo service apache2 reload` on death.
 
 Request the following DNS record from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/) (unless mail is also requested, in that case, skip to the next section):
@@ -12,8 +12,9 @@ Request the following DNS record from the [University hostmaster](http://www.net
 
 ### Mail (if requested)
 
-* Add vhost: edit `/etc/postfix/ocfconfig/vhost-maps.pcre` on sandstorm (using `sudo`).
-* Update and reload vhost configuration: Run `sudo /etc/postfix/ocfconfig/buildvirtual.sh` on sandstorm.
+* Add vhost: edit `~staff/vhost/vhost-mail.conf`.
+* Update vhost configuration: Run `sudo ~staff/vhost/buildvirtual-mail.sh` on sandstorm.
+* Reload vhost configuration: run `sudo service postfix reload` on sandstorm.
 
 Request the following DNS records from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/):
 
