@@ -42,14 +42,6 @@ Please do **not** send us your password over email, or your account will be disa
 
   DNS changes including [[virtual hosting|services/vhost]] requests should be sent here.
 
-## Telephone
-
-Phoning us is not the best way to reach OCF staff. During lab hours, the phone forwards to the ASUC Publications Center.
-
-If you must call us, please make sure to leave your name, OCF username (if known), phone number, and (preferably) an email address.
-
-* 81-OCFSTAFF (816-237-8233)
-
 ## Snail mail
 
 Our address is:
