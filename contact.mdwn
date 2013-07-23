@@ -4,11 +4,14 @@
 > 
 > The OCF lab is **closed** during summer 2013. Network services (web hosting, email hosting, shell accounts, etc.) will continue to operate.
 > 
+> OCF will respond to email messages reporting security issues and service disruptions.
+> 
 > **OCF will silently discard requests by email for:**
 > 
-> * group accounts
-> * password resets
-> * virtual hosting
+> * [[group accounts|membership]]
+> * [[password resets|services/account#index1h3]]
+> * [[virtual hosting|services/vhost]]
+> * more [staff hours](http://www.ocf.berkeley.edu/staff_hours)
 > 
 > For these requests you must wait until the last week of the summer semester or attend limited [staff hours](http://www.ocf.berkeley.edu/staff_hours).
 
