@@ -34,9 +34,9 @@ We are interested in two certificate files that InCommon provides: "X.509 Certif
 
 To set up SSL, we need:
 
- * private key (which we generated and keep secret)
- * certificate (which InCommon generated using our CSR, called "X.509 Certificate only")
- * intermediate CA(s) (currently "InCommon Server CA", included as part of "X.509 Intermediate(s)/Root"): trust path from the certificate to a root CA
+ * **private key** (which we generated and keep secret)
+ * **certificate** (which InCommon generated using our CSR, called "X.509 Certificate only")
+ * **intermediate CA(s)** (currently "InCommon Server CA", included as part of "X.509 Intermediate(s)/Root"): trust path from the certificate to a root CA
 
 In Debian, root CAs are installed in `/etc/ssl/certs`. We don't need the root CA because it is included with operating systems and browsers. If you do include it, it will send some unnecessary bytes to SSL clients, but otherwise it is not an issue. You can remove the root CA by editing the "X.509 Intermediate(s)/Root" in a text editor and deleting the last certificate block.
 
@@ -46,11 +46,11 @@ In Apache VirtualHost lingo,
  * `SSLCertificateFile`: certificate
  * `SSLCertificateChainFile`: intermediate CA(s)
 
-For simplicity, you can point `SSLCertificateFile` and `SSLCertificateChainFile` to the same file if it includes the certificate and the intermediate CA(s), in that order. Simply concatenate the certificate files together.
+For simplicity, you can point `SSLCertificateFile` and `SSLCertificateChainFile` to the same file if it includes the certificate and the intermediate CA(s), in that order. Simply concatenate the certificates.
 
 Use restrictive permissions on the private key (e.g., `chown root:root`, `chmod 600`) -- Apache will read the private key as root before dropping privileges. Other daemon users may need to be added to the ssl-cert group and the private key be readable by that group (e.g., `chown root:ssl-cert`, `chmod 640`).
 
-### Verifying certificate
+## Verifying certificate
 
 For the host `rt.ocf.berkeley.edu` on port 443 (HTTPS), try connecting using the OpenSSL client.
 
