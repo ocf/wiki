@@ -7,7 +7,7 @@ We are able to obtain signed certificates at no charge through the campus [InCom
 
 Generate a private key (unencrypted, keep secure!) and certificate signing request (CSR). In this example, the certificate is for `rt.ocf.berkeley.edu` (Request Tracker).
 
-    $ openssl req -newkey rsa:4096 -nodes -keyout rt_ocf_berkeley_edu.key -out rt_ocf_berkeley_edu.csr
+    $ openssl req -newkey rsa:2048 -nodes -keyout rt_ocf_berkeley_edu.key -out rt_ocf_berkeley_edu.csr
     [...]
     Country Name (2 letter code) [AU]:US
     State or Province Name (full name) [Some-State]:California
