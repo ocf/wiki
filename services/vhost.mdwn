@@ -36,7 +36,7 @@ Each group account may have one virtual host. Requests for an exception to this 
 
 #### Limitations on non-berkeley.edu
 
-The OCF may also host non-berkeley.edu domains (.com domains are not allowed by University policy, however). The process is more complicated in this case. Permission will be granted only for group accounts that can demonstrate a unique need for having a web site outside of the berkeley.edu domain. For such domains, the group account must:
+The OCF may also host non-berkeley.edu domains. The process is more complicated in this case. Permission will be granted only for group accounts that can demonstrate a unique need for having a web site outside of the berkeley.edu domain. For such domains, the group account must:
 
  1.   Apply to the OCF Board of Directors for a permission to host this domain.
  2.   Pay any and all fees and/or obtain permissions relating to obtaining and maintaining a domain name.
