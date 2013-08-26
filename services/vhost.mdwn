@@ -1,4 +1,9 @@
 [[!meta title="Virtual hosting"]]
+
+> Since June 2013, new berkeley.edu virtual hosting requests for student groups are **on hold**.
+> 
+> University-wide policies on student use of the berkeley.edu name are changing. OCF, ASUC, and GA are in discussions with LEAD Center, Student Affairs, SAIT, IST, IT Policy, and OMBO. We are doing our best to resolve this as soon as possible.
+
 # Virtual hosting
 
 Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (typically from within the `berkeley.edu` namespace, e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox if requested.
