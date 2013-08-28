@@ -1,8 +1,10 @@
 [[!meta title="Virtual hosting"]]
 
-> Since June 2013, new berkeley.edu virtual hosting requests for student groups are **on hold**.
+> berkeley.edu virtual hosting requests for student groups are **on hold** since June 2013.
 > 
 > University-wide policies on student use of the berkeley.edu name are changing. OCF, ASUC, and GA are in discussions with LEAD Center, Student Affairs, SAIT, IST, IT Policy, and OMBO. We are doing our best to resolve this as soon as possible.
+> 
+> In the interim, please contact your [LEAD Center](http://lead.berkeley.edu/) advisor or have an [administrative official](http://compliance.berkeley.edu/delegation/principles) from your sponsoring department contact [IT Policy](http://ist.berkeley.edu/services/ocio/security/accesspolicy).
 
 # Virtual hosting
 
