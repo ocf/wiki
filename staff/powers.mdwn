@@ -24,7 +24,7 @@ Newly-interested staff members are given basic training on [[OCF scripts|scripts
 ## Privileged staff
 *group ocfstaff*
 
-Staff members who demonstrate long-term commitment and proficiency are given additional training, elevated privileges, and responsibilities. Most staff members are expected to eventually fall into this category. Staff in this category are added to group `ocfstaff`.
+Staff members who demonstrate long-term commitment and proficiency are given additional training, elevated privileges, and responsibilities. Most staff members are expected to graduate into this category.
 
 * receive `wheel@ocf` mail (including cron mail and discussions that include mundane technical jargon)
 * can change print quotas
@@ -41,10 +41,12 @@ In order to reset user passwords, staff must also possess a `/root` principal. T
 
     username/root@OCF.BERKELEY.EDU change-password *@OCF.BERKELEY.EDU
     
-## Root-privileged staff
+## Technical managers
 *group admin*
 
-The most technical and "on-call" staff members are given sudo access (root privileges) on (nearly) all servers.
+The most technical and "on-call" staff members are given sudo access (root privileges) on all servers and the ability to modify LDAP/Kerberos directly.
+
+This usually corresponds to Deputy Manager(s) and Site Manager(s). Sometimes the General Manager may also act as a Deputy Manager.
 
 ### `admin` group
 
@@ -60,14 +62,9 @@ This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
 
     %admin ALL=(ALL) ALL
 
-## Technical managers
-*SM, DM, and sometimes GM*
-
-Site manager(s) and deputy manager(s) are given nominal privileges above group admin, primarily for the purposes of account creation (modification of LDAP and Kerberos) and emergency workarounds (direct login to root through an encrypted password list or SSH key). Site manager(s) are also expected to act as the chief technical officers. Sometimes the general manager may also act as a deputy manager.
-
 ### `/admin` principal
 
-This principal grants the user the ability to modify LDAP and Kerberos. These are in fact two separate things, but are granted at the same time.
+This principal can be used to modify LDAP and Kerberos.
 
 #### ldapmodify
     
