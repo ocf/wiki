@@ -35,7 +35,7 @@ Use [[SSH|shell]] to run the command `passwd` and follow the prompts as shown be
 
 #### In person
 
-If you are not able to use CalNet or SSH (for example, if you are a group and forgot your current password), you can meet a staff member in person during [staff hours](http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi).
+If you are not able to use CalNet or SSH (for example, if you are a group and forgot your current password), you can meet a staff member in person during [staff hours](http://www.ocf.berkeley.edu/staff_hours).
 
 Please bring sufficient documentation as listed on the [[membership eligibility|membership/eligibility]] page to demonstrate that you are authorized to reset the account password.
 
