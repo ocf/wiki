@@ -33,7 +33,7 @@ Please do **not** send us your password over email, or your account will be disa
 
 * [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
 
-  The most general address -- any questions about OCF accounts, services, and joining staff can be sent here. Your mail will be seen by all OCF staff.
+  The most general address -- any questions about OCF accounts, services, and joining staff can be sent here. Your mail will be seen by all OCF staff. *Please read the [[FAQ]] and try coming to [staff hours](http://www.ocf.berkeley.edu/staff_hours) first.*
 
 * [security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)
 
