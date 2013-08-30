@@ -4,6 +4,8 @@
 
 Find out what we're all [about](http://www.ocf.berkeley.edu/OCF/staff), and come [join us](http://www.ocf.berkeley.edu/OCF/staff/how-to-join.shtml)!
 
+Feel free to attend our meetings or [[contact us|contact]] by email.
+
 ## Documentation
 
 [[!map pages="staff/*" show="title"]]
