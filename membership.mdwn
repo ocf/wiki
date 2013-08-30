@@ -43,7 +43,7 @@
 
 1. **Submit your account form.**
 
-  Give your account form to a staff member during [[staff hours|http://www.ocf.berkeley.edu/cgi-bin/staff_hours.cgi]]. The person requesting the account must bring sufficient documentation as listed on the [[membership eligibility|eligibility]] page.
+  Give your account form to a staff member during [[staff hours|http://www.ocf.berkeley.edu/staff_hours]]. The person requesting the account must bring sufficient documentation as listed on the [[membership eligibility|eligibility]] page.
 
 1. **Await account creation.** (see below)
 
