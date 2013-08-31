@@ -25,7 +25,7 @@ When contacting OCF staff (in person or remotely), please reference
 
 ## Email
 
-Please do **not** send us your password over email, or your account will be disabled.
+Please do **not** send us your password over email, or your account will be disabled. Plain text strongly preferred and please do not send any attachments.
 
 * [asucpubstaff@gmail.com](mailto:asucpubstaff@gmail.com)
 
