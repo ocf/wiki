@@ -1,5 +1,7 @@
 ## Policy checklist
 
+University is currently reviewing their policies, so in the interim include the boilerplate from the blockquote at the top of [[services/vhost]] in your reply.
+
 * Website developed, not a placeholder
 * Website hosted substantially on the OCF
 * Website has hosted by OCF banner on the front page that is noticeable without undue effort and links to the OCF home page
