@@ -1,3 +1,11 @@
+## Policy checklist
+
+* Website developed, not a placeholder
+* Website hosted substantially on the OCF
+* Website has hosted by OCF banner on the front page that is noticeable without undue effort and links to the OCF home page
+* Request is made by a registered and active student organization in CalLink (LEAD Center) or request is sponsored by an [administrative official](http://compliance.berkeley.edu/delegation/principles)
+* Group does not already have a virtual host, or has an exception from the Board of Directors
+
 ## Enabling virtual hosting
 
 ### Web
