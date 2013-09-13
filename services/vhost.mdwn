@@ -1,10 +1,8 @@
 [[!meta title="Virtual hosting"]]
 
-> berkeley.edu virtual hosting requests for student groups are **on hold** since June 2013.
-> 
-> The [Office of Management and Business Outreach](http://ombo.berkeley.edu/) has halted new virtual host requests while university-wide policies on student use of the [berkeley.edu name](http://ombo.berkeley.edu/name/questions/faq) are under review. OCF, [ASUC](http://asuc.org/), and [GA](http://ga.berkeley.edu/) are in discussions with [LEAD Center](http://lead.berkeley.edu/), [Student Affairs](http://sa.berkeley.edu/), [SAIT](http://sait.berkeley.edu/), [IST](http://ist.berkeley.edu/), [IT Policy](http://ist.berkeley.edu/services/ocio/security/accesspolicy), and [OMBO](http://ombo.berkeley.edu/). We are doing our best to resolve this as soon as possible.
-> 
-> In the interim, please contact your [LEAD Center](http://lead.berkeley.edu/) advisor or have an [administrative official](http://compliance.berkeley.edu/delegation/principles) from your sponsoring department contact [IT Policy](http://ist.berkeley.edu/services/ocio/security/accesspolicy).
+> Policies on student use of the [berkeley.edu name](http://ombo.berkeley.edu/name/questions/faq) are under review by the university. We are in discussions with the [ASUC](http://asuc.org/), [GA](http://ga.berkeley.edu/), [LEAD Center](http://lead.berkeley.edu/), [Student Affairs](http://sa.berkeley.edu/), [SAIT](http://sait.berkeley.edu/), [IST](http://ist.berkeley.edu/), [IT Policy](http://ist.berkeley.edu/services/ocio/security/accesspolicy), [OMBO](http://ombo.berkeley.edu/), and other departments.
+>
+> Please note that berkeley.edu virtual hosting requests in the interim are not exempted from any requirements imposed by the university in the future.
 
 # Virtual hosting
 
