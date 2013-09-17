@@ -1,48 +1,41 @@
 [[!meta title="approve: record an OCF account request"]]
-# approve
+# `approve`
 
 This script records an account ("approve") for later creation. Right now you should direct users to request their accounts online where possible (online approve does not work for groups).
 
 Note that:
 
-* OSL group ID is the number assigned by the university for registered student groups (see [[signat]] for more info), or 0 if not a student group.
+* CalLink organization ID is the number assigned by the university for registered student groups (see [[signat]] for more info), or 0 if not a student group or not registered with the LEAD Center.
 * Approved users must be [[eligible for membership|membership/eligibility]].
 * We recommend individuals responsible for a group account also request an individual account for themselves if they are eligible.
 
 ## Example usage
 
-    $ approve
+    $ approve    
     account_name: ocf
-    email: staff@ocf.berkeley.edu
+    callink_oid: 46187
+    email: gm@ocf.berkeley.edu
     forward: true
     group_name: Open Computing Facility
-    osl_gid: 12272
     responsible: Dara Adib
-    
+
     # Please ensure that:
     #  * Person requesting account is signatory of group (see signat)
     #  * Group does not have existing account (see checkacct)
     #  * Requested account name is based on group name
     #  * Paper form is signed
     #
-    # OSL group ID:
-    #    To get the OSL group ID, you can use signat or look up online at:
-    #    http://students.berkeley.edu/osl/studentgroups/public/index.asp
-    #    (the SGID field in group name links is the OSL group ID)
+    # To get the CalLink organization ID, use signat
     
     Enter password: 
     Enter password again: 
     Account request recorded
 
-## OSL student groups
-
-The vast majority of requests will be for student groups registered with the University.
-
 ### Prerequisites
 
 * Group does not have an existing account (check with [[checkacct]]).
 * Paper form is filled out and signed.
-* Person requesting the account is a signatory of the group (confirm with [[signat]] using their CalNet UID which can be looked up in the [CalNet directory](https://calnet.berkeley.edu/directory/)).
+* For student groups registered with the LEAD Center, person requesting the account must be a signatory of the group (confirm with [[signat]]). Otherwise, the person should have documentation required by the [[membership eligibility|membership/eligibility]] page.
 * Account name is based on group name.
 
 ### Post approval
