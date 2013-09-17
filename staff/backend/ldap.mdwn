@@ -11,12 +11,14 @@ Attributes that define an OCF account:
 > * dn: distinguished name; primary key for the entry
 > * cn: common name; full name
 > * uid: account name
-> * uidNumber: POSIX user ID number
-> * gidNumber: primary POSIX group ID number
+> * uidNumber: POSIX user ID number (sequentially-assigned starting at 1000)
+> * gidNumber: primary POSIX group ID number (usually 20 for group ocf)
 > * homeDirectory: location of home directory
-> * loginShell: shell
-> * calNetuid: CalNet number (for individuals)
-> * oslgid: OSL group ID number (for student groups)
+> * loginShell: shell (usually /bin/bash)
+> * calnetUid: CalNet ID number (for individuals)
+> * callinkOid: CalLink organization ID number (for student groups)
+> * oslGid: old registered student group ID number (deprecated)
+
 
 ## Definition of a POSIX group
 
@@ -47,7 +49,7 @@ Searching for an account:
     homeDirectory: /home/s/sa/sanjayk
     gecos: Sanjay Krishnan
     loginShell: /bin/tcsh
-    calNetuid: 646431
+    calnetUid: 646431
 
 Searching for an account in a group:
 
@@ -58,7 +60,7 @@ Searching for an account in a group:
 
 ### `ldapvi`
 
-`ldapvi` is a "text editor" for LDAP which can generate LDIF change records to pass to `ldapadd` (or modify directly if you have the proper [[permissions|powers]].
+`ldapvi` is a "text editor" for LDAP which can generate LDIF change records to pass to `ldapadd` (or modify directly if you have the proper [[permissions|powers]]).
 
     $ ldapvi uid=daradib
     0 uid=daradib,ou=People,dc=OCF,dc=Berkeley,dc=EDU
@@ -71,28 +73,28 @@ Searching for an account in a group:
     gidNumber: 20
     homeDirectory: /home/d/da/daradib
     loginShell: /bin/bash
-    calNetuid: 872544
+    calnetUid: 872544
 
-Now if you make changes to some attributes (say, change the shell to tcsh) and try to save the temporary file which has been opened in a text editor:
+Now if you make changes to some attributes (say, change the shell to `tcsh`) and try to save the temporary file which has been opened in a text editor:
 
           1 entry read
     add: 0, rename: 0, modify: 1, delete: 0
     Action? [yYqQvVebB*rsf+?] 
 
-You can press "v" to view the LDIF change record (or "?" for help).
+You can enter "v" to view the LDIF change record (or "?" for help).
 
     dn: uid=daradib,ou=People,dc=OCF,dc=Berkeley,dc=EDU
     changetype: modify
     replace: loginShell
     loginShell: /bin/tcsh
 
-You can also press "q" to save the LDIF change record as a file in your current directory or "Q" to discard it.
+You can enter "y" to apply changes, "q" to save the LDIF change record as a file in your current directory, or "Q" to discard.
 
 ### `ldapadd`
 
 `ldapadd` is a utility to add entries to the LDAP directory if you have the proper [[permissions|powers]].
 
-To add an account, first create a file (we call it user_file):
+To add an account, first create a file (we call it `user_file`):
 
     dn: uid=asdf,ou=People,dc=OCF,dc=Berkeley,dc=EDU
     objectClass: ocfAccount
@@ -104,14 +106,14 @@ To add an account, first create a file (we call it user_file):
     gidNumber: 20
     homeDirectory: /home/a/as/asdf
     loginShell: /bin/bash
-    calNetuid: 758472
+    calnetUid: 758472
 
 Then authenticate with [[Kerberos]]:
 
-    $kinit myusername/admin
+    $ kinit myusername/admin
 
 Finally run `ldapadd`:
 
-    $ldapadd < user_file
+    $ ldapadd < user_file
 
-This also works on lists of users.
+This also works on lists of entries to add separated by empty newlines.
