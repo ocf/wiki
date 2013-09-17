@@ -3,7 +3,7 @@
 
 ## Before you begin
 
-* Check the [[membership eligibility|eligibility]] page to make sure you are eligible for an OCF account. For example, all currently enrolled students and OSL-registered groups are eligible.
+* Check the [[membership eligibility|eligibility]] page to make sure you are eligible for an OCF account. For example, all currently-enrolled students and active student groups registered with the LEAD Center are eligible.
 
 * OCF accounts do not expire, so make sure you have not made an account in the past. If you have forgotten your account name or password, please do not request a new account. Instead, reset your [[password|services/account]].
 
