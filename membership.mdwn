@@ -27,7 +27,7 @@
 
 ## Group accounts
 
-* Group accounts are associated with a group may be shared by members of the group.
+* Group accounts are associated with a group and may be shared by members of the group.
 * Group accounts are eligible for [[virtual hosting|services/vhost]].
 * Group accounts are **not** eligible for [[printing|services/lab/printing]].
 
