@@ -2,7 +2,7 @@
 
 > Policies on student use of the [berkeley.edu name](http://ombo.berkeley.edu/name/questions/faq) are under review by the university. We are in discussions with the [ASUC](http://asuc.org/), [GA](http://ga.berkeley.edu/), [LEAD Center](http://lead.berkeley.edu/), [Student Affairs](http://sa.berkeley.edu/), [SAIT](http://sait.berkeley.edu/), [IST](http://ist.berkeley.edu/), [IT Policy](http://ist.berkeley.edu/services/ocio/security/accesspolicy), [OMBO](http://ombo.berkeley.edu/), and other departments.
 >
-> Please note that berkeley.edu virtual hosting requests in the interim are not exempted from any requirements imposed by the university in the future.
+> Please note that berkeley.edu virtual hosting requests in the interim are not exempt from any requirements imposed by the university in the future.
 
 # Virtual hosting
 
