@@ -28,4 +28,4 @@ You may also want to take a look at our older wiki, which is more thorough but *
 
 ## Blog
 
-OCF server down? When all else fails, check **[the blog](http://ocfblog.blogspot.com/)** for status reports and updates even when our network experiences a hangover.
+OCF server down? When all else fails, check **[the blog](http://status.ocf.berkeley.edu/)** for status reports and updates even when our network experiences a hangover.
