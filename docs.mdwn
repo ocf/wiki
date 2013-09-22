@@ -2,4 +2,4 @@
 
 Here are official documents relating to the *Open Computing Facility*.
 
-[[!map pages="documents or documents/*" show="title"]]
+[[!map pages="docs/*" show="title"]]
