@@ -7,7 +7,7 @@ Individual accounts are allotted **250 pages** of printing **per semester**.  Me
 
 ## Restrictions and caveats
 
-* Only **30 pages** [may be printed per day](http://ocfblog.blogspot.com/2013/02/printing-daily-quota.html).
+* Only **30 pages** [may be printed per day](http://status.ocf.berkeley.edu/2013/02/printing-daily-quota.html).
 * Each **printed side** of a sheet (currently) counts as a page.
 * Jobs take time to process proportional to the job size.  If you submit a large job, please be patient while the print server processes it.
 
