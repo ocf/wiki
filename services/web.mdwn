@@ -6,7 +6,7 @@ All accounts include hosting with a web address at:
 * [www.ocf.berkeley.edu/~user](http://www.ocf.berkeley.edu/~user) (canonical version)
 * [ocf.io/user](http://ocf.io/user) (shorter version)
 
-You leave off the "www." or "~" (tilde) and it will be added.
+If the "www." or "~" (tilde) are omitted, they will automatically be added.
 
 Group accounts may also request a [[virtual host|services/vhost]] for another domain (e.g., group.berkeley.edu).
 
@@ -39,9 +39,9 @@ Upload files to your web space the same way you [[upload files to your OCF accou
 
 The web server runs Apache 2.2 with FastCGI (mod_fcgid), suEXEC, and suPHP. Access and error logs are accessible in `/opt/httpd` using [[SSH|shell]].
 
-The web server itself runs as a dedicated user. If your .htaccess file is not world-readable (e.g., chmod 644), the web server will return the error "401 Forbidden".
+The web server itself runs as a dedicated user. If your .htaccess file is not world-readable (e.g., `chmod 644`), the web server will return the error "401 Forbidden".
 
-PHP/CGI/FastCGI scripts are executed as your user, so they do not need to be world-readable. If they contain sensitive information (such as database passwords), you should make them private (e.g., chmod 600 or 700).
+PHP/CGI/FastCGI scripts are executed as your user, so they do not need to be world-readable. If they contain sensitive information (such as database passwords), you should make them private (e.g., `chmod 600` or `chmod 700`).
 
 ### Supported languages
 
