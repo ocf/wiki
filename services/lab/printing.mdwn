@@ -1,9 +1,15 @@
 [[!meta title="Printing"]]
 # Printing
 
-The OCF offers a certain amount of printing (currently 250 pages per semester, [limited at 30 pages per day](http://status.ocf.berkeley.edu/2013/02/printing-daily-quota.html)) to individual members. You don't have to request a new account each semester - the quota is refreshed at the start of each semester.
+The OCF offers a certain amount of printing to individual members. You don't have to request a new account each semester - the quota is refreshed at the start of each semester.
 
-Please review our [[printing policies|printing/policies]] before contacting staff.
+Printing is currently limited to:
+
+ * 250 pages per semester
+ * [10 pages per day on weekdays](http://status.ocf.berkeley.edu/2013/10/printing-service-changes.html)
+ * [30 pages per day on weekends](http://status.ocf.berkeley.edu/2013/02/printing-daily-quota.html)
+
+Please review our [[printing policies|printing/policies]] before contacting staff. Refer to the links above for an explanation of our printing policy changes.
 
 ## Remaining quota
 
