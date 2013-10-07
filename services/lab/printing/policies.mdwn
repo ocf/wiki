@@ -22,49 +22,16 @@ Please note:
 
 As a member of the OCF, you are responsible for taking the following precautions to safeguard your print balance:
 
-* **Cancel any unwanted print jobs** via the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/).
+* Cancel any unwanted print jobs via the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/).
 * Check the [print queue](https://printhost.ocf.berkeley.edu:631/jobs/) monitor to the right of the printers for the status of your job before trying to print again.
-* Check your [print balance](https://secure.ocf.berkeley.edu/account_tools/commands) regularly, by web interface or by logging in to your account via SSH and issuing the "paper" command:
+* Check your [print balance](https://secure.ocf.berkeley.edu/account_tools/commands) regularly, by web interface or by logging in to your account via SSH and issuing the `paper` command:
 
         tsunami$ paper
 
 * Log off of lab computers when you are finished with them.
-* Bring any printing problems to the attention of the ASUC Publications Center staff member.
 
 ## Printing refunds
 
-**The OCF will refund pages for the following reasons:**
+Pages are **not** normally refunded.
 
-* Printer malfunction (lack of ink, paper jam, etc.)
-
-**The OCF will *NOT* refund pages for the following reasons:**
-
-* Printed too many copies of a document
-* Printed the whole document instead of part of it
-* Printed single-sided but meant to print double (or vice-versa)
-* Printed the document in the wrong orientation or size
-
-*This list is not exhaustive.*
-
-### Refund procedure
-
-1. If you feel that your print job qualifies for a refund, bring it to the ASUC Publications Center staff member *immediately*.  The OCF will not issue a refund for more than one copy of a misprinted document.
-2. The ASUC Publications Center staff member will take the misprinted pages, along with your username and the reason you are submitting the pages for refund.
-3. You will receive an e-mail at your OCF account in about a week stating whether or not your pages were refunded.
-
-If the ASUC Publications Center staff member is unsure what to do with your pages, please show them the section below:
-
-### ASUC Publications Center procedures
-
-1. Fill in a row of the OCF Misprint Record (located on the)
-  * Write today's date in the *Date* box
-  * Write the patron's OCF username in the *Username* box
-  * Write your name in the *Pubs Staff Name* box
-  * Count the number of pages (front and back, if double-sided) and write that number in the *Pages* box
-  * For the *Record #* box, write the next number in sequence
-  * Write the patron's reason for requesting a refund in the *Explanation* box
-2. Clip the patron's pages together.  Place a post-it on the front page with the following information:
-  * Username
-  * Date
-  * Record # (write this BIG and circle it)
-3. Attach the patron's pages to the misprint record with a paper clip.
+However, if an OCF staff member is present in the lab during physical printer malfunction (lack of toner, paper jam, etc.), he or she may be able to correct printing quotas. OCF staff are volunteers and are **not** usually present in the lab. The ASUC Publications Center receptionist cannot change OCF quotas.
