@@ -3,13 +3,20 @@
 
 ## General
 
-Individual accounts are allotted **250 pages** of printing **per semester**.  Members exhausting their allotment **will not** be granted additional pages.  The summer is not considered a new semester, and balances will carry over from the spring.  Members may print single- or double-sided by selecting the corresponding printer at the print dialog.
+The OCF offers a certain amount of printing to individual members. Members exhausting their allotment **will not** be granted additional pages. Members may print single- or double-sided by selecting the corresponding printer at the print dialog.
 
 ## Restrictions and caveats
 
-* Only **30 pages** [may be printed per day](http://status.ocf.berkeley.edu/2013/02/printing-daily-quota.html).
-* Each **printed side** of a sheet (currently) counts as a page.
-* Jobs take time to process proportional to the job size.  If you submit a large job, please be patient while the print server processes it.
+Printing is currently limited to:
+
+ * 250 pages per semester (Fall or Spring)
+ * [10 pages per day on weekdays](http://status.ocf.berkeley.edu/2013/10/printing-service-changes.html)
+ * [30 pages per day on weekends](http://status.ocf.berkeley.edu/2013/02/printing-daily-quota.html)
+
+Please note:
+
+ * Each **printed side** of a sheet counts as a page.
+ * Jobs take time to process proportional to the job size.  If you submit a large job, please be patient while the print server processes it.
 
 ## Member responsibilities
 
