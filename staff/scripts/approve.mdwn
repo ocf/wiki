@@ -6,16 +6,16 @@ This page explains the OCF account approval procedure and the usage of the ("app
 OCF group accounts need to be manually approved by staff in the lab. All members requesting individual accounts should be directed to the online approval page. If a member requesting an individual account cannot use the online approval system (likely because of an invalid/unacceptable CalNet id), direct them to an OCF officer.
 
 ## Procedure
-1. First, check to see whether the group has an existing OCF account with [[checkacct]]. You should try different variants of the group's name as it may not have been correctly entered (eg. acronym etc.).
+First, check to see whether the group has an existing OCF account with [[checkacct]]. You should try different variants of the group's name as it may not have been correctly entered (eg. acronym etc.).
    
     $ checkacct Open
     Login: api            			Name: Open API Project
     Login: openu          			Name: Open University
     Login: oai            			Name: Open Access Initiative at Berkeley
 
-2. If the group does not have an account, ask the requester to fill out and sign a form (located near the staff computer). 
-3. For student groups registered with the LEAD Center, person requesting the account must be a signatory of the group (confirm with [[signat]]). Otherwise, the person should have documentation required by the [[membership eligibility|membership/eligibility]] page.
-4. Check to see if the account name is based on group name.
+If the group does not have an account, ask the requester to fill out and sign a form (located near the staff computer). 
+For student groups registered with the LEAD Center, person requesting the account must be a signatory of the group (confirm with [[signat]]). Otherwise, the person should have documentation required by the [[membership eligibility|membership/eligibility]] page.
+Check to see if the account name is based on group name.
 
 * CalLink organization ID is the number assigned by the university for registered student groups (see [[signat]] for more info), or 0 if not a student group or not registered with the LEAD Center.
 * Approved users must be [[eligible for membership|membership/eligibility]].
