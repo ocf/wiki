@@ -1,7 +1,8 @@
 [[!meta title="approve: record an OCF account request"]]
 # `approve`
+This page explains the OCF account approval procedure and the usage of the ("approve") script.
 
-This script records an account ("approve") for later creation. Right now you should direct users to request their accounts online where possible (online approve does not work for groups).
+OCF group accounts need to be manually approved by staff in the lab. All members requesting individual accounts should be directed to the online approval. If a member requesting an individual account cannot use the online approval (likely because of an invalid/unacceptable CalNet id), direct them to an OCF officer.
 
 Note that:
 
