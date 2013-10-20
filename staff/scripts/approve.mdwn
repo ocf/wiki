@@ -5,23 +5,39 @@ This page explains the OCF account approval procedure and the usage of the ("app
 ## Using approve
 OCF group accounts need to be manually approved by staff in the lab. All members requesting individual accounts should be directed to the online approval page. If a member requesting an individual account cannot use the online approval system (likely because of an invalid/unacceptable CalNet id), direct them to an OCF officer.
 
-## Procedure
-First, check to see whether the group has an existing OCF account with [[checkacct]]. You should try different variants of the group's name as it may not have been correctly entered (eg. acronym etc.).
-   
-    $ checkacct Open
-    Login: api            			Name: Open API Project
-    Login: openu          			Name: Open University
-    Login: oai            			Name: Open Access Initiative at Berkeley
+** The approve program may only be run from supernova.ocf.berkeley.edu **
 
-If the group does not have an account, ask the requester to fill out and sign a form (located near the staff computer). 
-For student groups registered with the LEAD Center, person requesting the account must be a signatory of the group (confirm with [[signat]]). Otherwise, the person should have documentation required by the [[membership eligibility|membership/eligibility]] page.
-Check to see if the account name is based on group name.
+## Before Approve
+* SSH into supernova.ocf.berkeley.edu
+* Check to see whether the group has an existing OCF account with [[checkacct]]. You should try different variants of the group's name as it may not have been correctly entered (eg. acronym etc.).
 
-* CalLink organization ID is the number assigned by the university for registered student groups (see [[signat]] for more info), or 0 if not a student group or not registered with the LEAD Center.
-* Approved users must be [[eligible for membership|membership/eligibility]].
-* We recommend individuals responsible for a group account also request an individual account for themselves if they are eligible.
+        $ checkacct Open
+        Login: api            			Name: Open API Project
+        Login: openu          			Name: Open University
+        Login: oai            			Name: Open Access Initiative at Berkeley
 
-## Example usage
+* If the group does not have an account, ask the requester to fill out and sign a form (located near the staff computer). 
+* For registered student groups, the OCF requires that a signatory authorizes the approval of the account. If the account is not a registered student group check with the [[membership eligibility|membership/eligibility]] to see what constitutes acceptable documentation. If they are **not** a registered student group skip the next step.
+* If the group is a registered student group, you can check the signatory status with the [[signat]]. There are three acceptable cases: (1) Student is a signatory and has an OCF account (2) Student is a signatory but does not have an OCF account (3) the student is not a signatory and has a note from a signatory.
+* Case 1: 
+
+        $signat sanjayk
+        46187: Open Computing Facility
+
+* Case 2. Lookup the student's Calnet UID with the [Berkeley Directory](http://directory.berkeley.edu). Then run signat with the CalnetUID.
+
+        $signat 646431
+        46187: Open Computing Facility
+
+* Case 3: Lookup the signatory in the note with the [Berkeley Directory](http://directory.berkeley.edu). Then run signat with **their** CalnetUID.
+
+        $signat 872544
+        46187: Open Computing Facility
+
+* Note the number corresponding to the appropriate group (eg. 46187 Open Computing Facility) and confirm the student's identity from their CAL ID.
+
+## Run Approve
+When you run approve it will open a text editor to enter the following information:
 
     $ approve    
     account_name: ocf
