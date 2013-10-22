@@ -9,6 +9,11 @@ We support the following commonly used shell account tools (to name a few):
 *   cron and at: execute commands on a periodic or scheduled basis 
 *   vim and emacs: powerful and extensible text editors
 
+Most SSH/SFTP clients will prompt you to accept an unknown key when you first connect. Our SSH fingerprint can be used to verify that you're connecting to the correct server:
+
+    2048 55:0a:e3:4f:4b:2c:15:f8:d4:7d:f9:93:bf:a0:41:21 tsunami.ocf.berkeley.edu (RSA)
+    1024 7e:19:bc:fd:b5:cd:5c:e3:42:a4:a5:74:eb:ce:5d:2e tsunami.ocf.berkeley.edu (DSA)
+
 ## SSH
 
 Your shell account can be controlled remotely using [SSH](http://en.wikipedia.org/wiki/Secure_Shell). The server name is <tt>ssh.ocf.berkeley.edu</tt> (<tt>tsunami</tt>).
@@ -36,12 +41,3 @@ Otherwise, use the following information in your SFTP client.
 * Protocol: SFTP (or SSH)
 * Host Name: <tt>ssh.ocf.berkeley.edu</tt>
 * Port: 22 (default)
-
-
-> If you're paranoid and/or want to verify that the server you're talking to is really the right
-> one, verify that its SSH fingerprint matches the following:
-> 
->     2048 55:0a:e3:4f:4b:2c:15:f8:d4:7d:f9:93:bf:a0:41:21 tsunami.ocf.berkeley.edu (RSA)
->     1024 7e:19:bc:fd:b5:cd:5c:e3:42:a4:a5:74:eb:ce:5d:2e tsunami.ocf.berkeley.edu (DSA)
-> 
-> (most people should just ignore this)
