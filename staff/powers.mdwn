@@ -19,7 +19,7 @@ Newly-interested staff members are given basic training on [[OCF scripts|scripts
 * can process group account requests
 * can access and process [Request Tracker](https://rt.ocf.berkeley.edu/) tickets
 * can login to the print server
-* can post staff hours, although not required to do so (but ideally hold staff hours alongside a more privileged staff member, this is called shadowing)
+* can post staff hours alongside a more privileged staff member (shadowing)
 
 ## Privileged staff
 *group ocfstaff*
@@ -28,7 +28,7 @@ Staff members who demonstrate long-term commitment and proficiency are given add
 
 * receive `wheel@ocf` mail (including cron mail and discussions that include mundane technical jargon)
 * can change print quotas
-* can login to (nearly) all servers
+* can login to all servers
 * have sudo access (root privileges) on the print server
 * can edit shared staff files such as `User_Info` and `motd` (message of the day)
 * can edit the [[wiki|ikiwiki/editing-the-wiki]] and are expected to help maintain it
