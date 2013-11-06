@@ -46,7 +46,7 @@ The necessary scripts for you to create Django projects are installed on our log
             RewriteEngine On
             RewriteBase /
             RewriteCond %{REQUEST_FILENAME} !-f
-            # Change "username" and "hatsune" to whatever directory name you made in public_html
+            # Change "username" and "hatsune" to your username and whatever directory name you made in public_html, respectively
             RewriteRule ^(.*)$ /~username/hatsune/run.fcgi/$1 [QSA,L]
         
 * run.fcgi:
