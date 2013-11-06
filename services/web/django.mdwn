@@ -9,35 +9,35 @@ The necessary scripts for you to create Django projects are installed on our log
 
 1.   First, you will want to create a directory to store all of your Django projects. This directory should not be in your *public_html* directory.
 
-        kedo@tsunami$ mkdir ~/projects
+        tsunami$ mkdir ~/projects
 
 1.   Go into the directory you just created:
 
-        kedo@tsunami$ cd ~/projects
+        tsunami$ cd ~/projects
 
 1.  Create a new Django project. For this example, the project name will be "hatsune". You will want to stick with Python-friendly package and module names, as detailed in [[PEP 8|http://www.python.org/dev/peps/pep-0008/#package-and-module-names]].
 
-        kedo@tsunami$ django-admin startproject hatsune
+        tsunami$ django-admin startproject hatsune
 
 1.   Go into the project directory you just created and edit the settings.py file with the necessary information:
 
-        kedo@tsunami$ cd hatsune
-        kedo@tsunami$ vim settings.py
+        tsunami$ cd hatsune
+        tsunami$ vim settings.py
 
 1.   Change the permissions of the settings.py file, since it might have sensitive information like your database password!
 
-        kedo@tsunami$ chmod go-rwx settings.py
+        tsunami$ chmod go-rwx settings.py
 
 1.   Create an app, edit it, and so on:
 
-        kedo@tsunami$ django-admin startapp miku
-        kedo@tsunami$ vim miku/views.py
+        tsunami$ django-admin startapp miku
+        tsunami$ vim miku/views.py
         ...
-        kedo@tsunami$ vim urls.py
+        tsunami$ vim urls.py
 
 1.    Make a directory in your ~/public_html directory:
 
-        kedo@tsunami$ mkdir ~/public_html/hatsune
+        tsunami$ mkdir ~/public_html/hatsune
 
 1.    Go into the directory you just created, and create two files: *.htaccess* (note the dot), and *run.fcgi*.
 
@@ -46,8 +46,8 @@ The necessary scripts for you to create Django projects are installed on our log
             RewriteEngine On
             RewriteBase /
             RewriteCond %{REQUEST_FILENAME} !-f
-            # Change the "hatsune" to whatever directory name you made in public_html
-            RewriteRule ^(.*)$ /~kedo/hatsune/run.fcgi/$1 [QSA,L]
+            # Change "username" and "hatsune" to whatever directory name you made in public_html
+            RewriteRule ^(.*)$ /~username/hatsune/run.fcgi/$1 [QSA,L]
         
 * run.fcgi:
         
@@ -69,6 +69,6 @@ The necessary scripts for you to create Django projects are installed on our log
 
 1.   Make the *run.fcgi* file you just created executable:
 
-        kedo@tsunami$ chmod a+x run.fcgi
+        tsunami$ chmod a+x run.fcgi
 
 1. Double check that your *settings.py* file is *not* readable by any other users, and try not to leave DEBUG set to True in your settings.py. Also note that paths are very finicky for Django (and Python) projects, and incorrect paths will likely be the source of any problems.
