@@ -42,13 +42,13 @@ In order to reset user passwords, staff must also possess a `/root` principal. T
     username/root@OCF.BERKELEY.EDU change-password *@OCF.BERKELEY.EDU
     
 ## Technical managers
-*group admin*
+*group ocfroot*
 
 The most technical and "on-call" staff members are given sudo access (root privileges) on all servers and the ability to modify LDAP/Kerberos directly.
 
 This usually corresponds to Deputy Manager(s) and Site Manager(s). Sometimes the General Manager may also act as a Deputy Manager.
 
-### `admin` group
+### `ocfroot` group
 
 The ability to become root via sudo first requires the existence of a `/root` principal (see above).
     
@@ -60,7 +60,7 @@ This originates from PAM configuration at `/etc/pam.d/sudo` and `/etc/sudoers`.
         
 `/etc/sudoers`:
 
-    %admin ALL=(ALL) ALL
+    %ocfroot ALL=(ALL) ALL
 
 ### `/admin` principal
 
