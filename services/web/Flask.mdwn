@@ -32,12 +32,12 @@ Flask is a popular microframework for Python web development. Using it on the OC
 
 * Case 1:
 
-            /flaskapplication.py
+            /flaskyapplication.py
             /run.fcgi
 
 * Case 2:
 
-            /flaskapplication
+            /flaskyapplication
                 /__init__.py
             /run.fcgi
 
