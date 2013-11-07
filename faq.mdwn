@@ -35,7 +35,7 @@ Please be patient. Accounts are processed every 1-2 weeks during semesters. See 
 
 It should still work. Our current policy is to leave accounts alone after graduation. See [[services/account]].
 
-### My account is disabled.
+### My account is disabled. Or, I want to disable or delete my account.
 
 See [[services/account]].
 
@@ -50,12 +50,6 @@ First, you need to have a group [[account|membership]] and a working [[website|s
 ### [[services/lab/Printing]]: I have a printing question/problem.
 
 See [[services/lab/printing]].
-
-### I want to disable or delete my account.
-
-If you want to disable your OCF account, please [[contact us|contact]] and provide your OCF username. If your account appears to still be active, we may ask for some evidence that you are the account owner. Currently, disabled accounts are stored or archived and can be *re-enabled* by request at a later date.
-
-To permanently delete the contents of your account, you will need to have access to your account. See [[services/account]].
 
 ### I need to talk to a human.
 
