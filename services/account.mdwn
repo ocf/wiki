@@ -67,6 +67,10 @@ Once your password is reset, we strongly encourage you to change it over SSH (se
 
 Access to your [[MySQL database|services/mysql]], if you have one, is protected by a separate password.
 
+## After graduation
+
+Currently, we don't actively disable accounts, so you are free to use your account until that policy changes. We can't promise all of your OCF account privileges into perpetuity, however.  We are run by students volunteers using student money. 
+
 ## Disabled accounts
 
 Some common reasons accounts are disabled:
@@ -75,8 +79,10 @@ Some common reasons accounts are disabled:
  * security (e.g., account hijacked)
  * misuse (e.g., excessive use of resources, violation of University policies) 
 
-Accounts may also be disabled if OCF staff need to contact you but cannot do so. Please check your OCF [[services/email]] regularly, or keep the email address in your <tt>.forward</tt> file up-to-date if you forward email.
-
-Disabled accounts may eventually be scheduled for deletion.
+Accounts may also be disabled if OCF staff need to contact you but cannot do so.
 
 To re-enable your account, you will need to see a Manager (gm, sm, or dm after the staff member's name) during [staff hours](http://www.ocf.berkeley.edu/staff_hours).
+
+If you want to disable your OCF account, please [[contact us|contact]] and provide your OCF username. If your account appears to still be active, we may ask for some evidence that you are the account owner. Currently, disabled accounts are stored or archived and can be *re-enabled* by request at a later date. Disabled accounts may eventually be scheduled for deletion.
+
+To permanently delete the contents of your account, you will need to have access to your account. See [[services/account]].
