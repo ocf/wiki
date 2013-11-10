@@ -15,15 +15,13 @@
 * Individual accounts are **not** eligible for [[virtual hosting|services/vhost]].
 * Individual accounts are eligible for [[printing|services/lab/printing]].
 
-### Process
-
-1. **[[Request an account online|https://secure.ocf.berkeley.edu/account_tools/request_account]].**
+**[[Request an account online|https://secure.ocf.berkeley.edu/account_tools/request_account]].**
 
   You will be prompted to log in with CalNet. Then follow the instructions to make your request. Your account name must be based on your real name.
 
   Feel free to [[contact us|contact]] if you experience difficulties in the request or you have questions.
 
-1. **Await account creation.** (see below)
+Then, wait for your account to be created. (below)
 
 ## Group accounts
 
@@ -31,19 +29,11 @@
 * Group accounts are eligible for [[virtual hosting|services/vhost]].
 * Group accounts are **not** eligible for [[printing|services/lab/printing]].
 
-### Process
+Follow this procedure to get a group account:
 
-1. **Prepare appropriate documents and identification.**
-
-  See the [[membership eligibility|eligibility]] page for information on the documents and identification you will be asked to present for verification at the time you submit your account form.
-
-1. **Complete an account request form.**
-
-  Print out the [[group account form|http://www.ocf.berkeley.edu/services/gaf.pdf]] or pick up a copy at the [[services/lab]], and fill it out.
-
-1. **Come to staff hours with your account form.**
-
-  Meet a staff member during [[staff hours|http://www.ocf.berkeley.edu/staff_hours]] with your account form. You must bring sufficient documentation as listed on the [[membership eligibility|eligibility]] page and will need to be present to enter a password.
+1. **Prepare appropriate documents and identification.** See the [[membership eligibility|eligibility]] page for information on the documents and identification you will be asked to present for verification at the time you submit your account form.
+2. **Complete an account request form.** Print out the [[group account form|http://www.ocf.berkeley.edu/services/gaf.pdf]] or pick up a copy at the [[services/lab]], and fill it out.
+3. **Come to staff hours with your account form.**
 
 1. **Await account creation.** (see below)
 
@@ -54,3 +44,9 @@ Account creation consists of "approve" and "create. "Approve" is when we record 
 If you have not received an email notification after one week, try logging in to our computer system.
 
 If there are issues when processing your account, you will be contacted by email.
+
+## Account life
+
+We don't actively close accounts. You don't need to re-apply for a new account every semester, and you can still use your account after you graduate. 
+
+Because the OCF is funded by students for student use, we cater our services to students, but it doesn't mean that your OCF account stops working after you stop being a student. However, we will occasionally make changes to our services based on the needs of current students and the abilities of current OCF staff, so we can't promise all OCF account privileges and services into perpetuity. 
