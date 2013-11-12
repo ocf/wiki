@@ -12,6 +12,8 @@ Data is stored in `/srv/ikiwiki` on blight, which contains:
  * `wiki.git/`: bare repository (git)
  * `wiki.setup`: ikiwiki configuration file
 
+The wiki is mirrored on [GitHub](https://github.com/ocf/wiki).
+
 ## Editing the wiki
 
 ### Using the web interface
