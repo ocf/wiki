@@ -34,9 +34,9 @@ The account creation password is stored on blight.
 
 1. Commit your changes with brief but clear messages about what you changed.
 
-1. `sudo` push your local changes to the git repository. If you do not have root privileges, you will need to ask a root staff member to pull your changes.
+1. Push your local changes to the git repository as `www-data`. If you do not have root privileges, you will need to ask a root staff member to pull your changes.
 
-        blight:local-wiki-repo$ sudo git push
+        blight:local-wiki-repo$ sudo -u www-data git push
 
 ## Troubleshooting
 
