@@ -15,7 +15,8 @@ Virtual hosting lets your group's website be hosted on the OCF's web server, but
 1.   [[Request an OCF group account|membership]] (if you haven't already done so). 
 2.   Set up your webspace and upload your website (if you haven't already done so). The website should be developed already, not a placeholder.
 3.   Place a [[Hosted by OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on your page that links to the OCF front page. If none of these images are appropriate for your site, you may design one of your own and [[submit it|contact]] for approval.
-4.   Send a message to [[hostmaster@ocf.berkeley.edu|mailto:hostmaster@ocf.berkeley.edu]] with a request to set up a virtual host for your group's account. It should take 1-2 weeks to set up a new virtual host. Specify in the email what virtual host name your group wants. OCF will contact the University DNS hostmaster to obtain permission for your desired hostname (assuming it is available).
+4.   Place the university-mandated student group disclaimer on either the home page or the "about us" page of your website (see the section below).
+5.   Send a message to [[hostmaster@ocf.berkeley.edu|mailto:hostmaster@ocf.berkeley.edu]] with a request to set up a virtual host for your group's account. It should take 1-2 weeks to set up a new virtual host. Specify in the email what virtual host name your group wants. OCF will contact the University DNS hostmaster to obtain permission for your desired hostname (assuming it is available).
 
 ### Including the OCF banner
 
@@ -26,6 +27,14 @@ To place any of the [[Hosted by OCF banners|http://www.ocf.berkeley.edu/images/h
     </a>
 
 Remember, you can also create your own OCF banner with approval from the OCF (see instructions above).
+
+### Including the University Student Group Disclaimer
+
+The university requires that all new student group websites on a subdomain of berkeley.edu contain the following text on either their home page or their "about us" page:
+
+> We are a student group acting independently of the University of
+> California. We take full responsibility for our organization and
+> this web site.
 
 ### Policies
 
