@@ -26,4 +26,4 @@ Account requests are queued and managed on *supernova*.
 
 If you have patched create, make sure to push your changes to [GitHub](https://github.com/ocf/create) and deploy on OCF systems with the command:
 
-$ cd /opt/ocf/packages/create && sudo git pull
+        $ cd /opt/ocf/packages/create && sudo git pull
