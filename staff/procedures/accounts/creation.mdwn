@@ -21,3 +21,9 @@ Account requests are queued and managed on *supernova*.
         $ /opt/ocf/packages/create/create.py -i
 
 1. Keep a second shell open to search through approved.users and approved.log for duplicate account requests.
+
+# Updating create
+
+If you have patched create, make sure to push your changes to [GitHub](https://github.com/ocf/create) and deploy on OCF systems with the command:
+
+$ cd /opt/ocf/packages/create && sudo git pull
