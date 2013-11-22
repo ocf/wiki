@@ -28,6 +28,7 @@ To place any of the [[Hosted by OCF banners|http://www.ocf.berkeley.edu/images/h
 
 Remember, you can also create your own OCF banner with approval from the OCF (see instructions above).
 
+<a id="disclaimer"></a>
 ### Including the University Student Group Disclaimer
 
 The university requires that all new student group websites on a subdomain of berkeley.edu contain the following text on either their home page or their "about us" page:
