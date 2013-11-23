@@ -1,6 +1,0 @@
-# YAML
-ip-address: 128.32.129.208
-maintainers: []
-name: blackhole
-services: [mail NFS]
-# ENDYAML

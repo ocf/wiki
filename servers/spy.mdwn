@@ -1,6 +1,0 @@
-# YAML
-ip-address: ???
-maintainers: []
-name: spy
-services: [CUPS]
-# ENDYAML

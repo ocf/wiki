@@ -1,6 +1,0 @@
-# YAML
-ip-address: ???
-maintainers: []
-name: diplomat
-services: [kiosk]
-# ENDYAML

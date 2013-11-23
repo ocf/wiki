@@ -1,6 +1,0 @@
-# YAML
-ip-address: 128.32.129.251
-maintainers: []
-name: wildfire
-services: []
-# ENDYAML
