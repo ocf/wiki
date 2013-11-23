@@ -1,5 +1,5 @@
 # YAML
-ip-address: 128.32.129.220
+ip-address: 169.229.172.86
 maintainers: []
 name: locusts
 services: [tzhu/waf testing]
