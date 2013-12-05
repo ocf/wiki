@@ -18,9 +18,13 @@ Account requests are queued and managed on *supernova*.
 1. Run the same script again to create the accounts (And filter any new requests that have been made since the last run)
 1. If any requests need manual approval by a staff member, run the same script with the -i flag:
 
-        $ /opt/ocf/packages/create/create.py -i
+        $ sudo /opt/ocf/packages/create/create.py -i
 
 1. Keep a second shell open to search through approved.users and approved.log for duplicate account requests.
+
+# Create Bot
+
+Currently, account creation is set to run automatically on supernova every day at 9am.
 
 # Updating create
 
