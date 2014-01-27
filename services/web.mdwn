@@ -45,10 +45,10 @@ PHP/CGI/FastCGI scripts are executed as your user, so they do not need to be wor
 
 ### Supported languages
 
-* PHP 5.3
-* Perl 5.10
-* Python 2.6 and Django 1.4
-* Ruby 1.8 and Rails 2.3
+* PHP 5.4
+* Perl 5.14
+* Python 2.6, 2.7, and 3.2; Django 1.4; Flask 0.8
+* Ruby 1.8; Rails 2.3
 
 Other flavors of the day may work but are not currently supported.
 
