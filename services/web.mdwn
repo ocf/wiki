@@ -48,7 +48,7 @@ PHP/CGI/FastCGI scripts are executed as your user, so they do not need to be wor
 * PHP 5.4
 * Perl 5.14
 * Python 2.6, 2.7, and 3.2; Django 1.4; Flask 0.8
-* Ruby 1.8; Rails 2.3
+* Ruby 1.9; Rails 2.3
 
 Other flavors of the day may work but are not currently supported. We may be
 able to install additional packages on request, but will generally advise
