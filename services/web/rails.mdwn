@@ -4,17 +4,17 @@
 
 Ruby on Rails is a popular web framework for Ruby applications.
 
-## Installing Rails
+## Installing Rails 4
 
 OCF servers currently run the following:
 
 * Ruby 1.9
-* Rails 2.3
+* Rails 3.2.6
 
-You can install a newer version of Rails in your home directory using `gem`.
-The installed version of Ruby should be sufficient through Rails 4. The
-following steps, which should all take place over [[SSH|services/shell]], will set up a gem
-directory inside your home directory and installs Rails.
+If you'd like, you can install Rails 4 in your home directory using `gem`.  The
+installed version of Ruby should be sufficient. The following steps, which
+should all take place over [[SSH|services/shell]], will set up a gem directory
+inside your home directory and installs Rails.
 
 1. Set up relevant environment variables on login:
 
