@@ -2,13 +2,28 @@
 
 # Virtual hosting
 
-Virtual hosting lets your group's website be hosted on the OCF's web server, but be accessible at a different URL (typically from within the `berkeley.edu` namespace, e.g., `yourgroup.berkeley.edu`). Mail sent to `foo@yourgroup.berkeley.edu` (where `foo` is any recipient) can also be redirected to your group's mailbox if requested.
+Virtual hosting allows group accounts to have their website available on a
+different domain, typically under berkeley.edu. For example, a group's site can
+be made available at `yourgroup.berkeley.edu` in addition to the standard
+address under `ocf.berkeley.edu`.
 
-## Details
+OCF provides two separate (but related) virtual hosting services:
 
-*   Virtual hosting is not enabled by default.
-*   After the virtual host is set up, the files in the `public_html` directory of your group account (ordinarily accessible at `http://www.ocf.berkeley.edu/~accountname`) will appear at the root directory of the virtual-hosted site (`yourgroup.berkeley.edu`).
-*   You can also request that all mail sent to your virtual host be redirected to your group account. You can forward the mail sent to different addresses in your virtual host by using `.forward+` files (note the leading dot). For example, if you have a file named `.forward+secretary` in your group account's home directory, all mail sent to `secretary@yourgroup.berkeley.edu` will be processed using the directions in this file (typically one or more email addresses to forward to, listed separately on each line). All other mail will be delivered to the group account mailbox. Mail virtual hosting may significantly increase the amount of spam received by the group account, and is not set up by default.
+* **Web hosting**, where your group's OCF-hosted website becomes available
+  under the new name
+
+* **Email forwarding**, which lets you configure email forwarding for the new
+  name
+
+Web hosting is always enabled for group accounts with virtual hosting, but
+email forwarding must be requested separately.
+
+## Web Hosting
+
+After the virtual host is set up, the files in the `public_html` directory of
+your group account (ordinarily accessible at
+`http://www.ocf.berkeley.edu/~accountname`) will appear at the root directory
+of the virtual-hosted site (`yourgroup.berkeley.edu`).
 
 ### Instructions
 
@@ -64,3 +79,32 @@ In other words, to comply with university policy, OCF will only provide virtual 
 #### Hosting badge
 
 All virtual hosts on the OCF must include an [[OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on the front page that links to the [[OCF home page|http://www.ocf.berkeley.edu/]]. The banner need not be displayed extremely prominently, but it must be noticeable without undue effort. If the banner is removed or misplaced, the OCF reserves the right to terminate the virtual hosting service. The hosting badge not only attributes the OCF but also distinguishes it from sites hosted by other University departments.
+
+## Email Forwarding
+
+By default, email forwarding is not provided for virtually-hosted group
+accounts. Groups can request this service, but should be prepared to deal with an
+increase in email spam as a result.
+
+To request email forwarding, email `hostmaster@ocf.berkeley.edu`.
+
+### Configuring Forwarding Addresses
+
+In order to tell the mail server where to forward mail, you must create
+`.forward` files (note the leading dot). These files contain a list of email
+addresses to forward mail to, specified one per line.
+
+The easiest way to create forward files is to log in via
+[[SSH|services/shell]]. Once logged in, you can create the files by executing a
+command like:
+
+    echo "my.email@berkeley.edu" > ~/.forward+president
+
+This command will create a file called `.forward+president` in your home
+directory which contains only the line `my.email@berkeley.edu`. You
+should, of course, adjust the email and the `president` to match your
+needs.
+
+You can create as many of these files as you like. Each file should be
+named `.forward+name` where `name` is the first part of the email
+(before the @ sign).
