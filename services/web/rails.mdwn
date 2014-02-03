@@ -102,6 +102,10 @@ Be sure to adjust:
 * The name of your application (last line). Change `Foo::Application` to
   `MyApp::Application` where `MyApp` is the name of your application.
 
+Once you've added the `dispatch.fcgi` file, mark it as executable:
+
+    chmod +x dispatch.fcgi
+
 ### Rewrite requests to the FastCGI wrapper
 
 Create a file called `.htaccess` in your web root (or a subdirectory)
@@ -113,3 +117,12 @@ containing the following lines:
     RewriteRule ^(.*)$ /~user/dispatch.fcgi [QSA,L]
 
 Be sure to replace `user` with your username.
+
+### Debugging
+
+If you see an error page when trying to load your app, you may find the
+webserver's logs useful. You can access them via SSH in the following
+locations:
+
+* error log: `/opt/httpd/error.log` (most useful)
+* suexec log: `/opt/httpd/httpd-suexec.log` (only useful in rare cases)
