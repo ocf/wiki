@@ -26,7 +26,7 @@ Group accounts may also request a [[virtual host|services/vhost]] for another do
 
         tsunami$
 
-    In this case, `tsunami` is the current logon server; you may see another name displayed. At this prompt, type `makehttp`. This command will create your web directory. Here's a sample screen output:
+    At this prompt, type `makehttp`. This command will create your web directory. Here's a sample screen output:
 
         tsunami$ makehttp
         public_html folder has been created successfully.
