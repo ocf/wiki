@@ -2,5 +2,5 @@
 ip-address: 169.229.172.127
 maintainers: []
 name: pox
-services: [ESXi hypervisor]
+services: []
 # ENDYAML
