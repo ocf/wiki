@@ -1,4 +1,4 @@
-# Welcome to the new OCF wiki
+# OCF help wiki
 
 Our hard-working student volunteers (hereafter OCF staff) try to keep documentation plentiful and up-to-date, but it's always lagging behind.
 
