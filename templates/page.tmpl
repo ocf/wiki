@@ -31,28 +31,33 @@
 </head>
 <body>
 
-<TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
+<div id="header">
+	<div>
+		<h1><a href="/">The OCF</a></h1>
+		<div id="headerbanner" style="position:absolute; top:0px; left:100px; width:179px; height:60px; padding:0; margin:0;"></div>
 
-<TMPL_IF HTML5><section class="pageheader"><TMPL_ELSE><div class="pageheader"></TMPL_IF>
-<TMPL_IF HTML5><header class="header"><TMPL_ELSE><div class="header"></TMPL_IF>
-<span>
-<span class="parentlinks">
-<TMPL_LOOP PARENTLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>
-</TMPL_LOOP>
-</span>
-<span class="title">
-<TMPL_VAR TITLE>
-<TMPL_IF ISTRANSLATION>
-&nbsp;(<TMPL_VAR PERCENTTRANSLATED>%)
-</TMPL_IF>
-</span>
-</span>
-<TMPL_IF SEARCHFORM>
-<TMPL_VAR SEARCHFORM>
-</TMPL_IF>
-<TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
+		<ul>
+			<li><a href="https://secure.ocf.berkeley.edu/">Home</a></li>
+			<li><a href="https://secure.ocf.berkeley.edu/webmail.shtml">Email</a></li>
+			<li><a href="http://wiki.ocf.berkeley.edu/services/">Services</a></li>
+			<li><a href="https://secure.ocf.berkeley.edu/OCF/">About us</a></li>
+			<li><a href="http://wiki.ocf.berkeley.edu/membership/">Get account</a></li>
+			<li><a href="https://secure.ocf.berkeley.edu/staff_hours">Staff hours</a></li>
+			<li><a href="http://wiki.ocf.berkeley.edu/contact/">Contact us</a></li>
+			<li><a href="http://wiki.ocf.berkeley.edu/">Help wiki</a></li>
 
+		</ul>
+	</div>
+</div>
+<div id="pagebody">
+
+<TMPL_IF HTML5><section id="content"><TMPL_ELSE><div id="content"></TMPL_IF>
+
+
+<!-- content -->
+<TMPL_VAR CONTENT>
+
+<!-- actions -->
 <TMPL_IF HAVE_ACTIONS>
 <TMPL_IF HTML5><nav class="actions"><TMPL_ELSE><div class="actions"></TMPL_IF>
 <ul>
@@ -89,36 +94,6 @@
 </ul>
 <TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
-
-<TMPL_IF OTHERLANGUAGES>
-<TMPL_IF HTML5><nav id="otherlanguages"><TMPL_ELSE><div id="otherlanguages"></TMPL_IF>
-<ul>
-<TMPL_LOOP OTHERLANGUAGES>
-<li>
-<a href="<TMPL_VAR URL>"><TMPL_VAR LANGUAGE></a>
-<TMPL_IF MASTER>
-(master)
-<TMPL_ELSE>
-&nbsp;(<TMPL_VAR PERCENT>%)
-</TMPL_IF>
-</li>
-</TMPL_LOOP>
-</ul>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
-
-<TMPL_IF SIDEBAR>
-<TMPL_IF HTML5><aside class="sidebar"><TMPL_ELSE><div class="sidebar"></TMPL_IF>
-<TMPL_VAR SIDEBAR>
-<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-
-<div id="pagebody">
-
-<TMPL_IF HTML5><section id="content"><TMPL_ELSE><div id="content"></TMPL_IF>
-<TMPL_VAR CONTENT>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 
 <TMPL_UNLESS DYNAMIC>
