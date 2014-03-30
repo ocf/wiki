@@ -41,7 +41,7 @@ inside your home directory and installs Rails.
        rails -v
 
    You should see output indicating the new Rails version. If you see an old
-   version (like 2.3), your PATH is probably wrong. Make sure you followed step
+   version (like 3.2.6), your PATH is probably wrong. Make sure you followed step
    1 and try reconnecting to SSH.
 
 ## Creating a New Application
