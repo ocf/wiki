@@ -1,11 +1,13 @@
 [[!meta title="Web hosting"]]
 # Website hosting
 
+
 All accounts include hosting with a web address at:
 
-* [www.ocf.berkeley.edu/~user](http://www.ocf.berkeley.edu/~user) (canonical version)
-* [ocf.io/user](http://ocf.io/user) (shorter version)
-* [ocf.sexy/user](http://ocf.sexy/user) (unofficial)
+* **`www.ocf.berkeley.edu/~user`** (canonical version)
+* **`ocf.io/user`** (shorter version)
+* **`ocf.sexy/user`** (unofficial)
+* **`open.cf/user`** (unofficial)
 
 where `user` is the account name.
 
