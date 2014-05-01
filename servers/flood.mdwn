@@ -2,5 +2,5 @@
 ip-address: 169.229.172.85
 maintainers: []
 name: flood
-services: [ircd]
+services: [ircd, jabberd]
 # ENDYAML

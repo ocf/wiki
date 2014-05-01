@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.172.88
-maintainers: []
-name: plague
-services: []
-# ENDYAML

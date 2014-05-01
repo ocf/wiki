@@ -2,5 +2,5 @@
 ip-address: 169.229.172.100
 maintainers: []
 name: eruption
-services: []
+services: [Lab computer]
 # ENDYAML

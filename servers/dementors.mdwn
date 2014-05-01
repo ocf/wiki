@@ -1,6 +1,6 @@
 # YAML
 ip-address: 169.229.172.92
 maintainers: []
-name: cataclysm
-services: []
+name: dementors
+services: [Lab stats]
 # ENDYAML

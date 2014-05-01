@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.172.95
-maintainers: []
-name: drought
-services: []
-# ENDYAML

@@ -2,5 +2,5 @@
 ip-address: 169.229.172.101
 maintainers: []
 name: hurricane
-services: [old tsunami]
+services: [Lab computer]
 # ENDYAML

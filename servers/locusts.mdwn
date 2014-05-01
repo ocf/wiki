@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.172.86
-maintainers: []
-name: locusts
-services: [tzhu/waf testing]
-# ENDYAML

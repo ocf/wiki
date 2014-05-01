@@ -2,5 +2,5 @@
 ip-address: 169.229.172.99
 maintainers: []
 name: destruction
-services: [scanner]
+services: [Lab computer]
 # ENDYAML

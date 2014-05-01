@@ -2,5 +2,5 @@
 ip-address: 169.229.172.106
 maintainers: []
 name: hailstorm
-services: []
+services: [Lab computer]
 # ENDYAML

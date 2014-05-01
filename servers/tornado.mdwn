@@ -2,5 +2,5 @@
 ip-address: 169.229.172.83
 maintainers: []
 name: tornado
-services: [Windows server testing]
+services: [Print queue display]
 # ENDYAML

@@ -2,5 +2,5 @@
 ip-address: 169.229.172.77
 maintainers: []
 name: supernova
-services: [account creation and NFS admin]
+services: [Staff login]
 # ENDYAML

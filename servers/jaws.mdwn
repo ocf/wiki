@@ -2,5 +2,5 @@
 ip-address: 169.229.172.89
 maintainers: []
 name: jaws
-services: [daradib testing]
+services: [KVM hypervisor]
 # ENDYAML

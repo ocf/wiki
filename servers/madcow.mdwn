@@ -2,5 +2,5 @@
 ip-address: 169.229.172.102
 maintainers: []
 name: madcow
-services: []
+services: [Lab computer]
 # ENDYAML

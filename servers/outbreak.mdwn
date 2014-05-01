@@ -2,5 +2,5 @@
 ip-address: 169.229.172.103
 maintainers: []
 name: outbreak
-services: []
+services: [Lab computer]
 # ENDYAML

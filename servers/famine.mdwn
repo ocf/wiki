@@ -2,5 +2,5 @@
 ip-address: 169.229.172.105
 maintainers: []
 name: famine
-services: []
+services: [Lab computer]
 # ENDYAML

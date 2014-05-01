@@ -2,5 +2,5 @@
 ip-address: 169.229.172.91
 maintainers: []
 name: blizzard
-services: []
+services: [Lab computer]
 # ENDYAML

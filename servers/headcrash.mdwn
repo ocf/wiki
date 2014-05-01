@@ -2,5 +2,5 @@
 ip-address: 169.229.172.107
 maintainers: []
 name: headcrash
-services: []
+services: [Lab computer]
 # ENDYAML
