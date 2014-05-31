@@ -83,6 +83,7 @@ In other words, to comply with university policy, OCF will only provide virtual 
 
 All virtual hosts on the OCF must include an [[OCF banner|http://www.ocf.berkeley.edu/images/hosted-logos/]] on the front page that links to the [[OCF home page|http://www.ocf.berkeley.edu/]]. The banner need not be displayed extremely prominently, but it must be noticeable without undue effort. If the banner is removed or misplaced, the OCF reserves the right to terminate the virtual hosting service. The hosting badge not only attributes the OCF but also distinguishes it from sites hosted by other University departments.
 
+<a id="email"></a>
 ## Email Forwarding
 
 By default, email forwarding is not provided for virtually-hosted group
