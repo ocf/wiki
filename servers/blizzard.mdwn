@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.91
+ip-address: 169.229.10.103
 maintainers: []
 name: blizzard
 services: [Lab computer]

@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.72
+ip-address: 169.229.10.10
 maintainers: []
 name: hal
 services: [KVM hypervisor]

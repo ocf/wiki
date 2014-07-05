@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.69
+ip-address: 169.229.10.25
 maintainers: []
 name: tsunami
 services: [SSH login]

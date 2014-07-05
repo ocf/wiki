@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.108
+ip-address: 169.229.10.113
 maintainers: []
 name: heatwave
 services: [Lab computer]

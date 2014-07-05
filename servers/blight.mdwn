@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.76
+ip-address: 169.229.10.26
 maintainers: []
 name: blight
 services: [ikiwiki and old mediawiki]

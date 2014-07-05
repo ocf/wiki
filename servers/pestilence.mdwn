@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.66
+ip-address: 169.229.10.22
 maintainers: []
 name: pestilence
 services: [DNS]

@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.82
+ip-address: 169.229.10.29
 maintainers: []
 name: printhost
 services: [CUPS]

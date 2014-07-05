@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.68
+ip-address: 169.229.10.24
 maintainers: []
 name: sandstorm
 services: [Postfix and Dovecot]

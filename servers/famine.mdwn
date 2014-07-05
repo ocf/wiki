@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.105
+ip-address: 169.229.10.110
 maintainers: []
 name: famine
 services: [Lab computer]

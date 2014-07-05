@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.172.98
+ip-address: 169.229.10.104
 maintainers: []
 name: cyclone
 services: [Lab computer]
