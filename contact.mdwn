@@ -1,9 +1,6 @@
 [[!meta title="Contact us"]]
 
 > ## Before contacting us
-> 
-> <img src="http://www.ocf.berkeley.edu/backtowork.gif" alt="too much work" width="149px" height="112px">
-> 
 > Please conserve our valuable volunteer manpower by **making sure your question isn't already answered in our [[Frequently asked questions|faq]]**.
 > 
 > *Interested in [joining staff](http://www.ocf.berkeley.edu/OCF/staff/)? Feel free to attend our meetings or contact us by email.*
