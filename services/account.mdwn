@@ -19,7 +19,7 @@ Email is generally insecure, so please **do not send passwords over email** (esp
 
 #### Using CalNet
 
-For individual accounts, you can [find your username or reset your password online](https://secure.ocf.berkeley.edu/account_tools/change_password) using CalNet (assuming you have CalNet access).
+For individual accounts, you can [find your username or reset your password online](https://accounts.ocf.berkeley.edu/change-password) using CalNet (assuming you have CalNet access).
 
 #### Over SSH
 
