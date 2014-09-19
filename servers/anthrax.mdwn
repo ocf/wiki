@@ -2,5 +2,5 @@
 ip-address: 169.229.10.35
 maintainers: []
 name: anthrax
-services: [Postfix]
+services: [OCF staff mail]
 # ENDYAML
