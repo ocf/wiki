@@ -1,0 +1,6 @@
+# YAML
+ip-address: 169.229.10.202
+maintainers: []
+name: mudslide
+services: [Iodine, Mon, Mosh, Mumble]
+# ENDYAML

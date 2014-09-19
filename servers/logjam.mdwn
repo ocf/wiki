@@ -2,5 +2,5 @@
 ip-address: 169.229.10.92
 maintainers: []
 name: logjam
-services: []
+services: [Lab printer]
 # ENDYAML
