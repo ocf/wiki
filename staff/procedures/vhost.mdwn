@@ -1,9 +1,8 @@
 ## Policy checklist
 
-University is currently reviewing their policies, so in the interim include the boilerplate from the blockquote at the top of [[services/vhost]] in your reply.
-
 * Website developed, not a placeholder
 * Website hosted substantially on the OCF
+* Website has required university disclaimer on every page
 * Website has hosted by OCF banner on the front page that is noticeable without undue effort and links to the OCF home page
 * Request is made by a registered and active student organization in CalLink (LEAD Center) or request is sponsored by an [administrative official](http://compliance.berkeley.edu/delegation/principles)
 * Group does not already have a virtual host, or has an exception from the Board of Directors
@@ -13,8 +12,7 @@ University is currently reviewing their policies, so in the interim include the 
 ### Web
 
 * Add vhost: edit `~staff/vhost/vhost.conf`.
-* Update vhost configuration: run `sudo ~staff/vhost/buildvirtual.pl` and `sudo ~staff/vhost/buildvirtual-wrappers.sh` on death.
-* Reload vhost configuration: run `sudo service apache2 reload` on death.
+* Update vhost configuration and restart Apache: run `sudo ~staff/vhost/web.sh` on death.
 
 Request the following DNS record from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/) (unless mail is also requested, in that case, skip to the next section):
 
@@ -28,5 +26,5 @@ Request the following DNS record from the [University hostmaster](http://www.net
 
 Request the following DNS records from the [University hostmaster](http://www.net.berkeley.edu/hostmaster/):
 
-    vhost.berkeley.edu. IN A 169.229.172.67
+    vhost.berkeley.edu. IN A 169.229.10.23
     vhost.berkeley.edu. IN MX 5 sandstorm.ocf.berkeley.edu.
