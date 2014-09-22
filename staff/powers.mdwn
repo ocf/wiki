@@ -26,7 +26,7 @@ Newly-interested staff members are given basic training on [[OCF scripts|scripts
 
 Staff members who demonstrate long-term commitment and proficiency are given additional training, elevated privileges, and responsibilities. Most staff members are expected to graduate into this category.
 
-* receive `wheel@ocf` mail (including cron mail and discussions that include mundane technical jargon)
+* receive `wheel@ocf` mail (including cron spam and discussions that include mundane technical jargon)
 * can change print quotas
 * can login to all servers
 * have sudo access (root privileges) on the print server
