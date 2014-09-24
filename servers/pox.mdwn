@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.255
-maintainers: []
-name: pox
-services: []
-# ENDYAML
