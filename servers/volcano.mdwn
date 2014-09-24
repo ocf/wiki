@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.109
-maintainers: []
 name: volcano
 services: [Lab computer]
 # ENDYAML

@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.110
-maintainers: []
 name: famine
 services: [Lab computer]
 # ENDYAML

@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.107
-maintainers: []
 name: madcow
 services: [Lab computer]
 # ENDYAML

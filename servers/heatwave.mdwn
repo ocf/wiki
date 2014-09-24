@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.113
-maintainers: []
 name: heatwave
 services: [Lab computer]
 # ENDYAML

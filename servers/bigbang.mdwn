@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.102
-maintainers: []
 name: bigbang
 services: [Lab computer]
 # ENDYAML

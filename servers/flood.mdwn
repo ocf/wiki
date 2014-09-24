@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.31
-maintainers: []
 name: flood
 services: [ircd, jabberd]
 # ENDYAML

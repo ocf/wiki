@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.101
-maintainers: []
 name: avalanche
 services: [Lab computer]
 # ENDYAML

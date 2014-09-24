@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.108
-maintainers: []
 name: outbreak
 services: [Lab computer]
 # ENDYAML

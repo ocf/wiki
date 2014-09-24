@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.111
-maintainers: []
 name: hailstorm
 services: [Lab computer]
 # ENDYAML

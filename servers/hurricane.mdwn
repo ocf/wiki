@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.106
-maintainers: []
 name: hurricane
 services: [Lab computer]
 # ENDYAML

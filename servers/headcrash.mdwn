@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.112
-maintainers: []
 name: headcrash
 services: [Lab computer]
 # ENDYAML

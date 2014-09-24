@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.20
-maintainers: []
 name: firestorm
 services: [Kerberos]
 # ENDYAML

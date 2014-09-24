@@ -1,6 +1,5 @@
 # YAML
 ip-address: 169.229.10.14
-maintainers: []
 name: pandemic
 services: [NFS, KVM hypervisor]
 # ENDYAML
