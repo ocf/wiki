@@ -27,4 +27,4 @@ contain your IRC session, so that you aren't disconnected when you close the
 terminal.
 
 To do so, just type `/opt/share/utils/net/pyrc` and hit enter. irssi will
-launch; press alt + left/right to switch which room you're viewing.
+launch; press alt + left/right to switch which channel you're viewing.
