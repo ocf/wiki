@@ -85,4 +85,4 @@ To re-enable your account, you will need to see a Manager (gm, sm, or dm after t
 
 If you want to disable your OCF account, please [[contact us|contact]] and provide your OCF username. If your account appears to still be active, we may ask for some evidence that you are the account owner. Currently, disabled accounts are stored or archived and can be *re-enabled* by request at a later date. Disabled accounts may eventually be scheduled for deletion.
 
-To permanently delete the contents of your account, you will need to have access to your account. See [[services/account]].
+To permanently delete the contents of your account, you will need to have access to your account.
