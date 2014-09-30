@@ -8,8 +8,9 @@ This document records the '''Constitution of the Open Computing Facility''', as 
 * and amended on:
 1. <a href="#amended_321_1990">March 21, 1990</a>;
 2. <a href="#amended_514_1991">May 14, 1991</a>;
-3. <a href="#amended_1121_1991">November 21, 1991</a>; and
-4. <a href="#amended_208_2000">February 8, 2000</a>.
+3. <a href="#amended_1121_1991">November 21, 1991</a>;
+4. <a href="#amended_208_2000">February 8, 2000</a>; and
+5. September 29, 2014 (<a href="#amended_2014_0">[0]</a> <a href="#amended_2014_1">[1]</a>).
 
 ## Preamble
 
@@ -30,8 +31,10 @@ Any UC Berkeley student, faculty or staff member may be an OCF Member.
 #### 2.2 Active Members
 
 ##### 2.2.1 Eligibility
-Active Membership status is restricted to U.C. Berkeley Faculty and Staff
-and Registered Students. 
+Active membership status is restricted to currently registered students,
+faculty, and staff. Only active members may vote or hold office.
+
+<a id="amended_2014_0"></a>[As amended at the General Meeting of xxxx, 2014.]
 ##### 2.2.2 During General Meetings
 Any member of the OCF shall be an Active Member by physical presence at an
 OCF General Meeting.
@@ -134,7 +137,16 @@ OCF Site Managers shall have authority over any OCF actions except where such ac
 ### 7 Bill of Rights
 #### 7.1 Non-discrimination
 ##### 7.1.1 In Accord with Berkeley Campus Regulations
-The OCF shall not restrict membership or otherwise discriminate in any way against any person or group on the basis of race, color, national origin, religion, sex, physical or mental disability, medical condition (cancer-related or genetic characteristics), ancestry, marital status, age, sexual orientation, citizenship or status as a covered veteran (special disabled veteran, Vietnam-era veteran or any other veteran who served on active duty during a war or in a campaign or expedition for which a campaign badge has been authorized).
+The OCF shall not restrict membership based upon race, color, national origin,
+religion, sex, gender identity, pregnancy (including pregnancy, childbirth, and
+medical conditions related to pregnancy or childbirth), physical or mental
+disability, medical condition (cancer related or genetic characteristics),
+ancestry, marital status, age, sexual orientation, citizenship, or service in
+the uniformed services (including membership, application for membership,
+performance of service, application for service, or obligation for service in
+the uniformed services.)
+
+<a id="amended_2014_1"></a>[As amended at the General Meeting of xxxx, 2014.]
 ##### 7.1.2 Fields of Study
 The OCF shall not restrict membership or otherwise discriminate in any way against any person or group on the basis of college major or field of study. However, this section shall not be construed as restricting the OCF from providing separate facilities for different uses, as long as the availability of such facilities is proportionate to demand among the OCF's current and potential users.
 ##### 7.1.3 Political Activity
