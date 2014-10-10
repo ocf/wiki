@@ -1,35 +1,22 @@
 [[!meta title="Email"]]
 # Email
+## Student groups
 
-## Sending and receiving
+We provide email hosting for student groups who have a
+[[virtual host|services/vhost]] (e.g. mygroup.berkeley.edu).
 
-### Receiving
+We're working on improving our mail offering for student groups to support
+additional features; in the mean-time, only mail forwarding is supported. See
+[[here|services/vhost#email]] for instructions on configuring a forwarding
+address.
 
-It is most convenient to forward email with a `.forward` file in your [[home directory|shell]] containing the email address to forward to. However, if you do not forward email, it is stored in `/var/mail` (10 MB quota) and can be accessed using:
+## Individual accounts
 
- * IMAP: `imap.ocf.berkeley.edu` (SSL/TLS required)
- * POP: `pop.ocf.berkeley.edu` (SSL/TLS required)
- * [webmail](https://webmail.ocf.berkeley.edu/)
- * mutt or alpine over [[SSH|shell]]
+Mail service for individual accounts was discontinued over summer 2014. We are
+offering mail forwarding for a limited time, but this will cease to work in the
+future (date TBD).
 
-Email can be moved or archived in folders/mailboxes which are stored in your home directory (2 GB quota).
+To configure a forwarding address, log in via [[SSH|shell]] and enter the
+`update-email` command to view or update your register email address.
 
-### Sending
-
-To send email, use:
-
- * SMTP: `smtp.ocf.berkeley.edu` (SSL/TLS required)
- * [webmail](https://webmail.ocf.berkeley.edu/)
- * mutt or alpine over [[SSH|shell]]
- * PHP or CGI on the [[web server|web]]
-
-## Spam filtering
-
-Most spam is centrally rejected before receipt (at the SMTP stage), not in a spam folder. In the unlikely event that a message is misclassified as spam (false positive), the sender will receive a "bounce message" from their email provider. Please contact staff with the date/time and sender/recipient email addresses so that logs can be inspected.
-
-Anti-spam techniques used by the OCF include:
-
- * access restriction lists ([Postfix](http://www.postfix.org/SMTPD_ACCESS_README.html))
- * greylisting ([Postgrey](http://postgrey.schweikert.ch/)) if the sending server is not whitelisted ([dnswl.org](http://www.dnswl.org/)) 
- * blocklist and forgery scoring ([policyd-weight](http://www.policyd-weight.org/))
- * message scanning ([ClamAV](http://www.clamav.net/), [Message Sniffer](http://www.armresearch.com/products/sniffer.jsp), [SpamAssassin](http://spamassassin.apache.org/))
+Note that sending mail from your individual OCF account is no longer possible.
