@@ -1,16 +1,23 @@
 [[!meta title="Contact us"]]
 
 > ## Before contacting us
-> Please conserve our valuable volunteer manpower by **making sure your question isn't already answered in our [[Frequently asked questions|faq]]**.
+> Please conserve our valuable volunteer manpower by **making sure your
+> question isn't already answered in our [[Frequently asked questions|faq]]**.
 > 
-> *Interested in [joining staff](http://hello.ocf.berkeley.edu/)? Feel free to attend our meetings or contact us by email!*
+> *Interested in [joining staff](http://hello.ocf.berkeley.edu/)? Feel free to
+> attend our meetings or contact us by email!*
 
-There are several ways to contact the student volunteers who keep the OCF running (hereafter referred to as OCF staff). If your question cannot be answered by the **[[FAQ]]**, we ask that you try coming to **[staff hours](http://www.ocf.berkeley.edu/staff_hours)** before contacting us by email.
+There are several ways to contact the student volunteers who keep the OCF
+running (hereafter referred to as OCF staff). If your question cannot be
+answered by the **[[FAQ]]**, we ask that you try coming to **[staff
+hours](http://www.ocf.berkeley.edu/staff_hours)** before contacting us by
+email.
 
 When contacting OCF staff (in person or remotely), please reference
 
  * your OCF account name (if known)
- * the software you are using and any error messages encountered (if applicable)
+ * the software you are using and any error messages encountered (if
+   applicable)
 
 ## Contents
 
@@ -22,23 +29,32 @@ When contacting OCF staff (in person or remotely), please reference
 
 ## Email
 
-Please do **not** send us your password over email, or your account will be disabled. Plain text strongly preferred and please do not send any attachments.
+Please do **not** send us your password over email, or your account will be
+disabled. Plain text strongly preferred and please do not send any attachments.
 
 * [berkeley.publications@gmail.com](mailto:berkeley.publications@gmail.com)
 
-  The lab hours are set by the ASUC Publications Center (receptionist). They are not OCF staff (OCF is a student organization with volunteer staff), but they are present during all lab hours and may be able to better address concerns about lab hours or lost items, for example.
+  The lab hours are set by the ASUC Publications Center (receptionist). They
+  are not OCF staff (OCF is a student organization with volunteer staff), but
+  they are present during all lab hours and may be able to better address
+  concerns about lab hours or lost items, for example.
 
 * [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
 
-  The most general address -- any questions about OCF accounts, services, and joining staff can be sent here. Your mail will be seen by all OCF staff. *Please read the [[FAQ]] and try coming to [staff hours](http://www.ocf.berkeley.edu/staff_hours) first.*
+  The most general address -- any questions about OCF accounts, services, and
+  joining staff can be sent here. Your mail will be seen by all OCF staff.
+  *Please read the [[FAQ]] and try coming to [staff
+  hours](http://www.ocf.berkeley.edu/staff_hours) first.*
 
 * [security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)
 
-  Concerns about computer security, network infrastructure, and abuse of resources (including spam) should be sent here.
+  Concerns about computer security, network infrastructure, and abuse of
+  resources (including spam) should be sent here.
 
 * [hostmaster@ocf.berkeley.edu](mailto:hostmaster@ocf.berkeley.edu)
 
-  DNS changes including [[virtual hosting|services/vhost]] requests should be sent here.
+  DNS changes including [[virtual hosting|services/vhost]] requests should be
+  sent here.
 
 ## Snail mail
 
@@ -52,8 +68,21 @@ Our address is:
 
 ## Legal
 
-Use of OCF resources in violation of applicable [university policies](https://security.berkeley.edu/policy/usepolicy.html) and laws, including copyright, spam, and fraud, is not allowed. Accounts of repeat infringers will be disabled in accordance with university policies.
+Use of OCF resources in violation of applicable
+[university policies][usepolicy] and laws, including copyright, spam, and
+fraud, is not allowed. Accounts of repeat infringers will be disabled in
+accordance with university policies.
 
-DMCA takedown notices must comply with [17 U.S.C. § 512(c)(3)](http://www.copyright.gov/title17/92chap5.html#512) and be sent to the [designated agent at UC Berkeley](http://www.copyright.gov/onlinesp/agents/u/univ_ca_berkeley.pdf). We recommend also sending a copy of the notice to the OCF directly ([security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)) for faster response.
+DMCA takedown notices must comply with [17 U.S.C. § 512(c)(3)][dmca] and be
+sent to the [designated agent at UC Berkeley][dmca] We recommend also sending a
+copy of the notice to the OCF directly
+([security@ocf.berkeley.edu](mailto:security@ocf.berkeley.edu)) for faster
+response.
 
-Please note that any cease and desist notices may be forwarded to the [Chilling Effects project](http://www.chillingeffects.org/) for publication and annotation. Chilling Effects will redact personal contact information.
+Please note that any cease and desist notices may be forwarded to the [Chilling
+Effects project][chilling-effects] for publication and
+annotation. Chilling Effects will redact personal contact information.
+
+[chilling-effects]: http://www.chillingeffects.org/
+[dmca]: http://www.copyright.gov/onlinesp/agents/u/univ_ca_berkeley.pdf
+[usepolicy]: https://security.berkeley.edu/policy/usepolicy.html
