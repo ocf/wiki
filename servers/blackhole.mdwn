@@ -1,5 +1,5 @@
 # YAML
 ip-address: 169.229.10.2
 name: blackhole
-services: [Uplink switch to IS&T]
+services: [Uplink switch to IST]
 # ENDYAML
