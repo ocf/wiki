@@ -1,4 +1,12 @@
 [[!meta title="Backups"]]
 # On-Site Backups
 
-Backups are currently stored on pollution in /opt/backups.
+Backups are currently stored on pandemic in /opt/backups. They include the following sources of data:
+
+* User home directories
+* Mail spools
+* Server images
+* MySQL databases
+* Request Tracker posts
+
+Home directory backups must be run manually via /opt/backups/backup.sh and each consume about 500 GB of data.
