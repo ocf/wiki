@@ -67,7 +67,7 @@ daemontools:
 ## Suggestions/improvements?
 
 If you have a better way to host Python-based apps on the app server (or a
-suggestion for how we could improve this documentation), [[contact|send us an
-email]]!
+suggestion for how we could improve this documentation),
+[[contact|send us an email]]!
 
 [lol-syntax]: http://stackoverflow.com/a/25611194
