@@ -59,7 +59,6 @@ Create a file at `~/apps/myapp/run` with content like:
     #!/bin/bash -e
     . ~/.rvm/scripts/rvm
     cd ~/apps/myapp/src
-    ~/.rvm/gems/ruby-2.1.2/bin/rake precompile
     RAILS_ENV=production \
           exec ~/.rvm/gems/ruby-2.1.2/bin/unicorn_rails \
           -l /srv/apps/$USER/$USER.sock
