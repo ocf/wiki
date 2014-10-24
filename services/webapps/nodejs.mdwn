@@ -9,7 +9,7 @@ install and manage dependencies and versions.
 1. Create a directory for your app to live in:
 
        mkdir -p ~/apps/myapp
-	   cd ~/apps/myapp
+       cd ~/apps/myapp
 
 2. Install nvm in your home directory. Note that `nvm` is terrible and will
    modify your shell config files without asking. But maybe that's what you
@@ -26,7 +26,7 @@ install and manage dependencies and versions.
 3. Install whatever version of Node.js you want.
 
        nvm install 0.10
-	   nvm alias default 0.10
+       nvm alias default 0.10
 
 4. Copy your code to `~/apps/myapp/src` or similar, and install any
    dependencies using `npm`.
@@ -36,9 +36,9 @@ install and manage dependencies and versions.
 Create a file at `~/apps/myapp/run` with content like:
 
     #!/bin/sh -e
-	. ~/.nvm/nvm.sh
-	NODE_ENV=production PORT=/srv/apps/$USER/$USER.sock \
-	    exec ~/apps/myapp/src/bin/www
+    . ~/.nvm/nvm.sh
+    NODE_ENV=production PORT=/srv/apps/$USER/$USER.sock \
+        exec ~/apps/myapp/src/bin/www
 
 Replace `~/apps/myapp/src/bin/www` with the path to your app, then make `run`
 executable:
@@ -55,7 +55,7 @@ supervise your app (so that it starts and restarts automatically).
 
 ## Suggestions/improvements?
 
-If you have a better way to host Python-based apps on the app server (or a
+If you have a better way to host Node.js-based apps on the app server (or a
 suggestion for how we could improve this documentation),
 [[send us an email|contact]]!
 

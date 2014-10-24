@@ -9,7 +9,7 @@ easily install and manage dependencies and versions.
 1. Create a directory for your app to live in:
 
        mkdir -p ~/apps/myapp
-	   cd ~/apps/myapp
+       cd ~/apps/myapp
 
 2. Set up a virtualenv:
 
@@ -39,9 +39,9 @@ this][lol-syntax].
 Create a file at `~/apps/myapp/run` with content like:
 
     #!/bin/sh -e
-	. ~/apps/myapp/venv/bin/activate
-	PYTHONPATH=~/apps/myapp/src:$PYTHONPATH \
-	    exec gunicorn -w 2 -b unix:/srv/apps/$USER/$USER.sock \
+    . ~/apps/myapp/venv/bin/activate
+    PYTHONPATH=~/apps/myapp/src:$PYTHONPATH \
+        exec gunicorn -w 2 -b unix:/srv/apps/$USER/$USER.sock \
         --log-file - main:app
 
 Replace `main:app` with the module containing the app, and name of your app,
