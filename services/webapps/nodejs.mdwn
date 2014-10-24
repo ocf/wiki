@@ -57,6 +57,6 @@ supervise your app (so that it starts and restarts automatically).
 
 If you have a better way to host Python-based apps on the app server (or a
 suggestion for how we could improve this documentation),
-[[contact|send us an email]]!
+[[send us an email|contact]]!
 
 [nvm-github]: https://github.com/creationix/nvm
