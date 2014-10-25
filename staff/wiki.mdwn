@@ -1,7 +1,7 @@
 [[!meta title="Wiki editing"]]
 # Using ikiwiki
 
-[ikiwiki](http://ikiwiki.info/) uses [Markdown syntax](http://daringfireball.net/projects/markdown/syntax).
+[ikiwiki](http://ikiwiki.info/) uses [Markdown][markdown].
 
 ## Technical details
 
@@ -12,34 +12,30 @@ Data is stored in `/srv/ikiwiki` on blight, which contains:
  * `wiki.git/`: bare repository (git)
  * `wiki.setup`: ikiwiki configuration file
 
-The wiki is mirrored on [GitHub](https://github.com/ocf/wiki), but is only intended for read access. Changes should be made through the web interface or by pushing to `/srv/ikiwiki/wiki.git` on blight.
+The wiki's authoritative git repo is [GitHub][github]. Commit your changes and
+push them to GitHub, and they will be deployed automatically.
 
 ## Editing the wiki
 
 ### Using the web interface
 
-Create an account through <http://wiki.ocf.berkeley.edu/ikiwiki.cgi?do=register>.  **This is not stored or transferred securely, do not use a password you use for other logins!**
-
-The account creation password is stored on blight.
-
-    $ grep account_creation_password /srv/ikiwiki/wiki.setup
+The web interface is no longer supported, sorry. Please don't attempt to push
+your changes anywhere on blight.
 
 ### Using git directly
 
-1. Clone the git repository from `/srv/ikiwiki/wiki.git` on blight. Replace `local-wiki-repo` below with the location of your new repository, like `/tmp/username` for something temporary or `/opt/ikiwiki/username` for something more permanent.
+1. Clone [the repository on GitHub][github].
 
-        blight$ git clone /srv/ikiwiki/wiki.git local-wiki-repo
-        
-1. `cd` into the directory you just created and make your changes.
+2. Make changes.
 
-1. Commit your changes with brief but clear messages about what you changed.
-
-1. Push your local changes to the git repository as `www-data`. If you do not have root privileges, you will need to ask a root staff member to pull your changes.
-
-        blight:local-wiki-repo$ sudo -u www-data git push
+3. Push your changes.
 
 ## Troubleshooting
 
-If your edits aren't appearing, try rebuilding the entire wiki from the git repository.
+If your edits aren't appearing, try rebuilding the entire wiki from the git
+repository.
 
-    $ sudo ikiwiki --setup /srv/ikiwiki/wiki.setup
+    $ sudo -u www-data /srv/ikiwiki/rebuild-wiki
+
+[github]: https://github.com/ocf/wiki
+[markdown]: http://daringfireball.net/projects/markdown/syntax
