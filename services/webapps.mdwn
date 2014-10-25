@@ -64,6 +64,21 @@ You can host basically any kind of web application that can bind to a socket.
 We provide suggested deployment instructions for some popular web applications
 below, but if you know what you're doing, you needn't follow them.
 
+### Connecting to the application server
+
+We provide a separate server (currently named `biohazard`), for hosting
+applications. **You should connect to this server**, not to the public login
+server.
+
+You connect to this server via SSH using your normal OCF account name and password.
+
+* **Host:** apphost.ocf.berkeley.edu
+* **Port:** 22
+
+If your login is refused (but you *can* log in to `ssh.ocf.berkeley.edu`), your
+account probably isn't configured yet. Contact us (see above) to request app
+hosting on your account.
+
 ### Routing traffic to your app
 
 Our application server uses a reverse proxy to route traffic to UNIX sockets
@@ -75,6 +90,9 @@ We provide some example setups below.
 
 <a id="supervise"></a>
 ### Supervising and starting your app
+
+**Make sure you do these steps on the application server.** If you start your
+app on tsunami, the public login server, it won't work.
 
 We may restart the application server as part of regular maintenance, and
 you'll want your app to start again when we do. You'll also want your app to
@@ -102,7 +120,7 @@ setup is:
 3. Use daemontools to supervise the app at startup. Edit your crontab
    (`crontab -e`), and add the following line at the bottom:
 
-       @reboot svscan ~/apps
+       @reboot svscan ~/apps > /dev/null 2>&1
 
    When the server reboots, daemontools will start your app (and restart it if
    it later dies).
