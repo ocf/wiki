@@ -4,7 +4,7 @@
 You will want to deploy your application using rvm so that you can easily
 install and manage dependencies and versions.
 
-## Setting up nvm
+## Setting up rvm
 
 1. Create a directory for your app to live in:
 
@@ -63,7 +63,7 @@ Create a file at `~/apps/myapp/run` with content like:
           exec ~/.rvm/gems/ruby-2.1.2/bin/unicorn_rails \
           -l /srv/apps/$USER/$USER.sock
 
-Replace `~/apps/myapp/src/bin/www` with the path to your app, then make `run`
+Replace `~/apps/myapp/src` with the path to your app, then make `run`
 executable:
 
     chmod +x ~/apps/myapp/run
@@ -78,7 +78,7 @@ Some things to keep in mind:
   (e.g. devise).
 * Static file serving is off by default in production, but you'll want to turn
   it on (set both `config.serve_static_assets` and `config.assets.compile` to
-  true in `config/environments/production.rb)
+  true in `config/environments/production.rb`)
 
 ## Supervise your app with daemontools
 
