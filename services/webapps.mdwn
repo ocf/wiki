@@ -13,11 +13,11 @@ provides more flexibility.
 
 ## App hosting eligibility
 
-App hosting is *only available for student groups*, and is only available for
-[[virtually-hosting domain names|services/vhost]] (either group.berkeley.edu,
-or your own separately-purchased domain name). If you don't already have a
-virtual host and want to use app hosting, send an email to `hostmaster@ocf` so
-we can talk directly; please don't fill out a virtual host request form.
+App hosting is *only available for student groups with [[virtually-hosting
+domain names|services/vhost]]* (either group.berkeley.edu, or your own
+separately-purchased domain name). If you don't already have a virtual host and
+want to use app hosting, see below for instructions; please don't fill out a
+virtual host request form.
 
 ## Requesting app hosting
 
@@ -54,9 +54,7 @@ app is using a disproportionate share of resources or poses a security risk).
 All normal OCF account policies apply.
 
 Additionally, we reserve the right to revoke web app privileges from a group if
-it becomes clear that they don't have anybody with the skills to maintain their
-app.
-
+it becomes clear that they are unable to adequately maintain their app.
 
 ## Technical documentation
 
@@ -132,7 +130,7 @@ To control your app, you can use the `svc` tool. See `man svc` for full
 details. In summary,
 
 * **Restart an app.** `svc -t ~/apps/myapp` (sends SIGTERM)
-* **Force restart an app.** `svc -t ~/apps/myapp` (sends SIGKILL; note that if
+* **Force restart an app.** `svc -k ~/apps/myapp` (sends SIGKILL; note that if
   you need to do this, your `run` script is probably not properly `exec`ing the
   server process).
 * **Bring an app offline.** `svc -d ~/apps/myapp`
