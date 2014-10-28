@@ -1,5 +1,5 @@
 # YAML
-ip-address: 169.229.10.255
+ip-address: 169.229.10.41
 name: earthquake
 services: [account-tools]
 # ENDYAML
