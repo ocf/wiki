@@ -1,9 +1,5 @@
 [[!meta title="Servers"]]
 <style type="text/css">
-    div#serverlist {
-        padding: 0% 5%;
-    }
-    
     div.device {
         padding: 10px 15px;
     }
@@ -113,7 +109,7 @@ hosted on these hypervisors.
 Below is a (non-exhaustive) list of servers and other computers at the OCF.
 VMs are grouped under the hypervisor hosting them.
 
-<div id="serverlist">
+<div id="serverlist" style="padding: 0% 5%">
     <div class="hypervisor">
         <div class="hypervisor-host device">
             <div class="info">
