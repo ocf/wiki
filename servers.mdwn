@@ -63,7 +63,7 @@ div.printer-etc {
 div.networking {
     /\* Cisco color \*/
     background: #15495d;
-    border-bottom: 1px solid hsl(197, 63%, 32%);
+    border-bottom: 1px solid #1e6885;
     color: white;
 }
 </style>
