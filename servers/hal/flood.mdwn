@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.31
 name: flood
+type: hypervisor-guest
 services: [IRC, Jabber]
 # ENDYAML

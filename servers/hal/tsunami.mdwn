@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.25
 name: tsunami
+type: hypervisor-guest
 services: [SSH login]
 # ENDYAML

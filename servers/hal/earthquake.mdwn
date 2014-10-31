@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.41
 name: earthquake
+type: hypervisor-guest
 services: [account-tools]
 # ENDYAML

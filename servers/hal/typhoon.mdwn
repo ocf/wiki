@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.28
 name: typhoon
+type: hypervisor-guest
 services: [Request Tracker]
 # ENDYAML

@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.105
 name: destruction
+type: desktop
 services: [Lab computer]
 # ENDYAML

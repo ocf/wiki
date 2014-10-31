@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.91
 name: deforestation
+type: printer-etc
 services: [Lab printer]
 # ENDYAML

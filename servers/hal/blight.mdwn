@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.26
 name: blight
+type: hypervisor-guest
 services: [ikiwiki and old mediawiki]
 # ENDYAML

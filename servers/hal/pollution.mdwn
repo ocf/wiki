@@ -1,5 +1,6 @@
 # YAML
 ip-address: 169.229.10.29
 name: pollution
+type: hypervisor-guest
 services: [CUPS]
 # ENDYAML
