@@ -36,7 +36,7 @@ div.device .hostname {
 div.device .ip {
     font-size: 120%;
 }
-/* Note: these two declarations override the above two. */
+/\* Note: these two declarations override the above two. \*/
 div.hypervisor-guest .hostname {
     font-size: 130%;
 }
@@ -51,17 +51,17 @@ div.hypervisor-host .triangle {
     top: -1.7ex;
 }
 div.desktop {
-    /* Debian color, but lighter. Somehow I thought of this. */
+    /\* Debian color, but lighter. Somehow I thought of this. \*/
     background: #f8206c;
     border-bottom: 1px solid #fa6b9d;
 }
 div.printer-etc {
-    /* Looks kinda like the color of the printer */
+    /\* Looks kinda like the color of the printer \*/
     background: #ece4d5;
     border-bottom: 1px solid #fff6e6;
 }
 div.networking {
-    /* Cisco color */
+    /\* Cisco color \*/
     background: #15495d;
     border-bottom: 1px solid hsl(197, 63%, 32%);
     color: white;
