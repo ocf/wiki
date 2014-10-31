@@ -1,6 +1,6 @@
 [[!meta title="Servers"]]
 <style type="text/css">
-    #serverlist {
+    div#serverlist {
         padding: 0% 5%;
     }
     
