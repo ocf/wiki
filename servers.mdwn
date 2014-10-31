@@ -1,86 +1,71 @@
 [[!meta title="Servers"]]
 <style type="text/css">
-    div.device {
-        padding: 10px 15px;
-    }
-    
-    div.hypervisor {
-        border-bottom: 1px solid #e5e5e5;
-    }
-    
-    div.hypervisor-host {
-        background: #d0d0d0;
-    }
-    
-    div.hypervisor-host:hover {
-        background: #e5e5e5;
-        cursor: pointer;
-    }
-    
-    div.hypervisor-guests {
-        background: #e5e5e5;
-        display: none;
-    }
-    
-    div.hypervisor-guest {
-        border-bottom: 1px solid #c0c0c0;
-    }
-    
-    div.hypervisor-guest:last-child {
-        border-bottom: none;
-    }
-    
-    div.device .info {
-        display: inline-block;
-        width: 96.5%;
-    }
-    
-    div.device .hostname {
-        display: inline-block;
-        font-size: 150%;
-        width: 40%;
-        padding-bottom: 1ex;
-    }
-    
-    div.device .ip {
-        font-size: 120%;
-    }
-    
-    /* Note: these two declarations override the above two. */
-    div.hypervisor-guest .hostname {
-        font-size: 130%;
-    }
-    
-    div.hypervisor-guest .ip {
-        font-size: 115%;
-    }
-    
-    div.hypervisor-host .triangle {
-        display: inline-block;
-        color: gray;
-        font-size: 150%;
-        position: relative;
-        top: -1.7ex;
-    }
-    
-    div.desktop {
-        /* Debian color, but lighter. Somehow I thought of this. */
-        background: #f8206c;
-        border-bottom: 1px solid #fa6b9d;
-    }
-    
-    div.printer-etc {
-        /* Looks kinda like the color of the printer */
-        background: #ece4d5;
-        border-bottom: 1px solid #fff6e6;
-    }
-    
-    div.networking {
-        /* Cisco color */
-        background: #15495d;
-        border-bottom: 1px solid hsl(197, 63%, 32%);
-        color: white;
-    }
+div.device {
+    padding: 10px 15px;
+}
+div.hypervisor {
+    border-bottom: 1px solid #e5e5e5;
+}
+div.hypervisor-host {
+    background: #d0d0d0;
+}
+div.hypervisor-host:hover {
+    background: #e5e5e5;
+    cursor: pointer;
+}
+div.hypervisor-guests {
+    background: #e5e5e5;
+    display: none;
+}
+div.hypervisor-guest {
+    border-bottom: 1px solid #c0c0c0;
+}
+div.hypervisor-guest:last-child {
+    border-bottom: none;
+}
+div.device .info {
+    display: inline-block;
+    width: 96.5%;
+}
+div.device .hostname {
+    display: inline-block;
+    font-size: 150%;
+    width: 40%;
+    padding-bottom: 1ex;
+}
+div.device .ip {
+    font-size: 120%;
+}
+/* Note: these two declarations override the above two. */
+div.hypervisor-guest .hostname {
+    font-size: 130%;
+}
+div.hypervisor-guest .ip {
+    font-size: 115%;
+}
+div.hypervisor-host .triangle {
+    display: inline-block;
+    color: gray;
+    font-size: 150%;
+    position: relative;
+    top: -1.7ex;
+}
+div.desktop {
+    /* Debian color, but lighter. Somehow I thought of this. */
+    background: #f8206c;
+    border-bottom: 1px solid #fa6b9d;
+}
+div.printer-etc {
+    /* Looks kinda like the color of the printer */
+    background: #ece4d5;
+    border-bottom: 1px solid #fff6e6;
+}
+div.networking {
+    /* Cisco color */
+    background: #15495d;
+    border-bottom: 1px solid hsl(197, 63%, 32%);
+    color: white;
+}
 </style>
 
 <script type="text/javascript" src="/media/javascript/jquery.min.js"></script>
