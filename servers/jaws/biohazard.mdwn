@@ -2,5 +2,5 @@
 ip-address: 169.229.10.34
 name: biohazard
 type: hypervisor-guest
-services: [Apache apphosting]
+services: [Apphosting]
 # ENDYAML
