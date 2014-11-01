@@ -106,4 +106,4 @@ command like:
 
 This command will create a text file called `.forward+officer` in your home directory which contains only the line `my_email@example.com`. This will forward email going to the new address `officer@group.berkeley.edu` to the existing email address `my_email@example.com`. You should substitute your real email for `my_email@example.com` and whatever group-related email address you'd like to use for the `officer` in `.forward+officer`.
 
-You can create as many of these files as you like. Each file should be named `.forward+name` where `name` is the part before the `@` sign in the new address you want (i.e., `name@group.berkeley.edu`).
+You can create as many of these files as you like. Each file should be named `.forward+name` where `name` is the part before the `@` sign in the new address you want (i.e. `name@group.berkeley.edu`).
