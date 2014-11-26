@@ -17,7 +17,7 @@ Most SSH/SFTP clients will prompt you to accept an unknown key when you first co
 
 ## SSH
 
-Your shell account can be controlled remotely using [SSH](http://en.wikipedia.org/wiki/Secure_Shell). The server name is <tt>ssh.ocf.berkeley.edu</tt> (<tt>tsunami</tt>).
+Your shell account can be controlled remotely using [SSH](https://en.wikipedia.org/wiki/Secure_Shell). The server name is <tt>ssh.ocf.berkeley.edu</tt> (<tt>tsunami</tt>).
 
 #### From your browser
 If you just need to access SSH quickly, you can use our [web-based SSH interface](https://ssh.ocf.berkeley.edu/) from your web browser.
@@ -38,7 +38,7 @@ On Windows, use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/downlo
 
 ## SFTP
 
-You can transfer files to your account using [SFTP](http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol). To transfer files, you'll need another program, such as [FileZilla](https://filezilla-project.org/), [WinSCP](http://winscp.net/) (Windows), or [Cyberduck](http://cyberduck.ch/) (Mac OS X, Windows).
+You can transfer files to your account using [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol). To transfer files, you'll need another program, such as [FileZilla](https://filezilla-project.org/), [WinSCP](http://winscp.net/) (Windows), or [Cyberduck](https://cyberduck.io/) (Mac OS X, Windows).
 
 Otherwise, use the following information in your SFTP client.
 

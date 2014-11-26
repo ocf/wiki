@@ -19,5 +19,5 @@ To see how many pages you have left for the day and semester, run the `paper` co
 
 We currently have two HP LaserJet P4515x printers: deforestation and logjam.
 
- * [How much toner is left in each printer](http://www.ocf.berkeley.edu/~tzhu/printing/oracle/)? (expressed as approximate pages remaining over time)
- * [How many pages has each printer printed](http://www.ocf.berkeley.edu/~tzhu/printing/history/)? (expressed as total pages printed over time)
+ * [How much toner is left in each printer](https://www.ocf.berkeley.edu/~tzhu/printing/oracle/)? (expressed as approximate pages remaining over time)
+ * [How many pages has each printer printed](https://www.ocf.berkeley.edu/~tzhu/printing/history/)? (expressed as total pages printed over time)

@@ -6,7 +6,7 @@ WordPress is a popular CMS (content management system) on the Web.
 # Setting Up WordPress
 
 If you are comfortable with using a shell, you can just follow the famous 5 minute install found at
-<http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install>
+<https://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install>
 
 You can get your mysql password by running 
 > user@[tsunami]$ makemysql

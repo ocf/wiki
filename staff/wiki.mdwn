@@ -1,7 +1,7 @@
 [[!meta title="Wiki editing"]]
 # Using ikiwiki
 
-[ikiwiki](http://ikiwiki.info/) uses [Markdown][markdown].
+[ikiwiki](https://ikiwiki.info/) uses [Markdown][markdown].
 
 ## Technical details
 
@@ -38,4 +38,4 @@ repository.
     $ sudo -u www-data /srv/ikiwiki/rebuild-wiki
 
 [github]: https://github.com/ocf/wiki
-[markdown]: http://daringfireball.net/projects/markdown/syntax
+[markdown]: https://daringfireball.net/projects/markdown/syntax

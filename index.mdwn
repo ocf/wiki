@@ -23,8 +23,8 @@ If you're feeling adventurous, you may want to look at our **[[technical documen
 
 You may also want to take a look at our older wiki, which is more thorough but **increasingly outdated**:
 
- * [user documentation](http://docs.ocf.berkeley.edu/wiki/Help_and_Support)
- * [staff documentation](http://docs.ocf.berkeley.edu/staffwiki/Main_Menu)
+ * [user documentation](https://docs.ocf.berkeley.edu/wiki/Help_and_Support)
+ * [staff documentation](https://docs.ocf.berkeley.edu/staffwiki/Main_Menu)
 
 ## Blog
 

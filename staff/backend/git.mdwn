@@ -103,5 +103,5 @@ Advanced:
 
 ## Recommended reading
 
-* [A Visual Git Reference](http://marklodato.github.com/visual-git-guide/)
+* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/)
 * [The Case for Git Rebase](http://darwinweb.net/articles/the-case-for-git-rebase)

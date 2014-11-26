@@ -91,4 +91,4 @@ If you have a better way to host Rails-based apps on the app server (or a
 suggestion for how we could improve this documentation),
 [[send us an email|contact]]!
 
-[rvm]: http://rvm.io/
+[rvm]: https://rvm.io/

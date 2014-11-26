@@ -1,6 +1,6 @@
 Indent the relevant pages when you are done porting them. Feel free to combine and reorganize pages.
 
-These came from the [old wiki](http://docs.ocf.berkeley.edu/wiki/Special:AllPages).
+These came from the [old wiki](https://docs.ocf.berkeley.edu/wiki/Special:AllPages).
 
 # Non-staff wiki pages
 
