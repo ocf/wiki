@@ -52,8 +52,8 @@ div.hypervisor-host .triangle {
     font-size: 150%;
 }
 div.physical-server {
-    background: #d823ca;
-    border-bottom: 1px solid #e561da;
+    background: #d940cd;
+    border-bottom: 1px solid #e67fdd;
 }
 div.desktop {
     /\* Debian color, but lighter. Somehow I thought of this. \*/
@@ -256,7 +256,7 @@ VMs are grouped under the hypervisor hosting them.
                 <div class="info">
                     <span class="hostname">dementors</span>
                     <span class="ip">169.229.10.33</span><br>
-                    <span class="desc">Lab stats</span>
+                    <span class="desc">Munin, Lab stats (as stats.ocf)</span>
                 </div>
             </div>
         </div>

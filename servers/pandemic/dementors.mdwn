@@ -2,5 +2,5 @@
 ip-address: 169.229.10.33
 name: dementors
 type: hypervisor-guest
-services: [Lab stats]
+services: [Munin, Lab stats (as stats.ocf)]
 # ENDYAML
