@@ -2,12 +2,11 @@ The OCF lab is located on the ground level of Hearst Gym (west entrance), Room 6
 
 [<img src="https://www.ocf.berkeley.edu/map_hearst.png" alt="OCF lab map" width="400px" height="191px">](http://ocfblog.blogspot.com/2012/06/moving-to-hearst-gym.html)
 
-### Lab hours for Fall 2014
+### Lab hours
 
-* **Mon 12/15 &ndash; Thurs 12/18:** 9 AM to 9 PM (finals week)
-* **Fri 12/19:** 9am to noon (last day)
+The lab is closed from Saturday, December 20th until January 20th for the
+winter holiday. We will resume regular hours after that:
 
-The lab will be closed from Saturday, December 20th until January 20th for the
-winter holiday.
-
-OCF staff members are **not present** during all of these hours.
+* **Weekdays:** 9am to 6pm
+* **Saturday:** 11am to 6pm
+* **Sunday:** 12pm to 5pm
