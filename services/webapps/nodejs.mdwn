@@ -36,6 +36,9 @@ install and manage dependencies and versions.
 Create a file at `~/apps/myapp/run` with content like:
 
     #!/bin/sh -e
+    [ -e /srv/apps/celli/celli.sock ] && rm /srv/apps/celli/celli.sock
+    umask 0
+
     . ~/.nvm/nvm.sh
     NODE_ENV=production PORT=/srv/apps/$USER/$USER.sock \
         exec ~/apps/myapp/src/bin/www
