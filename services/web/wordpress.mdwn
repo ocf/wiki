@@ -5,10 +5,33 @@ WordPress is a popular CMS (content management system) on the Web.
 
 # Setting Up WordPress
 
-If you are comfortable with using a shell, you can just follow the famous 5 minute install found at
-<https://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install>
+The easiest way to set up WordPress is via [[SSH|services/shell]]. Some simple
+instructions:
 
-You can get your mysql password by running 
-> user@[tsunami]$ makemysql
+1. Go to our [web-based SSH client](https://ssh.ocf.berkeley.edu/) and sign in
+   with your username and password.
 
-** NOTE: this will reset your mysql password! and no, we will not and cannot retrieve mysql passwords. **
+2. Create your web root by entering `makehttp` and hitting enter.
+
+3. Create your MySQL database by entering `makemysql`. Copy the password it
+   gives you -- you'll need it later.
+
+4. Go to your web directory and download WordPress by entering these lines
+   individually:
+
+        cd ~/public_html
+        wp core download
+
+   This will download the latest version of WordPress into your web directory
+   using [wp-cli](http://wp-cli.org/).
+
+5. Visit your website and complete the installation process. Your website will
+   be `https://www.ocf.berkeley.edu/~username`.
+
+   You can choose whatever you want for most options, but you'll need to use:
+
+   * **Database Name:** Your user name
+   * **Database User Name:** Your user name
+   * **Database Password:** Your MySQL password (the one you copied from step 3 above)
+   * **Database Host:** `mysql`
+   * **Table Prefix:** Anything you want (the default `wp_` is fine)
