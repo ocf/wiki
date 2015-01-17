@@ -1,0 +1,47 @@
+[[!meta title="VPN"]]
+# VPN
+
+## Introduction
+
+OCF has an OpenVPN-based VPN for staff use. It can be useful if you want to get
+behind the firewall (e.g. to access printhost, IPMI, firewall, ...), although
+it's probably usually sufficient to just ssh through `supernova`.
+
+## Instructions
+
+1. **Download the CA file.** The server cert is signed by an actual valid CA,
+   but it doesn't seem to be possible to have OpenVPN verify this (since we
+   can't seem to make the server send the full chain necessary to build a trust
+   path to a root).
+
+        wget -O ~/etc/ocf/vpn.ca https://www.ocf.berkeley.edu/mirror/vpn.crt
+
+2. **Download the connect script.** It's more complicated than you would think
+   it needs to be because we bridge the VPN to our actual subnet. This means
+   that you'll get an actual, publicly-routable IP (under `169.229.10.0/24`)
+   from our DHCP server. The problem is that your computer's DHCP client will
+   set up a route for that same subnet (which also contains the VPN server),
+   and VPN tunnel traffic will then be sent *through* the VPN, which clearly
+   doesn't work.
+
+   An alternative is to use a separate subnet for VPN clients and NAT requests
+   to the other services, but we don't do that.
+
+   The current verison of the script is [on
+   gist](https://gist.github.com/chriskuehl/a52986e115cb86037833). It's not
+   guaranteed to work on anything that's not Debian Linux or not my laptop, so
+   you might need to modify it.
+
+3. **Run the connect script.** It starts OpenVPN in the foreground; you can
+   close it with Ctrl-C. You'll be prompted for your username and password.
+
+
+### Note about default routes
+
+Note that the VPN server *does not push a default route*, so only traffic
+destined for OCF will go through the tunnel. If you want to tunnel all your
+traffic over the VPN, you can easily do that:
+
+    ip route add default via 169.229.10.1 metric 0
+
+(`metric 0` should give it a higher priority than your existing default route)
