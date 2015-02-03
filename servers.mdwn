@@ -116,7 +116,7 @@ VMs are grouped under the hypervisor hosting them.
                 <div class="info">
                     <span class="hostname">anthrax</span>
                     <span class="ip">169.229.10.35</span><br>
-                    <span class="desc">OCF staff mail</span>
+                    <span class="desc">Postfix (OCF staff mail)</span>
                 </div>
             </div>
             <div class="hypervisor-guest device">
@@ -179,7 +179,7 @@ VMs are grouped under the hypervisor hosting them.
                 <div class="info">
                     <span class="hostname">pestilence</span>
                     <span class="ip">169.229.10.22</span><br>
-                    <span class="desc">DNS</span>
+                    <span class="desc">DNS, DHCP</span>
                 </div>
             </div>
             <div class="hypervisor-guest device">
@@ -193,7 +193,7 @@ VMs are grouped under the hypervisor hosting them.
                 <div class="info">
                     <span class="hostname">sandstorm</span>
                     <span class="ip">169.229.10.24</span><br>
-                    <span class="desc">Postfix and Dovecot (group emails)</span>
+                    <span class="desc">Postfix (group email)</span>
                 </div>
             </div>
             <div class="hypervisor-guest device">
@@ -293,7 +293,7 @@ VMs are grouped under the hypervisor hosting them.
         <div class="info">
             <span class="hostname">blizzard</span>
             <span class="ip">169.229.10.103</span><br>
-            <span class="desc">Pubstaff computer</span>
+            <span class="desc">ASUC Publications staff computer</span>
         </div>
     </div>
     <div class="desktop device">

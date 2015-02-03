@@ -2,5 +2,5 @@
 ip-address: 169.229.10.103
 name: blizzard
 type: desktop
-services: [Pubstaff computer]
+services: [ASUC Publications staff computer]
 # ENDYAML
