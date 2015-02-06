@@ -7,19 +7,30 @@
 
 Your OCF account is both proof of your [[membership]] and the means by which you authenticate to the variety of [[services]] operated by OCF [[staff]]. Your OCF account is independent from CalNet. (Technical info: public account information and salted password hashes are stored in [[staff/backend/LDAP]] and [[staff/backend/Kerberos]] databases, respectively.)
 
-Accounts are not normally deactivated after your membership [[membership/eligibility]] expires (e.g., graduation). In fact, we have active accounts dating back to at least 1995. However, this policy may change in the future: as a student organization, it wouldn't be fair on our successors to make a long-term commitment.
+Accounts are not normally deactivated after your membership
+[[membership/eligibility]] expires (e.g., graduation). In fact, we have active
+accounts dating back to at least 1995.
 
 ## Passwords
 
 OCF staff members **do not need to know your password**. In fact, we can't "look it up" either since we don't store your password directly but rather a salted [cryptographic hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 
-Email is generally insecure, so please **do not send passwords over email** (especially not to OCF staff).
+Email is generally insecure, so please **do not send passwords over email**. We
+don't want to know it, and we have to disable your account if you tell it to
+us!
 
 ### Changing your password
 
 #### Using CalNet
 
-For individual accounts, you can [find your username or reset your password online](https://accounts.ocf.berkeley.edu/change-password) using CalNet (assuming you have CalNet access).
+You can [find your username or reset your password
+online](https://accounts.ocf.berkeley.edu/change-password) using CalNet
+(assuming you have CalNet access).
+
+To reset the password for a group account, you need to be a registered
+signatory for the group. If your group isn't registered with the LEAD Center
+(e.g. if it's a department-sponsored group), you will need to come in during
+staff hours instead to reset the password.
 
 #### Over SSH
 
@@ -27,7 +38,7 @@ You can change your password over SSH if you know your current password.
 
 Use [[SSH|shell]] to run the command `passwd` and follow the prompts as shown below. No text will appear when you are entering in a password, just press enter when done after each prompt.
 
-    $ passwd 
+    $ passwd
     myusername@OCF.BERKELEY.EDU's Password: <my current password>
     New password: <my new password>
     Verifying - New password: <my new password>
@@ -35,7 +46,7 @@ Use [[SSH|shell]] to run the command `passwd` and follow the prompts as shown be
 
 #### In person
 
-If you are not able to use CalNet or SSH (for example, if you are a group and forgot your current password), you can meet a staff member in person during [staff hours](https://www.ocf.berkeley.edu/staff_hours).
+If you are not able to use CalNet or SSH, if you are a group and forgot your current password), you can meet a staff member in person during [staff hours](https://www.ocf.berkeley.edu/staff_hours).
 
 Please bring sufficient documentation as listed on the [[membership eligibility|membership/eligibility]] page to demonstrate that you are authorized to reset the account password.
 
