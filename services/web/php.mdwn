@@ -36,4 +36,4 @@ The following file, located at `~/public_html/php.ini`, is an example of a good
     post_max_size = 32M
 
     ; raise maximum number of input variables
-    max_input_vars = 2000
+    max_input_vars = 20000
