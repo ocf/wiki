@@ -8,6 +8,7 @@ div.hypervisor {
 }
 div.hypervisor-host {
     background: #d0d0d0;
+    position: relative; /\* So the arrow can be absolutely positioned \*/
 }
 div.hypervisor-host:hover {
     background: #e5e5e5;
@@ -25,7 +26,7 @@ div.hypervisor-guest:last-child {
 }
 div.device .info {
     display: inline-block;
-    width: 96.5%;
+    width: 100%;
 }
 div.device .hostname {
     display: inline-block;
@@ -46,10 +47,22 @@ div.hypervisor-guest .ip {
 div.hypervisor-host .info {
     vertical-align: middle;
 }
-div.hypervisor-host .triangle {
+div.hypervisor-host .arrow {
+    background-repeat: no-repeat;
+    background-size: contain;
     display: inline-block;
-    color: gray;
-    font-size: 150%;
+    height: 16px;
+    width: 3%;
+    position: absolute;
+    right: 3%;
+    top: 42%;
+}
+/\* Arrow images shamelessly stolen from Wikimedia mobile \*/
+div.hypervisor-host .arrow-up {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAQCAYAAADnEwSWAAAAaklEQVR42r3QwQmAQAwAQUuwFEu6Ai3CEizFDmIEIaCvjGBg8zmOgUwR0SpnzrZs6f4VaM8iO7qgQiEgQQoqtAoo0LjfRhck6EpAghQEyEGAHATIQYAcBMjBwhpQDyzsecY39B2sM+b6rRPoYrvAv4SdqgAAAABJRU5ErkJggg==);
+}
+div.hypervisor-host .arrow-down {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAQCAYAAADnEwSWAAAAeUlEQVR4Ab3RwQmAMBAF0S3BUiwpBVqEJViKHawLLhM8DgQPEwiB/w6JzPyt94jYq7saS8drr7qqre9A2Y1VEJsNfjABGgisHy3oIf7Mgx4C86CHwDzoITAPegjMgx4C86CHJubBw0JgHvQQmAc9BOZBD03Mg6eA6AGRXLvASs+J3wAAAABJRU5ErkJggg==);
 }
 div.physical-server {
     background: #d940cd;
@@ -80,11 +93,12 @@ $(document).ready(function () {
     $("div.hypervisor-host").click(function (ev) {
         $(ev.delegateTarget).parent().children("div.hypervisor-guests")
             .slideToggle();
-        var triangle = $(ev.delegateTarget).children(".triangle");
-        if (triangle.html().trim() == "\u25b2") {
-            triangle.html("\u25bc");
-        } else if (triangle.html().trim() == "\u25bc") {
-            triangle.html("\u25b2");
+        if (arrow.hasClass("arrow-up")) {
+            arrow.addClass("arrow-down");
+            arrow.removeClass("arrow-up");
+        } else if (arrow.hasClass("arrow-down")) {
+            arrow.addClass("arrow-up");
+            arrow.removeClass("arrow-down");
         }
     });
 });
@@ -107,9 +121,7 @@ VMs are grouped under the hypervisor hosting them.
                 <span class="ip">169.229.10.10</span><br>
                 <span class="desc">KVM hypervisor</span>
             </div>
-            <div class="triangle">
-                &#x25b2;
-            </div>
+            <div class="arrow arrow-down"></div>
         </div>
         <div class="hypervisor-guests">
             <div class="hypervisor-guest device">
@@ -226,9 +238,7 @@ VMs are grouped under the hypervisor hosting them.
                 <span class="ip">169.229.10.12</span><br>
                 <span class="desc">KVM hypervisor</span>
             </div>
-            <div class="triangle">
-                &#x25b2;
-            </div>
+            <div class="arrow arrow-down"></div>
         </div>
         <div class="hypervisor-guests">
             <div class="hypervisor-guest device">
@@ -254,9 +264,7 @@ VMs are grouped under the hypervisor hosting them.
                 <span class="ip">169.229.10.14</span><br>
                 <span class="desc">NFS, KVM hypervisor</span>
             </div>
-            <div class="triangle">
-                &#x25b2;
-            </div>
+            <div class="arrow arrow-down"></div>
         </div>
         <div class="hypervisor-guests">
             <div class="hypervisor-guest device">
