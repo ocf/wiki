@@ -5,5 +5,3 @@
 * [[Account Creation|staff/procedures/accounts/creation]]: Account creation
   is now automatic except for accounts that need manual approval, which are
   handled via `filter`. 
-* [[staff/backend/Puppet]]: This page is entirely obsoleted by
-  [the GitHub readme](github.com/ocf/puppet).
