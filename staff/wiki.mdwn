@@ -17,11 +17,6 @@ push them to GitHub, and they will be deployed automatically.
 
 ## Editing the wiki
 
-### Using the web interface
-
-The web interface is no longer supported, sorry. Please don't attempt to push
-your changes anywhere on blight.
-
 ### Using git directly
 
 1. Clone [the repository on GitHub][github].
