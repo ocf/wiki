@@ -1,12 +1,100 @@
 [[!meta title="Backups"]]
-# On-Site Backups
+# Backups
+## Backup Storage
 
-Backups are currently stored on pandemic in /opt/backups. They include the following sources of data:
+We have two sources of storage for on-site backups:
 
-* User home directories
-* Mail spools
-* Server images
-* MySQL databases
+* `pandemic:/opt/backups` (2 TiB usable; 2x 2-TiB WD RE drives in RAID 1)
+
+  These drives serve as the primary backup location. New backups are saved
+  here.
+
+* `hal:/dev/sdb` (1 TiB usable; 2x 1-TiB WD RE drives in RAID 1)
+
+  These drives are currently completely unused, and not even mounted.
+
+## Off-Site Backups
+
+There is a single 2-TiB WD RE drive used for off-site backup storage. It's
+encrypted (`LUKS`) with a password known to the GM/SM and stored in the SM's
+apartment.
+
+A more sophisticated scheme for off-site backups might be preferable at some
+point. Cloud-based storage is usually far too expensive (e.g. Glacier can
+easily cost thousands of dollars, see rt#253).
+
+[TODO: Re-evaluate cost with Google Nearline? But it's probably still too
+expensive.]
+
+## Backup contents
+
+Backups currently include
+
+* User home and web directories
+* MySQL databases (including user databases and stats)
+  * Currently does *not* include RT or printhost databases
 * Request Tracker posts
 
-Home directory backups must be run manually via /opt/backups/backup.sh and each consume about 500 GB of data.
+## Backup Procedures
+
+Backups are currently made manually whenever the SM feels like it. This should
+change once we have the ability to do incremental backups (e.g. rsnapshot?).
+
+### Home directories
+
+Run `pandemic:/opt/backups/homes/backup-homes.sh`. You'll probably need to
+delete one of the old backups first.
+
+Currently, each backup takes about 520 GiB; we can store about 3 full file
+backups at a time.
+
+[TODO: how long does it take to make a backup?]
+
+### MySQL databases
+
+Run `pandemic:/opt/backups/mysql/backup-mysql.sh`. This uses `mysqldump`.
+
+Currently, each backup takes about 2 GiB compressed.
+
+[TODO: how long does it take to make a backup?]
+
+### Request Tracker
+
+RT backups (just the database) are made daily automatically and stored in
+`~tzhu`. Scripts there (run manually) will transfer those to
+`pandemic:/opt/backups`, but this will be reworked eventually when typhoon is
+rebuilt.
+
+Nobody has tested restoring these.
+
+## Ideas for backup improvements
+
+Some general ideas for improving backups:
+
+1. Use RAID 0 on `hal:/dev/sdb` to get an effective 2 TiB of space, matching
+   pandemic. Mirror the two (pandemic -> hal) daily; pandemic is master.
+
+   (pandemic already does RAID 1, so the chance of that failing the same time a
+   hal drive fails without some external disaster which destroys the entire
+   server rack is low.)
+
+2. Use incremental file backups, possibly rsnapshot
+
+3. Backup certain directories on servers
+
+     * Crontabs
+     * LDAP
+     * Kerberos
+     * Puppet shares and master's directory (has puppet CA)
+     * *more things here* (feel free to add)
+
+4. Backup git repositories (currently mostly on GitHub)
+
+5. Automate the backups and rotation (requires most of the above to happen
+   first)
+
+6. Come up with some rotation for off-site backups so at all times one is with
+   SM, and one is in server room. This makes it easier to keep the off-site
+   backup relatively recent.
+
+7. Investigate whether cloud-based is viable (probably not)
