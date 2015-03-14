@@ -31,8 +31,8 @@ expensive.]
 Backups currently include
 
 * User home and web directories
-* MySQL databases (including user databases and stats)
-  * Currently does *not* include RT or printhost databases
+* MySQL databases (including user databases, stats, RT)
+  * Currently does *not* include printhost databases
 * Request Tracker posts
 
 ## Backup Procedures
@@ -58,14 +58,11 @@ Currently, each backup takes about 2 GiB compressed.
 
 [TODO: how long does it take to make a backup?]
 
-### Request Tracker
+#### Request Tracker
 
-RT backups (just the database) are made daily automatically and stored in
-`~tzhu`. Scripts there (run manually) will transfer those to
-`pandemic:/opt/backups`, but this will be reworked eventually when typhoon is
-rebuilt.
-
-Nobody has tested restoring these.
+The RT database is stored in the `ocfrt` database on the MySQL host. It should
+be possible to restore RT using just the database, but nobody has tested
+restoring these.
 
 ## Ideas for backup improvements
 
@@ -82,10 +79,11 @@ Some general ideas for improving backups:
 
 3. Backup certain directories on servers
 
-     * Crontabs
+     * Crontabs (see rt#3093 about storing in NFS)
      * LDAP
      * Kerberos
      * Puppet shares and master's directory (has puppet CA)
+     * Munin records (`stats:/var/lib/munin`)
      * *more things here* (feel free to add)
 
 4. Backup git repositories (currently mostly on GitHub)
