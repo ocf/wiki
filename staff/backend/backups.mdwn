@@ -31,9 +31,7 @@ expensive.]
 Backups currently include
 
 * User home and web directories
-* MySQL databases (including user databases, stats, RT)
-  * Currently does *not* include printhost databases
-* Request Tracker posts
+* MySQL databases (including user databases, stats, RT, print quotas)
 
 ## Backup Procedures
 
