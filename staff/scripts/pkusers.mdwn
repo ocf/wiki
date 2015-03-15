@@ -19,14 +19,15 @@ Add 8 pages:
 Subtract 8 pages:
 
     ~$ pkusers -b -8 username
-Set number of remaining pages to 8:
+It is also possible to set an exact number of pages by omitting the sign:
 
     ~$ pkusers -b 8 username
+This is **not** recommended, however, as it has the potential to wipe the page
+quotas for every PyKota user.
 
 ### List detailed information about a user
 
     ~$ pkusers -L username
-
 or
 
     ~$ pkusers --list username
@@ -38,3 +39,10 @@ or
 ### Delete a user
 
     ~$ pkusers -d username
+
+### Viewing and modifying semester quotas
+
+	~$ pkusers -x /etc/pykota/pykota.semester <command>
+or
+
+	~$ pkusers --config /etc/pykota/pykota.semester <command>
