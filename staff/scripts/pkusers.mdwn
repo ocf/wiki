@@ -42,7 +42,9 @@ or
 
 ### Viewing and modifying semester quotas
 
-	~$ pkusers -x /etc/pykota/pykota.semester <command>
+On [[pollution|servers]] only,
+
+    ~$ pkusers -x /etc/pykota/pykota.semester <command>
 or
 
-	~$ pkusers --config /etc/pykota/pykota.semester <command>
+    ~$ pkusers --config /etc/pykota/pykota.semester <command>
