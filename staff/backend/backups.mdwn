@@ -82,6 +82,7 @@ Some general ideas for improving backups:
      * Kerberos
      * Puppet shares and master's directory (has puppet CA)
      * Munin records (`stats:/var/lib/munin`)
+     * DNS zones (`ns:/etc/bind9`)
      * *more things here* (feel free to add)
 
 4. Backup git repositories (currently mostly on GitHub)
