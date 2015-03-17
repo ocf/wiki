@@ -64,31 +64,40 @@ restoring these.
 
 Some general ideas for improving backups:
 
-1. Use RAID 0 on `hal:/dev/sdb` to get an effective 2 TiB of space, matching
-   pandemic. Mirror the two (pandemic -> hal) daily; pandemic is master.
+1. **Done.** Use RAID 0 on `hal:/dev/sdb` to get an effective 2 TiB of space,
+   matching pandemic. Mirror the two (pandemic -> hal); pandemic is master.
 
    (pandemic already does RAID 1, so the chance of that failing the same time a
    hal drive fails without some external disaster which destroys the entire
    server rack is low.)
 
-2. Use incremental file backups, possibly rsnapshot
+2. Make the backup on hal automatically clone the backup on pandemic
+   periodically.  Should find a way to make it happen only when no backups are
+   going on (which might be hard, since copying all the files takes a long
+   time, as do backups... like, almost 24 hours).
 
-3. Backup certain directories on servers
+   Currently there is a script `hal:/opt/copy-backups.sh`, but we need some
+   more complicated setup than just putting it in cron (it requires SSHing to
+   pandemic as password, which can't be automated).
+
+3. Use incremental file backups, possibly rsnapshot
+
+4. Backup certain directories on servers
 
      * Crontabs (see rt#3093 about storing in NFS)
      * LDAP
      * Kerberos
      * Puppet shares and master's directory (has puppet CA)
      * Munin records (`stats:/var/lib/munin`)
-     * DNS zones (`ns:/etc/bind9`)
+     * DNS zones (`ns:/etc/bind`)
      * *more things here* (feel free to add)
 
-4. Backup git repositories (currently mostly on GitHub)
+5. Backup git repositories (currently mostly on GitHub)
 
-5. Automate the backups and rotation (requires most of the above to happen
+6. Automate the backups and rotation (requires most of the above to happen
    first)
 
-6. Come up with some rotation for off-site backups so at all times one is with
+7. Come up with some rotation for off-site backups so at all times one is with
    SM, and one is in server room. This makes it easier to keep the off-site
    backup relatively recent.
 
