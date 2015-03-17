@@ -43,18 +43,16 @@ change once we have the ability to do incremental backups (e.g. rsnapshot?).
 Run `pandemic:/opt/backups/homes/backup-homes.sh`. You'll probably need to
 delete one of the old backups first.
 
-Currently, each backup takes about 520 GiB; we can store about 3 full file
-backups at a time.
-
-[TODO: how long does it take to make a backup?]
+Currently, each backup takes about 520 GiB (for about 730 GiB of uncompressed
+data); we can store about 3 full file backups at a time. It takes about 7.5
+hours to make a full backup.
 
 ### MySQL databases
 
 Run `pandemic:/opt/backups/mysql/backup-mysql.sh`. This uses `mysqldump`.
 
-Currently, each backup takes about 2 GiB compressed.
-
-[TODO: how long does it take to make a backup?]
+Currently, each backup takes about 2 GiB compressed (about 10.5 GiB
+uncompressed). It takes about 55 minutes to make a backup.
 
 #### Request Tracker
 
