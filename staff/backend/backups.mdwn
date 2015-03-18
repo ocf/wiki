@@ -74,7 +74,7 @@ Some general ideas for improving backups:
 2. Make the backup on hal automatically clone the backup on pandemic
    periodically.  Should find a way to make it happen only when no backups are
    going on (which might be hard, since copying all the files takes a long
-   time, as do backups... like, almost 24 hours).
+   time -- about 7.25 hours).
 
    Currently there is a script `hal:/opt/copy-backups.sh`, but we need some
    more complicated setup than just putting it in cron (it requires SSHing to
