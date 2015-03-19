@@ -134,13 +134,6 @@ VMs are grouped under the hypervisor hosting them.
             </div>
             <div class="hypervisor-guest device">
                 <div class="info">
-                    <span class="hostname">arsenic</span>
-                    <span class="ip">169.229.10.47</span><br>
-                    <span class="desc">OpenVPN</span>
-                </div>
-            </div>
-            <div class="hypervisor-guest device">
-                <div class="info">
                     <span class="hostname">blight</span>
                     <span class="ip">169.229.10.26</span><br>
                     <span class="desc">ikiwiki and old MediaWiki</span>

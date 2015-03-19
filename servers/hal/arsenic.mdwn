@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.47
-name: arsenic
-type: hypervisor-guest
-services: [OpenVPN]
-# ENDYAML
