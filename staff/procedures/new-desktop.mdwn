@@ -1,8 +1,8 @@
 [[!meta title="Bootstrapping new desktops"]]
 # Bootstrapping new desktops
 
-In addition to the normal steps for bringing up new machines, desktops require
-a couple extra steps.
+In addition to the [[normal steps for bringing up new machines|staff/procedures/new-server]],
+desktops require a couple extra steps.
 
 ## Generate labstats key/cert
 
@@ -16,7 +16,7 @@ The CA lives on dementors, so that's where you'll make the key and sign it.
     cd /etc/ssl/stats/ca
 	sudo ./create-cert.sh whatever.ocf.berkeley.edu
 	scp certs/whatever.ocf.berkeley.edu/whatever.ocf.berkeley.edu.{key,crt} lightning:/tmp/
-	
+
 	# move key/cert to proper path to be provided by puppet
 	ssh lightning
 	sudo mkdir /opt/puppet/shares/private/whatever/stats
