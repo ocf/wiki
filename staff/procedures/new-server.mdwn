@@ -28,10 +28,6 @@ and run `makevm --help`. A typical invocation looks something like:
 
     makevm -m 4096 -c 2 -s 15 arsenic 169.229.10.47
 
-The last step is currently broken in jessie (see rt#3096), so you'll need to do
-that yourself. You will need to some kind of out-of-band access (e.g.
-virt-viewer). See the steps below under "Log in and start Puppet".
-
 ## Run the Debian installer (physical only)
 
 All you need to do to run the Debian installer is PXE boot. On desktops, you
