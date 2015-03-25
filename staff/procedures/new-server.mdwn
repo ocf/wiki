@@ -53,15 +53,12 @@ tty.
 4. `puppet agent --enable`
 5. `puppet agent --debug --no-daemonize`.
 
-## Create root password, Kerberos keytab, and LDAP entry
+## Create Kerberos keytab and LDAP entry
 
 Only do these if a server with this hostname has never existed before.
 
 1. On supernova, `kinit $USER/admin ldap-add-host <hostname> <ip>`.
-2. On the puppetmaster, go to `/opt/puppet/scripts`.
-
-   * Run `sudo ./gen-keytab`
-   * Run `sudo ./gen-rootpw`
+2. On the puppetmaster, run `/opt/puppet/scripts/gen-keytab`
 
 ## Sign the Puppet cert
 
