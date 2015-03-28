@@ -80,7 +80,7 @@ Some general ideas for improving backups:
 
 4. Backup certain directories on servers
 
-     * Crontabs (see rt#3093 about storing in NFS)
+     * **Done.** Crontabs
      * LDAP
      * Kerberos
      * Puppet shares and master's directory (has puppet CA)
@@ -88,7 +88,7 @@ Some general ideas for improving backups:
      * DNS zones (`ns:/etc/bind`; we should just move this to git)
      * *more things here* (feel free to add)
 
-5. Backup git repositories (currently mostly on GitHub)
+5. **Done.** Backup git repositories (currently mostly on GitHub)
 
 6. **Done.** Automate the backups and rotation.
 
