@@ -11,8 +11,8 @@ We have two sources of storage for on-site backups:
 
 * `hal:/opt/backups` (2 TiB usable; 2x 1-TiB WD RE drives in RAID 0)
 
-  These drives are a secondary backup location, and are periodically cloned
-  from the same location on `pandemic`.
+  These drives are a secondary backup location, and are cloned daily from the
+  same location on `pandemic`.
 
 ## Off-Site Backups
 
@@ -67,8 +67,8 @@ Some general ideas for improving backups:
    hal drive fails without some external disaster which destroys the entire
    server rack is low.)
 
-2. Make the backup on hal automatically clone the backup on pandemic
-   periodically.  Should find a way to make it happen only when no backups are
+2. **Done.** Make the backup on hal automatically clone the backup on pandemic
+   periodically. Should find a way to make it happen only when no backups are
    going on (which might be hard, since copying all the files takes a long
    time -- about 7.25 hours).
 
@@ -78,9 +78,9 @@ Some general ideas for improving backups:
 
 3. **Done.** Use incremental file backups, possibly rsnapshot
 
-4. Backup certain directories on servers
+4. **Done.** Backup certain directories on servers
 
-     * **Done.** Crontabs
+     * Crontabs
      * LDAP
      * Kerberos
      * Puppet shares and master's directory (has puppet CA)
