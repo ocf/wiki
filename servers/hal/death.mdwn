@@ -2,5 +2,5 @@
 ip-address: 169.229.10.23
 name: death
 type: hypervisor-guest
-services: [Apache]
+services: [Apache web server]
 # ENDYAML
