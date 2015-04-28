@@ -59,5 +59,3 @@ We don't list the desktops (all are jessie already).
     <tr><td>typhoon</td>	<td>jessie</td>	<td>rebuild</td></tr>
     <tr><td>blight</td>	<td>jessie</td>	<td>rebuild</td></tr>
 </table>
-
-# vim: ts=20
