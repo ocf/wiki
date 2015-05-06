@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.104
-name: cyclone
-type: desktop
-services: [Lab computer]
-# ENDYAML

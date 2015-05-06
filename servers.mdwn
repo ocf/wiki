@@ -249,6 +249,13 @@ VMs are grouped under the hypervisor hosting them.
                     <span class="desc">Iodine, Mon, Mosh, Mumble</span>
                 </div>
             </div>
+            <div class="hypervisor-guest device">
+                <div class="info">
+                    <span class="hostname">zombies</span>
+                    <span class="ip">169.229.10.44</span><br>
+                    <span class="desc">CSGO server, Source Dedicated Server</span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="hypervisor">

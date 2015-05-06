@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.24
-name: sandstorm
-type: hypervisor-guest
-services: [Postfix (group email)]
-# ENDYAML

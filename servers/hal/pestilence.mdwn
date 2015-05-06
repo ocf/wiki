@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.22
-name: pestilence
-type: hypervisor-guest
-services: [DNS, DHCP]
-# ENDYAML

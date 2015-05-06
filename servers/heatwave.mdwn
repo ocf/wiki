@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.113
-name: heatwave
-type: desktop
-services: [Lab computer]
-# ENDYAML

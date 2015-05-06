@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.90
-name: tornado
-type: printer-etc
-services: [Print queue display]
-# ENDYAML

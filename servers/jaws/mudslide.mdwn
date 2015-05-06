@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.202
-name: mudslide
-type: hypervisor-guest
-services: [Iodine, Mon, Mosh, Mumble]
-# ENDYAML

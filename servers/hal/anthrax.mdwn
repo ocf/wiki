@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.35
-name: anthrax
-type: hypervisor-guest
-services: [Postfix (OCF staff mail)]
-# ENDYAML

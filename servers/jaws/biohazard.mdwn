@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.34
-name: biohazard
-type: hypervisor-guest
-services: [Apphosting]
-# ENDYAML

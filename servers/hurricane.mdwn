@@ -1,6 +1,0 @@
-# YAML
-ip-address: 169.229.10.106
-name: hurricane
-type: desktop
-services: [Lab computer]
-# ENDYAML
