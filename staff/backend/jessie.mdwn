@@ -38,13 +38,6 @@ We don't list the desktops (all are jessie already).
     <tr><td>despair</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
     <tr><td>smallpox</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
 
-    <!-- hozers to be reclaimed -->
-    <tr><td>cyanide</td>	<td>wheezy</td>	<td>reclaim May 16 (hozer)</td></tr>
-    <tr><td>blackout</td>	<td>wheezy</td>	<td>reclaim May 16 (hozer)</td></tr>
-    <tr><td>acid</td>	<td>wheezy</td>	<td>reclaim May 16 (hozer)</td></tr>
-    <tr><td>firewhirl</td>	<td>wheezy</td>	<td>reclaim May 16 (hozer)</td></tr>
-    <tr><td>ragnarok</td>	<td>wheezy</td>	<td>reclaim May 16 (hozer)</td></tr>
-
     <!-- already upgraded -->
     <tr><td>fallingrocks</td>	<td>jessie</td>	<td>upgrade - mirrors</td></tr>
     <tr><td>lightning</td>	<td>jessie</td>	<td>upgrade - puppet host</td></tr>
@@ -59,3 +52,6 @@ We don't list the desktops (all are jessie already).
     <tr><td>typhoon</td>	<td>jessie</td>	<td>rebuild</td></tr>
     <tr><td>blight</td>	<td>jessie</td>	<td>rebuild</td></tr>
 </table>
+
+<!-- vim: ts=20
+-->
