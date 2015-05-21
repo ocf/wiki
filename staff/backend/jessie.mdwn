@@ -10,7 +10,6 @@ We don't list the desktops (all are jessie already).
 <table>
     <tr><th>Server</th> <th>Status</th> <th>Comment</th></tr>
     <tr><td>hal</td>	<td>wheezy</td>	<td>upgrade - kvm host</td></tr>
-    <tr><td>jaws</td>	<td>wheezy</td>	<td>upgrade - kvm host</td></tr>
     <tr><td>pandemic</td>	<td>wheezy</td>	<td>upgrade - kvm host</td></tr>
 
     <!-- public-facing servers -->
@@ -25,7 +24,7 @@ We don't list the desktops (all are jessie already).
     <tr><td>dementors</td>	<td>wheezy</td>	<td>rebuild - need to transfer some data (printer csv logs)</td></tr>
     <tr><td>anthrax</td>	<td>wheezy</td>	<td>rebuild (no known issues)</td></tr>
     <tr><td>supernova</td>	<td>wheezy</td>	<td>rebuild - atool not well puppeted</td></tr>
-    <tr><td>earthquake</td>	<td>wheezy</td>	<td>rebuild - need to updaet ocflib with new path to kadmin at same time</td></tr>
+    <tr><td>earthquake</td>	<td>wheezy</td>	<td>rebuild - need to update ocflib with new path to kadmin at same time</td></tr>
 
     <tr><td>mudslide</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
     <tr><td>limniceruption</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
@@ -39,6 +38,8 @@ We don't list the desktops (all are jessie already).
     <tr><td>smallpox</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
 
     <!-- already upgraded -->
+    <tr><td>jaws</td>	<td>jessie</td>	<td>upgrade - kvm host</td></tr>
+
     <tr><td>fallingrocks</td>	<td>jessie</td>	<td>upgrade - mirrors</td></tr>
     <tr><td>lightning</td>	<td>jessie</td>	<td>upgrade - puppet host</td></tr>
     <tr><td>zombies</td>	<td>jessie</td>	<td>upgrade - some config not puppeted (csgo)</td></tr>
