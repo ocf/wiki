@@ -25,7 +25,6 @@ We don't list the desktops (all are jessie already).
 
     <tr><td>mudslide</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
     <tr><td>limniceruption</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
-    <tr><td>gnats</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
     <tr><td>kamikaze</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
     <tr><td>quicksand</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
     <tr><td>meteorstorm</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
@@ -42,9 +41,10 @@ We don't list the desktops (all are jessie already).
     <tr><td>zombies</td>	<td>jessie</td>	<td>upgrade - some config not puppeted (csgo)</td></tr>
     <tr><td>earthquake</td>	<td>jessie</td>	<td>rebuild - need to update ocflib with new path to kadmin at same time</td></tr>
 
-    <tr><td>blackrain</td>	<td>wheezy</td>	<td>upgrade - hozer</td></tr>
+    <tr><td>blackrain</td>	<td>jessie</td>	<td>upgrade - hozer</td></tr>
     <tr><td>blacksheep</td>	<td>jessie</td>	<td>upgrade - hozer</td></tr>
     <tr><td>flood</td>	<td>jessie</td>	<td>upgrade - hozer (irc)</td></tr>
+    <tr><td>gnats</td>	<td>jessie</td>	<td>upgrade - hozer</td></tr>
     <tr><td>locusts</td>	<td>jessie</td>	<td>upgrade - hozer</td></tr>
     <tr><td>meltdown</td>	<td>jessie</td>	<td>upgrade - hozer</td></tr>
     <tr><td>raptors</td>	<td>jessie</td>	<td>upgrade - hozer</td></tr>
