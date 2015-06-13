@@ -5,9 +5,9 @@
 
 We maintain relations with external groups for two reasons.
 
- 1) To monitor our mail server reputation and prevent outgoing mail from
+ 1. To monitor our mail server reputation and prevent outgoing mail from
     being blocked by external service providers.
- 2) To monitor abuse and disable compromised accounts.
+ 2. To monitor abuse and disable compromised accounts.
 
 When our IP addresses change, we need to update our registrations.
 
