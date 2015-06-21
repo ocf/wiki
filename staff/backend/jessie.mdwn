@@ -15,7 +15,6 @@ We don't list the desktops (all are jessie already).
     <tr><td>tsunami</td>	<td>wheezy</td>	<td>rebuild - same time as death (public)</td></tr>
     <tr><td>biohazard</td>	<td>wheezy</td>	<td>rebuild - same time as death (public)</td></tr>
 
-    <tr><td>pestilence</td>	<td>wheezy</td>	<td>rebuild - need to puppet first (want to move dns to git)</td></tr>
     <tr><td>sandstorm</td>	<td>wheezy</td>	<td>rebuild - replacing with new mail service (rt#3068)</td></tr>
     <tr><td>maelstrom</td>	<td>wheezy</td>	<td>upgrade - mysql host, needs testing first</td></tr>
     <tr><td>pollution</td>	<td>wheezy</td>	<td>rebuild - pykota not compatible with jessie on last attempt, not well puppeted</td></tr>
@@ -33,6 +32,7 @@ We don't list the desktops (all are jessie already).
     <tr><td>earthquake</td>	<td>jessie</td>	<td>rebuild - need to update ocflib with new path to kadmin at same time</td></tr>
     <tr><td>fallingrocks</td>	<td>jessie</td>	<td>upgrade - mirrors</td></tr>
     <tr><td>lightning</td>	<td>jessie</td>	<td>upgrade - puppet host</td></tr>
+    <tr><td>pestilence</td>	<td>jessie</td>	<td>rebuild - need to puppet first (want to move dns to git)</td></tr>
     <tr><td>typhoon</td>	<td>jessie</td>	<td>rebuild</td></tr>
     <tr><td>zombies</td>	<td>jessie</td>	<td>upgrade - some config not puppeted (csgo)</td></tr>
 
