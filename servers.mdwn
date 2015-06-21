@@ -205,7 +205,7 @@ VMs are grouped under the hypervisor hosting them.
             <div class="hypervisor-guest device">
                 <div class="info">
                     <span class="hostname">reaper</span>
-                    <span class="ip">169.229.10.48</span>
+                    <span class="ip">169.229.10.48</span><br>
                     <span class="desc">Jenkins</span>
                 </div>
             </div>
