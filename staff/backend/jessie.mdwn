@@ -19,7 +19,6 @@ We don't list the desktops (all are jessie already).
     <tr><td>maelstrom</td>	<td>wheezy</td>	<td>upgrade - mysql host, needs testing first</td></tr>
     <tr><td>pollution</td>	<td>wheezy</td>	<td>rebuild - pykota not compatible with jessie on last attempt, not well puppeted</td></tr>
     <tr><td>dementors</td>	<td>wheezy</td>	<td>rebuild - need to transfer some data (printer csv logs, munin data)</td></tr>
-    <tr><td>supernova</td>	<td>wheezy</td>	<td>rebuild - atool not well puppeted</td></tr>
 
 
     <!-- already upgraded -->
@@ -33,6 +32,7 @@ We don't list the desktops (all are jessie already).
     <tr><td>fallingrocks</td>	<td>jessie</td>	<td>upgrade - mirrors</td></tr>
     <tr><td>lightning</td>	<td>jessie</td>	<td>upgrade - puppet host</td></tr>
     <tr><td>pestilence</td>	<td>jessie</td>	<td>rebuild - need to puppet first (want to move dns to git)</td></tr>
+    <tr><td>supernova</td>	<td>jessie</td>	<td>upgrade - atool not well puppeted - still want to rebuild (rt#3676)</td></tr>
     <tr><td>typhoon</td>	<td>jessie</td>	<td>rebuild</td></tr>
     <tr><td>zombies</td>	<td>jessie</td>	<td>upgrade - some config not puppeted (csgo)</td></tr>
 
