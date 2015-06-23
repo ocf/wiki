@@ -19,6 +19,7 @@ We don't list the desktops (all are jessie already).
     <tr><td>maelstrom</td>	<td>wheezy</td>	<td>upgrade - mysql host, needs testing first</td></tr>
     <tr><td>pollution</td>	<td>wheezy</td>	<td>rebuild - pykota not compatible with jessie on last attempt, not well puppeted</td></tr>
     <tr><td>dementors</td>	<td>wheezy</td>	<td>rebuild - need to transfer some data (printer csv logs, munin data)</td></tr>
+    <tr><td>firestorm</td>	<td>wheezy</td>	<td>rebuild - ldap/kerberos, needs careful testing</td></tr>
 
 
     <!-- already upgraded -->
