@@ -18,7 +18,6 @@ We don't list the desktops (all are jessie already).
     <tr><td>sandstorm</td>	<td>wheezy</td>	<td>rebuild - replacing with new mail service (rt#3068)</td></tr>
     <tr><td>maelstrom</td>	<td>wheezy</td>	<td>upgrade - mysql host, needs testing first</td></tr>
     <tr><td>pollution</td>	<td>wheezy</td>	<td>rebuild - pykota not compatible with jessie on last attempt, not well puppeted</td></tr>
-    <tr><td>dementors</td>	<td>wheezy</td>	<td>rebuild - need to transfer some data (printer csv logs, munin data)</td></tr>
     <tr><td>firestorm</td>	<td>wheezy</td>	<td>rebuild - ldap/kerberos, needs careful testing</td></tr>
 
 
@@ -29,6 +28,7 @@ We don't list the desktops (all are jessie already).
 
     <tr><td>anthrax</td>	<td>jessie</td>	<td>rebuild (no known issues)</td></tr>
     <tr><td>blight</td>	<td>jessie</td>	<td>rebuild</td></tr>
+    <tr><td>dementors</td>	<td>wheezy</td>	<td>rebuild - need to transfer some data (printer csv logs, munin data)</td></tr>
     <tr><td>earthquake</td>	<td>jessie</td>	<td>rebuild - need to update ocflib with new path to kadmin at same time</td></tr>
     <tr><td>fallingrocks</td>	<td>jessie</td>	<td>upgrade - mirrors</td></tr>
     <tr><td>lightning</td>	<td>jessie</td>	<td>upgrade - puppet host</td></tr>
