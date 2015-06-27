@@ -50,29 +50,41 @@ If you are not able to use CalNet or SSH, if you are a group and forgot your cur
 
 Please bring sufficient documentation as listed on the [[membership eligibility|membership/eligibility]] page to demonstrate that you are authorized to reset the account password.
 
-#### By postal mail
+<a id="manual-reset"></a>
+#### Manual verification of identity (typically for alumni with old accounts)
 
-If you have forgotten your individual account password and are unable to use CalNet or meet a staff member in person, you may reset your password through postal mail. For security purposes, please include the following with your request:
+If you have forgotten your individual account password and are unable to use
+CalNet or meet a staff member in person, you may reset your password through
+our manual verification process.
+
+You have two choices:
+
+  * **Option 1 (email).** Send scanned copies of the documentation to a staff
+    member over email. For security purposes, please **do not mail your
+    documentation to any address listed on this website**. This gets archived
+    and mailed out to all staff members.
+
+    Instead, please email [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu)
+    and request to start the process (do **not** include any ID in the initial
+    email). We'll provide a separate email for you to use instead to send in
+    your documentation.
+
+  * **Option 2 (postal mail).** Mail your documentation to our [[mailing
+    address|contact/#index6h2]]. Expect a delay of at least 2-3 weeks,
+    possibly longer over summer.
+
+For security purposes, please include the following with your request:
 
 * a copy of your Cal ID
 
-* a second piece of supporting ID
+* a second piece of supporting ID (such as driver's license)
 
-* a signed statement to the effect of:
+* a signed, dated statement to the effect of:
 > I, John Doe, authorize Open Computing Facility staff to reset my password. Enclosed is a copy of my ID.
-* a requested new **temporary** password, which should be 8 or more characters long, not based on dictionary words, and include at least one character from each of the following character classes:
-  * lowercase letters
-  * uppercase letters
-  * numbers
-  * other symbols (e.g. [], {}, !, @, #, $, %, ^, &, *, ())
 
 * contact information so that we can notify you when your password reset has been processed
 
-If you no longer have your Cal ID, you may substitute it with a government-issued ID.
-
-Mail your request to our [[mailing address|contact/#index6h2]].
-
-Once your password is reset, we strongly encourage you to change it over SSH (see above), so that you can be sure that no one else knows your password.
+If you no longer have your Cal ID, you may substitute it with another government-issued ID.
 
 ### MySQL
 
