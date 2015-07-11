@@ -72,3 +72,9 @@ The necessary scripts for you to create Django projects are installed on our log
         tsunami$ chmod a+x run.fcgi
 
 1. Double check that your *settings.py* file is *not* readable by any other users, and try not to leave DEBUG set to True in your settings.py. Also note that paths are very finicky for Django (and Python) projects, and incorrect paths will likely be the source of any problems.
+
+1. Once your app has started running, changes you make to the Python code or
+   templates won't take effect for a few hours. To apply changes immediately,
+   you can touch the run.fcgi file with the command:
+
+        tsunami$ touch run.fcgi

@@ -126,3 +126,9 @@ locations:
 
 * error log: `/opt/httpd/error.log` (most useful)
 * suexec log: `/opt/httpd/httpd-suexec.log` (only useful in rare cases)
+
+Once your app has started running, changes you make to the Ruby code or
+templates won't take effect for a few hours. To apply changes immediately, you
+can touch the dispatch.fcgi file with the command:
+
+     $ touch dispatch.fcgi

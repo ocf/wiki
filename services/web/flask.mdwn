@@ -56,3 +56,9 @@ Flask is a popular microframework for Python web development. Using it on the OC
 1.   Make the *run.fcgi* file you just created executable:
 
         $ chmod a+x ~/public_html/flasky/run.fcgi
+
+1. Once your app has started running, changes you make to the Python code or
+   templates won't take effect for a few hours. To apply changes immediately,
+   you can touch the run.fcgi file with the command:
+
+        $ touch run.fcgi
