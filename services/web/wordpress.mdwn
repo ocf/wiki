@@ -57,33 +57,34 @@ You can make an easy-to-restore backup of your website over SSH. Once you know
 your MySQL database password and the place where WordPress is installed, you
 can back up your database and website contents with the following commands:
 
-    mysqldump username > ~/mysql_backup
+    mysqldump username | gzip -c > ~/mysql_backup
 	tar czhf ~/my_backup.tar.gz -C ~/path/to wordpress
 
 Mind the spacing. Here, `username` is your OCF account name and
 `~/path/to/wordpress` is the WordPress directory you found earlier. You can
 restore from this backup with the following commands:
 
-    tar xzhf ~/my_backup.tar.gz -C ~/path/to
-    mysql -D username < ~/mysql_backup
+    gzip -dc ~/mysql_backup | mysql -D username
+    tar xzhf ~/my_backup.tar.gz -C ~/path/to wordpress
 
 For best results, remove the contents of the WordPress directory before doing a
-restore, e.g. with `rm -r ~/path/to/wordpress`.
+restore, e.g. with `rm -r ~/path/to/wordpress`. These backups are compressed,
+so you shouldn't take too big a hit to your disk quota with several backups.
 
 ### Example
 
 If your OCF account name is `johndoe` and you have WordPress installed in
 `~/public_html`, a typical backup might look like this:
 
-	johndoe@tsunami:~$ mysqldump johndoe > ~/mysql-backup-7-26-15.sql
+	johndoe@tsunami:~$ mysqldump johndoe | gzip -c > ~/mysql-backup-7-26-15.sql.gz
 	Enter password: 
 	johndoe@tsunami:~$ tar czhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
 
 while a restore would look like this:
 
-	johndoe@tsunami:~$ tar xzhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
-	johndoe@tsunami:~$ mysql -D johndoe < ~/mysql-backup-7-26-15.sql
+	johndoe@tsunami:~$ gzip -dc ~/mysql-backup-7-26-15.sql.gz | mysql -D johndoe
 	Enter password:
+	johndoe@tsunami:~$ tar xzhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
 
 ## Taking down a site
 
