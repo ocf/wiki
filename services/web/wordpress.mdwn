@@ -3,7 +3,7 @@
 
 WordPress is a popular CMS (content management system) on the Web.
 
-# Setting Up WordPress
+# Setting up WordPress
 
 The easiest way to set up WordPress is via [[SSH|services/shell]]. Some simple
 instructions:
@@ -25,13 +25,125 @@ instructions:
    This will download the latest version of WordPress into your web directory
    using [wp-cli](http://wp-cli.org/).
 
-5. Visit your website and complete the installation process. Your website will
-   be `https://www.ocf.berkeley.edu/~username`.
+5. Visit your web admin dashboard and complete the installation process. Your
+   website will be `https://www.ocf.berkeley.edu/~username` and the dashboard
+   `https://www.ocf.berkeley.edu/~username/wp-admin`.
 
    You can choose whatever you want for most options, but you'll need to use:
 
    * **Database Name:** Your user name
    * **Database User Name:** Your user name
-   * **Database Password:** Your MySQL password (the one you copied from step 3 above)
+   * **Database Password:** Your MySQL password (the one you copied from step 3
+	 above)
    * **Database Host:** `mysql`
    * **Table Prefix:** Anything you want (the default `wp_` is fine)
+
+# Recovering a database password
+
+The database password used by WordPress is recorded in the WordPress
+configuration file `wp-config.php` on the line that looks like
+
+    define('DB_PASSWORD', 'password_here');
+
+If you ever need your password back, you can always find where WordPress is
+installed (usually `~/public_html` or `~/public_html/wordpress`) and open
+`wp-config.php` in an editor or get the password over SSH like so:
+
+    cat ~/path/to/wordpress/wp-config.php | grep DB_PASSWORD
+
+# Backups/archiving
+
+You can make an easy-to-restore backup of your website over SSH. Once you know
+your MySQL database password and the place where WordPress is installed, you
+can back up your database and website contents with the following commands:
+
+    mysqldump username > ~/path/to/wordpress/mysql_backup
+	tar czhf ~/my_backup.tar.gz -C ~/path/to wordpress
+
+Mind the spacing. Here, `username` is your OCF account name and
+`~/path/to/wordpress` is the WordPress directory you found earlier. You can
+restore from this backup with the following commands:
+
+    tar xzhf ~/my_backup.tar.gz -C ~/path/to
+    mysql -D username < ~/path/to/wordpress/mysql_backup
+
+For best results, remove the contents of the WordPress directory before doing a
+restore, e.g. with `rm -r ~/path/to/wordpress`.
+
+### Example
+
+If your OCF account name is `johndoe` and you have WordPress installed in
+`~/public_html`, a typical backup might look like this:
+
+	johndoe@tsunami:~$ mysqldump johndoe > ~/public_html/mysql_backup
+	Enter password: 
+	johndoe@tsunami:~$ tar czhf ~/backup-7-26-15.tar.gz -C ~/ public_html
+
+while a restore would look like this:
+
+	johndoe@tsunami:~$ tar xzhf ~/backup-7-26-15.tar.gz -C ~/ public_html
+	johndoe@tsunami:~$ mysql -D johndoe < ~/public_html/mysql_backup
+	Enter password:
+
+## Taking down a site
+
+If you have a WordPress installation you intend to replace or simply don't want
+to be public any more, you can archive it by making a backup as above and
+deleting the website files and the contents of your database.
+
+When deleting the content in the database, you can either drop the whole
+database, which will require you to run `makemysql` again, or you can manually
+drop all tables with phpMyAdmin, which will allow you to keep your MySQL
+password. To drop the whole database over SSH, you can run
+
+    mysqladmin -uusername -pdb_password drop username
+
+Be sure to substitute values for `username` and `db_password`. To drop the
+tables of the database instead, log into [https://pma.ocf.berkeley.edu](
+https://pma.ocf.berkeley.edu), select
+all tables using the check boxes, and select `Drop`.
+
+# Migrating from WordPress.com
+
+If you already have a site hosted at WordPress.com and you'd like to move it to
+OCF web hosting, for example, to become eligible for [[virtual
+hosting|services/vhost]], you can move most of your website's functionality and
+content to the OCF's servers. Generally, the process is simple and sites
+migrated from WordPress.com hosting to the OCF function quite well, apart from
+possible minor differences in the appearance of themes.
+
+If you have an old WordPress installation lying around -- if you are replacing
+an old student group website, for example -- you should archive it as above
+before migrating.
+
+The basic steps to migration are as follows:
+
+1. Follow the steps above to install WordPress on your OCF account.
+
+2. Use the web admin dashboard to install all the themes and plugins you were
+   using at WordPress.com
+
+3. Log into your WordPress.com dashboard and go to `Tools > Export` to download
+   and XML file with all your site's posts and content.
+
+4. Log into the dashboard at your OCF WordPress installation and go to `Tools >
+   Import > WordPress`, then upload the XMl file with all your content.
+
+Further details can be found at [the support page by WordPress.com][1].
+
+[1]: https://en.support.wordpress.com/moving-to-a-self-hosted-wordpress-site/
+
+# Installing Jetpack
+
+The Jetpack plugin as well as several others require a publicly accessible
+XML-RPC file, which is not public by default. Before you can install Jetpack,
+you need to add the following lines to the file `.htaccess` in your WordPress
+folder:
+
+    <Files "xmlrpc.php">
+      order allow, deny
+      allow from all
+    </Files>
+
+If `.htaccess` doesn't exist, simply create it.
+
