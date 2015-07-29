@@ -51,59 +51,6 @@ installed (usually `~/public_html` or `~/public_html/wordpress`) and open
 
     cat ~/path/to/wordpress/wp-config.php | grep DB_PASSWORD
 
-# Backups/archiving
-
-You can make an easy-to-restore backup of your website over SSH. Once you know
-your MySQL database password and the place where WordPress is installed, you
-can back up your database and website contents with the following commands:
-
-    mysqldump username | gzip -c > ~/mysql_backup
-	tar czhf ~/my_backup.tar.gz -C ~/path/to wordpress
-
-Mind the spacing. Here, `username` is your OCF account name and
-`~/path/to/wordpress` is the WordPress directory you found earlier. You can
-restore from this backup with the following commands:
-
-    gzip -dc ~/mysql_backup | mysql -D username
-    tar xzhf ~/my_backup.tar.gz -C ~/path/to wordpress
-
-For best results, remove the contents of the WordPress directory before doing a
-restore, e.g. with `rm -r ~/path/to/wordpress`. These backups are compressed,
-so you shouldn't take too big a hit to your disk quota with several backups.
-
-### Example
-
-If your OCF account name is `johndoe` and you have WordPress installed in
-`~/public_html`, a typical backup might look like this:
-
-	johndoe@tsunami:~$ mysqldump johndoe | gzip -c > ~/mysql-backup-7-26-15.sql.gz
-	Enter password: 
-	johndoe@tsunami:~$ tar czhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
-
-while a restore would look like this:
-
-	johndoe@tsunami:~$ gzip -dc ~/mysql-backup-7-26-15.sql.gz | mysql -D johndoe
-	Enter password:
-	johndoe@tsunami:~$ tar xzhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
-
-## Taking down a site
-
-If you have a WordPress installation you intend to replace or simply don't want
-to be public any more, you can archive it by making a backup as above and
-deleting the website files and the contents of your database.
-
-When deleting the content in the database, you can either drop the whole
-database, which will require you to run `makemysql` again, or you can manually
-drop all tables with phpMyAdmin, which will allow you to keep your MySQL
-password. To drop the whole database over SSH, you can run
-
-    mysqladmin -uusername -pdb_password drop username
-
-Be sure to substitute values for `username` and `db_password`. To drop the
-tables of the database instead, log into [https://pma.ocf.berkeley.edu](
-https://pma.ocf.berkeley.edu), select
-all tables using the check boxes, and select `Drop`.
-
 # Migrating from WordPress.com
 
 If you already have a site hosted at WordPress.com and you'd like to move it to
@@ -114,8 +61,9 @@ migrated from WordPress.com hosting to the OCF function quite well, apart from
 possible minor differences in the appearance of themes.
 
 If you have an old WordPress installation lying around -- if you are replacing
-an old student group website, for example -- you should archive it as above
-before migrating.
+an old student group website, for example -- you should archive it before
+proceeding. See the example on our [[backup page|services/web/backups]] to
+easily make a backup over SSH.
 
 The basic steps to migration are as follows:
 
@@ -146,5 +94,5 @@ folder:
       allow from all
     </Files>
 
-If `.htaccess` doesn't exist, simply create it.
+If `.htaccess` doesn't exist, create it and add the above lines.
 
