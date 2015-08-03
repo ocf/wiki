@@ -10,21 +10,17 @@ again after being updated (MySQL, LDAP, and Kerberos are the common offenders).
 ## apt-dater
 
 We install updates using [apt-dater](https://www.ibh.de/apt-dater/). We wrap it
-in a script that builds a list of hosts via nmap.
+in a script that builds a list of hosts from LDAP.
 
 To install updates:
 
 1. From `supernova`, run:
 
-       sudo /opt/share/utils/sbin/apt-dater
+       sudo apt-dater-ocf
 
-   Wait for apt-dater to open (it will take a few seconds as it scans the
-   subnet to discover hosts), then proceed to the next step without touching
-   anything.
-
-   Be sure to use the full path; utils is not in the sudoers secure path. If
-   you omit it, you'll start apt-dater without the wrapper script, and it will
-   likely be missing some hosts.
+   Wait for apt-dater to open (it will take a few seconds as it refreshes the
+   list of packages installed on each host), then proceed to the next step
+   without touching anything.
 
 2. From a separate terminal, run (also on supernova):
 
