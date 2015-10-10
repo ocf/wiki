@@ -1,4 +1,2 @@
-wiki
-====
-
-Documentation wiki for the Open Computing Facility at UC Berkeley
+# Old OCF Wiki
+## See [ocfweb](https://github.com/ocf/ocfweb) for its replacement.
